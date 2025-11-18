@@ -2600,3 +2600,786 @@ NAICS_6_Digit,NAICS_6_Title,NAICS_8_Digit,NAICS_8_Title,Differentiation_Criteria
 493190,Other Warehousing and Storage,49319003,Furniture Storage,Specialty,Household goods and furniture storage
 493190,Other Warehousing and Storage,49319004,Vehicle Storage,Specialty,Automobile boat and RV storage
 493190,Other Warehousing and Storage,49319005,Hazardous Materials Storage,Specialty,Hazmat and dangerous goods warehousing
+531110,Lessors of Residential Buildings and Dwellings,53111001,Luxury Apartment Owners,Property Type,Owners and lessors of luxury high-end apartment buildings
+531110,Lessors of Residential Buildings and Dwellings,53111002,Mid-Range Apartment Owners,Property Type,Owners and lessors of mid-market apartment buildings
+531110,Lessors of Residential Buildings and Dwellings,53111003,Affordable Housing Owners,Property Type,Owners of affordable and subsidized housing properties
+531110,Lessors of Residential Buildings and Dwellings,53111004,Student Housing Owners,Market Segment,Owners of student housing and university apartments
+531110,Lessors of Residential Buildings and Dwellings,53111005,Senior Housing Owners,Market Segment,Owners of independent senior living apartment communities
+531110,Lessors of Residential Buildings and Dwellings,53111006,Single-Family Home Lessors,Property Type,Owners leasing single-family residential homes
+531110,Lessors of Residential Buildings and Dwellings,53111007,Condominium and Townhouse Lessors,Property Type,Owners leasing condos and townhomes
+531110,Lessors of Residential Buildings and Dwellings,53111008,Vacation and Short-Term Rental Owners,Rental Duration,Owners of vacation rentals and short-term properties
+531120,Lessors of Nonresidential Buildings (except Miniwarehouses),53112001,Office Building Owners,Property Type,Owners and lessors of office buildings
+531120,Lessors of Nonresidential Buildings (except Miniwarehouses),53112002,Retail Property Owners,Property Type,Owners and lessors of retail shopping centers and stores
+531120,Lessors of Nonresidential Buildings (except Miniwarehouses),53112003,Industrial Property Owners,Property Type,Owners and lessors of industrial warehouse and manufacturing buildings
+531120,Lessors of Nonresidential Buildings (except Miniwarehouses),53112004,Medical Office Building Owners,Property Type,Owners of medical office buildings and healthcare facilities
+531120,Lessors of Nonresidential Buildings (except Miniwarehouses),53112005,Flex Space and Business Park Owners,Property Type,Owners of flex office-warehouse and business park properties
+531120,Lessors of Nonresidential Buildings (except Miniwarehouses),53112006,Data Center Property Owners,Property Type,Owners and lessors of data center facilities
+531130,Lessors of Miniwarehouses and Self-Storage Units,53113001,Climate-Controlled Storage Facilities,Facility Type,Self-storage facilities with climate control
+531130,Lessors of Miniwarehouses and Self-Storage Units,53113002,Standard Self-Storage Facilities,Facility Type,Traditional drive-up self-storage units
+531130,Lessors of Miniwarehouses and Self-Storage Units,53113003,Vehicle and RV Storage,Specialty,Self-storage for vehicles boats and RVs
+531130,Lessors of Miniwarehouses and Self-Storage Units,53113004,Wine and Specialty Storage,Specialty,Temperature-controlled wine and specialty item storage
+531190,Lessors of Other Real Estate Property,53119001,Land Lessors,Property Type,Lessors of vacant land and undeveloped property
+531190,Lessors of Other Real Estate Property,53119002,Billboard and Sign Site Lessors,Property Type,Lessors of land and space for outdoor advertising
+531190,Lessors of Other Real Estate Property,53119003,Cell Tower Site Lessors,Property Type,Lessors of land for telecommunications towers
+531190,Lessors of Other Real Estate Property,53119004,Agricultural Land Lessors,Property Type,Owners leasing farmland and agricultural property
+531210,Offices of Real Estate Agents and Brokers,53121001,Residential Real Estate Brokerages,Property Focus,Brokerages focused on residential home sales
+531210,Offices of Real Estate Agents and Brokers,53121002,Luxury Real Estate Brokerages,Market Segment,Brokerages specializing in luxury and high-end properties
+531210,Offices of Real Estate Agents and Brokers,53121003,Commercial Real Estate Brokerages,Property Focus,Brokerages focused on commercial property sales and leasing
+531210,Offices of Real Estate Agents and Brokers,53121004,Industrial Real Estate Brokerages,Property Focus,Brokerages specializing in industrial properties
+531210,Offices of Real Estate Agents and Brokers,53121005,Investment Property Brokerages,Transaction Type,Brokerages focused on investment and income properties
+531210,Offices of Real Estate Agents and Brokers,53121006,Discount Real Estate Brokerages,Business Model,Low-commission and discount real estate brokerages
+531210,Offices of Real Estate Agents and Brokers,53121007,Online Real Estate Platforms,Business Model,Technology-enabled online real estate brokerages
+531311,Residential Property Managers,53131101,Apartment Property Management,Property Type,Management of apartment and multifamily properties
+531311,Residential Property Managers,53131102,Single-Family Home Management,Property Type,Property management for single-family rental homes
+531311,Residential Property Managers,53131103,Condominium Association Management,Property Type,HOA and condominium association management
+531311,Residential Property Managers,53131104,Affordable Housing Management,Market Segment,Management of affordable and subsidized housing
+531311,Residential Property Managers,53131105,Student Housing Management,Market Segment,Property management for student housing
+531311,Residential Property Managers,53131106,Vacation Rental Management,Property Type,Management of short-term vacation rentals
+531312,Nonresidential Property Managers,53131201,Office Building Property Management,Property Type,Management of office buildings and business properties
+531312,Nonresidential Property Managers,53131202,Retail Property Management,Property Type,Management of shopping centers and retail properties
+531312,Nonresidential Property Managers,53131203,Industrial Property Management,Property Type,Management of industrial and warehouse properties
+531312,Nonresidential Property Managers,53131204,Mixed-Use Property Management,Property Type,Management of mixed-use developments
+531312,Nonresidential Property Managers,53131205,Institutional Property Management,Client Type,Management for institutional property owners
+531320,Offices of Real Estate Appraisers,53132001,Residential Appraisal Services,Property Type,Residential property appraisal and valuation
+531320,Offices of Real Estate Appraisers,53132002,Commercial Appraisal Services,Property Type,Commercial property appraisal and valuation
+531320,Offices of Real Estate Appraisers,53132003,Industrial Appraisal Services,Property Type,Industrial property appraisal services
+531320,Offices of Real Estate Appraisers,53132004,Agricultural Appraisal Services,Property Type,Farm and agricultural land appraisal
+531390,Other Activities Related to Real Estate,53139001,Real Estate Consulting Services,Service Type,Real estate advisory and consulting services
+531390,Other Activities Related to Real Estate,53139002,Real Estate Auction Services,Service Type,Real estate auction and liquidation services
+531390,Other Activities Related to Real Estate,53139003,Real Estate Photography Services,Service Type,Photography and virtual tour services for real estate
+531390,Other Activities Related to Real Estate,53139004,Real Estate Staging Services,Service Type,Home staging and interior preparation for sales
+532111,Passenger Car Rental,53211101,Airport Car Rental,Location Type,Car rental services at airports
+532111,Passenger Car Rental,53211102,Neighborhood Car Rental,Location Type,Local and neighborhood car rental locations
+532111,Passenger Car Rental,53211103,Luxury and Exotic Car Rental,Vehicle Segment,Rental of luxury and exotic vehicles
+532111,Passenger Car Rental,53211104,Peer-to-Peer Car Sharing,Business Model,P2P car sharing platforms and services
+532112,Passenger Car Leasing,53211201,Consumer Auto Leasing,Client Segment,Auto leasing for individual consumers
+532112,Passenger Car Leasing,53211202,Fleet Leasing Services,Client Segment,Vehicle fleet leasing for businesses
+532112,Passenger Car Leasing,53211203,Electric Vehicle Leasing,Vehicle Type,Leasing of electric and hybrid vehicles
+532120,Truck Utility Trailer and RV Rental and Leasing,53212001,Truck and Van Rental,Vehicle Type,Rental of pickup trucks cargo vans and moving trucks
+532120,Truck Utility Trailer and RV Rental and Leasing,53212002,Commercial Truck Leasing,Client Segment,Commercial truck and trailer leasing
+532120,Truck Utility Trailer and RV Rental and Leasing,53212003,RV and Motorhome Rental,Vehicle Type,Recreational vehicle and motorhome rental
+532120,Truck Utility Trailer and RV Rental and Leasing,53212004,Trailer Rental Services,Vehicle Type,Utility cargo and equipment trailer rental
+532210,Consumer Electronics and Appliances Rental,53221001,Furniture Rental,Product Type,Rental of home and office furniture
+532210,Consumer Electronics and Appliances Rental,53221002,Appliance Rental,Product Type,Rental of household appliances
+532210,Consumer Electronics and Appliances Rental,53221003,Electronics and Computer Rental,Product Type,Rental of consumer electronics and computers
+532210,Consumer Electronics and Appliances Rental,53221004,Rent-to-Own Stores,Business Model,Rent-to-own furniture electronics and appliances
+532281,Formal Wear and Costume Rental,53228101,Tuxedo and Formalwear Rental,Product Type,Rental of tuxedos suits and formal attire
+532281,Formal Wear and Costume Rental,53228102,Wedding Gown and Dress Rental,Product Type,Rental of wedding gowns and special occasion dresses
+532281,Formal Wear and Costume Rental,53228103,Costume Rental Services,Product Type,Theatrical and party costume rental
+532282,Video Tape and Disc Rental,53228201,DVD and Video Rental Stores,Format,Physical DVD and video rental locations
+532282,Video Tape and Disc Rental,53228202,Video Game Rental,Format,Video game and gaming console rental
+532283,Home Health Equipment Rental,53228301,Medical Equipment Rental,Product Type,Rental of wheelchairs hospital beds and medical devices
+532283,Home Health Equipment Rental,53228302,Oxygen and Respiratory Equipment,Product Type,Rental of oxygen concentrators and respiratory equipment
+532284,Recreational Goods Rental,53228401,Outdoor Recreation Equipment Rental,Product Type,Rental of camping skiing and outdoor gear
+532284,Recreational Goods Rental,53228402,Water Sports Equipment Rental,Product Type,Rental of kayaks paddleboards and water sports equipment
+532284,Recreational Goods Rental,53228403,Bike and Scooter Rental,Product Type,Bicycle electric scooter and mobility rental
+532284,Recreational Goods Rental,53228404,Party and Event Equipment Rental,Product Type,Rental of tables chairs tents and party supplies
+532289,All Other Consumer Goods Rental,53228901,Tool and Equipment Rental for Consumers,Product Type,Consumer tool and home improvement equipment rental
+532289,All Other Consumer Goods Rental,53228902,Baby Equipment Rental,Product Type,Rental of cribs strollers and baby gear
+532289,All Other Consumer Goods Rental,53228903,Musical Instrument Rental,Product Type,Rental and lease of musical instruments
+532310,General Rental Centers,53231001,Equipment Rental Centers,Business Model,General equipment and tool rental for consumers and contractors
+532310,General Rental Centers,53231002,Party Rental Centers,Business Model,Event and party equipment rental centers
+532411,Commercial Air Aircraft and Helicopter Rental and Leasing,53241101,Commercial Aircraft Leasing,Asset Type,Leasing of commercial passenger aircraft
+532411,Commercial Air Aircraft and Helicopter Rental and Leasing,53241102,Cargo Aircraft Leasing,Asset Type,Leasing of cargo and freight aircraft
+532411,Commercial Air Aircraft and Helicopter Rental and Leasing,53241103,Business Jet Leasing,Asset Type,Leasing of corporate and business jets
+532411,Commercial Air Aircraft and Helicopter Rental and Leasing,53241104,Helicopter Leasing,Asset Type,Leasing of commercial helicopters
+532412,Construction Mining and Forestry Machinery and Equipment Rental and Leasing,53241201,Heavy Construction Equipment Rental,Equipment Type,Rental of excavators bulldozers and heavy equipment
+532412,Construction Mining and Forestry Machinery and Equipment Rental and Leasing,53241202,Aerial Lift and Scaffold Rental,Equipment Type,Rental of lifts scaffolding and access equipment
+532412,Construction Mining and Forestry Machinery and Equipment Rental and Leasing,53241203,Concrete and Paving Equipment Rental,Equipment Type,Rental of concrete mixers pavers and finishing equipment
+532412,Construction Mining and Forestry Machinery and Equipment Rental and Leasing,53241204,Mining Equipment Leasing,Equipment Type,Leasing of mining and extraction equipment
+532412,Construction Mining and Forestry Machinery and Equipment Rental and Leasing,53241205,Forestry Equipment Rental,Equipment Type,Rental and leasing of logging and forestry equipment
+532420,Office Machinery and Equipment Rental and Leasing,53242001,Office Furniture Leasing,Product Type,Leasing of office furniture and workstations
+532420,Office Machinery and Equipment Rental and Leasing,53242002,Office Equipment Rental,Product Type,Rental of copiers printers and office machines
+532420,Office Machinery and Equipment Rental and Leasing,53242003,Computer and IT Equipment Leasing,Product Type,Leasing of computers servers and IT equipment
+532490,Other Commercial and Industrial Machinery and Equipment Rental and Leasing,53249001,Medical Equipment Leasing,Industry Focus,Leasing of medical and diagnostic equipment
+532490,Other Commercial and Industrial Machinery and Equipment Rental and Leasing,53249002,Restaurant Equipment Rental,Industry Focus,Rental and leasing of restaurant and food service equipment
+532490,Other Commercial and Industrial Machinery and Equipment Rental and Leasing,53249003,Manufacturing Equipment Leasing,Industry Focus,Leasing of production and manufacturing equipment
+532490,Other Commercial and Industrial Machinery and Equipment Rental and Leasing,53249004,Agricultural Equipment Rental,Industry Focus,Rental and leasing of tractors and farm equipment
+532490,Other Commercial and Industrial Machinery and Equipment Rental and Leasing,53249005,Material Handling Equipment Rental,Equipment Type,Rental of forklifts pallet jacks and material handling
+532490,Other Commercial and Industrial Machinery and Equipment Rental and Leasing,53249006,Power Generation Equipment Rental,Equipment Type,Rental of generators and temporary power equipment
+533110,Lessors of Nonfinancial Intangible Assets (except Copyrighted Works),53311001,Patent Licensing,Asset Type,Licensing and leasing of patents and patent rights
+533110,Lessors of Nonfinancial Intangible Assets (except Copyrighted Works),53311002,Trademark Licensing,Asset Type,Licensing of trademarks and brand names
+533110,Lessors of Nonfinancial Intangible Assets (except Copyrighted Works),53311003,Franchise Licensing,Asset Type,Franchise rights and licensing operations
+533110,Lessors of Nonfinancial Intangible Assets (except Copyrighted Works),53311004,Mineral Rights Leasing,Asset Type,Leasing of mineral oil and gas rights
+551111,Offices of Bank Holding Companies,55111101,Large Bank Holding Companies,Company Size,Major bank holding companies with multiple subsidiaries
+551111,Offices of Bank Holding Companies,55111102,Regional Bank Holding Companies,Company Size,Regional and community bank holding companies
+551112,Offices of Other Holding Companies,55111201,Public Company Holding Companies,Ownership Type,Publicly traded holding and parent companies
+551112,Offices of Other Holding Companies,55111202,Private Equity Holding Companies,Ownership Type,Private equity and investment holding companies
+551112,Offices of Other Holding Companies,55111203,Family Office Holding Companies,Ownership Type,Family-owned holding and investment companies
+551112,Offices of Other Holding Companies,55111204,Conglomerate Holding Companies,Structure,Diversified conglomerates with multiple industries
+551112,Offices of Other Holding Companies,55111205,Real Estate Holding Companies,Industry Focus,Holding companies primarily owning real estate assets
+551114,Corporate Regional and Subsidiary Management,55111401,Corporate Headquarters Operations,Function,Corporate headquarters and central management offices
+551114,Corporate Regional and Subsidiary Management,55111402,Regional Management Offices,Geographic Scope,Regional and divisional management operations
+551114,Corporate Regional and Subsidiary Management,55111403,Shared Services Centers,Function,Corporate shared services and centralized support functions
+551114,Corporate Regional and Subsidiary Management,55111404,Global Headquarters,Geographic Scope,Global and multinational corporate headquarters
+561110,Office Administrative Services,56111001,Virtual Office Services,Service Type,Virtual office and business address services
+561110,Office Administrative Services,56111002,Executive Suite Services,Service Type,Executive suites and serviced office spaces
+561110,Office Administrative Services,56111003,Coworking Spaces,Service Type,Shared coworking and flexible office spaces
+561110,Office Administrative Services,56111004,Office Support Services,Service Type,Comprehensive office administrative support
+561210,Facilities Support Services,56121001,Building Management Services,Service Type,Facilities management and building operations
+561210,Facilities Support Services,56121002,Manufacturing Facilities Management,Industry Focus,Facilities support for manufacturing plants
+561210,Facilities Support Services,56121003,Healthcare Facilities Management,Industry Focus,Facilities management for hospitals and medical centers
+561210,Facilities Support Services,56121004,Campus Facilities Management,Industry Focus,University and campus facilities management
+561311,Employment Placement Agencies,56131101,Executive Search and Recruiting,Service Focus,Executive search and C-level recruiting
+561311,Employment Placement Agencies,56131102,IT and Technology Recruiting,Industry Focus,Recruiting for technology and IT professionals
+561311,Employment Placement Agencies,56131103,Healthcare Staffing Agencies,Industry Focus,Recruiting and placement for healthcare professionals
+561311,Employment Placement Agencies,56131104,Accounting and Finance Recruiting,Industry Focus,Staffing for accounting and finance positions
+561311,Employment Placement Agencies,56131105,Sales and Marketing Recruiting,Industry Focus,Recruiting for sales and marketing professionals
+561311,Employment Placement Agencies,56131106,General Employment Agencies,Service Focus,General employment placement and staffing
+561312,Executive Search Services,56131201,Board and CEO Search,Seniority Level,Executive search for board members and C-suite
+561312,Executive Search Services,56131202,Senior Management Search,Seniority Level,Executive recruiting for VP and senior management
+561312,Executive Search Services,56131203,Industry-Specific Executive Search,Service Model,Executive search specializing in specific industries
+561320,Temporary Help Services,56132001,Office and Administrative Temps,Job Category,Temporary staffing for office and administrative roles
+561320,Temporary Help Services,56132002,Industrial Temporary Staffing,Job Category,Temporary workers for manufacturing and warehouse
+561320,Temporary Help Services,56132003,Healthcare Temporary Staffing,Industry Focus,Temporary nurses and healthcare professionals
+561320,Temporary Help Services,56132004,Professional Temporary Staffing,Job Category,Temporary consultants and professional contractors
+561320,Temporary Help Services,56132005,Light Industrial Staffing,Job Category,Temporary staffing for light industrial and assembly
+561330,Professional Employer Organizations,56133001,Small Business PEO Services,Client Size,PEO services for small businesses and startups
+561330,Professional Employer Organizations,56133002,Mid-Market PEO Services,Client Size,PEO for mid-sized companies and growing businesses
+561330,Professional Employer Organizations,56133003,Industry-Specific PEOs,Service Focus,PEOs specializing in specific industries
+561410,Document Preparation Services,56141001,Copying and Printing Services,Service Type,Document copying printing and binding
+561410,Document Preparation Services,56141002,Scanning and Digitization Services,Service Type,Document scanning and digital conversion
+561410,Document Preparation Services,56141003,Legal Document Services,Industry Focus,Document preparation for legal firms and courts
+561421,Telephone Answering Services,56142101,Live Answering Services,Service Type,Live operator telephone answering and reception
+561421,Telephone Answering Services,56142102,Medical Answering Services,Industry Focus,Answering services for medical practices
+561421,Telephone Answering Services,56142103,Virtual Receptionist Services,Service Type,Virtual receptionist and call handling
+561422,Telemarketing Bureaus and Other Contact Centers,56142201,Outbound Telemarketing,Service Type,Outbound sales and telemarketing call centers
+561422,Telemarketing Bureaus and Other Contact Centers,56142202,Inbound Customer Service Centers,Service Type,Inbound customer service and support call centers
+561422,Telemarketing Bureaus and Other Contact Centers,56142203,Technical Support Call Centers,Service Focus,Technical support and help desk call centers
+561422,Telemarketing Bureaus and Other Contact Centers,56142204,Offshore Contact Centers,Location,Offshore and international call center services
+561422,Telemarketing Bureaus and Other Contact Centers,56142205,Omnichannel Contact Centers,Technology,Multi-channel customer engagement centers
+561431,Private Mail Centers,56143101,Mailbox Rental and Postal Services,Service Type,Private mailbox rental and postal services
+561431,Private Mail Centers,56143102,Shipping and Packing Services,Service Type,Package shipping and packing centers
+561439,Other Business Service Centers,56143901,Printing and Copy Centers,Service Type,Full-service printing and business centers
+561439,Other Business Service Centers,56143902,Notary and Legal Support Services,Service Type,Notary public and legal document services
+561440,Collection Agencies,56144001,Consumer Debt Collection,Debt Type,Collection agencies for consumer debt
+561440,Collection Agencies,56144002,Commercial Debt Collection,Debt Type,Business-to-business debt collection
+561440,Collection Agencies,56144003,Medical Debt Collection,Industry Focus,Collection services for healthcare providers
+561450,Credit Bureaus,56145001,Consumer Credit Bureaus,Service Type,Consumer credit reporting and monitoring
+561450,Credit Bureaus,56145002,Business Credit Bureaus,Service Type,Commercial and business credit reporting
+561450,Credit Bureaus,56145003,Credit Monitoring Services,Service Type,Credit monitoring and identity protection services
+561491,Repossession Services,56149101,Auto Repossession,Asset Type,Vehicle repossession services
+561491,Repossession Services,56149102,Commercial Asset Recovery,Asset Type,Commercial equipment and asset repossession
+561492,Court Reporting and Stenotype Services,56149201,Court Reporting Services,Service Type,Court stenography and real-time reporting
+561492,Court Reporting and Stenotype Services,56149202,Deposition Services,Service Type,Legal deposition recording and transcription
+561499,All Other Business Support Services,56149901,Fundraising and Development Services,Service Type,Fundraising consulting and campaign management
+561499,All Other Business Support Services,56149902,Mailing and Fulfillment Services,Service Type,Direct mail fulfillment and mailing services
+561499,All Other Business Support Services,56149903,Bar Code and RFID Services,Service Type,Bar coding RFID tagging and labeling services
+561499,All Other Business Support Services,56149904,Customer Loyalty Programs,Service Type,Loyalty program management and administration
+561499,All Other Business Support Services,56149905,Lead Generation Services,Service Type,Business lead generation and qualification
+561510,Travel Agencies,56151001,Leisure Travel Agencies,Market Focus,Vacation and leisure travel planning agencies
+561510,Travel Agencies,56151002,Corporate Travel Management,Market Focus,Business travel management and booking
+561510,Travel Agencies,56151003,Online Travel Agencies (OTAs),Business Model,Online travel booking platforms and agencies
+561510,Travel Agencies,56151004,Luxury Travel Advisors,Market Segment,High-end and luxury travel specialists
+561520,Tour Operators,56152001,Package Tour Operators,Service Type,All-inclusive vacation package operators
+561520,Tour Operators,56152002,Adventure and Eco-Tourism,Tour Type,Adventure travel and eco-tourism operators
+561520,Tour Operators,56152003,Group Tour Operators,Client Type,Group travel and motorcoach tour operators
+561520,Tour Operators,56152004,Cruise Tour Operators,Tour Type,Cruise vacation and shore excursion operators
+561591,Convention and Visitors Bureaus,56159101,Destination Marketing Organizations,Service Type,Tourism promotion and destination marketing
+561591,Convention and Visitors Bureaus,56159102,Convention and Event Bureaus,Service Focus,Convention center marketing and booking support
+561599,All Other Travel Arrangement and Reservation Services,56159901,Ticket Sales and Reservation Services,Service Type,Entertainment and event ticket sales
+561599,All Other Travel Arrangement and Reservation Services,56159902,Loyalty Program Management,Service Type,Travel loyalty and rewards program management
+561599,All Other Travel Arrangement and Reservation Services,56159903,Travel Insurance Services,Service Type,Travel insurance sales and administration
+561611,Investigation Services,56161101,Private Investigation Services,Service Type,Private detective and investigative services
+561611,Investigation Services,56161102,Background Check Services,Service Type,Employment and tenant background screening
+561611,Investigation Services,56161103,Corporate Investigation,Client Type,Corporate fraud and due diligence investigations
+561612,Security Guards and Patrol Services,56161201,Uniformed Security Guard Services,Service Type,On-site security guard and officer services
+561612,Security Guards and Patrol Services,56161202,Mobile Patrol Services,Service Type,Mobile security patrol and response services
+561612,Security Guards and Patrol Services,56161203,Event Security Services,Service Focus,Security for concerts events and venues
+561612,Security Guards and Patrol Services,56161204,Retail Loss Prevention,Industry Focus,Security and loss prevention for retail stores
+561613,Armored Car Services,56161301,Cash-in-Transit Services,Service Type,Armored transport of cash and valuables
+561613,Armored Car Services,56161302,ATM Servicing,Service Type,ATM cash replenishment and servicing
+561621,Security Systems Services (except Locksmiths),56162101,Burglar Alarm Installation and Monitoring,System Type,Burglar and intrusion alarm systems
+561621,Security Systems Services (except Locksmiths),56162102,Fire Alarm Systems,System Type,Fire detection and alarm monitoring systems
+561621,Security Systems Services (except Locksmiths),56162103,Video Surveillance Systems,System Type,CCTV and video surveillance installation
+561621,Security Systems Services (except Locksmiths),56162104,Access Control Systems,System Type,Electronic access control and card systems
+561621,Security Systems Services (except Locksmiths),56162105,Home Security Systems,Market Segment,Residential security and smart home systems
+561622,Locksmiths,56162201,Commercial Locksmith Services,Client Type,Commercial lock and security hardware services
+561622,Locksmiths,56162202,Residential Locksmith Services,Client Type,Residential lock installation and rekeying
+561622,Locksmiths,56162203,Automotive Locksmith Services,Client Type,Auto lockout and car key services
+561710,Exterminating and Pest Control Services,56171001,Residential Pest Control,Client Type,Home pest control and extermination
+561710,Exterminating and Pest Control Services,56171002,Commercial Pest Control,Client Type,Pest control for businesses and facilities
+561710,Exterminating and Pest Control Services,56171003,Termite Control and Inspection,Specialty,Termite treatment and wood-destroying insect control
+561710,Exterminating and Pest Control Services,56171004,Integrated Pest Management,Method,Eco-friendly and IPM pest control services
+561710,Exterminating and Pest Control Services,56171005,Wildlife Control and Removal,Specialty,Wildlife removal and nuisance animal control
+561720,Janitorial Services,56172001,Commercial Janitorial Services,Client Type,Office and commercial building cleaning
+561720,Janitorial Services,56172002,Industrial Cleaning Services,Client Type,Manufacturing and industrial facility cleaning
+561720,Janitorial Services,56172003,Medical Facility Cleaning,Industry Focus,Healthcare and medical facility janitorial services
+561720,Janitorial Services,56172004,School and Educational Cleaning,Industry Focus,Janitorial services for schools and universities
+561730,Landscaping Services,56173001,Lawn Care Services,Service Focus,Residential and commercial lawn maintenance
+561730,Landscaping Services,56173002,Landscape Installation,Service Focus,Landscape design and installation services
+561730,Landscaping Services,56173003,Tree Service and Arboriculture,Specialty,Tree trimming removal and arborist services
+561730,Landscaping Services,56173004,Snow Removal Services,Seasonal,Snow plowing and ice management services
+561730,Landscaping Services,56173005,Irrigation System Services,Specialty,Sprinkler and irrigation installation and maintenance
+561740,Carpet and Upholstery Cleaning Services,56174001,Residential Carpet Cleaning,Client Type,Home carpet and upholstery cleaning
+561740,Carpet and Upholstery Cleaning Services,56174002,Commercial Carpet Cleaning,Client Type,Office and commercial carpet maintenance
+561740,Carpet and Upholstery Cleaning Services,56174003,Specialty Cleaning and Restoration,Service Type,Water damage restoration and specialty cleaning
+561790,Other Services to Buildings and Dwellings,56179001,Window Cleaning Services,Service Type,Commercial and residential window cleaning
+561790,Other Services to Buildings and Dwellings,56179002,Pressure Washing Services,Service Type,Exterior pressure washing and building cleaning
+561790,Other Services to Buildings and Dwellings,56179003,Chimney Sweeping and Cleaning,Service Type,Chimney cleaning and maintenance services
+561790,Other Services to Buildings and Dwellings,56179004,Pool Cleaning and Maintenance,Service Type,Swimming pool service and maintenance
+561790,Other Services to Buildings and Dwellings,56179005,Gutter Cleaning Services,Service Type,Gutter cleaning and maintenance
+561910,Packaging and Labeling Services,56191001,Contract Packaging Services,Service Type,Product packaging and co-packing services
+561910,Packaging and Labeling Services,56191002,Labeling and Bar Coding,Service Type,Product labeling and bar code application
+561910,Packaging and Labeling Services,56191003,Blister Pack and Clamshell Packaging,Packaging Type,Retail packaging and blister pack services
+561920,Convention and Trade Show Organizers,56192001,Trade Show and Expo Organizers,Event Type,Trade show and B2B exhibition management
+561920,Convention and Trade Show Organizers,56192002,Consumer Show Organizers,Event Type,Consumer expo and public show organizers
+561920,Convention and Trade Show Organizers,56192003,Virtual Event Platforms,Event Format,Online and virtual event management
+561990,All Other Support Services,56199001,Event Planning and Coordination,Service Type,Corporate and private event planning services
+561990,All Other Support Services,56199002,Wedding Planning Services,Service Type,Wedding and ceremony coordination services
+561990,All Other Support Services,56199003,Meeting Planning Services,Service Type,Corporate meeting and conference planning
+561990,All Other Support Services,56199004,Product Demonstration Services,Service Type,In-store product demonstration and sampling
+561990,All Other Support Services,56199005,Mystery Shopping Services,Service Type,Mystery shopping and quality auditing
+562111,Solid Waste Collection,56211101,Residential Trash Collection,Client Type,Residential garbage and refuse collection
+562111,Solid Waste Collection,56211102,Commercial Waste Collection,Client Type,Commercial and business waste hauling
+562111,Solid Waste Collection,56211103,Industrial Waste Collection,Client Type,Industrial and manufacturing waste collection
+562111,Solid Waste Collection,56211104,Roll-Off Container Services,Service Type,Dumpster rental and roll-off container service
+562112,Hazardous Waste Collection,56211201,Hazardous Waste Hauling,Waste Type,Collection and transport of hazardous materials
+562112,Hazardous Waste Collection,56211202,Medical Waste Collection,Waste Type,Medical and biohazardous waste pickup and disposal
+562112,Hazardous Waste Collection,56211203,Electronic Waste Collection,Waste Type,E-waste and electronic equipment collection
+562119,Other Waste Collection,56211901,Recyclable Materials Collection,Waste Type,Curbside and commercial recycling collection
+562119,Other Waste Collection,56211902,Yard Waste and Organics Collection,Waste Type,Yard waste and organic materials collection
+562119,Other Waste Collection,56211903,Construction Debris Collection,Waste Type,Construction and demolition waste hauling
+562211,Hazardous Waste Treatment and Disposal,56221101,Hazardous Waste Disposal Facilities,Service Type,Treatment and disposal of hazardous waste
+562211,Hazardous Waste Treatment and Disposal,56221102,Hazardous Waste Incineration,Treatment Method,Hazardous waste combustion and thermal treatment
+562211,Hazardous Waste Treatment and Disposal,56221103,Chemical Waste Treatment,Waste Type,Chemical waste neutralization and treatment
+562212,Solid Waste Landfills,56221201,Municipal Solid Waste Landfills,Landfill Type,MSW landfills for general refuse
+562212,Solid Waste Landfills,56221202,Construction Landfills,Landfill Type,C&D debris and construction waste landfills
+562213,Solid Waste Combustors and Incinerators,56221301,Waste-to-Energy Facilities,Technology,Waste incineration with energy recovery
+562213,Solid Waste Combustors and Incinerators,56221302,Medical Waste Incinerators,Waste Type,Medical and infectious waste incineration
+562219,Other Nonhazardous Waste Treatment and Disposal,56221901,Composting Facilities,Treatment Method,Organic waste composting operations
+562219,Other Nonhazardous Waste Treatment and Disposal,56221902,Transfer Stations,Facility Type,Waste transfer and consolidation stations
+562910,Remediation Services,56291001,Environmental Site Remediation,Service Type,Contaminated site cleanup and remediation
+562910,Remediation Services,56291002,Asbestos Abatement,Specialty,Asbestos removal and abatement services
+562910,Remediation Services,56291003,Lead Paint Removal,Specialty,Lead-based paint abatement and removal
+562910,Remediation Services,56291004,Mold Remediation,Specialty,Mold removal and remediation services
+562910,Remediation Services,56291005,Underground Storage Tank Removal,Specialty,UST removal and soil remediation
+562920,Materials Recovery Facilities,56292001,Single-Stream Recycling Facilities,Process Type,Single-stream MRF and recycling sorting
+562920,Materials Recovery Facilities,56292002,Metal Recycling and Scrap Yards,Material Type,Scrap metal recycling and processing
+562920,Materials Recovery Facilities,56292003,Electronics Recycling,Material Type,E-waste recycling and ITAD services
+562920,Materials Recovery Facilities,56292004,Paper and Cardboard Recycling,Material Type,Paper fiber and cardboard recycling
+562991,Septic Tank and Related Services,56299101,Septic Tank Pumping,Service Type,Residential and commercial septic pumping
+562991,Septic Tank and Related Services,56299102,Septic System Installation,Service Type,Septic tank and drain field installation
+562998,All Other Miscellaneous Waste Management Services,56299801,Portable Toilet Rentals,Service Type,Portable restroom rental and servicing
+562998,All Other Miscellaneous Waste Management Services,56299802,Grease Trap Cleaning,Service Type,Commercial grease trap pumping and maintenance
+562998,All Other Miscellaneous Waste Management Services,56299803,Industrial Vacuum Services,Service Type,Industrial liquid and sludge vacuum services
+611110,Elementary and Secondary Schools,61111001,Public Elementary Schools,School Type,Public K-5 elementary schools
+611110,Elementary and Secondary Schools,61111002,Public Middle Schools,School Type,Public middle and junior high schools grades 6-8
+611110,Elementary and Secondary Schools,61111003,Public High Schools,School Type,Public secondary high schools grades 9-12
+611110,Elementary and Secondary Schools,61111004,Private Elementary Schools,Ownership,Private and parochial elementary schools
+611110,Elementary and Secondary Schools,61111005,Private High Schools,Ownership,Private and independent secondary schools
+611110,Elementary and Secondary Schools,61111006,Charter Schools,School Type,Public charter and alternative schools
+611110,Elementary and Secondary Schools,61111007,Montessori Schools,Educational Method,Montessori method elementary schools
+611110,Elementary and Secondary Schools,61111008,Waldorf and Alternative Schools,Educational Method,Waldorf Reggio and progressive education schools
+611110,Elementary and Secondary Schools,61111009,Online K-12 Schools,Delivery Method,Virtual and online K-12 education
+611110,Elementary and Secondary Schools,61111010,Special Education Schools,Student Population,Schools for students with disabilities
+611210,Junior Colleges,61121001,Public Community Colleges,Ownership,Public two-year community colleges
+611210,Junior Colleges,61121002,Private Junior Colleges,Ownership,Private two-year colleges
+611210,Junior Colleges,61121003,Technical Community Colleges,Focus,Community colleges focused on technical education
+611310,Colleges Universities and Professional Schools,61131001,Public Research Universities,Institution Type,Large public research universities
+611310,Colleges Universities and Professional Schools,61131002,Private Research Universities,Institution Type,Private research universities and R1 institutions
+611310,Colleges Universities and Professional Schools,61131003,Liberal Arts Colleges,Institution Type,Private liberal arts colleges
+611310,Colleges Universities and Professional Schools,61131004,State Colleges and Universities,Institution Type,Public regional state universities
+611310,Colleges Universities and Professional Schools,61131005,For-Profit Universities,Ownership,For-profit and career colleges
+611310,Colleges Universities and Professional Schools,61131006,Online Universities,Delivery Method,Online and distance learning universities
+611310,Colleges Universities and Professional Schools,61131007,Historically Black Colleges and Universities,Institution Type,HBCUs and minority-serving institutions
+611310,Colleges Universities and Professional Schools,61131008,Religious and Affiliated Universities,Affiliation,Church-affiliated and religious universities
+611310,Colleges Universities and Professional Schools,61131009,Law Schools,Professional School,Law schools and J.D. programs
+611310,Colleges Universities and Professional Schools,61131010,Medical Schools,Professional School,Medical schools and M.D. programs
+611310,Colleges Universities and Professional Schools,61131011,Business Schools,Professional School,MBA and business school programs
+611310,Colleges Universities and Professional Schools,61131012,Engineering Schools,Professional School,Engineering colleges and programs
+611410,Business and Secretarial Schools,61141001,Business Administration Schools,Program Focus,Business management and administration training
+611410,Business and Secretarial Schools,61141002,Medical Office Training Schools,Program Focus,Medical billing coding and office training
+611410,Business and Secretarial Schools,61141003,Court Reporting Schools,Program Focus,Court reporting and stenography training
+611420,Computer Training,61142001,IT Certification Training,Program Type,IT certification and technical training programs
+611420,Computer Training,61142002,Coding Bootcamps,Program Type,Software development and coding bootcamp programs
+611420,Computer Training,61142003,Cybersecurity Training,Program Type,Information security and cybersecurity training
+611420,Computer Training,61142004,Data Science and Analytics Training,Program Type,Data science machine learning and analytics programs
+611430,Professional and Management Development Training,61143001,Leadership Development Programs,Training Focus,Executive and leadership development training
+611430,Professional and Management Development Training,61143002,Project Management Training,Training Focus,PMP and project management certification training
+611430,Professional and Management Development Training,61143003,Sales Training Programs,Training Focus,Sales skills and business development training
+611430,Professional and Management Development Training,61143004,Corporate Training Services,Client Type,Custom corporate training and development
+611511,Cosmetology and Barber Schools,61151101,Cosmetology Schools,Program Type,Cosmetology and beauty school training
+611511,Cosmetology and Barber Schools,61151102,Barber Schools,Program Type,Barbering and men's grooming training
+611511,Cosmetology and Barber Schools,61151103,Esthetics Schools,Program Type,Esthetics and skincare training programs
+611511,Cosmetology and Barber Schools,61151104,Nail Technology Schools,Program Type,Nail technician and manicurist training
+611512,Flight Training,61151201,Private Pilot Training,Program Type,Private pilot certificate training
+611512,Flight Training,61151202,Commercial Pilot Training,Program Type,Commercial pilot and airline career training
+611512,Flight Training,61151203,Instrument Rating Training,Program Type,Instrument flight rules training
+611512,Flight Training,61151204,Flight Instructor Training,Program Type,Certified flight instructor programs
+611513,Apprenticeship Training,61151301,Construction Apprenticeships,Trade Focus,Apprenticeship programs for construction trades
+611513,Apprenticeship Training,61151302,Electrical Apprenticeships,Trade Focus,Electrician apprenticeship training programs
+611513,Apprenticeship Training,61151303,Plumbing Apprenticeships,Trade Focus,Plumber and pipefitter apprenticeship programs
+611513,Apprenticeship Training,61151304,Manufacturing Apprenticeships,Trade Focus,Industrial and manufacturing apprenticeship training
+611519,Other Technical and Trade Schools,61151901,Truck Driving Schools,Program Type,Commercial driver's license CDL training
+611519,Other Technical and Trade Schools,61151902,HVAC Training Schools,Program Type,Heating ventilation and air conditioning training
+611519,Other Technical and Trade Schools,61151903,Automotive Technician Schools,Program Type,Automotive repair and technician training
+611519,Other Technical and Trade Schools,61151904,Welding Schools,Program Type,Welding and metal fabrication training
+611519,Other Technical and Trade Schools,61151905,Culinary Schools,Program Type,Culinary arts and chef training programs
+611519,Other Technical and Trade Schools,61151906,Dental Assisting Schools,Program Type,Dental assistant training programs
+611519,Other Technical and Trade Schools,61151907,Medical Assistant Schools,Program Type,Medical assistant certification training
+611519,Other Technical and Trade Schools,61151908,Massage Therapy Schools,Program Type,Massage therapy and bodywork training
+611610,Fine Arts Schools,61161001,Music Schools and Conservatories,Art Form,Music performance and conservatory training
+611610,Fine Arts Schools,61161002,Dance Schools and Academies,Art Form,Professional dance and ballet training
+611610,Fine Arts Schools,61161003,Drama and Theater Schools,Art Form,Acting and theatrical performance training
+611610,Fine Arts Schools,61161004,Art and Design Schools,Art Form,Fine arts painting and sculpture programs
+611610,Fine Arts Schools,61161005,Film Schools,Art Form,Filmmaking and cinema studies programs
+611620,Sports and Recreation Instruction,61162001,Martial Arts Schools,Sport Type,Karate judo and martial arts instruction
+611620,Sports and Recreation Instruction,61162002,Gymnastics Instruction,Sport Type,Gymnastics and tumbling training
+611620,Sports and Recreation Instruction,61162003,Swimming Instruction,Sport Type,Swimming lessons and aquatic instruction
+611620,Sports and Recreation Instruction,61162004,Tennis and Racquet Sports Instruction,Sport Type,Tennis and racquet sports lessons
+611620,Sports and Recreation Instruction,61162005,Golf Instruction,Sport Type,Golf lessons and swing coaching
+611620,Sports and Recreation Instruction,61162006,Yoga and Pilates Studios,Sport Type,Yoga and Pilates instruction and classes
+611620,Sports and Recreation Instruction,61162007,Personal Training Services,Sport Type,One-on-one fitness and personal training
+611620,Sports and Recreation Instruction,61162008,Youth Sports Training,Client Type,Youth sports camps clinics and instruction
+611630,Language Schools,61163001,English as a Second Language (ESL),Language Focus,ESL and English language instruction
+611630,Language Schools,61163002,Foreign Language Schools,Language Focus,Foreign language immersion and instruction
+611630,Language Schools,61163003,Business Language Training,Program Type,Corporate language training for business
+611691,Exam Preparation and Tutoring,61169101,SAT and ACT Test Prep,Exam Type,College entrance exam preparation services
+611691,Exam Preparation and Tutoring,61169102,K-12 Tutoring Services,Student Level,Academic tutoring for elementary through high school
+611691,Exam Preparation and Tutoring,61169103,LSAT and Graduate Exam Prep,Exam Type,Law school and graduate program test preparation
+611691,Exam Preparation and Tutoring,61169104,Professional Exam Preparation,Exam Type,CPA bar exam and professional licensing prep
+611691,Exam Preparation and Tutoring,61169105,Online Tutoring Services,Delivery Method,Virtual and online tutoring platforms
+611692,Automobile Driving Schools,61169201,Teen Driver Education,Student Type,Teenage driver's education programs
+611692,Automobile Driving Schools,61169202,Adult Driving Schools,Student Type,Adult driver training and lessons
+611692,Automobile Driving Schools,61169203,Defensive Driving Courses,Course Type,Defensive driving and traffic school
+611692,Automobile Driving Schools,61169204,Motorcycle Training,Vehicle Type,Motorcycle safety and skills training
+611699,All Other Miscellaneous Schools and Instruction,61169901,Music Lessons (Private),Instruction Type,Private music instrument and voice lessons
+611699,All Other Miscellaneous Schools and Instruction,61169902,Continuing Education Programs,Program Type,Adult continuing education and enrichment
+611699,All Other Miscellaneous Schools and Instruction,61169903,Real Estate License Training,Program Type,Real estate pre-licensing education
+611699,All Other Miscellaneous Schools and Instruction,61169904,Speed Reading and Memory Training,Skill Type,Speed reading and cognitive skills training
+611699,All Other Miscellaneous Schools and Instruction,61169905,Public Speaking and Communication,Skill Type,Public speaking and presentation skills training
+611710,Educational Support Services,61171001,Educational Testing Services,Service Type,Standardized testing and assessment administration
+611710,Educational Support Services,61171002,Educational Consulting,Service Type,College admissions and educational consulting
+611710,Educational Support Services,61171003,Curriculum Development Services,Service Type,Curriculum design and instructional materials
+611710,Educational Support Services,61171004,School Accreditation Services,Service Type,School accreditation and quality assurance
+711110,Theater Companies and Dinner Theaters,71111001,Professional Theater Companies,Company Type,Professional theatrical production companies
+711110,Theater Companies and Dinner Theaters,71111002,Community and Regional Theaters,Company Type,Community theater and regional repertory companies
+711110,Theater Companies and Dinner Theaters,71111003,Dinner Theater Productions,Performance Type,Dinner theater and interactive dining experiences
+711110,Theater Companies and Dinner Theaters,71111004,Children's Theater Companies,Audience Focus,Theater for children and youth audiences
+711110,Theater Companies and Dinner Theaters,71111005,Musical Theater Companies,Performance Type,Musical theater production companies
+711120,Dance Companies,71112001,Ballet Companies,Dance Style,Classical ballet companies
+711120,Dance Companies,71112002,Modern Dance Companies,Dance Style,Contemporary and modern dance ensembles
+711120,Dance Companies,71112003,Cultural and Ethnic Dance Companies,Dance Style,Cultural traditional and folk dance companies
+711130,Musical Groups and Artists,71113001,Symphony Orchestras,Ensemble Type,Professional symphony and philharmonic orchestras
+711130,Musical Groups and Artists,71113002,Chamber Music Ensembles,Ensemble Type,Chamber music and small ensemble groups
+711130,Musical Groups and Artists,71113003,Opera Companies,Performance Type,Opera and classical vocal companies
+711130,Musical Groups and Artists,71113004,Rock and Pop Music Groups,Genre,Rock pop and contemporary music artists
+711130,Musical Groups and Artists,71113005,Jazz and Blues Musicians,Genre,Jazz blues and improvisational music groups
+711130,Musical Groups and Artists,71113006,Country Music Artists,Genre,Country and Americana music performers
+711130,Musical Groups and Artists,71113007,Hip-Hop and Rap Artists,Genre,Hip-hop rap and urban music performers
+711130,Musical Groups and Artists,71113008,Classical Soloists and Performers,Performance Type,Classical music soloists and virtuosos
+711190,Other Performing Arts Companies,71119001,Circus and Acrobatic Shows,Performance Type,Circus acrobatic and aerial performance companies
+711190,Other Performing Arts Companies,71119002,Ice Shows and Figure Skating,Performance Type,Ice skating shows and touring productions
+711190,Other Performing Arts Companies,71119003,Magic and Illusion Shows,Performance Type,Magic illusion and variety shows
+711190,Other Performing Arts Companies,71119004,Comedy Troupes and Ensembles,Performance Type,Comedy improv and sketch performance groups
+711211,Sports Teams and Clubs,71121101,Professional Baseball Teams,Sport Type,Major and minor league baseball teams
+711211,Sports Teams and Clubs,71121102,Professional Football Teams,Sport Type,Professional football leagues and teams
+711211,Sports Teams and Clubs,71121103,Professional Basketball Teams,Sport Type,Professional basketball leagues and franchises
+711211,Sports Teams and Clubs,71121104,Professional Hockey Teams,Sport Type,Professional ice hockey teams and leagues
+711211,Sports Teams and Clubs,71121105,Professional Soccer Teams,Sport Type,Professional soccer and MLS franchises
+711211,Sports Teams and Clubs,71121106,Minor League Sports Teams,League Level,Minor league and development league teams
+711211,Sports Teams and Clubs,71121107,Women's Professional Sports Teams,Gender,Women's professional sports leagues and teams
+711211,Sports Teams and Clubs,71121108,Esports Teams and Organizations,Sport Type,Professional esports and gaming teams
+711212,Racetracks,71121201,Horse Racing Tracks,Track Type,Thoroughbred and harness horse racing
+711212,Racetracks,71121202,Auto Racing Tracks and Speedways,Track Type,Stock car NASCAR and auto racing facilities
+711212,Racetracks,71121203,Drag Racing Facilities,Track Type,Drag strip and quarter-mile racing tracks
+711219,Other Spectator Sports,71121901,Golf Tournaments and Events,Sport Type,Professional golf tournament operations
+711219,Other Spectator Sports,71121902,Tennis Tournaments,Sport Type,Professional tennis tournament events
+711219,Other Spectator Sports,71121903,Boxing and MMA Events,Sport Type,Boxing and mixed martial arts promotions
+711219,Other Spectator Sports,71121904,Rodeo Events,Sport Type,Rodeo and western sporting events
+711310,Promoters of Performing Arts Sports and Similar Events with Facilities,71131001,Arena and Stadium Operators,Facility Type,Multi-purpose arenas and stadium management
+711310,Promoters of Performing Arts Sports and Similar Events with Facilities,71131002,Amphitheater Operators,Facility Type,Outdoor amphitheater and concert venue operators
+711310,Promoters of Performing Arts Sports and Similar Events with Facilities,71131003,Performing Arts Center Operators,Facility Type,Performing arts and theater venue management
+711320,Promoters of Performing Arts Sports and Similar Events without Facilities,71132001,Concert Promoters and Producers,Event Type,Music concert and tour promotion
+711320,Promoters of Performing Arts Sports and Similar Events without Facilities,71132002,Sports Event Promoters,Event Type,Sporting event promotion and management
+711320,Promoters of Performing Arts Sports and Similar Events without Facilities,71132003,Festival Promoters,Event Type,Music and arts festival production
+711410,Agents and Managers for Artists Athletes Entertainers and Other Public Figures,71141001,Talent Agencies,Client Type,Talent representation and booking agencies
+711410,Agents and Managers for Artists Athletes Entertainers and Other Public Figures,71141002,Sports Agents,Client Type,Athletic representation and contract negotiation
+711410,Agents and Managers for Artists Athletes Entertainers and Other Public Figures,71141003,Literary Agents,Client Type,Author and writer representation
+711410,Agents and Managers for Artists Athletes Entertainers and Other Public Figures,71141004,Modeling Agencies,Client Type,Fashion and commercial model representation
+711410,Agents and Managers for Artists Athletes Entertainers and Other Public Figures,71141005,Celebrity Management,Client Type,Personal management for entertainers and celebrities
+711510,Independent Artists Writers and Performers,71151001,Independent Musicians and Composers,Art Form,Freelance musicians composers and songwriters
+711510,Independent Artists Writers and Performers,71151002,Visual Artists and Painters,Art Form,Independent fine artists and painters
+711510,Independent Artists Writers and Performers,71151003,Authors and Writers,Art Form,Freelance writers and authors
+711510,Independent Artists Writers and Performers,71151004,Actors and Performers,Art Form,Independent actors and theatrical performers
+711510,Independent Artists Writers and Performers,71151005,Photographers and Videographers,Art Form,Freelance photography and videography artists
+712110,Museums,71211001,Art Museums,Museum Type,Fine art and contemporary art museums
+712110,Museums,71211002,History Museums,Museum Type,Historical and heritage museums
+712110,Museums,71211003,Science Museums,Museum Type,Science technology and natural history museums
+712110,Museums,71211004,Children's Museums,Museum Type,Interactive children's museums and discovery centers
+712110,Museums,71211005,Specialty and Niche Museums,Museum Type,Specialized topic and industry-specific museums
+712120,Historical Sites,71212001,Historic Houses and Estates,Site Type,Historic homes mansions and estates
+712120,Historical Sites,71212002,Battlefield and Military Sites,Site Type,Battlefield parks and military historical sites
+712120,Historical Sites,71212003,Archaeological Sites,Site Type,Archaeological and ancient civilization sites
+712130,Zoos and Botanical Gardens,71213001,Zoos and Zoological Parks,Facility Type,Zoos and animal conservation centers
+712130,Zoos and Botanical Gardens,71213002,Aquariums,Facility Type,Public aquariums and marine life centers
+712130,Zoos and Botanical Gardens,71213003,Botanical Gardens and Arboretums,Facility Type,Botanical gardens plant conservatories and arboretums
+712130,Zoos and Botanical Gardens,71213004,Safari Parks and Wildlife Preserves,Facility Type,Drive-through safari and wildlife parks
+712190,Nature Parks and Other Similar Institutions,71219001,National and State Parks,Park Type,Government-operated parks and preserves
+712190,Nature Parks and Other Similar Institutions,71219002,Wildlife Refuges,Park Type,Wildlife refuges and conservation areas
+712190,Nature Parks and Other Similar Institutions,71219003,Nature Centers and Interpretive Sites,Park Type,Nature education and interpretive centers
+713110,Amusement and Theme Parks,71311001,Major Theme Parks,Park Size,Large destination theme and amusement parks
+713110,Amusement and Theme Parks,71311002,Regional Amusement Parks,Park Size,Regional and seasonal amusement parks
+713110,Amusement and Theme Parks,71311003,Water Parks,Park Type,Water parks and aquatic amusement facilities
+713110,Amusement and Theme Parks,71311004,Family Entertainment Centers,Park Type,Indoor family entertainment and play centers
+713120,Amusement Arcades,71312001,Video Game Arcades,Arcade Type,Video game and redemption arcades
+713120,Amusement Arcades,71312002,Pinball and Classic Arcades,Arcade Type,Pinball and retro gaming arcades
+713210,Casinos (except Casino Hotels),71321001,Commercial Casinos,Casino Type,Land-based commercial casino gaming
+713210,Casinos (except Casino Hotels),71321002,Tribal Casinos,Casino Type,Native American tribal gaming facilities
+713210,Casinos (except Casino Hotels),71321003,Riverboat and Cruise Casinos,Casino Type,Riverboat and cruise ship casinos
+713210,Casinos (except Casino Hotels),71321004,Online Gambling Platforms,Distribution,Internet and mobile gambling operations
+713290,Other Gambling Industries,71329001,Lottery Operations,Gambling Type,State and multi-state lottery operations
+713290,Other Gambling Industries,71329002,Bingo Halls,Gambling Type,Bingo parlors and charitable gaming
+713290,Other Gambling Industries,71329003,Off-Track Betting,Gambling Type,OTB and simulcast wagering facilities
+713290,Other Gambling Industries,71329004,Sports Betting Operations,Gambling Type,Sports betting and sportsbook operations
+713910,Golf Courses and Country Clubs,71391001,Private Country Clubs,Club Type,Private membership golf and country clubs
+713910,Golf Courses and Country Clubs,71391002,Public Golf Courses,Club Type,Daily fee and municipal golf courses
+713910,Golf Courses and Country Clubs,71391003,Resort Golf Courses,Club Type,Resort and destination golf facilities
+713910,Golf Courses and Country Clubs,71391004,Driving Ranges and Practice Facilities,Facility Type,Golf driving ranges and practice centers
+713920,Skiing Facilities,71392001,Ski Resorts,Facility Type,Alpine skiing and snowboarding resorts
+713920,Skiing Facilities,71392002,Cross-Country Ski Centers,Facility Type,Nordic and cross-country skiing facilities
+713930,Marinas,71393001,Recreational Marinas,Marina Type,Pleasure boat marinas and yacht clubs
+713930,Marinas,71393002,Dry Stack Boat Storage,Storage Type,Dry stack and rack storage marinas
+713940,Fitness and Recreational Sports Centers,71394001,Health Clubs and Gyms,Facility Type,Full-service fitness centers and health clubs
+713940,Fitness and Recreational Sports Centers,71394002,Boutique Fitness Studios,Facility Type,Specialized boutique fitness and cycling studios
+713940,Fitness and Recreational Sports Centers,71394003,CrossFit and Functional Training,Training Type,CrossFit boxes and functional fitness gyms
+713940,Fitness and Recreational Sports Centers,71394004,Climbing Gyms,Activity Type,Indoor rock climbing and bouldering gyms
+713940,Fitness and Recreational Sports Centers,71394005,Trampoline and Jump Parks,Activity Type,Indoor trampoline parks and jump centers
+713940,Fitness and Recreational Sports Centers,71394006,Racquet and Tennis Clubs,Sport Focus,Tennis squash and racquetball clubs
+713950,Bowling Centers,71395001,Ten-Pin Bowling Centers,Center Type,Traditional ten-pin bowling alleys
+713950,Bowling Centers,71395002,Boutique Bowling Lounges,Center Type,Upscale bowling and entertainment venues
+713990,All Other Amusement and Recreation Industries,71399001,Go-Kart and Racing Entertainment,Activity Type,Go-kart tracks and racing entertainment
+713990,All Other Amusement and Recreation Industries,71399002,Paintball and Airsoft Facilities,Activity Type,Paintball and tactical gaming facilities
+713990,All Other Amusement and Recreation Industries,71399003,Laser Tag Centers,Activity Type,Laser tag and interactive gaming arenas
+713990,All Other Amusement and Recreation Industries,71399004,Escape Room Experiences,Activity Type,Escape room and immersive puzzle games
+713990,All Other Amusement and Recreation Industries,71399005,Miniature Golf Courses,Activity Type,Mini golf and putt-putt facilities
+713990,All Other Amusement and Recreation Industries,71399006,Batting Cages and Sports Practice,Activity Type,Batting cages and sports training facilities
+713990,All Other Amusement and Recreation Industries,71399007,Virtual Reality Arcades,Technology,VR gaming and immersive experience centers
+713990,All Other Amusement and Recreation Industries,71399008,Axe Throwing Venues,Activity Type,Axe throwing and urban recreational facilities
+721110,Hotels (except Casino Hotels) and Motels,72111001,Luxury Hotels,Hotel Class,Luxury and five-star hotels
+721110,Hotels (except Casino Hotels) and Motels,72111002,Upscale Full-Service Hotels,Hotel Class,Upscale full-service hotels and resorts
+721110,Hotels (except Casino Hotels) and Motels,72111003,Mid-Scale Hotels,Hotel Class,Mid-range and business-class hotels
+721110,Hotels (except Casino Hotels) and Motels,72111004,Economy and Budget Hotels,Hotel Class,Budget and economy hotel chains
+721110,Hotels (except Casino Hotels) and Motels,72111005,Extended Stay Hotels,Hotel Type,Extended stay and suite hotels
+721110,Hotels (except Casino Hotels) and Motels,72111006,Boutique Hotels,Hotel Type,Independent boutique and design hotels
+721110,Hotels (except Casino Hotels) and Motels,72111007,Airport Hotels,Location,Hotels located at or near airports
+721110,Hotels (except Casino Hotels) and Motels,72111008,Roadside Motels,Hotel Type,Highway and roadside motor inns
+721120,Casino Hotels,72112001,Las Vegas Casino Hotels,Location,Casino resort hotels in Las Vegas
+721120,Casino Hotels,72112002,Regional Casino Hotels,Location,Regional casino hotels and gaming resorts
+721120,Casino Hotels,72112003,Tribal Casino Hotels,Ownership,Native American casino hotels
+721191,Bed-and-Breakfast Inns,72119101,Traditional B&Bs,Property Type,Traditional bed and breakfast inns
+721191,Bed-and-Breakfast Inns,72119102,Luxury B&Bs and Boutique Inns,Property Type,Upscale bed and breakfast properties
+721199,All Other Traveler Accommodation,72119901,Vacation Rentals and Private Homes,Property Type,Vacation rental homes and properties
+721199,All Other Traveler Accommodation,72119902,Hostels,Property Type,Budget hostels and backpacker accommodations
+721199,All Other Traveler Accommodation,72119903,Resort and Timeshare Properties,Property Type,Vacation ownership and timeshare resorts
+721211,RV (Recreational Vehicle) Parks and Campgrounds,72121101,RV Parks and Resorts,Facility Type,RV parks and recreational vehicle resorts
+721211,RV (Recreational Vehicle) Parks and Campgrounds,72121102,Campgrounds and Tent Camping,Facility Type,Tent camping and primitive campgrounds
+721211,RV (Recreational Vehicle) Parks and Campgrounds,72121103,Glamping Sites,Facility Type,Luxury glamping and upscale camping
+721310,Rooming and Boarding Houses,72131001,Boarding Houses,Facility Type,Traditional boarding and rooming houses
+721310,Rooming and Boarding Houses,72131002,Residential Hotels,Facility Type,Single-room occupancy and residential hotels
+722310,Food Service Contractors,72231001,Corporate Cafeteria Services,Client Type,Employee cafeteria and corporate dining
+722310,Food Service Contractors,72231002,School Food Service,Client Type,K-12 and university dining services
+722310,Food Service Contractors,72231003,Hospital Food Service,Client Type,Healthcare facility food service contractors
+722310,Food Service Contractors,72231004,Sports and Entertainment Venue Catering,Client Type,Stadium arena and event venue concessions
+722320,Caterers,72232001,Full-Service Catering,Service Type,Full-service event catering and banquets
+722320,Caterers,72232002,Corporate Catering,Client Type,Corporate meeting and office catering
+722320,Caterers,72232003,Wedding Catering,Event Type,Wedding reception catering specialists
+722320,Caterers,72232004,Mobile Food Catering,Service Type,Off-premise and mobile catering services
+722330,Mobile Food Services,72233001,Food Trucks,Vehicle Type,Gourmet and specialty food trucks
+722330,Mobile Food Services,72233002,Ice Cream Trucks,Product Focus,Mobile ice cream and frozen dessert vendors
+722330,Mobile Food Services,72233003,Street Food Vendors,Vendor Type,Street food carts and mobile vendors
+722410,Drinking Places (Alcoholic Beverages),72241001,Sports Bars,Bar Type,Sports bars and sports-themed taverns
+722410,Drinking Places (Alcoholic Beverages),72241002,Nightclubs and Dance Clubs,Bar Type,Nightclubs dance clubs and lounges
+722410,Drinking Places (Alcoholic Beverages),72241003,Wine Bars,Bar Type,Wine bars and wine tasting rooms
+722410,Drinking Places (Alcoholic Beverages),72241004,Craft Beer Bars and Taprooms,Bar Type,Craft beer bars brewpubs and taprooms
+722410,Drinking Places (Alcoholic Beverages),72241005,Cocktail Lounges,Bar Type,Cocktail bars and mixology lounges
+722410,Drinking Places (Alcoholic Beverages),72241006,Dive Bars and Taverns,Bar Type,Neighborhood bars pubs and taverns
+722511,Full-Service Restaurants,72251101,Fine Dining Restaurants,Dining Type,Upscale fine dining and white tablecloth restaurants
+722511,Full-Service Restaurants,72251102,Casual Dining Chains,Dining Type,National casual dining restaurant chains
+722511,Full-Service Restaurants,72251103,Family-Style Restaurants,Dining Type,Family-friendly and value casual dining
+722511,Full-Service Restaurants,72251104,Ethnic Full-Service Restaurants,Cuisine Type,Ethnic and international cuisine restaurants with table service
+722511,Full-Service Restaurants,72251105,Steakhouses,Cuisine Type,Steakhouse and prime rib restaurants
+722511,Full-Service Restaurants,72251106,Seafood Restaurants,Cuisine Type,Seafood and fish house restaurants
+722511,Full-Service Restaurants,72251107,Italian Restaurants,Cuisine Type,Italian cuisine and trattorias
+722511,Full-Service Restaurants,72251108,Mexican Restaurants,Cuisine Type,Mexican and Tex-Mex full-service restaurants
+722511,Full-Service Restaurants,72251109,Asian Full-Service Restaurants,Cuisine Type,Chinese Japanese Thai and Asian restaurants
+722511,Full-Service Restaurants,72251110,Pizza Restaurants (Dine-In),Cuisine Type,Full-service pizzerias with table service
+722513,Limited-Service Restaurants,72251301,Quick Service Restaurant Chains,Service Model,National QSR and fast food chains
+722513,Limited-Service Restaurants,72251302,Fast Casual Restaurants,Service Model,Fast casual and better burger chains
+722513,Limited-Service Restaurants,72251303,Pizza Delivery and Carryout,Cuisine Type,Pizza delivery and carry-out restaurants
+722513,Limited-Service Restaurants,72251304,Sandwich and Sub Shops,Cuisine Type,Sandwich shops delis and sub chains
+722513,Limited-Service Restaurants,72251305,Burger Chains,Cuisine Type,Hamburger and fast food burger chains
+722513,Limited-Service Restaurants,72251306,Chicken Restaurants,Cuisine Type,Fried chicken and chicken wing chains
+722513,Limited-Service Restaurants,72251307,Taco and Mexican QSR,Cuisine Type,Fast food Mexican and taco chains
+722513,Limited-Service Restaurants,72251308,Asian Quick Service,Cuisine Type,Chinese teriyaki and Asian QSR
+722513,Limited-Service Restaurants,72251309,Coffee and Donut Shops,Cuisine Type,Coffee shops and donut chains
+722513,Limited-Service Restaurants,72251310,Bakery Cafes,Cuisine Type,Bakery cafes and bread company chains
+722513,Limited-Service Restaurants,72251311,Ice Cream and Frozen Dessert Shops,Cuisine Type,Ice cream parlors and frozen yogurt shops
+722513,Limited-Service Restaurants,72251312,Juice Bars and Smoothie Shops,Cuisine Type,Juice bar and smoothie chains
+722514,Cafeterias Grill Buffets and Buffets,72251401,Buffet Restaurants,Service Model,All-you-can-eat buffet restaurants
+722514,Cafeterias Grill Buffets and Buffets,72251402,Cafeterias,Service Model,Self-service cafeterias
+722515,Snack and Nonalcoholic Beverage Bars,72251501,Coffee Shops and Cafes,Beverage Focus,Specialty coffee shops and espresso bars
+722515,Snack and Nonalcoholic Beverage Bars,72251502,Tea Houses,Beverage Focus,Tea shops and bubble tea cafes
+722515,Snack and Nonalcoholic Beverage Bars,72251503,Juice and Smoothie Bars,Beverage Focus,Fresh juice and health smoothie bars
+722515,Snack and Nonalcoholic Beverage Bars,72251504,Snack Bars,Product Focus,Airport mall and convenience snack bars
+811111,General Automotive Repair,81111101,Independent Auto Repair Shops,Business Model,Independent general automotive repair
+811111,General Automotive Repair,81111102,Chain Auto Repair Centers,Business Model,National auto repair and service chains
+811111,General Automotive Repair,81111103,Dealership Service Centers,Business Model,New car dealership service departments
+811111,General Automotive Repair,81111104,Mobile Auto Repair Services,Service Model,Mobile on-site automotive repair
+811112,Automotive Exhaust System Repair,81111201,Muffler and Exhaust Shops,Specialty,Muffler exhaust and emissions repair
+811113,Automotive Transmission Repair,81111301,Transmission Repair Specialists,Specialty,Transmission rebuild and repair shops
+811113,Automotive Transmission Repair,81111302,Transmission Chain Shops,Business Model,National transmission repair chains
+811118,Other Automotive Mechanical and Electrical Repair and Maintenance,81111801,Oil Change and Lube Centers,Service Focus,Quick lube and oil change services
+811118,Other Automotive Mechanical and Electrical Repair and Maintenance,81111802,Brake Repair Specialists,Service Focus,Brake and brake system specialists
+811118,Other Automotive Mechanical and Electrical Repair and Maintenance,81111803,Tire Shops and Services,Service Focus,Tire sales installation and repair
+811118,Other Automotive Mechanical and Electrical Repair and Maintenance,81111804,Auto Electrical and Battery Services,Service Focus,Automotive electrical diagnostic and battery services
+811118,Other Automotive Mechanical and Electrical Repair and Maintenance,81111805,Air Conditioning Repair,Service Focus,Auto AC and climate control repair
+811118,Other Automotive Mechanical and Electrical Repair and Maintenance,81111806,Radiator and Cooling System Repair,Service Focus,Radiator and cooling system specialists
+811121,Automotive Body Paint and Interior Repair and Maintenance,81112101,Auto Body Collision Repair,Service Type,Collision repair and auto body shops
+811121,Automotive Body Paint and Interior Repair and Maintenance,81112102,Auto Painting Services,Service Type,Automotive paint and refinishing
+811121,Automotive Body Paint and Interior Repair and Maintenance,81112103,Dent and Paintless Dent Repair,Service Type,PDR and minor dent removal
+811121,Automotive Body Paint and Interior Repair and Maintenance,81112104,Auto Upholstery and Interior Repair,Service Type,Automotive upholstery and interior restoration
+811122,Automotive Glass Replacement Shops,81112201,Auto Glass Repair and Replacement,Service Type,Windshield and auto glass services
+811122,Automotive Glass Replacement Shops,81112202,Mobile Auto Glass Services,Service Model,Mobile windshield replacement and repair
+811191,Automotive Oil Change and Lubrication Shops,81119101,Quick Lube Express Services,Service Model,Quick oil change drive-through services
+811191,Automotive Oil Change and Lubrication Shops,81119102,Full-Service Oil Change,Service Model,Oil change with multi-point inspection
+811192,Car Washes,81119201,Automatic Car Washes,Wash Type,Automatic conveyor and touchless car washes
+811192,Car Washes,81119202,Self-Service Car Washes,Wash Type,Self-service coin-operated car washes
+811192,Car Washes,81119203,Full-Service Hand Car Washes,Wash Type,Hand wash and detail car wash services
+811192,Car Washes,81119204,Express Exterior Car Washes,Wash Type,Express exterior-only car wash tunnels
+811198,All Other Automotive Repair and Maintenance,81119801,Auto Detailing Services,Service Type,Professional auto detailing and reconditioning
+811198,All Other Automotive Repair and Maintenance,81119802,Window Tinting Services,Service Type,Automotive window tinting and film installation
+811198,All Other Automotive Repair and Maintenance,81119803,Auto Accessory Installation,Service Type,Aftermarket accessory and equipment installation
+811198,All Other Automotive Repair and Maintenance,81119804,Truck and RV Repair,Vehicle Type,Commercial truck and recreational vehicle repair
+811211,Consumer Electronics Repair and Maintenance,81121101,Computer and Laptop Repair,Device Type,PC laptop and computer repair services
+811211,Consumer Electronics Repair and Maintenance,81121102,Smartphone and Tablet Repair,Device Type,Mobile device and screen repair
+811211,Consumer Electronics Repair and Maintenance,81121103,TV and Home Electronics Repair,Device Type,Television and home entertainment repair
+811211,Consumer Electronics Repair and Maintenance,81121104,Game Console Repair,Device Type,Video game console repair services
+811212,Computer and Office Machine Repair and Maintenance,81121201,IT Equipment Repair,Equipment Type,Business computer and server repair
+811212,Computer and Office Machine Repair and Maintenance,81121202,Printer and Copier Repair,Equipment Type,Office printer copier and scanner service
+811212,Computer and Office Machine Repair and Maintenance,81121203,Point-of-Sale System Repair,Equipment Type,POS and retail equipment service
+811213,Communication Equipment Repair and Maintenance,81121301,Telecom Equipment Repair,Equipment Type,Telephone and communication system repair
+811213,Communication Equipment Repair and Maintenance,81121302,Two-Way Radio Repair,Equipment Type,Commercial radio and communication device service
+811219,Other Electronic and Precision Equipment Repair and Maintenance,81121901,Musical Instrument Repair,Equipment Type,Band and orchestra instrument repair
+811219,Other Electronic and Precision Equipment Repair and Maintenance,81121902,Medical Equipment Repair,Equipment Type,Medical device and equipment service
+811219,Other Electronic and Precision Equipment Repair and Maintenance,81121903,Industrial Electronics Repair,Equipment Type,Industrial control and automation repair
+811310,Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance,81131001,HVAC Service and Repair,Equipment Type,Commercial heating and cooling system service
+811310,Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance,81131002,Refrigeration Equipment Repair,Equipment Type,Commercial refrigeration and freezer service
+811310,Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance,81131003,Restaurant Equipment Repair,Equipment Type,Commercial kitchen equipment service
+811310,Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance,81131004,Forklift and Material Handling Repair,Equipment Type,Forklift lift truck and material handling service
+811310,Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance,81131005,Pump and Compressor Repair,Equipment Type,Industrial pump compressor and motor service
+811310,Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance,81131006,Welding and Fabrication Services,Service Type,Mobile welding and metal fabrication
+811411,Home and Garden Equipment Repair and Maintenance,81141101,Lawn Mower Repair,Equipment Type,Lawn mower and lawn equipment repair
+811411,Home and Garden Equipment Repair and Maintenance,81141102,Small Engine Repair,Equipment Type,Small engine and outdoor power equipment service
+811411,Home and Garden Equipment Repair and Maintenance,81141103,Chain Saw and Trimmer Repair,Equipment Type,Chain saw string trimmer and garden tool repair
+811412,Appliance Repair and Maintenance,81141201,Washer and Dryer Repair,Appliance Type,Laundry appliance repair services
+811412,Appliance Repair and Maintenance,81141202,Refrigerator Repair,Appliance Type,Refrigerator and freezer repair
+811412,Appliance Repair and Maintenance,81141203,Oven and Range Repair,Appliance Type,Stove oven and cooking appliance repair
+811412,Appliance Repair and Maintenance,81141204,Dishwasher Repair,Appliance Type,Dishwasher repair services
+811420,Reupholstery and Furniture Repair,81142001,Furniture Reupholstery,Service Type,Upholstery and fabric furniture restoration
+811420,Reupholstery and Furniture Repair,81142002,Furniture Refinishing and Repair,Service Type,Wood furniture refinishing and restoration
+811430,Footwear and Leather Goods Repair,81143001,Shoe Repair and Cobbler Services,Service Type,Shoe repair resoling and cobbler services
+811430,Footwear and Leather Goods Repair,81143002,Leather Goods Repair,Service Type,Leather jacket bag and luggage repair
+811490,Other Personal and Household Goods Repair and Maintenance,81149001,Jewelry Repair,Item Type,Jewelry watch and ring repair services
+811490,Other Personal and Household Goods Repair and Maintenance,81149002,Watch Repair,Item Type,Watch and clock repair services
+811490,Other Personal and Household Goods Repair and Maintenance,81149003,Bicycle Repair,Item Type,Bicycle repair and maintenance shops
+811490,Other Personal and Household Goods Repair and Maintenance,81149004,Luggage and Handbag Repair,Item Type,Luggage suitcase and handbag repair
+811490,Other Personal and Household Goods Repair and Maintenance,81149005,Golf Club Repair,Item Type,Golf club regripping and repair
+812111,Barber Shops,81211101,Traditional Barber Shops,Shop Type,Traditional men's barbershops
+812111,Barber Shops,81211102,Upscale Men's Grooming,Shop Type,Premium men's grooming and styling salons
+812112,Beauty Salons,81211201,Full-Service Hair Salons,Service Mix,Full-service beauty and hair salons
+812112,Beauty Salons,81211202,Blowout and Styling Bars,Service Focus,Blowout bars and express styling services
+812112,Beauty Salons,81211203,Ethnic Hair Care Salons,Client Focus,African American and ethnic hair care specialists
+812112,Beauty Salons,81211204,Salon Chains,Business Model,National salon franchise chains
+812113,Nail Salons,81211301,Full-Service Nail Salons,Service Type,Manicure pedicure and nail art salons
+812113,Nail Salons,81211302,Express Nail Services,Service Type,Quick nail and polish bar services
+812191,Diet and Weight Reducing Centers,81219101,Weight Loss Centers,Service Type,Weight loss counseling and meal programs
+812191,Diet and Weight Reducing Centers,81219102,Medical Weight Loss Clinics,Service Type,Physician-supervised weight management
+812199,Other Personal Care Services,81219901,Tanning Salons,Service Type,UV tanning and sunless tanning salons
+812199,Other Personal Care Services,81219902,Waxing and Hair Removal,Service Type,Waxing threading and hair removal services
+812199,Other Personal Care Services,81219903,Eyelash Extension Services,Service Type,Eyelash extension and lash bar services
+812199,Other Personal Care Services,81219904,Spa and Wellness Centers,Service Type,Day spas and wellness treatment centers
+812199,Other Personal Care Services,81219905,Massage and Bodywork,Service Type,Therapeutic massage and spa services
+812199,Other Personal Care Services,81219906,Tattoo and Piercing Studios,Service Type,Tattoo parlors and body piercing studios
+812210,Funeral Homes and Funeral Services,81221001,Traditional Funeral Homes,Service Model,Full-service funeral homes and mortuaries
+812210,Funeral Homes and Funeral Services,81221002,Cremation Services,Service Model,Direct cremation and memorial services
+812210,Funeral Homes and Funeral Services,81221003,Funeral Home Chains,Business Model,National funeral service providers
+812220,Cemeteries and Crematories,81222001,Private Cemeteries,Ownership,Private and commercial cemeteries
+812220,Cemeteries and Crematories,81222002,Religious and Memorial Cemeteries,Ownership,Church-affiliated and memorial park cemeteries
+812220,Cemeteries and Crematories,81222003,Crematory Facilities,Service Type,Cremation facilities and crematories
+812310,Coin-Operated Laundries and Drycleaners,81231001,Self-Service Laundromats,Service Model,Coin-operated and card-operated laundromats
+812310,Coin-Operated Laundries and Drycleaners,81231002,Wash-Dry-Fold Services,Service Model,Drop-off laundry service at laundromats
+812320,Drycleaning and Laundry Services (except Coin-Operated),81232001,Dry Cleaning Plants,Service Type,Full-service dry cleaning and pressing
+812320,Drycleaning and Laundry Services (except Coin-Operated),81232002,Dry Cleaning Drop-Off Stores,Service Type,Dry cleaning drop-off and pickup locations
+812320,Drycleaning and Laundry Services (except Coin-Operated),81232003,Commercial Laundry Services,Client Type,Commercial linen and uniform laundry
+812320,Drycleaning and Laundry Services (except Coin-Operated),81232004,Shirt Laundry Services,Service Type,Shirt laundering and pressing services
+812331,Linen Supply,81233101,Linen and Uniform Rental,Product Type,Commercial linen and uniform supply
+812331,Linen Supply,81233102,Healthcare Linen Services,Industry Focus,Hospital and healthcare linen services
+812332,Industrial Launderers,81233201,Industrial Laundry Services,Client Type,Industrial uniform and workwear laundry
+812910,Pet Care (except Veterinary) Services,81291001,Dog and Cat Boarding,Service Type,Pet boarding and kennel services
+812910,Pet Care (except Veterinary) Services,81291002,Pet Grooming Services,Service Type,Professional pet grooming and bathing
+812910,Pet Care (except Veterinary) Services,81291003,Pet Daycare,Service Type,Doggy daycare and pet care centers
+812910,Pet Care (except Veterinary) Services,81291004,Pet Training Services,Service Type,Dog training and obedience classes
+812910,Pet Care (except Veterinary) Services,81291005,Pet Sitting and Dog Walking,Service Type,In-home pet sitting and dog walking services
+812921,Photofinishing Laboratories (except One-Hour),81292101,Photo Lab Processing,Service Type,Photo developing and print services
+812921,Photofinishing Laboratories (except One-Hour),81292102,Digital Photo Services,Service Type,Digital photo printing and scanning
+812922,One-Hour Photofinishing,81292201,One-Hour Photo Labs,Service Type,Express one-hour photo processing
+812930,Parking Lots and Garages,81293001,Parking Lot Operations,Facility Type,Surface parking lot management
+812930,Parking Lots and Garages,81293002,Parking Garage Operations,Facility Type,Multi-level parking garage operations
+812930,Parking Lots and Garages,81293003,Valet Parking Services,Service Type,Valet parking and attendant services
+812930,Parking Lots and Garages,81293004,Airport Parking,Location,Airport parking lots and shuttle services
+812990,All Other Personal Services,81299001,Dating Services,Service Type,Matchmaking and dating services
+812990,All Other Personal Services,81299002,Wedding Planning Services,Service Type,Wedding coordination and planning
+812990,All Other Personal Services,81299003,Personal Shopping Services,Service Type,Personal shopper and styling services
+812990,All Other Personal Services,81299004,Coat Check Services,Service Type,Coat check and baggage storage
+813110,Religious Organizations,81311001,Churches,Organization Type,Christian churches and congregations
+813110,Religious Organizations,81311002,Synagogues and Jewish Organizations,Organization Type,Jewish temples and synagogues
+813110,Religious Organizations,81311003,Mosques and Islamic Centers,Organization Type,Islamic mosques and religious centers
+813110,Religious Organizations,81311004,Buddhist and Hindu Temples,Organization Type,Buddhist Hindu and Eastern religious organizations
+813110,Religious Organizations,81311005,Religious Denominations and Associations,Organization Type,Religious governing bodies and associations
+813211,Grantmaking Foundations,81321101,Private Foundations,Foundation Type,Private family and corporate foundations
+813211,Grantmaking Foundations,81321102,Community Foundations,Foundation Type,Community and regional foundations
+813211,Grantmaking Foundations,81321103,Corporate Foundations,Foundation Type,Corporate charitable foundations
+813212,Voluntary Health Organizations,81321201,Disease-Specific Charities,Focus,Disease research and advocacy organizations
+813212,Voluntary Health Organizations,81321202,Health Education Organizations,Focus,Public health education and awareness organizations
+813219,Other Grantmaking and Giving Services,81321901,United Way and Federated Charities,Organization Type,Federated fundraising organizations
+813219,Other Grantmaking and Giving Services,81321902,Donor-Advised Fund Sponsors,Service Type,Donor-advised fund management
+813311,Human Rights Organizations,81331101,Civil Rights Organizations,Focus,Civil rights and equality advocacy groups
+813311,Human Rights Organizations,81331102,Immigrant Rights Organizations,Focus,Immigration and refugee advocacy
+813312,Environment Conservation and Wildlife Organizations,81331201,Environmental Advocacy Groups,Focus,Environmental protection and conservation
+813312,Environment Conservation and Wildlife Organizations,81331202,Wildlife Conservation Organizations,Focus,Wildlife protection and habitat preservation
+813319,Other Social Advocacy Organizations,81331901,Animal Rights Organizations,Focus,Animal welfare and rights advocacy
+813319,Other Social Advocacy Organizations,81331902,Consumer Advocacy Groups,Focus,Consumer protection and rights organizations
+813319,Other Social Advocacy Organizations,81331903,Political Action Committees,Focus,PACs and political advocacy groups
+813410,Civic and Social Organizations,81341001,Fraternal Organizations,Organization Type,Fraternal lodges and societies
+813410,Civic and Social Organizations,81341002,Service Clubs,Organization Type,Rotary Lions Kiwanis and service clubs
+813410,Civic and Social Organizations,81341003,Youth Organizations,Organization Type,Scouts YMCA and youth development groups
+813410,Civic and Social Organizations,81341004,Veteran Organizations,Organization Type,Veterans associations and support groups
+813410,Civic and Social Organizations,81341005,Alumni Associations,Organization Type,College and school alumni organizations
+813910,Business Associations,81391001,Chambers of Commerce,Association Type,Local and regional chambers of commerce
+813910,Business Associations,81391002,Trade Associations,Association Type,Industry trade associations and groups
+813910,Business Associations,81391003,Professional Membership Organizations,Association Type,Professional societies and membership groups
+813920,Professional Organizations,81392001,Engineering and Technical Societies,Profession,Engineering and technical professional organizations
+813920,Professional Organizations,81392002,Medical Professional Associations,Profession,Physician and healthcare professional societies
+813920,Professional Organizations,81392003,Legal Bar Associations,Profession,Bar associations and legal societies
+813930,Labor Unions and Similar Labor Organizations,81393001,Trade Unions,Union Type,Building trades and craft labor unions
+813930,Labor Unions and Similar Labor Organizations,81393002,Industrial Unions,Union Type,Manufacturing and industrial worker unions
+813930,Labor Unions and Similar Labor Organizations,81393003,Public Sector Unions,Sector,Government and public employee unions
+813930,Labor Unions and Similar Labor Organizations,81393004,Service Worker Unions,Sector,Service industry labor unions
+813940,Political Organizations,81394001,Political Parties,Organization Type,Democratic Republican and political party organizations
+813940,Political Organizations,81394002,Political Campaign Committees,Organization Type,Candidate campaign and election committees
+813990,Other Similar Organizations (except Business Professional Labor and Political Organizations),81399001,Homeowners Associations,Organization Type,HOAs and condominium associations
+813990,Other Similar Organizations (except Business Professional Labor and Political Organizations),81399002,Automobile Clubs,Organization Type,Auto clubs and motor associations
+813990,Other Similar Organizations (except Business Professional Labor and Political Organizations),81399003,Hobby and Special Interest Clubs,Organization Type,Hobby collectors and enthusiast organizations
+814110,Private Households,81411001,Domestic Household Employment,Service Type,Private household employers of domestic workers
+921110,Executive Offices,92111001,Federal Executive Offices,Government Level,Federal executive branch agencies and offices
+921110,Executive Offices,92111002,State Governors Offices,Government Level,State executive offices and governors
+921110,Executive Offices,92111003,County Executive Offices,Government Level,County executive and administrative offices
+921110,Executive Offices,92111004,City Mayors Offices,Government Level,Municipal mayors and city executives
+921120,Legislative Bodies,92112001,U.S. Congress,Government Level,U.S. Senate and House of Representatives
+921120,Legislative Bodies,92112002,State Legislatures,Government Level,State senates and houses of representatives
+921120,Legislative Bodies,92112003,County and City Councils,Government Level,Local legislative and council bodies
+921130,Public Finance Activities,92113001,Federal Tax Collection (IRS),Function,Federal tax administration and revenue collection
+921130,Public Finance Activities,92113002,State Tax and Revenue Departments,Function,State tax collection and revenue agencies
+921130,Public Finance Activities,92113003,State Treasurers,Function,State treasury and investment offices
+921130,Public Finance Activities,92113004,Local Tax Assessors,Function,County and city tax assessment offices
+921130,Public Finance Activities,92113005,Municipal Finance Departments,Function,City and county finance administration
+921140,Executive and Legislative Offices Combined,92114001,Town and Township Governments,Government Type,Small municipality combined government
+921140,Executive and Legislative Offices Combined,92114002,Tribal Governments,Government Type,Native American tribal government administration
+921150,American Indian and Alaska Native Tribal Governments,92115001,Tribal Executive Offices,Function,Tribal council and executive administration
+921150,American Indian and Alaska Native Tribal Governments,92115002,Tribal Courts and Justice,Function,Tribal judicial and law enforcement
+921190,Other General Government Support,92119001,Government HR and Personnel Offices,Function,Public sector human resources administration
+921190,Other General Government Support,92119002,Government Procurement Offices,Function,Government purchasing and contracting
+921190,Other General Government Support,92119003,Government Auditing and Accounting,Function,Government audit and financial control offices
+921190,Other General Government Support,92119004,Government IT and Technology Services,Function,Government information technology departments
+922110,Courts,92211001,Federal Courts,Court Level,U.S. District and Appeals Courts
+922110,Courts,92211002,State Supreme Courts,Court Level,State supreme and appellate courts
+922110,Courts,92211003,State Trial Courts,Court Level,State circuit and superior trial courts
+922110,Courts,92211004,Municipal and Traffic Courts,Court Level,City and traffic court systems
+922110,Courts,92211005,Juvenile Courts,Specialty,Juvenile and family court systems
+922120,Police Protection,92212001,State Police and Highway Patrol,Agency Type,State police and highway patrol agencies
+922120,Police Protection,92212002,County Sheriffs Offices,Agency Type,County sheriff and law enforcement
+922120,Police Protection,92212003,Municipal Police Departments,Agency Type,City and town police departments
+922120,Police Protection,92212004,Campus and University Police,Agency Type,College and university police departments
+922120,Police Protection,92212005,Transit Police,Agency Type,Transit authority and transportation police
+922130,Legal Counsel and Prosecution,92213001,U.S. Attorneys Offices,Agency Type,Federal prosecutors and legal counsel
+922130,Legal Counsel and Prosecution,92213002,State Attorneys General,Agency Type,State chief legal officers and prosecutors
+922130,Legal Counsel and Prosecution,92213003,District Attorneys Offices,Agency Type,County and local prosecuting attorneys
+922130,Legal Counsel and Prosecution,92213004,Public Defenders Offices,Agency Type,Public defender and legal aid offices
+922140,Correctional Institutions,92214001,Federal Prisons,Facility Level,Federal Bureau of Prisons facilities
+922140,Correctional Institutions,92214002,State Prisons,Facility Level,State correctional institutions
+922140,Correctional Institutions,92214003,County Jails,Facility Level,County detention and jail facilities
+922140,Correctional Institutions,92214004,Juvenile Detention Centers,Population,Youth detention and correctional facilities
+922150,Parole Offices and Probation Offices,92215001,State Parole Agencies,Function,State parole boards and supervision
+922150,Parole Offices and Probation Offices,92215002,Probation Departments,Function,County and state probation services
+922160,Fire Protection,92216001,Municipal Fire Departments,Agency Type,City and town fire departments
+922160,Fire Protection,92216002,Volunteer Fire Companies,Agency Type,Volunteer fire and rescue companies
+922160,Fire Protection,92216003,Fire Marshal Offices,Function,Fire investigation and prevention offices
+922160,Fire Protection,92216004,Wildland Fire Agencies,Specialty,Forest service and wildland firefighting
+922190,Other Justice Public Order and Safety Activities,92219001,Emergency Management Agencies,Function,Emergency management and disaster preparedness
+922190,Other Justice Public Order and Safety Activities,92219002,Medical Examiner and Coroner Offices,Function,Medical examiner and coroner services
+922190,Other Justice Public Order and Safety Activities,92219003,Crime Labs and Forensics,Function,Criminal forensics and crime laboratory services
+922190,Other Justice Public Order and Safety Activities,92219004,911 Emergency Dispatch Centers,Function,Emergency communications and dispatch
+923110,Administration of Education Programs,92311001,Federal Education Department,Level,U.S. Department of Education
+923110,Administration of Education Programs,92311002,State Education Departments,Level,State boards of education and agencies
+923110,Administration of Education Programs,92311003,County Education Offices,Level,County superintendents and education offices
+923110,Administration of Education Programs,92311004,School District Administration,Level,Public school district central offices
+923120,Administration of Public Health Programs,92312001,Centers for Disease Control (CDC),Agency,Federal CDC and public health agencies
+923120,Administration of Public Health Programs,92312002,State Health Departments,Level,State public health agencies
+923120,Administration of Public Health Programs,92312003,County Health Departments,Level,County and local health departments
+923120,Administration of Public Health Programs,92312004,Food and Drug Administration (FDA),Agency,FDA and food safety agencies
+923130,Administration of Human Resource Programs,92313001,Social Security Administration,Program,Federal SSA and retirement programs
+923130,Administration of Human Resource Programs,92313002,State Social Services Agencies,Program,State welfare and family services
+923130,Administration of Human Resource Programs,92313003,Child and Family Services,Program,Child protective and family services agencies
+923130,Administration of Human Resource Programs,92313004,Unemployment Insurance Offices,Program,State unemployment compensation programs
+923130,Administration of Human Resource Programs,92313005,Medicaid and Medicare Agencies,Program,Health insurance program administration
+923140,Administration of Veterans Affairs,92314001,U.S. Department of Veterans Affairs,Agency,Federal VA hospitals and benefits
+923140,Administration of Veterans Affairs,92314002,State Veterans Affairs Offices,Level,State veterans services and benefits
+924110,Administration of Air and Water Resource and Solid Waste Management Programs,92411001,Environmental Protection Agency (EPA),Agency,Federal environmental protection
+924110,Administration of Air and Water Resource and Solid Waste Management Programs,92411002,State Environmental Agencies,Level,State environmental quality and conservation
+924110,Administration of Air and Water Resource and Solid Waste Management Programs,92411003,Water Quality Management,Function,Water quality monitoring and enforcement
+924110,Administration of Air and Water Resource and Solid Waste Management Programs,92411004,Air Quality Management Districts,Function,Air pollution control agencies
+924110,Administration of Air and Water Resource and Solid Waste Management Programs,92411005,Solid Waste Management Agencies,Function,Waste management and recycling programs
+924120,Administration of Conservation Programs,92412001,National Park Service,Agency,Federal parks and historic sites
+924120,Administration of Conservation Programs,92412002,U.S. Forest Service,Agency,National forest management
+924120,Administration of Conservation Programs,92412003,State Parks and Recreation,Level,State park systems and recreation agencies
+924120,Administration of Conservation Programs,92412004,Fish and Wildlife Services,Function,Wildlife conservation and habitat protection
+924120,Administration of Conservation Programs,92412005,Natural Resource Conservation,Function,Soil conservation and natural resource agencies
+925110,Administration of Housing Programs,92511001,Department of Housing and Urban Development,Agency,Federal HUD and housing programs
+925110,Administration of Housing Programs,92511002,Public Housing Authorities,Agency Type,Local public housing agencies
+925110,Administration of Housing Programs,92511003,Community Development Agencies,Function,Community and economic development offices
+925120,Administration of Urban Planning and Community and Rural Development,92512001,City Planning Departments,Function,Municipal planning and zoning offices
+925120,Administration of Urban Planning and Community and Rural Development,92512002,Regional Planning Commissions,Function,Regional planning and development councils
+925120,Administration of Urban Planning and Community and Rural Development,92512003,Rural Development Agencies,Function,Rural community development programs
+926110,Administration of General Economic Programs,92611001,Department of Commerce,Agency,Federal commerce and economic development
+926110,Administration of General Economic Programs,92611002,State Economic Development,Level,State economic development agencies
+926110,Administration of General Economic Programs,92611003,Small Business Administration (SBA),Agency,Federal small business support programs
+926110,Administration of General Economic Programs,92611004,International Trade Promotion,Function,Export promotion and trade offices
+926120,Regulation and Administration of Transportation Programs,92612001,Federal Aviation Administration (FAA),Agency,Aviation regulation and air traffic control
+926120,Regulation and Administration of Transportation Programs,92612002,Federal Highway Administration,Agency,Highway funding and transportation programs
+926120,Regulation and Administration of Transportation Programs,92612003,State Departments of Transportation,Level,State DOTs and highway agencies
+926120,Regulation and Administration of Transportation Programs,92612004,Federal Railroad Administration,Agency,Rail safety and regulation
+926120,Regulation and Administration of Transportation Programs,92612005,Maritime Administration,Agency,Maritime and port regulation
+926130,Regulation and Administration of Communications Electric Gas and Other Utilities,92613001,Federal Communications Commission (FCC),Agency,Telecom and broadcast regulation
+926130,Regulation and Administration of Communications Electric Gas and Other Utilities,92613002,State Public Utility Commissions,Level,State utility regulation and oversight
+926130,Regulation and Administration of Communications Electric Gas and Other Utilities,92613003,Nuclear Regulatory Commission,Agency,Nuclear power plant regulation
+926140,Regulation of Agricultural Marketing and Commodities,92614001,Department of Agriculture (USDA),Agency,Federal agriculture programs and regulation
+926140,Regulation of Agricultural Marketing and Commodities,92614002,State Agriculture Departments,Level,State agricultural agencies and programs
+926140,Regulation of Agricultural Marketing and Commodities,92614003,Commodity Boards and Councils,Function,Agricultural commodity marketing boards
+926150,Regulation Licensing and Inspection of Miscellaneous Commercial Sectors,92615001,State Licensing Boards,Function,Professional licensing and regulation
+926150,Regulation Licensing and Inspection of Miscellaneous Commercial Sectors,92615002,Health and Safety Inspectors,Function,Occupational safety and health enforcement
+926150,Regulation Licensing and Inspection of Miscellaneous Commercial Sectors,92615003,Building Code Enforcement,Function,Building inspection and code enforcement
+926150,Regulation Licensing and Inspection of Miscellaneous Commercial Sectors,92615004,Labor Standards Enforcement,Function,Wage and hour and labor law enforcement
+926150,Regulation Licensing and Inspection of Miscellaneous Commercial Sectors,92615005,Consumer Protection Agencies,Function,Consumer affairs and protection offices
+927110,Space Research and Technology,92711001,NASA and Space Programs,Agency,National space and aeronautics programs
+927110,Space Research and Technology,92711002,Military Space Programs,Agency,Department of Defense space operations
+928110,National Security,92811001,Department of Defense,Agency,Federal military and defense agencies
+928110,National Security,92811002,Department of Homeland Security,Agency,Homeland security and border protection
+928110,National Security,92811003,Intelligence Agencies,Agency,CIA NSA and intelligence community
+928110,National Security,92811004,Transportation Security Administration (TSA),Agency,Aviation and transportation security
+928110,National Security,92811005,Coast Guard,Agency,U.S. Coast Guard operations
+928120,International Affairs,92812001,Department of State,Agency,Foreign affairs and diplomatic services
+928120,International Affairs,92812002,U.S. Embassies and Consulates,Function,Overseas diplomatic missions
+928120,International Affairs,92812003,U.S. Agency for International Development,Agency,Foreign aid and development programs
+928120,International Affairs,92812004,International Trade Administration,Function,International trade and commerce offices
