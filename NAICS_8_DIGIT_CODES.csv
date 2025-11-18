@@ -1,0 +1,686 @@
+NAICS_6_Digit,NAICS_6_Title,NAICS_8_Digit,NAICS_8_Title,Differentiation_Criteria,Description
+111110,Soybean Farming,11111001,Organic Soybean Farming,Production Method,Farms primarily engaged in growing organic soybeans using certified organic farming practices without synthetic pesticides or fertilizers
+111110,Soybean Farming,11111002,Conventional Soybean Farming,Production Method,Farms primarily engaged in growing soybeans using conventional farming methods including synthetic fertilizers and pesticides
+111110,Soybean Farming,11111003,Non-GMO Soybean Farming,Product Type,Farms primarily engaged in growing non-genetically modified soybeans for specialty markets
+111110,Soybean Farming,11111004,GMO Soybean Farming,Product Type,Farms primarily engaged in growing genetically modified soybeans (herbicide-resistant or other traits)
+111110,Soybean Farming,11111005,Edamame (Vegetable Soybean) Farming,Product Type,Farms primarily engaged in growing edamame or vegetable-type soybeans for fresh consumption
+111110,Soybean Farming,11111006,Identity Preserved Soybean Farming,Business Model,Farms maintaining specific soybean varieties with traceability for premium markets
+111110,Soybean Farming,11111007,Soybean Seed Production,Product Type,Farms primarily engaged in growing soybeans for seed production and distribution
+111120,Oilseed (except Soybean) Farming,11112001,Canola Farming,Crop Type,Farms primarily engaged in growing canola (rapeseed) for oil production
+111120,Oilseed (except Soybean) Farming,11112002,Sunflower Farming,Crop Type,Farms primarily engaged in growing sunflowers for oil and seed production
+111120,Oilseed (except Soybean) Farming,11112003,Flaxseed Farming,Crop Type,Farms primarily engaged in growing flax for linseed oil and fiber production
+111120,Oilseed (except Soybean) Farming,11112004,Safflower Farming,Crop Type,Farms primarily engaged in growing safflower for oil production
+111120,Oilseed (except Soybean) Farming,11112005,Sesame Seed Farming,Crop Type,Farms primarily engaged in growing sesame seeds for oil and culinary use
+111120,Oilseed (except Soybean) Farming,11112006,Cottonseed Farming (for oil),Product Focus,Farms primarily engaged in cotton production focused on cottonseed oil extraction
+111120,Oilseed (except Soybean) Farming,11112007,Specialty Oilseed Farming,Crop Type,Farms engaged in growing specialty oilseeds such as camelina or crambe
+111130,Dry Pea and Bean Farming,11113001,Dry Edible Bean Farming,Product Type,Farms primarily engaged in growing dry edible beans (pinto black navy kidney)
+111130,Dry Pea and Bean Farming,11113002,Chickpea (Garbanzo Bean) Farming,Crop Type,Farms primarily engaged in growing chickpeas for dry consumption
+111130,Dry Pea and Bean Farming,11113003,Lentil Farming,Crop Type,Farms primarily engaged in growing lentils for dry consumption
+111130,Dry Pea and Bean Farming,11113004,Dry Pea Farming,Crop Type,Farms primarily engaged in growing field peas for dry consumption
+111130,Dry Pea and Bean Farming,11113005,Lima Bean Farming,Crop Type,Farms primarily engaged in growing lima beans for dry consumption
+111130,Dry Pea and Bean Farming,11113006,Organic Pulse Crop Farming,Production Method,Farms growing organic certified dry peas beans or lentils
+111130,Dry Pea and Bean Farming,11113007,Specialty Pulse Crop Farming,Market Segment,Farms growing specialty or heirloom varieties of dry peas and beans
+111140,Wheat Farming,11114001,Hard Red Winter Wheat Farming,Variety Type,Farms primarily engaged in growing hard red winter wheat for bread flour
+111140,Wheat Farming,11114002,Hard Red Spring Wheat Farming,Variety Type,Farms primarily engaged in growing hard red spring wheat for high-protein bread flour
+111140,Wheat Farming,11114003,Soft Red Winter Wheat Farming,Variety Type,Farms primarily engaged in growing soft red winter wheat for pastry and cake flour
+111140,Wheat Farming,11114004,Hard White Wheat Farming,Variety Type,Farms primarily engaged in growing hard white wheat for Asian noodles and bread
+111140,Wheat Farming,11114005,Soft White Wheat Farming,Variety Type,Farms primarily engaged in growing soft white wheat for pastries and crackers
+111140,Wheat Farming,11114006,Durum Wheat Farming,Variety Type,Farms primarily engaged in growing durum wheat for pasta production
+111140,Wheat Farming,11114007,Organic Wheat Farming,Production Method,Farms growing certified organic wheat of any variety
+111140,Wheat Farming,11114008,Wheat Seed Production,Product Type,Farms primarily engaged in producing wheat seed for planting
+111150,Corn Farming,11115001,Field Corn (Grain) Farming,Product Type,Farms primarily engaged in growing field corn for grain livestock feed and industrial use
+111150,Corn Farming,11115002,Sweet Corn Farming,Product Type,Farms primarily engaged in growing sweet corn for fresh or processed human consumption
+111150,Corn Farming,11115003,Popcorn Farming,Product Type,Farms primarily engaged in growing popcorn varieties
+111150,Corn Farming,11115004,Organic Corn Farming,Production Method,Farms growing certified organic corn of any type
+111150,Corn Farming,11115005,Non-GMO Corn Farming,Product Type,Farms growing non-genetically modified corn for specialty markets
+111150,Corn Farming,11115006,GMO Corn Farming,Product Type,Farms growing genetically modified corn (Bt herbicide-resistant)
+111150,Corn Farming,11115007,Silage Corn Farming,Product Type,Farms primarily engaged in growing corn for silage (animal feed)
+111150,Corn Farming,11115008,Corn Seed Production,Product Type,Farms primarily engaged in producing hybrid corn seed
+111150,Corn Farming,11115009,Specialty Corn Farming,Product Type,Farms growing specialty corn varieties (flour corn dent corn ornamental)
+111160,Rice Farming,11116001,Long Grain Rice Farming,Variety Type,Farms primarily engaged in growing long grain rice varieties
+111160,Rice Farming,11116002,Medium Grain Rice Farming,Variety Type,Farms primarily engaged in growing medium grain rice varieties
+111160,Rice Farming,11116003,Short Grain Rice Farming,Variety Type,Farms primarily engaged in growing short grain rice varieties including sushi rice
+111160,Rice Farming,11116004,Aromatic Rice Farming,Variety Type,Farms primarily engaged in growing aromatic rice (jasmine basmati)
+111160,Rice Farming,11116005,Organic Rice Farming,Production Method,Farms growing certified organic rice of any variety
+111160,Rice Farming,11116006,Wild Rice Farming,Crop Type,Farms primarily engaged in cultivated wild rice production
+111160,Rice Farming,11116007,Specialty Rice Farming,Product Type,Farms growing specialty rice varieties (black rice red rice arborio)
+111191,Oilseed and Grain Combination Farming,11119101,Diversified Grain Farm Operations,Business Model,Farms growing multiple grain crops (wheat corn soybeans) in rotation
+111191,Oilseed and Grain Combination Farming,11119102,Integrated Oilseed Operations,Business Model,Farms growing multiple oilseed crops in combination
+111191,Oilseed and Grain Combination Farming,11119103,Organic Multi-Crop Grain Farms,Production Method,Certified organic farms growing various grain and oilseed combinations
+111199,All Other Grain Farming,11119901,Sorghum (Milo) Farming,Crop Type,Farms primarily engaged in growing grain sorghum
+111199,All Other Grain Farming,11119902,Barley Farming,Crop Type,Farms primarily engaged in growing barley for malting or feed
+111199,All Other Grain Farming,11119903,Oat Farming,Crop Type,Farms primarily engaged in growing oats for grain or feed
+111199,All Other Grain Farming,11119904,Rye Farming,Crop Type,Farms primarily engaged in growing rye grain
+111199,All Other Grain Farming,11119905,Triticale Farming,Crop Type,Farms primarily engaged in growing triticale (wheat-rye hybrid)
+111199,All Other Grain Farming,11119906,Millet Farming,Crop Type,Farms primarily engaged in growing millet varieties
+111199,All Other Grain Farming,11119907,Quinoa Farming,Crop Type,Farms primarily engaged in growing quinoa as a grain crop
+111199,All Other Grain Farming,11119908,Amaranth Farming,Crop Type,Farms primarily engaged in growing amaranth for grain
+111199,All Other Grain Farming,11119909,Buckwheat Farming,Crop Type,Farms primarily engaged in growing buckwheat
+111199,All Other Grain Farming,11119910,Specialty Ancient Grain Farming,Market Segment,Farms growing specialty ancient or heirloom grains (spelt kamut farro)
+111211,Potato Farming,11121101,Fresh Market Potato Farming,End Use,Farms growing potatoes primarily for fresh table consumption
+111211,Potato Farming,11121102,Processing Potato Farming (Chips),End Use,Farms growing potatoes primarily for chip manufacturing
+111211,Potato Farming,11121103,Processing Potato Farming (French Fries),End Use,Farms growing potatoes primarily for frozen french fry production
+111211,Potato Farming,11121104,Seed Potato Production,Product Type,Farms primarily engaged in producing certified seed potatoes
+111211,Potato Farming,11121105,Organic Potato Farming,Production Method,Farms growing certified organic potatoes
+111211,Potato Farming,11121106,Specialty Potato Farming,Variety Type,Farms growing specialty or gourmet potato varieties (fingerling purple gold)
+111211,Potato Farming,11121107,Dehydrated Potato Farming,End Use,Farms growing potatoes primarily for dehydration (flakes powder)
+111219,Other Vegetable (except Potato) and Melon Farming,11121901,Tomato Farming (Field),Crop Type,Farms primarily engaged in field-grown tomato production
+111219,Other Vegetable (except Potato) and Melon Farming,11121902,Fresh Market Lettuce Farming,Crop Type,Farms primarily engaged in growing lettuce for fresh consumption
+111219,Other Vegetable (except Potato) and Melon Farming,11121903,Processing Vegetable Farming,End Use,Farms growing vegetables primarily for canning or freezing
+111219,Other Vegetable (except Potato) and Melon Farming,11121904,Watermelon Farming,Crop Type,Farms primarily engaged in growing watermelons
+111219,Other Vegetable (except Potato) and Melon Farming,11121905,Cantaloupe and Muskmelon Farming,Crop Type,Farms primarily engaged in growing cantaloupes and muskmelons
+111219,Other Vegetable (except Potato) and Melon Farming,11121906,Specialty Melon Farming,Crop Type,Farms growing specialty melons (honeydew casaba crenshaw)
+111219,Other Vegetable (except Potato) and Melon Farming,11121907,Pepper Farming (Sweet and Hot),Crop Type,Farms primarily engaged in growing bell peppers and chile peppers
+111219,Other Vegetable (except Potato) and Melon Farming,11121908,Onion and Garlic Farming,Crop Type,Farms primarily engaged in growing onions shallots and garlic
+111219,Other Vegetable (except Potato) and Melon Farming,11121909,Carrot Farming,Crop Type,Farms primarily engaged in growing carrots
+111219,Other Vegetable (except Potato) and Melon Farming,11121910,Cucurbit Vegetable Farming,Crop Type,Farms growing cucumbers squash zucchini and pumpkins
+111219,Other Vegetable (except Potato) and Melon Farming,11121911,Leafy Green Vegetable Farming,Crop Type,Farms growing leafy greens (spinach kale cabbage)
+111219,Other Vegetable (except Potato) and Melon Farming,11121912,Organic Vegetable Farming,Production Method,Farms growing certified organic vegetables and melons
+111219,Other Vegetable (except Potato) and Melon Farming,11121913,Specialty Asian Vegetable Farming,Market Segment,Farms growing Asian specialty vegetables (bok choy daikon bitter melon)
+111219,Other Vegetable (except Potato) and Melon Farming,11121914,Root Vegetable Farming,Crop Type,Farms primarily engaged in growing root vegetables (beets turnips radishes)
+111219,Other Vegetable (except Potato) and Melon Farming,11121915,Cole Crop Farming,Crop Type,Farms primarily engaged in growing cole crops (broccoli cauliflower Brussels sprouts)
+111310,Orange Groves,11131001,Fresh Market Orange Groves,End Use,Orange groves producing fruit primarily for fresh consumption
+111310,Orange Groves,11131002,Processing Orange Groves (Juice),End Use,Orange groves producing fruit primarily for juice manufacturing
+111310,Orange Groves,11131003,Valencia Orange Groves,Variety Type,Groves primarily growing Valencia oranges
+111310,Orange Groves,11131004,Navel Orange Groves,Variety Type,Groves primarily growing navel oranges
+111310,Orange Groves,11131005,Blood Orange Groves,Variety Type,Groves primarily growing blood orange varieties
+111310,Orange Groves,11131006,Organic Orange Groves,Production Method,Certified organic orange groves
+111320,Citrus (except Orange) Groves,11132001,Grapefruit Groves,Crop Type,Groves primarily engaged in growing grapefruit
+111320,Citrus (except Orange) Groves,11132002,Lemon Groves,Crop Type,Groves primarily engaged in growing lemons
+111320,Citrus (except Orange) Groves,11132003,Lime Groves,Crop Type,Groves primarily engaged in growing limes
+111320,Citrus (except Orange) Groves,11132004,Tangerine and Mandarin Groves,Crop Type,Groves primarily engaged in growing tangerines mandarins and clementines
+111320,Citrus (except Orange) Groves,11132005,Specialty Citrus Groves,Crop Type,Groves growing specialty citrus (kumquats pomelos tangelos)
+111320,Citrus (except Orange) Groves,11132006,Organic Non-Orange Citrus Groves,Production Method,Certified organic groves growing citrus except oranges
+111331,Apple Orchards,11133101,Fresh Market Apple Orchards,End Use,Orchards growing apples primarily for fresh consumption
+111331,Apple Orchards,11133102,Processing Apple Orchards,End Use,Orchards growing apples primarily for juice sauce or other processing
+111331,Apple Orchards,11133103,Organic Apple Orchards,Production Method,Certified organic apple orchards
+111331,Apple Orchards,11133104,Cider Apple Orchards,End Use,Orchards growing apples specifically for hard cider production
+111331,Apple Orchards,11133105,Heirloom Apple Orchards,Variety Type,Orchards specializing in heirloom or antique apple varieties
+111331,Apple Orchards,11133106,U-Pick Apple Orchards,Business Model,Apple orchards operating primarily on u-pick/agritourism model
+111332,Grape Vineyards,11133201,Wine Grape Vineyards,End Use,Vineyards growing grapes primarily for wine production
+111332,Grape Vineyards,11133202,Table Grape Vineyards,End Use,Vineyards growing grapes primarily for fresh consumption
+111332,Grape Vineyards,11133203,Raisin Grape Vineyards,End Use,Vineyards growing grapes primarily for raisin production
+111332,Grape Vineyards,11133204,Juice Grape Vineyards,End Use,Vineyards growing grapes primarily for juice and jelly
+111332,Grape Vineyards,11133205,Organic Grape Vineyards,Production Method,Certified organic grape vineyards
+111332,Grape Vineyards,11133206,Biodynamic Grape Vineyards,Production Method,Biodynamic certified grape vineyards
+111333,Strawberry Farming,11133301,Fresh Market Strawberry Farming,End Use,Farms growing strawberries primarily for fresh consumption
+111333,Strawberry Farming,11133302,Processing Strawberry Farming,End Use,Farms growing strawberries primarily for freezing or processing
+111333,Strawberry Farming,11133303,Organic Strawberry Farming,Production Method,Certified organic strawberry farms
+111333,Strawberry Farming,11133304,U-Pick Strawberry Farming,Business Model,Strawberry farms operating primarily on u-pick model
+111333,Strawberry Farming,11133305,Day-Neutral Strawberry Farming,Variety Type,Farms growing day-neutral (everbearing) strawberry varieties
+111334,Berry (except Strawberry) Farming,11133401,Blueberry Farming,Crop Type,Farms primarily engaged in growing blueberries
+111334,Berry (except Strawberry) Farming,11133402,Raspberry Farming,Crop Type,Farms primarily engaged in growing raspberries
+111334,Berry (except Strawberry) Farming,11133403,Blackberry Farming,Crop Type,Farms primarily engaged in growing blackberries
+111334,Berry (except Strawberry) Farming,11133404,Cranberry Farming,Crop Type,Farms primarily engaged in growing cranberries
+111334,Berry (except Strawberry) Farming,11133405,Organic Berry Farming,Production Method,Certified organic berry farms (except strawberries)
+111334,Berry (except Strawberry) Farming,11133406,Specialty Berry Farming,Crop Type,Farms growing specialty berries (gooseberries currants elderberries)
+111334,Berry (except Strawberry) Farming,11133407,U-Pick Berry Operations,Business Model,Berry farms operating primarily on u-pick/agritourism model
+111335,Tree Nut Farming,11133501,Almond Orchards,Crop Type,Orchards primarily engaged in growing almonds
+111335,Tree Nut Farming,11133502,Walnut Orchards,Crop Type,Orchards primarily engaged in growing walnuts
+111335,Tree Nut Farming,11133503,Pecan Orchards,Crop Type,Orchards primarily engaged in growing pecans
+111335,Tree Nut Farming,11133504,Pistachio Orchards,Crop Type,Orchards primarily engaged in growing pistachios
+111335,Tree Nut Farming,11133505,Hazelnut (Filbert) Orchards,Crop Type,Orchards primarily engaged in growing hazelnuts
+111335,Tree Nut Farming,11133506,Macadamia Orchards,Crop Type,Orchards primarily engaged in growing macadamia nuts
+111335,Tree Nut Farming,11133507,Cashew Orchards,Crop Type,Orchards primarily engaged in growing cashews
+111335,Tree Nut Farming,11133508,Organic Tree Nut Orchards,Production Method,Certified organic tree nut orchards
+111336,Fruit and Tree Nut Combination Farming,11133601,Diversified Orchard Operations,Business Model,Farms growing multiple tree fruit and nut crops
+111336,Fruit and Tree Nut Combination Farming,11133602,Mixed Organic Fruit Operations,Production Method,Certified organic farms with multiple fruit and nut crops
+111339,Other Noncitrus Fruit Farming,11133901,Peach and Nectarine Farming,Crop Type,Farms primarily engaged in growing peaches and nectarines
+111339,Other Noncitrus Fruit Farming,11133902,Pear Farming,Crop Type,Farms primarily engaged in growing pears
+111339,Other Noncitrus Fruit Farming,11133903,Plum and Prune Farming,Crop Type,Farms primarily engaged in growing plums and prunes
+111339,Other Noncitrus Fruit Farming,11133904,Cherry Farming (Sweet),Crop Type,Farms primarily engaged in growing sweet cherries
+111339,Other Noncitrus Fruit Farming,11133905,Cherry Farming (Tart),Crop Type,Farms primarily engaged in growing tart (pie) cherries
+111339,Other Noncitrus Fruit Farming,11133906,Apricot Farming,Crop Type,Farms primarily engaged in growing apricots
+111339,Other Noncitrus Fruit Farming,11133907,Fig Farming,Crop Type,Farms primarily engaged in growing figs
+111339,Other Noncitrus Fruit Farming,11133908,Persimmon and Pomegranate Farming,Crop Type,Farms primarily engaged in growing persimmons and pomegranates
+111339,Other Noncitrus Fruit Farming,11133909,Kiwi Fruit Farming,Crop Type,Farms primarily engaged in growing kiwi fruit
+111339,Other Noncitrus Fruit Farming,11133910,Tropical Fruit Farming,Crop Type,Farms growing tropical fruits (mango papaya guava passion fruit)
+111339,Other Noncitrus Fruit Farming,11133911,Stone Fruit Farming (Mixed),Crop Type,Farms growing multiple stone fruit varieties
+111411,Mushroom Production,11141101,Button Mushroom Production,Variety Type,Facilities primarily producing white button mushrooms
+111411,Mushroom Production,11141102,Portobello Mushroom Production,Variety Type,Facilities primarily producing portobello mushrooms
+111411,Mushroom Production,11141103,Shiitake Mushroom Production,Variety Type,Facilities primarily producing shiitake mushrooms
+111411,Mushroom Production,11141104,Oyster Mushroom Production,Variety Type,Facilities primarily producing oyster mushrooms
+111411,Mushroom Production,11141105,Specialty Mushroom Production,Variety Type,Facilities producing specialty mushrooms (maitake enoki lion's mane)
+111411,Mushroom Production,11141106,Organic Mushroom Production,Production Method,Certified organic mushroom production facilities
+111419,Other Food Crops Grown Under Cover,11141901,Greenhouse Tomato Production,Crop Type,Greenhouse facilities primarily growing tomatoes
+111419,Other Food Crops Grown Under Cover,11141902,Greenhouse Pepper Production,Crop Type,Greenhouse facilities primarily growing peppers
+111419,Other Food Crops Grown Under Cover,11141903,Greenhouse Cucumber Production,Crop Type,Greenhouse facilities primarily growing cucumbers
+111419,Other Food Crops Grown Under Cover,11141904,Greenhouse Leafy Green Production,Crop Type,Greenhouse facilities primarily growing lettuce and leafy greens
+111419,Other Food Crops Grown Under Cover,11141905,Greenhouse Herb Production,Crop Type,Greenhouse facilities primarily growing fresh herbs
+111419,Other Food Crops Grown Under Cover,11141906,Hydroponic Vegetable Production,Production Method,Hydroponic production facilities for vegetables
+111419,Other Food Crops Grown Under Cover,11141907,Vertical Farming Operations,Production Method,Indoor vertical farming operations growing vegetables
+111419,Other Food Crops Grown Under Cover,11141908,Aquaponic Production,Production Method,Aquaponic systems producing vegetables and fish
+111419,Other Food Crops Grown Under Cover,11141909,Microgreens Production,Crop Type,Controlled environment facilities growing microgreens
+111421,Nursery and Tree Production,11142101,Container Nursery Operations,Production Method,Nurseries primarily using container production methods
+111421,Nursery and Tree Production,11142102,Field-Grown Nursery Stock,Production Method,Nurseries primarily using field production methods
+111421,Nursery and Tree Production,11142103,Shade Tree Nurseries,Product Type,Nurseries specializing in shade and ornamental trees
+111421,Nursery and Tree Production,11142104,Fruit and Nut Tree Nurseries,Product Type,Nurseries producing fruit and nut tree stock
+111421,Nursery and Tree Production,11142105,Evergreen Nurseries,Product Type,Nurseries specializing in evergreen trees and shrubs
+111421,Nursery and Tree Production,11142106,Native Plant Nurseries,Product Type,Nurseries specializing in native plants and trees
+111421,Nursery and Tree Production,11142107,Wholesale Nursery Operations,Business Model,Nurseries selling primarily to landscapers and garden centers
+111421,Nursery and Tree Production,11142108,Retail Nursery and Garden Centers,Business Model,Nurseries with direct-to-consumer sales
+111421,Nursery and Tree Production,11142109,Certified Organic Nurseries,Production Method,Certified organic nursery plant production
+111422,Floriculture Production,11142201,Cut Flower Production (Greenhouse),Production Method,Greenhouse facilities producing cut flowers
+111422,Floriculture Production,11142202,Cut Flower Production (Field),Production Method,Field production of cut flowers
+111422,Floriculture Production,11142203,Potted Plant Production,Product Type,Facilities producing flowering and foliage potted plants
+111422,Floriculture Production,11142204,Bedding Plant Production,Product Type,Facilities producing annual bedding plants
+111422,Floriculture Production,11142205,Perennial Plant Production,Product Type,Facilities producing perennial flowering plants
+111422,Floriculture Production,11142206,Orchid Production,Product Type,Specialized facilities producing orchids
+111422,Floriculture Production,11142207,Wholesale Floriculture Operations,Business Model,Floriculture producers selling primarily wholesale
+111910,Tobacco Farming,11191001,Burley Tobacco Farming,Variety Type,Farms primarily engaged in growing burley tobacco
+111910,Tobacco Farming,11191002,Flue-Cured Tobacco Farming,Variety Type,Farms primarily engaged in growing flue-cured tobacco
+111910,Tobacco Farming,11191003,Dark Tobacco Farming,Variety Type,Farms primarily engaged in growing dark tobacco varieties
+111910,Tobacco Farming,11191004,Cigar Tobacco Farming,End Use,Farms growing tobacco specifically for cigar production
+111920,Cotton Farming,11192001,Upland Cotton Farming,Variety Type,Farms primarily engaged in growing upland cotton
+111920,Cotton Farming,11192002,Pima Cotton Farming,Variety Type,Farms primarily engaged in growing pima (extra-long staple) cotton
+111920,Cotton Farming,11192003,Organic Cotton Farming,Production Method,Certified organic cotton farms
+111920,Cotton Farming,11192004,Non-GMO Cotton Farming,Product Type,Farms growing non-genetically modified cotton
+111920,Cotton Farming,11192005,GMO Cotton Farming,Product Type,Farms growing genetically modified cotton (Bt herbicide-resistant)
+111930,Sugarcane Farming,11193001,Raw Sugar Cane Farming,End Use,Farms growing sugarcane primarily for raw sugar production
+111930,Sugarcane Farming,11193002,Seed Cane Production,Product Type,Farms primarily engaged in producing sugarcane seed stock
+111930,Sugarcane Farming,11193003,Organic Sugarcane Farming,Production Method,Certified organic sugarcane farms
+111940,Hay Farming,11194001,Alfalfa Hay Farming,Crop Type,Farms primarily engaged in growing alfalfa for hay
+111940,Hay Farming,11194002,Grass Hay Farming,Crop Type,Farms primarily engaged in growing grass hay (timothy orchard grass)
+111940,Hay Farming,11194003,Mixed Hay Farming,Crop Type,Farms growing mixed grass and legume hay
+111940,Hay Farming,11194004,Clover Hay Farming,Crop Type,Farms primarily engaged in growing clover for hay
+111940,Hay Farming,11194005,Organic Hay Farming,Production Method,Certified organic hay production
+111940,Hay Farming,11194006,Premium Horse Hay Production,Market Segment,Farms producing premium quality hay for equine markets
+111991,Sugar Beet Farming,11199101,Processing Sugar Beet Farming,End Use,Farms growing sugar beets for sugar extraction
+111991,Sugar Beet Farming,11199102,Organic Sugar Beet Farming,Production Method,Certified organic sugar beet farms
+111992,Peanut Farming,11199201,Runner Peanut Farming,Variety Type,Farms primarily growing runner peanut varieties (peanut butter)
+111992,Peanut Farming,11199202,Virginia Peanut Farming,Variety Type,Farms primarily growing Virginia peanuts (in-shell market)
+111992,Peanut Farming,11199203,Spanish Peanut Farming,Variety Type,Farms primarily growing Spanish peanuts (candy confections)
+111992,Peanut Farming,11199204,Valencia Peanut Farming,Variety Type,Farms primarily growing Valencia peanuts (boiled natural)
+111992,Peanut Farming,11199205,Organic Peanut Farming,Production Method,Certified organic peanut farms
+111998,All Other Miscellaneous Crop Farming,11199801,Herb and Spice Farming,Crop Type,Farms primarily engaged in growing culinary herbs and spices
+111998,All Other Miscellaneous Crop Farming,11199802,Hops Farming,Crop Type,Farms primarily engaged in growing hops for brewing
+111998,All Other Miscellaneous Crop Farming,11199803,Maple Syrup Production,Product Type,Operations primarily engaged in maple syrup production
+111998,All Other Miscellaneous Crop Farming,11199804,Ginseng and Herb Root Farming,Crop Type,Farms growing ginseng and medicinal herb roots
+111998,All Other Miscellaneous Crop Farming,11199805,Industrial Hemp Farming,Crop Type,Farms growing hemp for fiber seed or CBD production
+111998,All Other Miscellaneous Crop Farming,11199806,Lavender Farming,Crop Type,Farms primarily engaged in growing lavender
+111998,All Other Miscellaneous Crop Farming,11199807,Christmas Tree Farming,Crop Type,Farms primarily engaged in growing Christmas trees
+111998,All Other Miscellaneous Crop Farming,11199808,Ornamental Grass Farming,Crop Type,Farms growing ornamental grasses for landscaping
+111998,All Other Miscellaneous Crop Farming,11199809,Cover Crop Seed Production,Product Type,Farms producing seeds for cover crop use
+111998,All Other Miscellaneous Crop Farming,11199810,Biomass Crop Farming,End Use,Farms growing crops specifically for biofuel or energy production
+112111,Beef Cattle Ranching and Farming,11211101,Cow-Calf Operations,Production Stage,Ranches maintaining breeding herds and producing calves
+112111,Beef Cattle Ranching and Farming,11211102,Backgrounding Operations,Production Stage,Operations growing weaned calves to feeder cattle weight
+112111,Beef Cattle Ranching and Farming,11211103,Grass-Fed Beef Operations,Production Method,Ranches producing grass-fed and grass-finished beef
+112111,Beef Cattle Ranching and Farming,11211104,Organic Beef Cattle Operations,Production Method,Certified organic beef cattle ranching operations
+112111,Beef Cattle Ranching and Farming,11211105,Seed Stock Operations,Product Type,Ranches producing registered breeding stock
+112111,Beef Cattle Ranching and Farming,11211106,Natural/No Antibiotics Beef,Production Method,Operations raising beef with no antibiotics or added hormones
+112112,Cattle Feedlots,11211201,Commercial Cattle Feedlots,Scale,Large-scale commercial cattle feeding operations
+112112,Cattle Feedlots,11211202,Custom Cattle Feedlots,Business Model,Feedlots providing custom feeding services for cattle owners
+112112,Cattle Feedlots,11211203,Farmer Feedlots,Scale,Small to medium farm-based feedlot operations
+112120,Dairy Cattle and Milk Production,11212001,Conventional Dairy Operations,Production Method,Conventional fluid milk production operations
+112120,Dairy Cattle and Milk Production,11212002,Organic Dairy Operations,Production Method,Certified organic dairy farms
+112120,Dairy Cattle and Milk Production,11212003,Grass-Fed Dairy Operations,Production Method,Dairy operations with grass-based feeding systems
+112120,Dairy Cattle and Milk Production,11212004,Specialty Dairy Operations,Product Type,Dairies producing specialty milk products (A2 Jersey)
+112120,Dairy Cattle and Milk Production,11212005,Robotic Milking Operations,Technology,Dairy farms utilizing robotic milking systems
+112120,Dairy Cattle and Milk Production,11212006,Grazing Dairy Operations,Production Method,Pasture-based rotational grazing dairy systems
+112130,Dual-Purpose Cattle Ranching and Farming,11213001,Dual-Purpose Cattle Operations,Production Type,Farms raising cattle for both beef and dairy purposes
+112210,Hog and Pig Farming,11221001,Farrow-to-Finish Hog Operations,Production Stage,Integrated operations breeding and finishing hogs
+112210,Hog and Pig Farming,11221002,Feeder Pig Production,Production Stage,Operations producing weaned feeder pigs
+112210,Hog and Pig Farming,11221003,Hog Finishing Operations,Production Stage,Operations purchasing and finishing feeder pigs
+112210,Hog and Pig Farming,11221004,Organic Hog Farming,Production Method,Certified organic hog production
+112210,Hog and Pig Farming,11221005,Pasture-Raised Pork Operations,Production Method,Hog operations using outdoor/pasture systems
+112210,Hog and Pig Farming,11221006,Heritage Breed Hog Farming,Product Type,Farms raising heritage breed pigs
+112210,Hog and Pig Farming,11221007,Contract Hog Production,Business Model,Hog operations under contract to integrators
+112310,Chicken Egg Production,11231001,Conventional Cage Egg Production,Production Method,Egg production using conventional battery cage systems
+112310,Chicken Egg Production,11231002,Cage-Free Egg Production,Production Method,Egg production with cage-free barn systems
+112310,Chicken Egg Production,11231003,Free-Range Egg Production,Production Method,Egg production with outdoor access for hens
+112310,Chicken Egg Production,11231004,Organic Egg Production,Production Method,Certified organic egg production operations
+112310,Chicken Egg Production,11231005,Pasture-Raised Egg Production,Production Method,Egg production with significant pasture access
+112310,Chicken Egg Production,11231006,Specialty Egg Production,Product Type,Production of specialty eggs (omega-3 brown eggs)
+112320,Broilers and Other Meat Type Chicken Production,11232001,Conventional Broiler Production,Production Method,Standard commercial broiler chicken production
+112320,Broilers and Other Meat Type Chicken Production,11232002,Organic Broiler Production,Production Method,Certified organic broiler production
+112320,Broilers and Other Meat Type Chicken Production,11232003,Free-Range Chicken Production,Production Method,Broiler production with outdoor access
+112320,Broilers and Other Meat Type Chicken Production,11232004,Slow-Growth Chicken Production,Product Type,Production of slower-growing chicken breeds
+112320,Broilers and Other Meat Type Chicken Production,11232005,Contract Broiler Production,Business Model,Broiler operations under contract to integrators
+112320,Broilers and Other Meat Type Chicken Production,11232006,Heritage Breed Chicken Production,Product Type,Production of heritage breed meat chickens
+112330,Turkey Production,11233001,Conventional Turkey Production,Production Method,Standard commercial turkey production
+112330,Turkey Production,11233002,Organic Turkey Production,Production Method,Certified organic turkey production
+112330,Turkey Production,11233003,Free-Range Turkey Production,Production Method,Turkey production with outdoor access
+112330,Turkey Production,11233004,Heritage Breed Turkey Production,Product Type,Production of heritage breed turkeys
+112340,Poultry Hatcheries,11234001,Broiler Chick Hatcheries,Product Type,Hatcheries producing day-old broiler chicks
+112340,Poultry Hatcheries,11234002,Layer Chick Hatcheries,Product Type,Hatcheries producing day-old layer chicks
+112340,Poultry Hatcheries,11234003,Turkey Poult Hatcheries,Product Type,Hatcheries producing turkey poults
+112340,Poultry Hatcheries,11234004,Specialty Poultry Hatcheries,Product Type,Hatcheries for specialty poultry (ducks geese game birds)
+112390,Other Poultry Production,11239001,Duck Production,Poultry Type,Farms primarily engaged in duck production
+112390,Other Poultry Production,11239002,Goose Production,Poultry Type,Farms primarily engaged in goose production
+112390,Other Poultry Production,11239003,Game Bird Production,Poultry Type,Farms producing game birds (pheasant quail)
+112390,Other Poultry Production,11239004,Emu and Ostrich Production,Poultry Type,Farms producing ratites (emu ostrich)
+112390,Other Poultry Production,11239005,Guinea Fowl Production,Poultry Type,Farms primarily engaged in guinea fowl production
+112410,Sheep Farming,11241001,Meat Sheep Operations,Product Focus,Farms raising sheep primarily for meat production
+112410,Sheep Farming,11241002,Wool Sheep Operations,Product Focus,Farms raising sheep primarily for wool production
+112410,Sheep Farming,11241003,Dual-Purpose Sheep Operations,Product Focus,Farms raising sheep for both meat and wool
+112410,Sheep Farming,11241004,Organic Sheep Farming,Production Method,Certified organic sheep operations
+112410,Sheep Farming,11241005,Hair Sheep Operations,Breed Type,Farms raising hair sheep breeds
+112420,Goat Farming,11242001,Meat Goat Operations,Product Focus,Farms raising goats primarily for meat production
+112420,Goat Farming,11242002,Dairy Goat Operations,Product Focus,Farms raising goats primarily for milk production
+112420,Goat Farming,11242003,Fiber Goat Operations,Product Focus,Farms raising goats for mohair or cashmere production
+112420,Goat Farming,11242004,Organic Goat Farming,Production Method,Certified organic goat operations
+112511,Finfish Farming and Fish Hatcheries,11251101,Catfish Farming,Species,Farms primarily engaged in catfish aquaculture
+112511,Finfish Farming and Fish Hatcheries,11251102,Trout Farming,Species,Farms primarily engaged in trout aquaculture
+112511,Finfish Farming and Fish Hatcheries,11251103,Salmon Farming,Species,Farms primarily engaged in salmon aquaculture
+112511,Finfish Farming and Fish Hatcheries,11251104,Tilapia Farming,Species,Farms primarily engaged in tilapia aquaculture
+112511,Finfish Farming and Fish Hatcheries,11251105,Bass and Panfish Farming,Species,Farms raising bass sunfish and other panfish
+112511,Finfish Farming and Fish Hatcheries,11251106,Ornamental Fish Production,Product Type,Hatcheries producing ornamental fish for aquarium trade
+112511,Finfish Farming and Fish Hatcheries,11251107,Sport Fish Hatcheries,Product Type,Hatcheries producing fish for stocking (sport fishing)
+112511,Finfish Farming and Fish Hatcheries,11251108,Recirculating Aquaculture Systems,Technology,Indoor RAS-based fish farming operations
+112512,Shellfish Farming,11251201,Oyster Farming,Species,Farms primarily engaged in oyster aquaculture
+112512,Shellfish Farming,11251202,Clam Farming,Species,Farms primarily engaged in clam aquaculture
+112512,Shellfish Farming,11251203,Mussel Farming,Species,Farms primarily engaged in mussel aquaculture
+112512,Shellfish Farming,11251204,Shrimp Farming,Species,Farms primarily engaged in shrimp aquaculture
+112512,Shellfish Farming,11251205,Scallop Farming,Species,Farms primarily engaged in scallop aquaculture
+112512,Shellfish Farming,11251206,Crayfish Farming,Species,Farms primarily engaged in crayfish aquaculture
+112519,Other Aquaculture,11251901,Seaweed and Kelp Farming,Product Type,Aquaculture operations growing seaweed and kelp
+112519,Other Aquaculture,11251902,Alligator Farming,Species,Farms primarily engaged in alligator production
+112519,Other Aquaculture,11251903,Frog Farming,Species,Farms primarily engaged in frog production
+112910,Apiculture,11291001,Honey Production,Product Focus,Beekeeping operations focused on honey production
+112910,Apiculture,11291002,Pollination Services,Service Type,Beekeeping operations providing pollination services
+112910,Apiculture,11291003,Queen Bee and Package Production,Product Type,Operations producing queen bees and package bees
+112910,Apiculture,11291004,Organic Beekeeping,Production Method,Certified organic beekeeping operations
+112920,Horses and Other Equine Production,11292001,Horse Breeding Operations,Product Focus,Farms primarily engaged in horse breeding
+112920,Horses and Other Equine Production,11292002,Thoroughbred Racing Operations,Breed/Purpose,Farms breeding and raising thoroughbred race horses
+112920,Horses and Other Equine Production,11292003,Quarter Horse Operations,Breed Type,Farms specializing in quarter horse breeding
+112920,Horses and Other Equine Production,11292004,Sport Horse Breeding,Purpose,Farms breeding horses for show jumping dressage eventing
+112920,Horses and Other Equine Production,11292005,Draft Horse Operations,Breed Type,Farms raising draft horse breeds
+112920,Horses and Other Equine Production,11292006,Miniature Horse Production,Breed Type,Farms specializing in miniature horses
+112930,Fur-Bearing Animal and Rabbit Production,11293001,Mink Farming,Species,Farms primarily engaged in mink production
+112930,Fur-Bearing Animal and Rabbit Production,11293002,Fox Farming,Species,Farms primarily engaged in fox production
+112930,Fur-Bearing Animal and Rabbit Production,11293003,Meat Rabbit Production,Product Focus,Farms raising rabbits for meat production
+112930,Fur-Bearing Animal and Rabbit Production,11293004,Laboratory Rabbit Production,End Use,Farms producing rabbits for laboratory use
+112930,Fur-Bearing Animal and Rabbit Production,11293005,Pet Rabbit Breeding,End Use,Operations breeding rabbits for pet market
+112990,All Other Animal Production,11299001,Bison Ranching,Species,Ranches primarily engaged in bison production
+112990,All Other Animal Production,11299002,Elk Farming,Species,Farms primarily engaged in elk production
+112990,All Other Animal Production,11299003,Deer Farming,Species,Farms primarily engaged in deer production
+112990,All Other Animal Production,11299004,Llama and Alpaca Farming,Species,Farms raising llamas and alpacas
+112990,All Other Animal Production,11299005,Ratite Production,Species,Farms producing ostriches emus or rheas
+112990,All Other Animal Production,11299006,Laboratory Animal Production,End Use,Facilities producing animals for research (mice rats)
+112990,All Other Animal Production,11299007,Worm Farming,Species,Operations producing earthworms for composting or fishing
+113110,Timber Tract Operations,11311001,Softwood Timber Tracts,Species Type,Operations managing softwood timber tracts
+113110,Timber Tract Operations,11311002,Hardwood Timber Tracts,Species Type,Operations managing hardwood timber tracts
+113110,Timber Tract Operations,11311003,Mixed Timber Tracts,Species Type,Operations managing mixed hardwood/softwood tracts
+113110,Timber Tract Operations,11311004,Sustainable Forestry Certified Tracts,Certification,FSC or SFI certified sustainable timber operations
+113210,Forest Nurseries and Gathering of Forest Products,11321001,Forest Tree Nurseries,Product Type,Nurseries producing seedlings for reforestation
+113210,Forest Nurseries and Gathering of Forest Products,11321002,Christmas Tree Seedling Production,Product Type,Nurseries producing Christmas tree seedlings
+113210,Forest Nurseries and Gathering of Forest Products,11321003,Wild Mushroom Gathering,Product Type,Operations gathering wild mushrooms from forests
+113210,Forest Nurseries and Gathering of Forest Products,11321004,Wild Berry and Nut Gathering,Product Type,Operations gathering wild forest products (berries nuts)
+113210,Forest Nurseries and Gathering of Forest Products,11321005,Moss and Fern Gathering,Product Type,Operations gathering moss ferns and greenery
+113310,Logging,11331001,Softwood Logging,Species Type,Logging operations primarily harvesting softwood
+113310,Logging,11331002,Hardwood Logging,Species Type,Logging operations primarily harvesting hardwood
+113310,Logging,11331003,Timber Harvesting Services,Service Type,Contract logging service providers
+113310,Logging,11331004,Specialty Wood Harvesting,Product Type,Operations harvesting specialty woods (burls veneer logs)
+114111,Finfish Fishing,11411101,Commercial Tuna Fishing,Species,Vessels primarily engaged in tuna fishing
+114111,Finfish Fishing,11411102,Commercial Salmon Fishing,Species,Vessels primarily engaged in salmon fishing
+114111,Finfish Fishing,11411103,Groundfish Fishing,Species,Vessels fishing for groundfish (cod haddock pollock)
+114111,Finfish Fishing,11411104,Pelagic Fish Fishing,Species,Vessels fishing for pelagic species (sardines anchovies)
+114111,Finfish Fishing,11411105,Swordfish and Billfish Fishing,Species,Vessels primarily targeting swordfish and billfish
+114112,Shellfish Fishing,11411201,Shrimp and Prawn Fishing,Species,Vessels primarily engaged in shrimp fishing
+114112,Shellfish Fishing,11411202,Crab Fishing,Species,Vessels primarily engaged in crab fishing
+114112,Shellfish Fishing,11411203,Lobster Fishing,Species,Vessels primarily engaged in lobster fishing
+114112,Shellfish Fishing,11411204,Oyster Harvesting,Species,Operations harvesting wild oysters
+114112,Shellfish Fishing,11411205,Clam Harvesting,Species,Operations harvesting wild clams
+114112,Shellfish Fishing,11411206,Scallop Fishing,Species,Vessels primarily engaged in scallop fishing
+114119,Other Marine Fishing,11411901,Sea Urchin and Kelp Harvesting,Species,Operations harvesting sea urchins and kelp
+114119,Other Marine Fishing,11411902,Squid and Octopus Fishing,Species,Vessels fishing for squid and octopus
+114210,Hunting and Trapping,11421001,Fur Trapping Operations,Product Focus,Operations primarily engaged in fur trapping
+114210,Hunting and Trapping,11421002,Guided Hunting Services,Service Type,Outfitters providing guided hunting services
+114210,Hunting and Trapping,11421003,Game Preserves and Hunting Operations,Business Model,Fee-based hunting preserve operations
+115111,Cotton Ginning,11511101,Conventional Cotton Ginning,Service Type,Standard cotton ginning operations
+115111,Cotton Ginning,11511102,Organic Cotton Ginning,Service Type,Specialized organic cotton ginning facilities
+115112,Soil Preparation Planting and Cultivating,11511201,Custom Planting Services,Service Type,Contract planting services for farmers
+115112,Soil Preparation Planting and Cultivating,11511202,Custom Soil Preparation,Service Type,Contract tillage and soil preparation services
+115112,Soil Preparation Planting and Cultivating,11511203,Precision Agriculture Services,Technology,GPS and precision farming service providers
+115113,Crop Harvesting Primarily by Machine,11511301,Custom Grain Harvesting,Service Type,Contract combine harvesting services
+115113,Crop Harvesting Primarily by Machine,11511302,Custom Hay Harvesting,Service Type,Contract hay cutting and baling services
+115113,Crop Harvesting Primarily by Machine,11511303,Specialty Crop Harvesting,Service Type,Contract harvesting for specialty crops
+115114,Postharvest Crop Activities (except Cotton Ginning),11511401,Grain Cleaning and Conditioning,Service Type,Post-harvest grain cleaning services
+115114,Postharvest Crop Activities (except Cotton Ginning),11511402,Fruit and Vegetable Sorting and Packing,Service Type,Post-harvest sorting and packing services
+115114,Postharvest Crop Activities (except Cotton Ginning),11511403,Crop Drying Services,Service Type,Commercial crop drying operations
+115115,Farm Labor Contractors and Crew Leaders,11511501,Agricultural Labor Contractors,Service Type,Contractors supplying farm labor crews
+115115,Farm Labor Contractors and Crew Leaders,11511502,H-2A Visa Labor Contractors,Labor Type,Contractors specializing in H-2A temporary workers
+115116,Farm Management Services,11511601,Crop Farm Management,Service Type,Professional management services for crop farms
+115116,Farm Management Services,11511602,Livestock Farm Management,Service Type,Professional management services for livestock operations
+115116,Farm Management Services,11511603,Farmland Investment Management,Service Type,Farm management for investment properties
+115210,Support Activities for Animal Production,11521001,Livestock Veterinary Services,Service Type,Veterinary services for livestock
+115210,Support Activities for Animal Production,11521002,Artificial Insemination Services,Service Type,Livestock breeding and AI services
+115210,Support Activities for Animal Production,11521003,Livestock Marketing Services,Service Type,Livestock auction and marketing services
+115210,Support Activities for Animal Production,11521004,Custom Livestock Feeding,Service Type,Contract animal feeding operations
+115210,Support Activities for Animal Production,11521005,Herd Testing Services,Service Type,Dairy herd improvement and testing associations
+115210,Support Activities for Animal Production,11521006,Livestock Transportation Services,Service Type,Specialized livestock hauling services
+115310,Support Activities for Forestry,11531001,Forest Fire Suppression Services,Service Type,Wildfire fighting and suppression services
+115310,Support Activities for Forestry,11531002,Timber Cruising Services,Service Type,Forest inventory and timber cruising
+115310,Support Activities for Forestry,11531003,Forestry Consulting Services,Service Type,Professional forestry management consulting
+115310,Support Activities for Forestry,11531004,Reforestation Services,Service Type,Tree planting and reforestation contractors
+211120,Crude Petroleum Extraction,21112001,Conventional Oil Extraction,Extraction Method,Conventional primary and secondary oil recovery operations
+211120,Crude Petroleum Extraction,21112002,Enhanced Oil Recovery Operations,Extraction Method,Tertiary recovery methods (CO2 injection steam flooding)
+211120,Crude Petroleum Extraction,21112003,Offshore Oil Extraction,Location,Offshore crude petroleum extraction operations
+211120,Crude Petroleum Extraction,21112004,Onshore Oil Extraction,Location,Onshore conventional oil field operations
+211120,Crude Petroleum Extraction,21112005,Heavy Oil and Bitumen Extraction,Product Type,Operations extracting heavy crude oil and bitumen
+211120,Crude Petroleum Extraction,21112006,Shale Oil Extraction,Resource Type,Tight oil extraction from shale formations
+211130,Natural Gas Extraction,21113001,Conventional Natural Gas Extraction,Resource Type,Conventional natural gas field operations
+211130,Natural Gas Extraction,21113002,Shale Gas Extraction,Resource Type,Natural gas extraction from shale formations (fracking)
+211130,Natural Gas Extraction,21113003,Coalbed Methane Extraction,Resource Type,Natural gas extraction from coal seams
+211130,Natural Gas Extraction,21113004,Offshore Natural Gas Extraction,Location,Offshore natural gas production operations
+211130,Natural Gas Extraction,21113005,Associated Gas Production,Production Type,Natural gas produced in association with oil
+211130,Natural Gas Extraction,21113006,Non-Associated Gas Production,Production Type,Natural gas from gas-only reservoirs
+212114,Surface Coal Mining,21211401,Surface Bituminous Coal Mining,Coal Type,Surface mining of bituminous coal
+212114,Surface Coal Mining,21211402,Surface Sub-Bituminous Coal Mining,Coal Type,Surface mining of sub-bituminous coal
+212114,Surface Coal Mining,21211403,Surface Lignite Mining,Coal Type,Surface mining of lignite coal
+212114,Surface Coal Mining,21211404,Mountaintop Removal Mining,Method,Mountain top removal coal mining operations
+212115,Underground Coal Mining,21211501,Underground Bituminous Coal Mining,Coal Type,Underground mining of bituminous coal
+212115,Underground Coal Mining,21211502,Underground Anthracite Mining,Coal Type,Underground mining of anthracite coal
+212115,Underground Coal Mining,21211503,Longwall Coal Mining,Method,Longwall underground mining operations
+212115,Underground Coal Mining,21211504,Room and Pillar Coal Mining,Method,Room and pillar underground mining operations
+212210,Iron Ore Mining,21221001,Surface Iron Ore Mining,Method,Open-pit iron ore mining operations
+212210,Iron Ore Mining,21221002,Underground Iron Ore Mining,Method,Underground iron ore mining operations
+212210,Iron Ore Mining,21221003,Taconite Mining,Ore Type,Low-grade taconite iron ore mining
+212220,Gold Ore and Silver Ore Mining,21222001,Gold Ore Mining,Metal Type,Operations primarily mining gold ore
+212220,Gold Ore and Silver Ore Mining,21222002,Silver Ore Mining,Metal Type,Operations primarily mining silver ore
+212220,Gold Ore and Silver Ore Mining,21222003,Gold-Silver Ore Mining,Metal Type,Combined gold and silver ore mining
+212220,Gold Ore and Silver Ore Mining,21222004,Placer Gold Mining,Method,Placer gold mining from alluvial deposits
+212230,Copper Nickel Lead and Zinc Mining,21223001,Copper Ore Mining,Metal Type,Operations primarily mining copper ore
+212230,Copper Nickel Lead and Zinc Mining,21223002,Nickel Ore Mining,Metal Type,Operations primarily mining nickel ore
+212230,Copper Nickel Lead and Zinc Mining,21223003,Lead Ore Mining,Metal Type,Operations primarily mining lead ore
+212230,Copper Nickel Lead and Zinc Mining,21223004,Zinc Ore Mining,Metal Type,Operations primarily mining zinc ore
+212230,Copper Nickel Lead and Zinc Mining,21223005,Polymetallic Ore Mining,Metal Type,Mining operations extracting multiple base metals
+212290,Other Metal Ore Mining,21229001,Uranium Ore Mining,Metal Type,Operations mining uranium ore
+212290,Other Metal Ore Mining,21229002,Rare Earth Element Mining,Metal Type,Operations mining rare earth elements
+212290,Other Metal Ore Mining,21229003,Molybdenum Ore Mining,Metal Type,Operations mining molybdenum ore
+212290,Other Metal Ore Mining,21229004,Lithium Ore Mining,Metal Type,Operations mining lithium ore
+212311,Dimension Stone Mining and Quarrying,21231101,Granite Dimension Stone Quarrying,Stone Type,Quarrying of granite dimension stone
+212311,Dimension Stone Mining and Quarrying,21231102,Marble Dimension Stone Quarrying,Stone Type,Quarrying of marble dimension stone
+212311,Dimension Stone Mining and Quarrying,21231103,Limestone Dimension Stone Quarrying,Stone Type,Quarrying of limestone dimension stone
+212311,Dimension Stone Mining and Quarrying,21231104,Sandstone Dimension Stone Quarrying,Stone Type,Quarrying of sandstone dimension stone
+212311,Dimension Stone Mining and Quarrying,21231105,Slate Quarrying,Stone Type,Quarrying of slate for roofing and flooring
+212312,Crushed and Broken Limestone Mining and Quarrying,21231201,Construction Aggregate Limestone,End Use,Limestone quarrying for construction aggregates
+212312,Crushed and Broken Limestone Mining and Quarrying,21231202,Agricultural Limestone,End Use,Limestone mining for agricultural lime
+212312,Crushed and Broken Limestone Mining and Quarrying,21231203,Chemical and Industrial Limestone,End Use,High-purity limestone for industrial uses
+212313,Crushed and Broken Granite Mining and Quarrying,21231301,Construction Granite Aggregate,End Use,Granite quarrying for construction aggregates
+212313,Crushed and Broken Granite Mining and Quarrying,21231302,Railroad Ballast Granite,End Use,Granite for railroad ballast production
+212319,Other Crushed and Broken Stone Mining and Quarrying,21231901,Crushed and Broken Trap Rock,Stone Type,Quarrying of trap rock for aggregates
+212319,Other Crushed and Broken Stone Mining and Quarrying,21231902,Crushed and Broken Sandstone,Stone Type,Quarrying of sandstone for aggregates
+212319,Other Crushed and Broken Stone Mining and Quarrying,21231903,Crushed and Broken Basalt,Stone Type,Quarrying of basalt for aggregates
+212321,Construction Sand and Gravel Mining,21232101,Concrete Sand and Gravel Mining,End Use,Sand and gravel for ready-mix concrete
+212321,Construction Sand and Gravel Mining,21232102,Asphalt Sand and Gravel Mining,End Use,Sand and gravel for asphalt production
+212321,Construction Sand and Gravel Mining,21232103,Fill Sand and Gravel Mining,End Use,Sand and gravel for fill material
+212322,Industrial Sand Mining,21232201,Frac Sand Mining,End Use,High-purity silica sand for hydraulic fracturing
+212322,Industrial Sand Mining,21232202,Glass Sand Mining,End Use,High-purity silica sand for glass manufacturing
+212322,Industrial Sand Mining,21232203,Foundry Sand Mining,End Use,Silica sand for metal casting molds
+212323,Kaolin Clay and Ceramic and Refractory Minerals Mining,21232301,Kaolin Mining,Mineral Type,Mining of kaolin clay for ceramics and paper
+212323,Kaolin Clay and Ceramic and Refractory Minerals Mining,21232302,Ball Clay Mining,Mineral Type,Mining of ball clay for ceramics
+212323,Kaolin Clay and Ceramic and Refractory Minerals Mining,21232303,Bentonite Mining,Mineral Type,Mining of bentonite clay
+212323,Kaolin Clay and Ceramic and Refractory Minerals Mining,21232304,Refractory Clay Mining,Mineral Type,Mining of refractory clays for high-temperature applications
+212390,Other Nonmetallic Mineral Mining and Quarrying,21239001,Gypsum Mining,Mineral Type,Mining of gypsum for wallboard and plaster
+212390,Other Nonmetallic Mineral Mining and Quarrying,21239002,Salt Mining,Mineral Type,Mining of rock salt and brine
+212390,Other Nonmetallic Mineral Mining and Quarrying,21239003,Phosphate Rock Mining,Mineral Type,Mining of phosphate rock for fertilizer
+212390,Other Nonmetallic Mineral Mining and Quarrying,21239004,Potash Mining,Mineral Type,Mining of potash for fertilizer
+212390,Other Nonmetallic Mineral Mining and Quarrying,21239005,Sulfur Mining,Mineral Type,Mining of sulfur minerals
+212390,Other Nonmetallic Mineral Mining and Quarrying,21239006,Perlite and Vermiculite Mining,Mineral Type,Mining of perlite and vermiculite
+213111,Drilling Oil and Gas Wells,21311101,Onshore Oil and Gas Drilling,Location,Onshore drilling services for oil and gas wells
+213111,Drilling Oil and Gas Wells,21311102,Offshore Oil and Gas Drilling,Location,Offshore drilling services including platform-based
+213111,Drilling Oil and Gas Wells,21311103,Directional and Horizontal Drilling,Method,Directional and horizontal drilling services
+213111,Drilling Oil and Gas Wells,21311104,Deep Water Drilling Services,Location,Deep water offshore drilling operations
+213112,Support Activities for Oil and Gas Operations,21311201,Well Completion Services,Service Type,Hydraulic fracturing and well completion services
+213112,Support Activities for Oil and Gas Operations,21311202,Well Servicing and Workover,Service Type,Well maintenance and workover operations
+213112,Support Activities for Oil and Gas Operations,21311203,Directional Drilling Services,Service Type,Measurement while drilling and directional services
+213112,Support Activities for Oil and Gas Operations,21311204,Cementing Services,Service Type,Well cementing and primary cementing services
+213112,Support Activities for Oil and Gas Operations,21311205,Wireline Services,Service Type,Wireline logging and well intervention services
+213112,Support Activities for Oil and Gas Operations,21311206,Pressure Pumping Services,Service Type,Hydraulic fracturing and pressure pumping
+213113,Support Activities for Coal Mining,21311301,Coal Mine Dewatering Services,Service Type,Mine dewatering and water management services
+213113,Support Activities for Coal Mining,21311302,Coal Mine Roof Support Services,Service Type,Roof bolting and support services
+213114,Support Activities for Metal Mining,21311401,Contract Metal Mining Services,Service Type,Contract mining services for metal mines
+213114,Support Activities for Metal Mining,21311402,Metal Ore Exploration Services,Service Type,Geological exploration for metal ores
+213115,Support Activities for Nonmetallic Minerals (except Fuels) Mining,21311501,Contract Quarrying Services,Service Type,Contract services for stone quarries
+213115,Support Activities for Nonmetallic Minerals (except Fuels) Mining,21311502,Industrial Mineral Exploration,Service Type,Exploration for industrial minerals
+221111,Hydroelectric Power Generation,22111101,Conventional Hydroelectric Generation,Technology,Conventional dam-based hydroelectric generation
+221111,Hydroelectric Power Generation,22111102,Pumped-Storage Hydroelectric,Technology,Pumped-storage hydroelectric facilities
+221111,Hydroelectric Power Generation,22111103,Run-of-River Hydroelectric,Technology,Run-of-river hydroelectric generation
+221112,Fossil Fuel Electric Power Generation,22111201,Coal-Fired Power Generation,Fuel Type,Coal-fired electric power generation stations
+221112,Fossil Fuel Electric Power Generation,22111202,Natural Gas Combined Cycle,Fuel Type,Natural gas combined cycle power plants
+221112,Fossil Fuel Electric Power Generation,22111203,Natural Gas Peaking Plants,Fuel Type,Natural gas peaking power generation
+221112,Fossil Fuel Electric Power Generation,22111204,Oil-Fired Power Generation,Fuel Type,Petroleum-fired electric generation
+221113,Nuclear Electric Power Generation,22111301,Pressurized Water Reactor Plants,Reactor Type,PWR nuclear power generation facilities
+221113,Nuclear Electric Power Generation,22111302,Boiling Water Reactor Plants,Reactor Type,BWR nuclear power generation facilities
+221114,Solar Electric Power Generation,22111401,Utility-Scale Solar PV,Technology,Utility-scale photovoltaic solar farms
+221114,Solar Electric Power Generation,22111402,Distributed Solar PV,Scale,Distributed rooftop solar generation
+221114,Solar Electric Power Generation,22111403,Concentrated Solar Power,Technology,CSP with thermal storage systems
+221115,Wind Electric Power Generation,22111501,Onshore Wind Farms,Location,Onshore utility-scale wind generation
+221115,Wind Electric Power Generation,22111502,Offshore Wind Farms,Location,Offshore wind power generation
+221115,Wind Electric Power Generation,22111503,Distributed Wind Generation,Scale,Small-scale distributed wind turbines
+221116,Geothermal Electric Power Generation,22111601,Dry Steam Geothermal Plants,Technology,Dry steam geothermal power generation
+221116,Geothermal Electric Power Generation,22111602,Flash Steam Geothermal Plants,Technology,Flash steam geothermal generation
+221116,Geothermal Electric Power Generation,22111603,Binary Cycle Geothermal Plants,Technology,Binary cycle geothermal power plants
+221117,Biomass Electric Power Generation,22111701,Wood and Wood Waste Generation,Fuel Type,Electric generation from wood biomass
+221117,Biomass Electric Power Generation,22111702,Biogas Power Generation,Fuel Type,Power generation from biogas (landfill digester)
+221117,Biomass Electric Power Generation,22111703,Municipal Solid Waste Generation,Fuel Type,Waste-to-energy power generation
+221118,Other Electric Power Generation,22111801,Fuel Cell Power Generation,Technology,Fuel cell-based power generation
+221118,Other Electric Power Generation,22111802,Tidal and Wave Power Generation,Technology,Ocean energy power generation
+221121,Electric Bulk Power Transmission and Control,22112101,High Voltage Transmission Systems,Voltage Level,High voltage AC transmission operations
+221121,Electric Bulk Power Transmission and Control,22112102,Independent System Operators,Business Model,ISO/RTO grid operation and control
+221121,Electric Bulk Power Transmission and Control,22112103,HVDC Transmission Systems,Technology,High voltage DC transmission systems
+221122,Electric Power Distribution,22112201,Residential Electric Distribution,Customer Type,Electric distribution to residential customers
+221122,Electric Power Distribution,22112202,Commercial Electric Distribution,Customer Type,Electric distribution to commercial customers
+221122,Electric Power Distribution,22112203,Industrial Electric Distribution,Customer Type,Electric distribution to industrial customers
+221122,Electric Power Distribution,22112204,Rural Electric Cooperatives,Business Model,Member-owned rural electric cooperatives
+221210,Natural Gas Distribution,22121001,Residential Natural Gas Distribution,Customer Type,Natural gas distribution to residential customers
+221210,Natural Gas Distribution,22121002,Commercial Natural Gas Distribution,Customer Type,Natural gas distribution to commercial customers
+221210,Natural Gas Distribution,22121003,Industrial Natural Gas Distribution,Customer Type,Natural gas distribution to industrial users
+221310,Water Supply and Irrigation Systems,22131001,Municipal Water Supply Systems,Customer Type,Municipal potable water supply utilities
+221310,Water Supply and Irrigation Systems,22131002,Agricultural Irrigation Systems,Customer Type,Irrigation water delivery systems
+221310,Water Supply and Irrigation Systems,22131003,Industrial Water Supply,Customer Type,Water supply for industrial processes
+221320,Sewage Treatment Facilities,22132001,Municipal Wastewater Treatment,Service Type,Municipal sewage treatment plants
+221320,Sewage Treatment Facilities,22132002,Industrial Wastewater Treatment,Service Type,Industrial wastewater treatment facilities
+221320,Sewage Treatment Facilities,22132003,Advanced Wastewater Treatment,Technology,Advanced treatment and water reclamation
+221330,Steam and Air-Conditioning Supply,22133001,District Steam Systems,Service Type,District heating steam supply systems
+221330,Steam and Air-Conditioning Supply,22133002,District Cooling Systems,Service Type,District chilled water cooling systems
+221330,Steam and Air-Conditioning Supply,22133003,Combined Heat and Power Distribution,Technology,CHP/cogeneration distribution systems
+236115,New Single-Family Housing Construction (except For-Sale Builders),23611501,Spec Home Construction,Business Model,Construction of single-family homes on speculation for contractors
+236115,New Single-Family Housing Construction (except For-Sale Builders),23611502,Custom Home Construction Contracting,Business Model,General contracting for custom single-family homes
+236115,New Single-Family Housing Construction (except For-Sale Builders),23611503,Green/LEED Home Construction,Specialty,Energy-efficient and certified green home construction
+236115,New Single-Family Housing Construction (except For-Sale Builders),23611504,Modular Home Installation,Construction Type,Installation of factory-built modular homes
+236116,New Multifamily Housing Construction (except For-Sale Builders),23611601,Apartment Building Construction,Building Type,Construction of multi-unit apartment buildings for rent
+236116,New Multifamily Housing Construction (except For-Sale Builders),23611602,Student Housing Construction,Market Segment,Construction of student housing complexes
+236116,New Multifamily Housing Construction (except For-Sale Builders),23611603,Senior Living Facility Construction,Market Segment,Construction of senior apartment communities
+236116,New Multifamily Housing Construction (except For-Sale Builders),23611604,Affordable Housing Construction,Market Segment,Construction of affordable/subsidized multi-family housing
+236117,New Housing For-Sale Builders,23611701,Production Home Builders,Business Model,Large-scale production homebuilding operations
+236117,New Housing For-Sale Builders,23611702,Townhome For-Sale Builders,Building Type,Builders constructing townhomes for direct sale
+236117,New Housing For-Sale Builders,23611703,Luxury Home Builders,Market Segment,High-end custom home builders for sale
+236117,New Housing For-Sale Builders,23611704,Active Adult Community Builders,Market Segment,Builders of 55+ active adult communities
+236118,Residential Remodelers,23611801,Kitchen and Bath Remodeling,Specialty,Residential kitchen and bathroom remodeling
+236118,Residential Remodelers,23611802,Whole House Remodeling,Scope,Complete home renovation and remodeling
+236118,Residential Remodelers,23611803,Basement Finishing,Specialty,Basement remodeling and finishing services
+236118,Residential Remodelers,23611804,Home Addition Construction,Scope,Room additions and home expansions
+236118,Residential Remodelers,23611805,Historic Home Restoration,Specialty,Restoration and renovation of historic homes
+236210,Industrial Building Construction,23621001,Manufacturing Plant Construction,Facility Type,Construction of manufacturing facilities
+236210,Industrial Building Construction,23621002,Warehouse and Distribution Center Construction,Facility Type,Construction of industrial warehouses and distribution centers
+236210,Industrial Building Construction,23621003,Food Processing Plant Construction,Facility Type,Construction of food and beverage processing facilities
+236210,Industrial Building Construction,23621004,Data Center Construction,Facility Type,Construction of data centers and server facilities
+236210,Industrial Building Construction,23621005,Cold Storage Facility Construction,Facility Type,Construction of refrigerated warehouse facilities
+236220,Commercial and Institutional Building Construction,23622001,Office Building Construction,Building Type,Construction of commercial office buildings
+236220,Commercial and Institutional Building Construction,23622002,Retail Center Construction,Building Type,Construction of shopping centers and retail facilities
+236220,Commercial and Institutional Building Construction,23622003,Hotel and Hospitality Construction,Building Type,Construction of hotels and lodging facilities
+236220,Commercial and Institutional Building Construction,23622004,Healthcare Facility Construction,Building Type,Construction of hospitals clinics and medical buildings
+236220,Commercial and Institutional Building Construction,23622005,Educational Facility Construction,Building Type,Construction of schools and educational buildings
+236220,Commercial and Institutional Building Construction,23622006,Religious Building Construction,Building Type,Construction of churches and religious facilities
+236220,Commercial and Institutional Building Construction,23622007,Restaurant Construction,Building Type,Construction of restaurant facilities
+237110,Water and Sewer Line and Related Structures Construction,23711001,Water Main Construction,Infrastructure Type,Construction of municipal water distribution mains
+237110,Water and Sewer Line and Related Structures Construction,23711002,Sanitary Sewer Construction,Infrastructure Type,Construction of sanitary sewer collection systems
+237110,Water and Sewer Line and Related Structures Construction,23711003,Storm Sewer Construction,Infrastructure Type,Construction of storm water drainage systems
+237110,Water and Sewer Line and Related Structures Construction,23711004,Wastewater Treatment Plant Construction,Facility Type,Construction of wastewater treatment facilities
+237110,Water and Sewer Line and Related Structures Construction,23711005,Water Treatment Plant Construction,Facility Type,Construction of water treatment and pumping stations
+237120,Oil and Gas Pipeline and Related Structures Construction,23712001,Natural Gas Pipeline Construction,Pipeline Type,Construction of natural gas transmission pipelines
+237120,Oil and Gas Pipeline and Related Structures Construction,23712002,Crude Oil Pipeline Construction,Pipeline Type,Construction of crude oil pipelines
+237120,Oil and Gas Pipeline and Related Structures Construction,23712003,Refined Products Pipeline Construction,Pipeline Type,Construction of refined petroleum products pipelines
+237120,Oil and Gas Pipeline and Related Structures Construction,23712004,Pipeline Compressor Station Construction,Facility Type,Construction of pipeline compressor and pump stations
+237130,Power and Communication Line and Related Structures Construction,23713001,Electric Transmission Line Construction,Infrastructure Type,Construction of high-voltage transmission lines
+237130,Power and Communication Line and Related Structures Construction,23713002,Electric Substation Construction,Facility Type,Construction of electrical substations
+237130,Power and Communication Line and Related Structures Construction,23713003,Fiber Optic Network Construction,Infrastructure Type,Construction of fiber optic telecommunications networks
+237130,Power and Communication Line and Related Structures Construction,23713004,Cell Tower Construction,Facility Type,Construction and installation of cellular towers
+237130,Power and Communication Line and Related Structures Construction,23713005,Wind Farm Construction,Facility Type,Construction of wind turbine installations
+237130,Power and Communication Line and Related Structures Construction,23713006,Solar Farm Construction,Facility Type,Construction of utility-scale solar installations
+237210,Land Subdivision,23721001,Residential Land Subdivision,Development Type,Subdivision of land for residential development
+237210,Land Subdivision,23721002,Commercial Land Subdivision,Development Type,Subdivision of land for commercial development
+237210,Land Subdivision,23721003,Industrial Park Development,Development Type,Development of industrial park subdivisions
+237310,Highway Street and Bridge Construction,23731001,Highway and Interstate Construction,Project Type,Construction of highways and interstate roads
+237310,Highway Street and Bridge Construction,23731002,Bridge Construction and Replacement,Project Type,Construction of bridges and overpasses
+237310,Highway Street and Bridge Construction,23731003,Municipal Street Construction,Project Type,Construction of city and county roads
+237310,Highway Street and Bridge Construction,23731004,Airport Runway Construction,Project Type,Construction of airport runways and taxiways
+237990,Other Heavy and Civil Engineering Construction,23799001,Marine and Port Construction,Project Type,Construction of ports harbors and marine facilities
+237990,Other Heavy and Civil Engineering Construction,23799002,Dam and Levee Construction,Project Type,Construction of dams flood control and levees
+237990,Other Heavy and Civil Engineering Construction,23799003,Railroad Track Construction,Project Type,Construction of railroad tracks and rail infrastructure
+237990,Other Heavy and Civil Engineering Construction,23799004,Sports Stadium Construction,Project Type,Construction of stadiums and sports arenas
+238110,Poured Concrete Foundation and Structure Contractors,23811001,Residential Foundation Contractors,Market Segment,Poured concrete foundations for residential construction
+238110,Poured Concrete Foundation and Structure Contractors,23811002,Commercial Foundation Contractors,Market Segment,Poured concrete foundations for commercial buildings
+238110,Poured Concrete Foundation and Structure Contractors,23811003,Concrete Flatwork Contractors,Specialty,Concrete driveways sidewalks and flatwork
+238120,Structural Steel and Precast Concrete Contractors,23812001,Structural Steel Erection,Specialty,Erection of structural steel frameworks
+238120,Structural Steel and Precast Concrete Contractors,23812002,Precast Concrete Installation,Specialty,Installation of precast concrete components
+238130,Framing Contractors,23813001,Wood Framing Contractors,Material Type,Wood frame construction for residential and commercial
+238130,Framing Contractors,23813002,Metal Framing Contractors,Material Type,Light gauge metal framing contractors
+238140,Masonry Contractors,23814001,Brick Masonry Contractors,Material Type,Brick masonry and installation
+238140,Masonry Contractors,23814002,Block Masonry Contractors,Material Type,Concrete block masonry work
+238140,Masonry Contractors,23814003,Stone Masonry Contractors,Material Type,Natural stone masonry and installation
+238150,Glass and Glazing Contractors,23815001,Commercial Glazing Contractors,Market Segment,Commercial curtain wall and glazing systems
+238150,Glass and Glazing Contractors,23815002,Residential Window Installation,Market Segment,Residential window and door installation
+238150,Glass and Glazing Contractors,23815003,Storefront Glass Installation,Specialty,Commercial storefront glass systems
+238160,Roofing Contractors,23816001,Residential Roofing Contractors,Market Segment,Roofing for single and multi-family residences
+238160,Roofing Contractors,23816002,Commercial Roofing Contractors,Market Segment,Commercial and industrial roofing systems
+238160,Roofing Contractors,23816003,Metal Roofing Installation,Material Type,Metal roofing system installation
+238160,Roofing Contractors,23816004,Flat and Low-Slope Roofing,System Type,TPO EPDM and built-up roofing systems
+238170,Siding Contractors,23817001,Vinyl Siding Installation,Material Type,Vinyl siding installation contractors
+238170,Siding Contractors,23817002,Fiber Cement Siding Installation,Material Type,Fiber cement siding installation
+238170,Siding Contractors,23817003,Wood Siding Installation,Material Type,Wood and engineered wood siding
+238190,Other Foundation Structure and Building Exterior Contractors,23819001,Stucco and EIFS Contractors,Specialty,Stucco and exterior insulation finishing systems
+238190,Other Foundation Structure and Building Exterior Contractors,23819002,Waterproofing Contractors,Specialty,Building waterproofing and dampproofing
+238190,Other Foundation Structure and Building Exterior Contractors,23819003,Exterior Insulation Contractors,Specialty,Building envelope and exterior insulation
+238210,Electrical Contractors and Other Wiring Installation Contractors,23821001,Residential Electrical Contractors,Market Segment,Electrical wiring for residential construction
+238210,Electrical Contractors and Other Wiring Installation Contractors,23821002,Commercial Electrical Contractors,Market Segment,Electrical systems for commercial buildings
+238210,Electrical Contractors and Other Wiring Installation Contractors,23821003,Industrial Electrical Contractors,Market Segment,Industrial electrical and power systems
+238210,Electrical Contractors and Other Wiring Installation Contractors,23821004,Low Voltage and Data Cabling,Specialty,Structured cabling and low voltage systems
+238210,Electrical Contractors and Other Wiring Installation Contractors,23821005,Solar Panel Installation,Specialty,Residential and commercial solar PV installation
+238220,Plumbing Heating and Air-Conditioning Contractors,23822001,Residential Plumbing Contractors,Market Segment,Plumbing for residential construction
+238220,Plumbing Heating and Air-Conditioning Contractors,23822002,Commercial Plumbing Contractors,Market Segment,Plumbing for commercial buildings
+238220,Plumbing Heating and Air-Conditioning Contractors,23822003,HVAC Installation Contractors,Specialty,Heating ventilation and AC system installation
+238220,Plumbing Heating and Air-Conditioning Contractors,23822004,Mechanical Insulation Contractors,Specialty,Insulation of mechanical systems and piping
+238290,Other Building Equipment Contractors,23829001,Fire Sprinkler System Installation,Specialty,Fire protection and sprinkler system contractors
+238290,Other Building Equipment Contractors,23829002,Security System Installation,Specialty,Building security and access control systems
+238290,Other Building Equipment Contractors,23829003,Elevator and Escalator Installation,Specialty,Vertical transportation installation contractors
+238310,Drywall and Insulation Contractors,23831001,Drywall Installation Contractors,Specialty,Gypsum wallboard hanging and finishing
+238310,Drywall and Insulation Contractors,23831002,Acoustical Ceiling Installation,Specialty,Drop ceiling and acoustical ceiling systems
+238310,Drywall and Insulation Contractors,23831003,Building Insulation Contractors,Specialty,Thermal and acoustical building insulation
+238320,Painting and Wall Covering Contractors,23832001,Residential Painting Contractors,Market Segment,Interior and exterior residential painting
+238320,Painting and Wall Covering Contractors,23832002,Commercial Painting Contractors,Market Segment,Commercial and industrial painting services
+238320,Painting and Wall Covering Contractors,23832003,Wallpaper Installation Contractors,Specialty,Wallcovering and wallpaper installation
+238330,Flooring Contractors,23833001,Carpet Installation Contractors,Material Type,Carpet and carpet tile installation
+238330,Flooring Contractors,23833002,Hardwood Flooring Installation,Material Type,Hardwood floor installation and refinishing
+238330,Flooring Contractors,23833003,Tile and Stone Flooring Installation,Material Type,Ceramic tile and stone flooring contractors
+238330,Flooring Contractors,23833004,Resilient Flooring Installation,Material Type,Vinyl LVT and resilient flooring installation
+238340,Tile and Terrazzo Contractors,23834001,Ceramic Tile Installation,Material Type,Ceramic and porcelain tile installation
+238340,Tile and Terrazzo Contractors,23834002,Terrazzo Installation,Material Type,Terrazzo flooring installation and finishing
+238340,Tile and Terrazzo Contractors,23834003,Natural Stone Tile Installation,Material Type,Marble granite and stone tile work
+238350,Finish Carpentry Contractors,23835001,Interior Trim Carpentry,Specialty,Interior trim molding and millwork installation
+238350,Finish Carpentry Contractors,23835002,Cabinet Installation Contractors,Specialty,Kitchen and bath cabinet installation
+238350,Finish Carpentry Contractors,23835003,Custom Millwork Installation,Specialty,Custom architectural millwork and cabinetry
+238390,Other Building Finishing Contractors,23839001,Countertop Installation Contractors,Specialty,Countertop fabrication and installation
+238390,Other Building Finishing Contractors,23839002,Window Treatment Installation,Specialty,Blinds shades and window treatment contractors
+238910,Site Preparation Contractors,23891001,Excavation and Grading Contractors,Specialty,Site excavation and land grading services
+238910,Site Preparation Contractors,23891002,Demolition Contractors,Specialty,Building and structure demolition services
+238910,Site Preparation Contractors,23891003,Land Clearing Contractors,Specialty,Land clearing and tree removal services
+238910,Site Preparation Contractors,23891004,Environmental Remediation Contractors,Specialty,Soil remediation and hazardous material abatement
+238990,All Other Specialty Trade Contractors,23899001,Ornamental Iron and Metalwork,Specialty,Ornamental railings gates and metalwork installation
+238990,All Other Specialty Trade Contractors,23899002,Swimming Pool Construction,Specialty,In-ground swimming pool construction
+238990,All Other Specialty Trade Contractors,23899003,Fencing Contractors,Specialty,Fence installation and construction
+238990,All Other Specialty Trade Contractors,23899004,Landscaping Contractors,Specialty,Landscape construction and hardscaping
+238990,All Other Specialty Trade Contractors,23899005,Irrigation System Installation,Specialty,Sprinkler and irrigation system contractors
+311111,Dog and Cat Food Manufacturing,31111101,Dry Dog Food Manufacturing,Product Type,Manufacturing of dry kibble dog food
+311111,Dog and Cat Food Manufacturing,31111102,Wet/Canned Dog Food Manufacturing,Product Type,Manufacturing of canned and wet dog food
+311111,Dog and Cat Food Manufacturing,31111103,Dry Cat Food Manufacturing,Product Type,Manufacturing of dry kibble cat food
+311111,Dog and Cat Food Manufacturing,31111104,Wet/Canned Cat Food Manufacturing,Product Type,Manufacturing of canned and wet cat food
+311111,Dog and Cat Food Manufacturing,31111105,Premium/Specialty Pet Food,Market Segment,Manufacturing of premium and specialty pet food formulations
+311119,Other Animal Food Manufacturing,31111901,Livestock Feed Manufacturing,Product Type,Manufacturing of feed for cattle hogs and poultry
+311119,Other Animal Food Manufacturing,31111902,Horse and Equine Feed Manufacturing,Product Type,Manufacturing of horse and equine feed products
+311119,Other Animal Food Manufacturing,31111903,Aquaculture Feed Manufacturing,Product Type,Manufacturing of feed for aquaculture and fish farming
+311119,Other Animal Food Manufacturing,31111904,Pet Bird and Small Animal Feed,Product Type,Manufacturing of feed for birds rabbits and small pets
+311211,Flour Milling,31121101,Wheat Flour Milling,Product Type,Milling of wheat into flour products
+311211,Flour Milling,31121102,Specialty Flour Milling,Product Type,Milling of specialty flours (whole wheat organic gluten-free)
+311212,Rice Milling,31121201,White Rice Milling,Product Type,Milling and polishing of white rice
+311212,Rice Milling,31121202,Brown Rice Milling,Product Type,Milling of brown rice products
+311213,Malt Manufacturing,31121301,Brewer's Malt Production,End Use,Malt production for brewing industry
+311213,Malt Manufacturing,31121302,Distiller's Malt Production,End Use,Malt production for distilling industry
+311221,Wet Corn Milling and Starch Manufacturing,31122101,Corn Starch Manufacturing,Product Type,Manufacturing of corn starch and modified starches
+311221,Wet Corn Milling and Starch Manufacturing,31122102,Corn Syrup Manufacturing,Product Type,Manufacturing of corn syrups and sweeteners
+311221,Wet Corn Milling and Starch Manufacturing,31122103,High Fructose Corn Syrup Production,Product Type,Manufacturing of HFCS
+311224,Soybean and Other Oilseed Processing,31122401,Soybean Oil and Meal Production,Product Type,Crushing soybeans for oil and meal
+311224,Soybean and Other Oilseed Processing,31122402,Canola Oil Production,Product Type,Processing canola for oil production
+311224,Soybean and Other Oilseed Processing,31122403,Sunflower Oil Production,Product Type,Processing sunflower seeds for oil
+311225,Fats and Oils Refining and Blending,31122501,Vegetable Oil Refining,Product Type,Refining and bottling vegetable oils
+311225,Fats and Oils Refining and Blending,31122502,Shortening and Margarine Production,Product Type,Manufacturing of shortenings and margarines
+311230,Breakfast Cereal Manufacturing,31123001,Ready-to-Eat Cereal Manufacturing,Product Type,Manufacturing of cold breakfast cereals
+311230,Breakfast Cereal Manufacturing,31123002,Hot Cereal Manufacturing,Product Type,Manufacturing of oatmeal and hot cereals
+311313,Beet Sugar Manufacturing,31131301,Granulated Beet Sugar Production,Product Type,Refining of sugar from sugar beets
+311314,Cane Sugar Manufacturing,31131401,Granulated Cane Sugar Production,Product Type,Refining of sugar from sugar cane
+311314,Cane Sugar Manufacturing,31131402,Raw Sugar Milling,Product Type,Initial processing of sugar cane to raw sugar
+311340,Nonchocolate Confectionery Manufacturing,31134001,Hard Candy Manufacturing,Product Type,Manufacturing of hard candies and lollipops
+311340,Nonchocolate Confectionery Manufacturing,31134002,Gummy and Jelly Candy Manufacturing,Product Type,Manufacturing of gummy bears and jelly candies
+311340,Nonchocolate Confectionery Manufacturing,31134003,Chewing Gum Manufacturing,Product Type,Manufacturing of chewing and bubble gum
+311351,Chocolate and Confectionery Manufacturing from Cacao Beans,31135101,Chocolate Bar Manufacturing,Product Type,Manufacturing of chocolate bars from cacao beans
+311351,Chocolate and Confectionery Manufacturing from Cacao Beans,31135102,Cocoa Powder Production,Product Type,Processing cacao into cocoa powder and butter
+311352,Confectionery Manufacturing from Purchased Chocolate,31135201,Boxed Chocolate Manufacturing,Product Type,Manufacturing of boxed and assorted chocolates
+311352,Confectionery Manufacturing from Purchased Chocolate,31135202,Chocolate Candy Bar Manufacturing,Product Type,Manufacturing candy bars from purchased chocolate
+311411,Frozen Fruit Juice and Vegetable Manufacturing,31141101,Frozen Orange Juice Concentrate,Product Type,Manufacturing of frozen OJ concentrate
+311411,Frozen Fruit Juice and Vegetable Manufacturing,31141102,Frozen Vegetable Processing,Product Type,Freezing and packaging of vegetables
+311412,Frozen Specialty Food Manufacturing,31141201,Frozen Dinner and Entree Manufacturing,Product Type,Manufacturing of frozen meals and dinners
+311412,Frozen Specialty Food Manufacturing,31141202,Frozen Pizza Manufacturing,Product Type,Manufacturing of frozen pizzas
+311412,Frozen Specialty Food Manufacturing,31141203,Frozen Snack Food Manufacturing,Product Type,Manufacturing of frozen appetizers and snacks
+311421,Fruit and Vegetable Canning,31142101,Tomato Canning and Processing,Product Type,Canning of tomatoes and tomato products
+311421,Fruit and Vegetable Canning,31142102,Fruit Canning,Product Type,Canning of fruits for retail and food service
+311421,Fruit and Vegetable Canning,31142103,Vegetable Canning,Product Type,Canning of vegetables for retail and food service
+311422,Specialty Canning,31142201,Baby Food Manufacturing,Product Type,Manufacturing of infant and baby food products
+311422,Specialty Canning,31142202,Soup and Stew Canning,Product Type,Manufacturing of canned soups and stews
+311423,Dried and Dehydrated Food Manufacturing,31142301,Dehydrated Soup and Sauce Mix Production,Product Type,Manufacturing of dried soup mixes and seasonings
+311423,Dried and Dehydrated Food Manufacturing,31142302,Dried Fruit Production,Product Type,Drying and packaging of fruits
+311423,Dried and Dehydrated Food Manufacturing,31142303,Freeze-Dried Food Manufacturing,Product Type,Manufacturing of freeze-dried foods
+311511,Fluid Milk Manufacturing,31151101,Whole Milk Processing,Product Type,Processing and bottling of whole milk
+311511,Fluid Milk Manufacturing,31151102,Reduced-Fat and Skim Milk Processing,Product Type,Processing of 2% 1% and skim milk
+311511,Fluid Milk Manufacturing,31151103,Flavored Milk Processing,Product Type,Manufacturing of chocolate and flavored milk
+311511,Fluid Milk Manufacturing,31151104,Plant-Based Milk Alternatives,Product Type,Manufacturing of almond soy and oat milk
+311512,Creamery Butter Manufacturing,31151201,Salted Butter Production,Product Type,Manufacturing of salted butter
+311512,Creamery Butter Manufacturing,31151202,Unsalted Butter Production,Product Type,Manufacturing of unsalted/sweet cream butter
+311513,Cheese Manufacturing,31151301,Natural Cheese Manufacturing,Product Type,Manufacturing of natural cheese varieties
+311513,Cheese Manufacturing,31151302,Processed Cheese Manufacturing,Product Type,Manufacturing of processed cheese products
+311513,Cheese Manufacturing,31151303,Specialty and Artisan Cheese,Market Segment,Manufacturing of specialty and artisan cheeses
+311514,Dry Condensed and Evaporated Dairy Product Manufacturing,31151401,Dry Milk Powder Manufacturing,Product Type,Manufacturing of powdered milk products
+311514,Dry Condensed and Evaporated Dairy Product Manufacturing,31151402,Evaporated and Condensed Milk Manufacturing,Product Type,Manufacturing of canned evaporated milk
+311514,Dry Condensed and Evaporated Dairy Product Manufacturing,31151403,Whey and Whey Protein Manufacturing,Product Type,Processing whey into protein products
+311520,Ice Cream and Frozen Dessert Manufacturing,31152001,Ice Cream Manufacturing,Product Type,Manufacturing of packaged ice cream
+311520,Ice Cream and Frozen Dessert Manufacturing,31152002,Frozen Yogurt Manufacturing,Product Type,Manufacturing of frozen yogurt products
+311520,Ice Cream and Frozen Dessert Manufacturing,31152003,Non-Dairy Frozen Dessert Manufacturing,Product Type,Manufacturing of non-dairy frozen desserts
+311611,Animal (except Poultry) Slaughtering,31161101,Cattle Slaughtering,Species,Slaughtering and primary processing of cattle
+311611,Animal (except Poultry) Slaughtering,31161102,Hog Slaughtering,Species,Slaughtering and primary processing of hogs
+311611,Animal (except Poultry) Slaughtering,31161103,Sheep and Lamb Slaughtering,Species,Slaughtering and primary processing of sheep
+311612,Meat Processed from Carcasses,31161201,Fresh Beef Cutting and Processing,Product Type,Fabrication of fresh beef cuts
+311612,Meat Processed from Carcasses,31161202,Fresh Pork Cutting and Processing,Product Type,Fabrication of fresh pork cuts
+311612,Meat Processed from Carcasses,31161203,Processed Meat Product Manufacturing,Product Type,Manufacturing of bacon ham sausage and deli meats
+311613,Rendering and Meat Byproduct Processing,31161301,Animal Rendering Operations,Process Type,Rendering animal fats and proteins
+311613,Rendering and Meat Byproduct Processing,31161302,Pet Food Ingredient Manufacturing,Product Type,Processing meat byproducts for pet food
+311615,Poultry Processing,31161501,Chicken Processing,Species,Slaughtering and processing of chickens
+311615,Poultry Processing,31161502,Turkey Processing,Species,Slaughtering and processing of turkeys
+311615,Poultry Processing,31161503,Further Processed Poultry Products,Product Type,Manufacturing of breaded and prepared poultry items
+311710,Seafood Product Preparation and Packaging,31171001,Fresh and Frozen Fish Processing,Product Type,Processing and packaging of fish products
+311710,Seafood Product Preparation and Packaging,31171002,Shellfish Processing,Product Type,Processing of shrimp crab and shellfish
+311710,Seafood Product Preparation and Packaging,31171003,Canned Seafood Manufacturing,Product Type,Canning of tuna salmon and seafood
+311811,Retail Bakeries,31181101,Retail Bread Bakeries,Product Focus,Retail bakeries primarily producing bread
+311811,Retail Bakeries,31181102,Retail Cake and Pastry Shops,Product Focus,Retail bakeries specializing in cakes and pastries
+311811,Retail Bakeries,31181103,Retail Donut Shops,Product Focus,Retail donut and sweet goods bakeries
+311812,Commercial Bakeries,31181201,Bread and Roll Manufacturing,Product Type,Wholesale production of bread and rolls
+311812,Commercial Bakeries,31181202,Tortilla Manufacturing,Product Type,Manufacturing of flour and corn tortillas
+311812,Commercial Bakeries,31181203,Bagel Manufacturing,Product Type,Commercial bagel production
+311813,Frozen Cakes Pies and Other Pastries Manufacturing,31181301,Frozen Pie Manufacturing,Product Type,Manufacturing of frozen pies
+311813,Frozen Cakes Pies and Other Pastries Manufacturing,31181302,Frozen Cake Manufacturing,Product Type,Manufacturing of frozen cakes
+311821,Cookie and Cracker Manufacturing,31182101,Cookie and Biscuit Manufacturing,Product Type,Manufacturing of cookies and biscuits
+311821,Cookie and Cracker Manufacturing,31182102,Cracker Manufacturing,Product Type,Manufacturing of crackers and snack crackers
+311824,Dry Pasta Dough and Flour Mixes Manufacturing from Purchased Flour,31182401,Dry Pasta Manufacturing,Product Type,Manufacturing of dry pasta products
+311824,Dry Pasta Dough and Flour Mixes Manufacturing from Purchased Flour,31182402,Baking Mix Manufacturing,Product Type,Manufacturing of cake muffin and baking mixes
+311830,Tortilla Manufacturing,31183001,Corn Tortilla Manufacturing,Product Type,Manufacturing of corn tortillas and chips
+311830,Tortilla Manufacturing,31183002,Flour Tortilla Manufacturing,Product Type,Manufacturing of flour tortillas and wraps
