@@ -1282,3 +1282,444 @@ NAICS_6_Digit,NAICS_6_Title,NAICS_8_Digit,NAICS_8_Title,Differentiation_Criteria
 335991,Carbon and Graphite Product Manufacturing,33599102,Graphite Electrode Manufacturing,Product Type,Manufacturing of graphite electrodes
 335999,All Other Miscellaneous Electrical Equipment and Component Manufacturing,33599901,Power Supply Manufacturing,Product Type,Manufacturing of AC/DC power supplies
 335999,All Other Miscellaneous Electrical Equipment and Component Manufacturing,33599902,Electrical Equipment Component Manufacturing,Product Type,Manufacturing of miscellaneous electrical components
+336110,Automobile and Light Duty Motor Vehicle Manufacturing,33611001,Passenger Car Manufacturing,Product Type,Manufacturing of passenger automobiles
+336110,Automobile and Light Duty Motor Vehicle Manufacturing,33611002,SUV and Crossover Manufacturing,Product Type,Manufacturing of sport utility vehicles
+336110,Automobile and Light Duty Motor Vehicle Manufacturing,33611003,Pickup Truck Manufacturing,Product Type,Manufacturing of light-duty pickup trucks
+336110,Automobile and Light Duty Motor Vehicle Manufacturing,33611004,Minivan Manufacturing,Product Type,Manufacturing of minivans and passenger vans
+336110,Automobile and Light Duty Motor Vehicle Manufacturing,33611005,Electric Vehicle Manufacturing,Technology,Manufacturing of battery electric vehicles
+336110,Automobile and Light Duty Motor Vehicle Manufacturing,33611006,Hybrid Vehicle Manufacturing,Technology,Manufacturing of hybrid electric vehicles
+336120,Heavy Duty Truck Manufacturing,33612001,Class 8 Truck Manufacturing,Product Type,Manufacturing of heavy-duty semi-trucks
+336120,Heavy Duty Truck Manufacturing,33612002,Medium-Duty Truck Manufacturing,Product Type,Manufacturing of medium-duty commercial trucks
+336120,Heavy Duty Truck Manufacturing,33612003,Refuse Truck Manufacturing,Product Type,Manufacturing of garbage and refuse trucks
+336211,Motor Vehicle Body Manufacturing,33621101,Truck Body Manufacturing,Product Type,Manufacturing of truck bodies and cargo boxes
+336211,Motor Vehicle Body Manufacturing,33621102,Bus Body Manufacturing,Product Type,Manufacturing of bus bodies
+336212,Truck Trailer Manufacturing,33621201,Semi-Trailer Manufacturing,Product Type,Manufacturing of over-the-road semi-trailers
+336212,Truck Trailer Manufacturing,33621202,Refrigerated Trailer Manufacturing,Product Type,Manufacturing of refrigerated trailers
+336212,Truck Trailer Manufacturing,33621203,Flatbed Trailer Manufacturing,Product Type,Manufacturing of flatbed trailers
+336213,Motor Home Manufacturing,33621301,Class A Motor Home Manufacturing,Product Type,Manufacturing of Class A motorhomes
+336213,Motor Home Manufacturing,33621302,Class B and C Motor Home Manufacturing,Product Type,Manufacturing of Class B and C motorhomes
+336214,Travel Trailer and Camper Manufacturing,33621401,Travel Trailer Manufacturing,Product Type,Manufacturing of towable travel trailers
+336214,Travel Trailer and Camper Manufacturing,33621402,Fifth-Wheel Trailer Manufacturing,Product Type,Manufacturing of fifth-wheel trailers
+336214,Travel Trailer and Camper Manufacturing,33621403,Truck Camper Manufacturing,Product Type,Manufacturing of truck bed campers
+336310,Motor Vehicle Gasoline Engine and Engine Parts Manufacturing,33631001,Gasoline Engine Manufacturing,Product Type,Manufacturing of automotive gasoline engines
+336310,Motor Vehicle Gasoline Engine and Engine Parts Manufacturing,33631002,Engine Component Manufacturing,Product Type,Manufacturing of pistons valves and engine parts
+336320,Motor Vehicle Electrical and Electronic Equipment Manufacturing,33632001,Automotive Wiring Harness Manufacturing,Product Type,Manufacturing of vehicle wiring systems
+336320,Motor Vehicle Electrical and Electronic Equipment Manufacturing,33632002,Automotive Lighting Manufacturing,Product Type,Manufacturing of headlights and automotive lights
+336320,Motor Vehicle Electrical and Electronic Equipment Manufacturing,33632003,Automotive Electronics Manufacturing,Product Type,Manufacturing of vehicle electronic modules
+336330,Motor Vehicle Steering and Suspension Components (except Spring) Manufacturing,33633001,Power Steering System Manufacturing,Product Type,Manufacturing of power steering components
+336330,Motor Vehicle Steering and Suspension Components (except Spring) Manufacturing,33633002,Suspension Component Manufacturing,Product Type,Manufacturing of struts shocks and suspension parts
+336340,Motor Vehicle Brake System Manufacturing,33634001,Disc Brake Manufacturing,Product Type,Manufacturing of disc brake systems
+336340,Motor Vehicle Brake System Manufacturing,33634002,Brake Component Manufacturing,Product Type,Manufacturing of brake pads rotors and calipers
+336350,Motor Vehicle Transmission and Power Train Parts Manufacturing,33635001,Automatic Transmission Manufacturing,Product Type,Manufacturing of automatic transmissions
+336350,Motor Vehicle Transmission and Power Train Parts Manufacturing,33635002,Manual Transmission Manufacturing,Product Type,Manufacturing of manual transmissions
+336350,Motor Vehicle Transmission and Power Train Parts Manufacturing,33635003,Axle and Driveshaft Manufacturing,Product Type,Manufacturing of axles and drive components
+336360,Motor Vehicle Seating and Interior Trim Manufacturing,33636001,Automotive Seat Manufacturing,Product Type,Manufacturing of automotive seats
+336360,Motor Vehicle Seating and Interior Trim Manufacturing,33636002,Automotive Interior Trim Manufacturing,Product Type,Manufacturing of interior trim and panels
+336370,Motor Vehicle Metal Stamping,33637001,Automotive Body Panel Stamping,Product Type,Stamping of body panels and structural components
+336390,Other Motor Vehicle Parts Manufacturing,33639001,Automotive Air Conditioning Manufacturing,Product Type,Manufacturing of vehicle HVAC systems
+336390,Other Motor Vehicle Parts Manufacturing,33639002,Automotive Exhaust System Manufacturing,Product Type,Manufacturing of exhaust systems and mufflers
+336390,Other Motor Vehicle Parts Manufacturing,33639003,Automotive Fuel System Manufacturing,Product Type,Manufacturing of fuel tanks and fuel system parts
+336411,Aircraft Manufacturing,33641101,Commercial Aircraft Manufacturing,Product Type,Manufacturing of commercial passenger aircraft
+336411,Aircraft Manufacturing,33641102,Military Aircraft Manufacturing,Product Type,Manufacturing of military aircraft
+336411,Aircraft Manufacturing,33641103,Business Jet Manufacturing,Product Type,Manufacturing of business and corporate jets
+336411,Aircraft Manufacturing,33641104,General Aviation Aircraft Manufacturing,Product Type,Manufacturing of small general aviation aircraft
+336412,Aircraft Engine and Engine Parts Manufacturing,33641201,Jet Engine Manufacturing,Product Type,Manufacturing of aircraft jet engines
+336412,Aircraft Engine and Engine Parts Manufacturing,33641202,Turboprop Engine Manufacturing,Product Type,Manufacturing of turboprop engines
+336412,Aircraft Engine and Engine Parts Manufacturing,33641203,Piston Aircraft Engine Manufacturing,Product Type,Manufacturing of piston engines for aircraft
+336413,Other Aircraft Parts and Auxiliary Equipment Manufacturing,33641301,Aircraft Landing Gear Manufacturing,Product Type,Manufacturing of aircraft landing gear systems
+336413,Other Aircraft Parts and Auxiliary Equipment Manufacturing,33641302,Aircraft Avionics Manufacturing,Product Type,Manufacturing of aircraft electronic systems
+336413,Other Aircraft Parts and Auxiliary Equipment Manufacturing,33641303,Aircraft Interior Manufacturing,Product Type,Manufacturing of aircraft cabin interiors
+336414,Guided Missile and Space Vehicle Manufacturing,33641401,Space Launch Vehicle Manufacturing,Product Type,Manufacturing of rockets and launch vehicles
+336414,Guided Missile and Space Vehicle Manufacturing,33641402,Satellite Manufacturing,Product Type,Manufacturing of satellites
+336414,Guided Missile and Space Vehicle Manufacturing,33641403,Guided Missile Manufacturing,Product Type,Manufacturing of guided missiles
+336415,Guided Missile and Space Vehicle Propulsion Unit and Propulsion Unit Parts Manufacturing,33641501,Rocket Engine Manufacturing,Product Type,Manufacturing of rocket propulsion systems
+336419,Other Guided Missile and Space Vehicle Parts and Auxiliary Equipment Manufacturing,33641901,Spacecraft Component Manufacturing,Product Type,Manufacturing of spacecraft subsystems and components
+336510,Railroad Rolling Stock Manufacturing,33651001,Locomotive Manufacturing,Product Type,Manufacturing of diesel and electric locomotives
+336510,Railroad Rolling Stock Manufacturing,33651002,Railcar Manufacturing,Product Type,Manufacturing of freight and passenger railcars
+336510,Railroad Rolling Stock Manufacturing,33651003,Transit Rail Vehicle Manufacturing,Product Type,Manufacturing of subway and light rail vehicles
+336611,Ship Building and Repairing,33661101,Commercial Ship Building,Product Type,Construction of cargo ships and commercial vessels
+336611,Ship Building and Repairing,33661102,Naval Ship Building,Product Type,Construction of military naval vessels
+336611,Ship Building and Repairing,33661103,Ship Repair and Conversion,Service Type,Ship repair refurbishment and conversion services
+336612,Boat Building,33661201,Powerboat Manufacturing,Product Type,Manufacturing of motorized pleasure boats
+336612,Boat Building,33661202,Sailboat Manufacturing,Product Type,Manufacturing of sailing vessels
+336612,Boat Building,33661203,Personal Watercraft Manufacturing,Product Type,Manufacturing of jet skis and PWC
+336991,Motorcycle Bicycle and Parts Manufacturing,33699101,Motorcycle Manufacturing,Product Type,Manufacturing of motorcycles and scooters
+336991,Motorcycle Bicycle and Parts Manufacturing,33699102,Bicycle Manufacturing,Product Type,Manufacturing of bicycles
+336991,Motorcycle Bicycle and Parts Manufacturing,33699103,Electric Bicycle Manufacturing,Product Type,Manufacturing of e-bikes and electric bicycles
+336992,Military Armored Vehicle Tank and Tank Component Manufacturing,33699201,Armored Vehicle Manufacturing,Product Type,Manufacturing of military armored vehicles
+336992,Military Armored Vehicle Tank and Tank Component Manufacturing,33699202,Tank Manufacturing,Product Type,Manufacturing of military tanks
+336999,All Other Transportation Equipment Manufacturing,33699901,Golf Cart Manufacturing,Product Type,Manufacturing of golf carts and utility vehicles
+336999,All Other Transportation Equipment Manufacturing,33699902,All-Terrain Vehicle Manufacturing,Product Type,Manufacturing of ATVs and off-road vehicles
+337110,Wood Kitchen Cabinet and Countertop Manufacturing,33711001,Custom Cabinet Manufacturing,Product Type,Custom wood cabinet manufacturing
+337110,Wood Kitchen Cabinet and Countertop Manufacturing,33711002,Stock Cabinet Manufacturing,Product Type,Stock kitchen cabinet manufacturing
+337110,Wood Kitchen Cabinet and Countertop Manufacturing,33711003,Countertop Manufacturing,Product Type,Manufacturing of countertops and vanity tops
+337121,Upholstered Household Furniture Manufacturing,33712101,Upholstered Sofa Manufacturing,Product Type,Manufacturing of sofas and sectionals
+337121,Upholstered Household Furniture Manufacturing,33712102,Upholstered Chair Manufacturing,Product Type,Manufacturing of upholstered chairs and recliners
+337122,Nonupholstered Wood Household Furniture Manufacturing,33712201,Wood Bedroom Furniture Manufacturing,Product Type,Manufacturing of wood bedroom sets
+337122,Nonupholstered Wood Household Furniture Manufacturing,33712202,Wood Dining Furniture Manufacturing,Product Type,Manufacturing of wood dining tables and chairs
+337122,Nonupholstered Wood Household Furniture Manufacturing,33712203,Wood Case Goods Manufacturing,Product Type,Manufacturing of wood dressers and storage furniture
+337126,Household Furniture (except Wood and Upholstered) Manufacturing,33712601,Metal Furniture Manufacturing,Material Type,Manufacturing of metal household furniture
+337126,Household Furniture (except Wood and Upholstered) Manufacturing,33712602,Plastic Furniture Manufacturing,Material Type,Manufacturing of plastic household furniture
+337127,Institutional Furniture Manufacturing,33712701,School Furniture Manufacturing,End Use,Manufacturing of classroom furniture
+337127,Institutional Furniture Manufacturing,33712702,Healthcare Furniture Manufacturing,End Use,Manufacturing of hospital and medical furniture
+337211,Wood Office Furniture Manufacturing,33721101,Wood Desk Manufacturing,Product Type,Manufacturing of wood office desks
+337211,Wood Office Furniture Manufacturing,33721102,Wood Office Storage Manufacturing,Product Type,Manufacturing of wood filing cabinets and credenzas
+337212,Custom Architectural Woodwork and Millwork Manufacturing,33721201,Custom Architectural Millwork,Product Type,Custom architectural woodwork and cabinetry
+337214,Office Furniture (except Wood) Manufacturing,33721401,Metal Office Furniture Manufacturing,Material Type,Manufacturing of metal office desks and cabinets
+337214,Office Furniture (except Wood) Manufacturing,33721402,Modular Office System Manufacturing,Product Type,Manufacturing of modular office workstations
+337215,Showcase Partition Shelving and Locker Manufacturing,33721501,Store Fixture Manufacturing,Product Type,Manufacturing of retail display fixtures
+337215,Showcase Partition Shelving and Locker Manufacturing,33721502,Shelving and Storage System Manufacturing,Product Type,Manufacturing of industrial shelving and racks
+337215,Showcase Partition Shelving and Locker Manufacturing,33721503,Locker Manufacturing,Product Type,Manufacturing of lockers
+337910,Mattress Manufacturing,33791001,Innerspring Mattress Manufacturing,Product Type,Manufacturing of innerspring mattresses
+337910,Mattress Manufacturing,33791002,Foam Mattress Manufacturing,Product Type,Manufacturing of memory foam and specialty mattresses
+337910,Mattress Manufacturing,33791003,Box Spring Manufacturing,Product Type,Manufacturing of box springs and foundations
+337920,Blind and Shade Manufacturing,33792001,Window Blind Manufacturing,Product Type,Manufacturing of venetian and mini blinds
+337920,Blind and Shade Manufacturing,33792002,Roller Shade Manufacturing,Product Type,Manufacturing of roller shades and screen shades
+339112,Surgical and Medical Instrument Manufacturing,33911201,Surgical Instrument Manufacturing,Product Type,Manufacturing of surgical instruments and tools
+339112,Surgical and Medical Instrument Manufacturing,33911202,Dental Instrument Manufacturing,Product Type,Manufacturing of dental instruments
+339113,Surgical Appliance and Supplies Manufacturing,33911301,Orthopedic Device Manufacturing,Product Type,Manufacturing of orthopedic implants and devices
+339113,Surgical Appliance and Supplies Manufacturing,33911302,Medical Glove Manufacturing,Product Type,Manufacturing of surgical and medical gloves
+339113,Surgical Appliance and Supplies Manufacturing,33911303,Bandage and Dressing Manufacturing,Product Type,Manufacturing of medical bandages and dressings
+339114,Dental Equipment and Supplies Manufacturing,33911401,Dental Chair and Equipment Manufacturing,Product Type,Manufacturing of dental chairs and equipment
+339114,Dental Equipment and Supplies Manufacturing,33911402,Dental Supply Manufacturing,Product Type,Manufacturing of dental materials and supplies
+339115,Ophthalmic Goods Manufacturing,33911501,Eyeglass Lens Manufacturing,Product Type,Manufacturing of ophthalmic lenses
+339115,Ophthalmic Goods Manufacturing,33911502,Eyeglass Frame Manufacturing,Product Type,Manufacturing of eyeglass frames
+339115,Ophthalmic Goods Manufacturing,33911503,Contact Lens Manufacturing,Product Type,Manufacturing of contact lenses
+339116,Dental Laboratories,33911601,Crown and Bridge Dental Labs,Service Type,Dental laboratory services for crowns and bridges
+339116,Dental Laboratories,33911602,Denture Manufacturing Labs,Service Type,Dental laboratory manufacturing of dentures
+339910,Jewelry and Silverware Manufacturing,33991001,Fine Jewelry Manufacturing,Product Type,Manufacturing of gold and precious metal jewelry
+339910,Jewelry and Silverware Manufacturing,33991002,Fashion Jewelry Manufacturing,Product Type,Manufacturing of costume and fashion jewelry
+339910,Jewelry and Silverware Manufacturing,33991003,Silverware and Flatware Manufacturing,Product Type,Manufacturing of silver flatware and serving pieces
+339920,Sporting and Athletic Goods Manufacturing,33992001,Ball and Sports Equipment Manufacturing,Product Type,Manufacturing of balls and sports equipment
+339920,Sporting and Athletic Goods Manufacturing,33992002,Exercise Equipment Manufacturing,Product Type,Manufacturing of fitness and exercise equipment
+339920,Sporting and Athletic Goods Manufacturing,33992003,Camping and Outdoor Gear Manufacturing,Product Type,Manufacturing of camping and outdoor equipment
+339920,Sporting and Athletic Goods Manufacturing,33992004,Golf Equipment Manufacturing,Product Type,Manufacturing of golf clubs and equipment
+339930,Doll Toy and Game Manufacturing,33993001,Action Figure and Doll Manufacturing,Product Type,Manufacturing of dolls and action figures
+339930,Doll Toy and Game Manufacturing,33993002,Board Game Manufacturing,Product Type,Manufacturing of board games and puzzles
+339930,Doll Toy and Game Manufacturing,33993003,Electronic Toy Manufacturing,Product Type,Manufacturing of electronic and video game toys
+339940,Office Supplies (except Paper) Manufacturing,33994001,Pen and Pencil Manufacturing,Product Type,Manufacturing of pens pencils and markers
+339940,Office Supplies (except Paper) Manufacturing,33994002,Stamp and Seal Manufacturing,Product Type,Manufacturing of stamps and seals
+339950,Sign Manufacturing,33995001,Electric Sign Manufacturing,Product Type,Manufacturing of illuminated and LED signs
+339950,Sign Manufacturing,33995002,Non-Electric Sign Manufacturing,Product Type,Manufacturing of non-illuminated signs
+339991,Gasket Packing and Sealing Device Manufacturing,33999101,Industrial Gasket Manufacturing,Product Type,Manufacturing of industrial gaskets
+339991,Gasket Packing and Sealing Device Manufacturing,33999102,O-Ring and Seal Manufacturing,Product Type,Manufacturing of O-rings and mechanical seals
+339992,Musical Instrument Manufacturing,33999201,String Instrument Manufacturing,Product Type,Manufacturing of guitars violins and string instruments
+339992,Musical Instrument Manufacturing,33999202,Wind Instrument Manufacturing,Product Type,Manufacturing of brass and woodwind instruments
+339992,Musical Instrument Manufacturing,33999203,Piano and Keyboard Manufacturing,Product Type,Manufacturing of pianos and keyboards
+339992,Musical Instrument Manufacturing,33999204,Percussion Instrument Manufacturing,Product Type,Manufacturing of drums and percussion instruments
+339993,Fastener Button Needle and Pin Manufacturing,33999301,Zipper Manufacturing,Product Type,Manufacturing of zippers and slide fasteners
+339993,Fastener Button Needle and Pin Manufacturing,33999302,Button Manufacturing,Product Type,Manufacturing of buttons
+339994,Broom Brush and Mop Manufacturing,33999401,Broom Manufacturing,Product Type,Manufacturing of brooms
+339994,Broom Brush and Mop Manufacturing,33999402,Brush Manufacturing,Product Type,Manufacturing of brushes
+339994,Broom Brush and Mop Manufacturing,33999403,Mop Manufacturing,Product Type,Manufacturing of mops
+339995,Burial Casket Manufacturing,33999501,Metal Casket Manufacturing,Material Type,Manufacturing of metal burial caskets
+339995,Burial Casket Manufacturing,33999502,Wood Casket Manufacturing,Material Type,Manufacturing of wood burial caskets
+339999,All Other Miscellaneous Manufacturing,33999901,Candle Manufacturing,Product Type,Manufacturing of candles
+339999,All Other Miscellaneous Manufacturing,33999902,Matches and Lighter Manufacturing,Product Type,Manufacturing of matches and lighters
+339999,All Other Miscellaneous Manufacturing,33999903,Umbrella Manufacturing,Product Type,Manufacturing of umbrellas
+339999,All Other Miscellaneous Manufacturing,33999904,Hair Accessory Manufacturing,Product Type,Manufacturing of hair accessories
+423110,Automobile and Other Motor Vehicle Merchant Wholesalers,42311001,New Car Wholesalers,Product Type,Wholesale distribution of new automobiles
+423110,Automobile and Other Motor Vehicle Merchant Wholesalers,42311002,Used Car Wholesalers,Product Type,Wholesale distribution of used automobiles
+423110,Automobile and Other Motor Vehicle Merchant Wholesalers,42311003,Truck and Commercial Vehicle Wholesalers,Product Type,Wholesale distribution of trucks and commercial vehicles
+423120,Motor Vehicle Supplies and New Parts Merchant Wholesalers,42312001,Automotive Parts Wholesalers,Product Type,Wholesale distribution of automotive replacement parts
+423120,Motor Vehicle Supplies and New Parts Merchant Wholesalers,42312002,Performance Parts Wholesalers,Product Type,Wholesale distribution of aftermarket performance parts
+423120,Motor Vehicle Supplies and New Parts Merchant Wholesalers,42312003,Automotive Accessories Wholesalers,Product Type,Wholesale distribution of auto accessories
+423130,Tire and Tube Merchant Wholesalers,42313001,Passenger Tire Wholesalers,Product Type,Wholesale distribution of passenger vehicle tires
+423130,Tire and Tube Merchant Wholesalers,42313002,Commercial Tire Wholesalers,Product Type,Wholesale distribution of commercial truck tires
+423140,Motor Vehicle Parts (Used) Merchant Wholesalers,42314001,Used Auto Parts Wholesalers,Product Type,Wholesale distribution of used automotive parts
+423140,Motor Vehicle Parts (Used) Merchant Wholesalers,42314002,Salvage Parts Wholesalers,Product Type,Wholesale distribution of salvage and recycled parts
+423210,Furniture Merchant Wholesalers,42321001,Residential Furniture Wholesalers,Market Segment,Wholesale distribution of residential furniture
+423210,Furniture Merchant Wholesalers,42321002,Commercial Furniture Wholesalers,Market Segment,Wholesale distribution of office and commercial furniture
+423220,Home Furnishing Merchant Wholesalers,42322001,Floor Covering Wholesalers,Product Type,Wholesale distribution of carpets and flooring
+423220,Home Furnishing Merchant Wholesalers,42322002,Drapery and Upholstery Wholesalers,Product Type,Wholesale distribution of window treatments and fabrics
+423220,Home Furnishing Merchant Wholesalers,42322003,Home Decor Wholesalers,Product Type,Wholesale distribution of home decor and accessories
+423310,Lumber Plywood Millwork and Wood Panel Merchant Wholesalers,42331001,Lumber Wholesalers,Product Type,Wholesale distribution of dimensional lumber
+423310,Lumber Plywood Millwork and Wood Panel Merchant Wholesalers,42331002,Plywood and Panel Wholesalers,Product Type,Wholesale distribution of plywood and engineered panels
+423310,Lumber Plywood Millwork and Wood Panel Merchant Wholesalers,42331003,Millwork and Moulding Wholesalers,Product Type,Wholesale distribution of doors windows and trim
+423320,Brick Stone and Related Construction Material Merchant Wholesalers,42332001,Brick and Block Wholesalers,Product Type,Wholesale distribution of masonry materials
+423320,Brick Stone and Related Construction Material Merchant Wholesalers,42332002,Natural Stone Wholesalers,Product Type,Wholesale distribution of stone and granite
+423330,Roofing Siding and Insulation Material Merchant Wholesalers,42333001,Roofing Material Wholesalers,Product Type,Wholesale distribution of roofing shingles and materials
+423330,Roofing Siding and Insulation Material Merchant Wholesalers,42333002,Siding Wholesalers,Product Type,Wholesale distribution of vinyl and fiber cement siding
+423330,Roofing Siding and Insulation Material Merchant Wholesalers,42333003,Insulation Material Wholesalers,Product Type,Wholesale distribution of insulation products
+423390,Other Construction Material Merchant Wholesalers,42339001,Drywall and Gypsum Wholesalers,Product Type,Wholesale distribution of drywall and supplies
+423390,Other Construction Material Merchant Wholesalers,42339002,Paint and Wallpaper Wholesalers,Product Type,Wholesale distribution of paint and coatings
+423390,Other Construction Material Merchant Wholesalers,42339003,Concrete and Cement Wholesalers,Product Type,Wholesale distribution of concrete products
+423410,Photographic Equipment and Supplies Merchant Wholesalers,42341001,Professional Camera Equipment Wholesalers,Product Type,Wholesale distribution of professional photography equipment
+423410,Photographic Equipment and Supplies Merchant Wholesalers,42341002,Photo Supply Wholesalers,Product Type,Wholesale distribution of photography supplies
+423420,Office Equipment Merchant Wholesalers,42342001,Copier and Printer Wholesalers,Product Type,Wholesale distribution of office copiers and printers
+423420,Office Equipment Merchant Wholesalers,42342002,Office Furniture Wholesalers,Product Type,Wholesale distribution of office desks and chairs
+423430,Computer and Computer Peripheral Equipment and Software Merchant Wholesalers,42343001,Computer Hardware Wholesalers,Product Type,Wholesale distribution of computers and peripherals
+423430,Computer and Computer Peripheral Equipment and Software Merchant Wholesalers,42343002,Computer Component Wholesalers,Product Type,Wholesale distribution of computer parts and components
+423430,Computer and Computer Peripheral Equipment and Software Merchant Wholesalers,42343003,Software Wholesalers,Product Type,Wholesale distribution of software licenses
+423440,Other Commercial Equipment Merchant Wholesalers,42344001,Restaurant Equipment Wholesalers,Product Type,Wholesale distribution of commercial kitchen equipment
+423440,Other Commercial Equipment Merchant Wholesalers,42344002,Store Fixture Wholesalers,Product Type,Wholesale distribution of retail display fixtures
+423440,Other Commercial Equipment Merchant Wholesalers,42344003,Janitorial Equipment Wholesalers,Product Type,Wholesale distribution of cleaning equipment
+423450,Medical Dental and Hospital Equipment and Supplies Merchant Wholesalers,42345001,Medical Equipment Wholesalers,Product Type,Wholesale distribution of medical devices and equipment
+423450,Medical Dental and Hospital Equipment and Supplies Merchant Wholesalers,42345002,Dental Supply Wholesalers,Product Type,Wholesale distribution of dental equipment and supplies
+423450,Medical Dental and Hospital Equipment and Supplies Merchant Wholesalers,42345003,Hospital Supply Wholesalers,Product Type,Wholesale distribution of hospital supplies
+423460,Ophthalmic Goods Merchant Wholesalers,42346001,Eyewear Wholesalers,Product Type,Wholesale distribution of eyeglasses and frames
+423460,Ophthalmic Goods Merchant Wholesalers,42346002,Contact Lens Wholesalers,Product Type,Wholesale distribution of contact lenses
+423490,Other Professional Equipment and Supplies Merchant Wholesalers,42349001,Laboratory Equipment Wholesalers,Product Type,Wholesale distribution of lab instruments
+423490,Other Professional Equipment and Supplies Merchant Wholesalers,42349002,Scientific Equipment Wholesalers,Product Type,Wholesale distribution of scientific instruments
+423510,Metal Service Centers and Other Metal Merchant Wholesalers,42351001,Steel Service Center Wholesalers,Product Type,Wholesale distribution of steel and metal products
+423510,Metal Service Centers and Other Metal Merchant Wholesalers,42351002,Aluminum Wholesalers,Product Type,Wholesale distribution of aluminum products
+423510,Metal Service Centers and Other Metal Merchant Wholesalers,42351003,Specialty Metal Wholesalers,Product Type,Wholesale distribution of specialty metals
+423520,Coal and Other Mineral and Ore Merchant Wholesalers,42352001,Coal Wholesalers,Product Type,Wholesale distribution of coal
+423520,Coal and Other Mineral and Ore Merchant Wholesalers,42352002,Industrial Mineral Wholesalers,Product Type,Wholesale distribution of industrial minerals
+423610,Electrical Apparatus and Equipment Wiring Supplies and Related Equipment Merchant Wholesalers,42361001,Electrical Wire and Cable Wholesalers,Product Type,Wholesale distribution of electrical wire and cable
+423610,Electrical Apparatus and Equipment Wiring Supplies and Related Equipment Merchant Wholesalers,42361002,Electrical Equipment Wholesalers,Product Type,Wholesale distribution of transformers and switchgear
+423610,Electrical Apparatus and Equipment Wiring Supplies and Related Equipment Merchant Wholesalers,42361003,Lighting Fixture Wholesalers,Product Type,Wholesale distribution of commercial lighting
+423620,Household Appliances Electric Housewares and Consumer Electronics Merchant Wholesalers,42362001,Major Appliance Wholesalers,Product Type,Wholesale distribution of refrigerators and appliances
+423620,Household Appliances Electric Housewares and Consumer Electronics Merchant Wholesalers,42362002,Consumer Electronics Wholesalers,Product Type,Wholesale distribution of TVs and electronics
+423620,Household Appliances Electric Housewares and Consumer Electronics Merchant Wholesalers,42362003,Small Appliance Wholesalers,Product Type,Wholesale distribution of small kitchen appliances
+423690,Other Electronic Parts and Equipment Merchant Wholesalers,42369001,Semiconductor Wholesalers,Product Type,Wholesale distribution of semiconductors and ICs
+423690,Other Electronic Parts and Equipment Merchant Wholesalers,42369002,Electronic Component Wholesalers,Product Type,Wholesale distribution of electronic components
+423710,Hardware Merchant Wholesalers,42371001,Construction Hardware Wholesalers,Product Type,Wholesale distribution of door hardware and locks
+423710,Hardware Merchant Wholesalers,42371002,Tool Wholesalers,Product Type,Wholesale distribution of hand and power tools
+423720,Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers,42372001,Plumbing Fixture Wholesalers,Product Type,Wholesale distribution of plumbing fixtures
+423720,Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers,42372002,Pipe and Fitting Wholesalers,Product Type,Wholesale distribution of pipe and fittings
+423720,Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers,42372003,Hydronic Heating Equipment Wholesalers,Product Type,Wholesale distribution of boilers and radiant heat
+423730,Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Wholesalers,42373001,HVAC Equipment Wholesalers,Product Type,Wholesale distribution of HVAC systems
+423730,Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Wholesalers,42373002,HVAC Parts and Supply Wholesalers,Product Type,Wholesale distribution of HVAC parts and controls
+423740,Refrigeration Equipment and Supplies Merchant Wholesalers,42374001,Commercial Refrigeration Wholesalers,Product Type,Wholesale distribution of commercial refrigeration
+423740,Refrigeration Equipment and Supplies Merchant Wholesalers,42374002,Refrigeration Parts Wholesalers,Product Type,Wholesale distribution of refrigeration components
+423810,Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers,42381001,Construction Equipment Wholesalers,Product Type,Wholesale distribution of construction machinery
+423810,Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers,42381002,Heavy Equipment Parts Wholesalers,Product Type,Wholesale distribution of heavy equipment parts
+423820,Farm and Garden Machinery and Equipment Merchant Wholesalers,42382001,Agricultural Equipment Wholesalers,Product Type,Wholesale distribution of farm tractors and equipment
+423820,Farm and Garden Machinery and Equipment Merchant Wholesalers,42382002,Lawn and Garden Equipment Wholesalers,Product Type,Wholesale distribution of lawn mowers and outdoor equipment
+423830,Industrial Machinery and Equipment Merchant Wholesalers,42383001,Metalworking Equipment Wholesalers,Product Type,Wholesale distribution of machine tools
+423830,Industrial Machinery and Equipment Merchant Wholesalers,42383002,Material Handling Equipment Wholesalers,Product Type,Wholesale distribution of forklifts and conveyors
+423840,Industrial Supplies Merchant Wholesalers,42384001,Fastener Wholesalers,Product Type,Wholesale distribution of nuts bolts and fasteners
+423840,Industrial Supplies Merchant Wholesalers,42384002,Cutting Tool Wholesalers,Product Type,Wholesale distribution of cutting tools and abrasives
+423840,Industrial Supplies Merchant Wholesalers,42384003,Safety Supply Wholesalers,Product Type,Wholesale distribution of safety equipment and PPE
+423850,Service Establishment Equipment and Supplies Merchant Wholesalers,42385001,Beauty Salon Equipment Wholesalers,Product Type,Wholesale distribution of salon equipment and supplies
+423850,Service Establishment Equipment and Supplies Merchant Wholesalers,42385002,Restaurant Supply Wholesalers,Product Type,Wholesale distribution of restaurant equipment and supplies
+423860,Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers,42386001,Aircraft Parts Wholesalers,Product Type,Wholesale distribution of aircraft parts
+423860,Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers,42386002,Marine Equipment Wholesalers,Product Type,Wholesale distribution of boat and marine equipment
+423910,Sporting and Recreational Goods and Supplies Merchant Wholesalers,42391001,Sporting Goods Wholesalers,Product Type,Wholesale distribution of sports equipment
+423910,Sporting and Recreational Goods and Supplies Merchant Wholesalers,42391002,Outdoor Recreation Equipment Wholesalers,Product Type,Wholesale distribution of camping and outdoor gear
+423910,Sporting and Recreational Goods and Supplies Merchant Wholesalers,42391003,Bicycle Wholesalers,Product Type,Wholesale distribution of bicycles and accessories
+423920,Toy and Hobby Goods and Supplies Merchant Wholesalers,42392001,Toy Wholesalers,Product Type,Wholesale distribution of toys and games
+423920,Toy and Hobby Goods and Supplies Merchant Wholesalers,42392002,Hobby and Craft Supply Wholesalers,Product Type,Wholesale distribution of hobby and craft materials
+423930,Recyclable Material Merchant Wholesalers,42393001,Metal Scrap Wholesalers,Product Type,Wholesale distribution of ferrous and non-ferrous scrap
+423930,Recyclable Material Merchant Wholesalers,42393002,Paper and Cardboard Recycling Wholesalers,Product Type,Wholesale distribution of recyclable paper
+423930,Recyclable Material Merchant Wholesalers,42393003,Plastic Recycling Wholesalers,Product Type,Wholesale distribution of recyclable plastics
+423940,Jewelry Watch Precious Stone and Precious Metal Merchant Wholesalers,42394001,Fine Jewelry Wholesalers,Product Type,Wholesale distribution of fine jewelry
+423940,Jewelry Watch Precious Stone and Precious Metal Merchant Wholesalers,42394002,Watch Wholesalers,Product Type,Wholesale distribution of watches
+423940,Jewelry Watch Precious Stone and Precious Metal Merchant Wholesalers,42394003,Precious Metal Wholesalers,Product Type,Wholesale distribution of gold silver and precious metals
+423990,Other Miscellaneous Durable Goods Merchant Wholesalers,42399001,Art and Picture Frame Wholesalers,Product Type,Wholesale distribution of artwork and frames
+423990,Other Miscellaneous Durable Goods Merchant Wholesalers,42399002,Monument and Tombstone Wholesalers,Product Type,Wholesale distribution of monuments and memorials
+424110,Printing and Writing Paper Merchant Wholesalers,42411001,Commercial Printing Paper Wholesalers,Product Type,Wholesale distribution of printing papers
+424110,Printing and Writing Paper Merchant Wholesalers,42411002,Fine Writing Paper Wholesalers,Product Type,Wholesale distribution of writing and office paper
+424120,Stationery and Office Supplies Merchant Wholesalers,42412001,Office Supply Wholesalers,Product Type,Wholesale distribution of office supplies
+424120,Stationery and Office Supplies Merchant Wholesalers,42412002,School Supply Wholesalers,Product Type,Wholesale distribution of educational supplies
+424130,Industrial and Personal Service Paper Merchant Wholesalers,42413001,Industrial Paper Wholesalers,Product Type,Wholesale distribution of industrial paper products
+424130,Industrial and Personal Service Paper Merchant Wholesalers,42413002,Janitorial Paper Product Wholesalers,Product Type,Wholesale distribution of janitorial paper supplies
+424210,Drugs and Druggists' Sundries Merchant Wholesalers,42421001,Pharmaceutical Wholesalers,Product Type,Wholesale distribution of prescription pharmaceuticals
+424210,Drugs and Druggists' Sundries Merchant Wholesalers,42421002,Over-the-Counter Drug Wholesalers,Product Type,Wholesale distribution of OTC medications
+424210,Drugs and Druggists' Sundries Merchant Wholesalers,42421003,Health and Beauty Aid Wholesalers,Product Type,Wholesale distribution of health and beauty products
+424310,Piece Goods Notions and Other Dry Goods Merchant Wholesalers,42431001,Fabric Wholesalers,Product Type,Wholesale distribution of textiles and fabrics
+424310,Piece Goods Notions and Other Dry Goods Merchant Wholesalers,42431002,Sewing Notions Wholesalers,Product Type,Wholesale distribution of sewing supplies
+424340,Footwear Merchant Wholesalers,42434001,Athletic Footwear Wholesalers,Product Type,Wholesale distribution of athletic shoes
+424340,Footwear Merchant Wholesalers,42434002,Dress and Casual Footwear Wholesalers,Product Type,Wholesale distribution of dress and casual shoes
+424350,Clothing and Clothing Accessories Merchant Wholesalers,42435001,Men's Apparel Wholesalers,Product Type,Wholesale distribution of men's clothing
+424350,Clothing and Clothing Accessories Merchant Wholesalers,42435002,Women's Apparel Wholesalers,Product Type,Wholesale distribution of women's clothing
+424350,Clothing and Clothing Accessories Merchant Wholesalers,42435003,Children's Apparel Wholesalers,Product Type,Wholesale distribution of children's clothing
+424350,Clothing and Clothing Accessories Merchant Wholesalers,42435004,Apparel Accessories Wholesalers,Product Type,Wholesale distribution of belts hats and accessories
+424410,General Line Grocery Merchant Wholesalers,42441001,Full-Line Grocery Wholesalers,Product Type,Wholesale distribution of full-line groceries
+424410,General Line Grocery Merchant Wholesalers,42441002,Specialty Food Wholesalers,Product Type,Wholesale distribution of specialty and gourmet foods
+424420,Packaged Frozen Food Merchant Wholesalers,42442001,Frozen Food Wholesalers,Product Type,Wholesale distribution of frozen foods
+424430,Dairy Product (except Dried or Canned) Merchant Wholesalers,42443001,Fluid Milk Wholesalers,Product Type,Wholesale distribution of milk and dairy beverages
+424430,Dairy Product (except Dried or Canned) Merchant Wholesalers,42443002,Cheese Wholesalers,Product Type,Wholesale distribution of cheese products
+424440,Poultry and Poultry Product Merchant Wholesalers,42444001,Fresh Poultry Wholesalers,Product Type,Wholesale distribution of fresh chicken and turkey
+424440,Poultry and Poultry Product Merchant Wholesalers,42444002,Egg Wholesalers,Product Type,Wholesale distribution of eggs
+424450,Confectionery Merchant Wholesalers,42445001,Candy Wholesalers,Product Type,Wholesale distribution of candy and confections
+424450,Confectionery Merchant Wholesalers,42445002,Snack Food Wholesalers,Product Type,Wholesale distribution of chips and snack foods
+424460,Fish and Seafood Merchant Wholesalers,42446001,Fresh Seafood Wholesalers,Product Type,Wholesale distribution of fresh fish and seafood
+424460,Fish and Seafood Merchant Wholesalers,42446002,Frozen Seafood Wholesalers,Product Type,Wholesale distribution of frozen seafood
+424470,Meat and Meat Product Merchant Wholesalers,42447001,Beef Wholesalers,Product Type,Wholesale distribution of beef products
+424470,Meat and Meat Product Merchant Wholesalers,42447002,Pork Wholesalers,Product Type,Wholesale distribution of pork products
+424470,Meat and Meat Product Merchant Wholesalers,42447003,Processed Meat Wholesalers,Product Type,Wholesale distribution of deli meats and processed meats
+424480,Fresh Fruit and Vegetable Merchant Wholesalers,42448001,Fresh Produce Wholesalers,Product Type,Wholesale distribution of fresh fruits and vegetables
+424480,Fresh Fruit and Vegetable Merchant Wholesalers,42448002,Organic Produce Wholesalers,Product Type,Wholesale distribution of organic produce
+424490,Other Grocery and Related Products Merchant Wholesalers,42449001,Coffee and Tea Wholesalers,Product Type,Wholesale distribution of coffee and tea
+424490,Other Grocery and Related Products Merchant Wholesalers,42449002,Spice and Seasoning Wholesalers,Product Type,Wholesale distribution of spices and seasonings
+424490,Other Grocery and Related Products Merchant Wholesalers,42449003,Bottled Water Wholesalers,Product Type,Wholesale distribution of bottled water
+424510,Grain and Field Bean Merchant Wholesalers,42451001,Wheat and Grain Wholesalers,Product Type,Wholesale distribution of wheat and grains
+424510,Grain and Field Bean Merchant Wholesalers,42451002,Soybean Wholesalers,Product Type,Wholesale distribution of soybeans
+424510,Grain and Field Bean Merchant Wholesalers,42451003,Corn Wholesalers,Product Type,Wholesale distribution of corn
+424520,Livestock Merchant Wholesalers,42452001,Cattle Wholesalers,Product Type,Wholesale distribution of cattle and livestock
+424520,Livestock Merchant Wholesalers,42452002,Hog Wholesalers,Product Type,Wholesale distribution of hogs and pigs
+424590,Other Farm Product Raw Material Merchant Wholesalers,42459001,Cotton Wholesalers,Product Type,Wholesale distribution of cotton fiber
+424590,Other Farm Product Raw Material Merchant Wholesalers,42459002,Tobacco Wholesalers,Product Type,Wholesale distribution of tobacco leaf
+424610,Plastics Materials and Basic Forms and Shapes Merchant Wholesalers,42461001,Plastic Resin Wholesalers,Product Type,Wholesale distribution of plastic resins
+424610,Plastics Materials and Basic Forms and Shapes Merchant Wholesalers,42461002,Plastic Film and Sheet Wholesalers,Product Type,Wholesale distribution of plastic film and sheets
+424690,Other Chemical and Allied Products Merchant Wholesalers,42469001,Industrial Chemical Wholesalers,Product Type,Wholesale distribution of industrial chemicals
+424690,Other Chemical and Allied Products Merchant Wholesalers,42469002,Agricultural Chemical Wholesalers,Product Type,Wholesale distribution of fertilizers and pesticides
+424710,Petroleum Bulk Stations and Terminals,42471001,Petroleum Terminal Operations,Business Model,Bulk petroleum storage and distribution terminals
+424720,Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals),42472001,Fuel Oil Wholesalers,Product Type,Wholesale distribution of heating oil
+424720,Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals),42472002,Lubricant Wholesalers,Product Type,Wholesale distribution of lubricating oils
+424810,Beer and Ale Merchant Wholesalers,42481001,Domestic Beer Wholesalers,Product Type,Wholesale distribution of domestic beer
+424810,Beer and Ale Merchant Wholesalers,42481002,Import Beer Wholesalers,Product Type,Wholesale distribution of imported beer
+424810,Beer and Ale Merchant Wholesalers,42481003,Craft Beer Wholesalers,Product Type,Wholesale distribution of craft beer
+424820,Wine and Distilled Alcoholic Beverage Merchant Wholesalers,42482001,Wine Wholesalers,Product Type,Wholesale distribution of wine
+424820,Wine and Distilled Alcoholic Beverage Merchant Wholesalers,42482002,Spirits Wholesalers,Product Type,Wholesale distribution of distilled spirits
+424910,Farm Supplies Merchant Wholesalers,42491001,Agricultural Input Wholesalers,Product Type,Wholesale distribution of farm supplies and inputs
+424910,Farm Supplies Merchant Wholesalers,42491002,Feed and Grain Wholesalers,Product Type,Wholesale distribution of animal feed
+424920,Book Periodical and Newspaper Merchant Wholesalers,42492001,Book Wholesalers,Product Type,Wholesale distribution of books
+424920,Book Periodical and Newspaper Merchant Wholesalers,42492002,Magazine and Periodical Wholesalers,Product Type,Wholesale distribution of magazines
+424930,Flower Nursery Stock and Florists' Supplies Merchant Wholesalers,42493001,Cut Flower Wholesalers,Product Type,Wholesale distribution of cut flowers
+424930,Flower Nursery Stock and Florists' Supplies Merchant Wholesalers,42493002,Nursery Stock Wholesalers,Product Type,Wholesale distribution of plants and nursery stock
+424940,Tobacco Product and Electronic Cigarette Merchant Wholesalers,42494001,Tobacco Product Wholesalers,Product Type,Wholesale distribution of cigarettes and tobacco
+424940,Tobacco Product and Electronic Cigarette Merchant Wholesalers,42494002,E-Cigarette and Vaping Product Wholesalers,Product Type,Wholesale distribution of vaping products
+424950,Paint Varnish and Supplies Merchant Wholesalers,42495001,Architectural Paint Wholesalers,Product Type,Wholesale distribution of paint and coatings
+424950,Paint Varnish and Supplies Merchant Wholesalers,42495002,Industrial Coating Wholesalers,Product Type,Wholesale distribution of industrial coatings
+424990,Other Miscellaneous Nondurable Goods Merchant Wholesalers,42499001,Packaging Material Wholesalers,Product Type,Wholesale distribution of packaging materials
+424990,Other Miscellaneous Nondurable Goods Merchant Wholesalers,42499002,Chemical Supply Wholesalers,Product Type,Wholesale distribution of specialty chemicals
+424990,Other Miscellaneous Nondurable Goods Merchant Wholesalers,42499003,Pet Supply Wholesalers,Product Type,Wholesale distribution of pet products
+425120,Wholesale Trade Agents and Brokers,42512001,Merchandise Brokers,Business Model,Commission-based merchandise brokerage
+425120,Wholesale Trade Agents and Brokers,42512002,Import/Export Agents,Business Model,Import and export agency services
+441110,New Car Dealers,44111001,Domestic Car Dealers,Brand Type,Dealerships selling domestic brand new cars
+441110,New Car Dealers,44111002,Import Car Dealers,Brand Type,Dealerships selling import brand new cars
+441110,New Car Dealers,44111003,Luxury Car Dealers,Market Segment,Dealerships selling luxury and premium vehicles
+441110,New Car Dealers,44111004,Electric Vehicle Dealers,Product Type,Dealerships specializing in electric vehicles
+441120,Used Car Dealers,44112001,Franchise Used Car Dealers,Business Model,Franchise used car dealerships
+441120,Used Car Dealers,44112002,Independent Used Car Dealers,Business Model,Independent used car lots
+441120,Used Car Dealers,44112003,Certified Pre-Owned Dealers,Product Type,Dealerships specializing in certified pre-owned vehicles
+441210,Recreational Vehicle Dealers,44121001,Motor Home Dealers,Product Type,Dealerships selling motorhomes and RVs
+441210,Recreational Vehicle Dealers,44121002,Travel Trailer Dealers,Product Type,Dealerships selling travel trailers
+441222,Boat Dealers,44122201,Powerboat Dealers,Product Type,Dealerships selling powerboats
+441222,Boat Dealers,44122202,Sailboat Dealers,Product Type,Dealerships selling sailboats
+441227,Motorcycle ATV and All Other Motor Vehicle Dealers,44122701,Motorcycle Dealers,Product Type,Dealerships selling motorcycles
+441227,Motorcycle ATV and All Other Motor Vehicle Dealers,44122702,ATV and Off-Road Vehicle Dealers,Product Type,Dealerships selling ATVs and off-road vehicles
+441227,Motorcycle ATV and All Other Motor Vehicle Dealers,44122703,Personal Watercraft Dealers,Product Type,Dealerships selling jet skis and PWC
+441330,Automotive Parts and Accessories Retailers,44133001,Auto Parts Chains,Business Model,Chain automotive parts retailers
+441330,Automotive Parts and Accessories Retailers,44133002,Performance and Racing Parts Retailers,Market Segment,Retailers specializing in performance parts
+441330,Automotive Parts and Accessories Retailers,44133003,Truck Accessory Retailers,Market Segment,Retailers specializing in truck accessories
+441340,Tire Dealers,44134001,Tire Chain Retailers,Business Model,Chain tire retailers and installers
+441340,Tire Dealers,44134002,Independent Tire Dealers,Business Model,Independent tire shops
+444110,Home Centers,44411001,Big-Box Home Improvement Centers,Format,Large format home improvement stores
+444110,Home Centers,44411002,Lumber and Building Material Centers,Product Focus,Home centers focused on building materials
+444120,Paint and Wallpaper Retailers,44412001,Paint Retailers,Product Focus,Retailers specializing in paint and coatings
+444120,Paint and Wallpaper Retailers,44412002,Decorating Centers,Product Focus,Retailers selling paint wallpaper and decor
+444140,Hardware Retailers,44414001,Hardware Chains,Business Model,Chain hardware stores
+444140,Hardware Retailers,44414002,Independent Hardware Stores,Business Model,Independent local hardware stores
+444180,Other Building Material Dealers,44418001,Kitchen and Bath Showrooms,Product Focus,Retailers specializing in kitchen and bath fixtures
+444180,Other Building Material Dealers,44418002,Flooring Retailers,Product Focus,Retailers specializing in flooring materials
+444180,Other Building Material Dealers,44418003,Window and Door Retailers,Product Focus,Retailers specializing in windows and doors
+444230,Outdoor Power Equipment Retailers,44423001,Lawn Mower Retailers,Product Focus,Retailers selling lawn mowers and equipment
+444230,Outdoor Power Equipment Retailers,44423002,Chainsaw and Outdoor Tool Retailers,Product Focus,Retailers selling chainsaws and outdoor tools
+444240,Nursery Garden Center and Farm Supply Retailers,44424001,Garden Centers,Product Focus,Retail garden centers and nurseries
+444240,Nursery Garden Center and Farm Supply Retailers,44424002,Farm Supply Stores,Product Focus,Retailers selling farm and ranch supplies
+445110,Supermarkets and Other Grocery Retailers (except Convenience Retailers),44511001,Conventional Supermarkets,Format,Traditional supermarket chains
+445110,Supermarkets and Other Grocery Retailers (except Convenience Retailers),44511002,Natural and Organic Grocery Stores,Market Segment,Retailers specializing in organic and natural foods
+445110,Supermarkets and Other Grocery Retailers (except Convenience Retailers),44511003,Discount Grocery Stores,Format,Limited assortment discount grocers
+445110,Supermarkets and Other Grocery Retailers (except Convenience Retailers),44511004,International and Ethnic Grocery Stores,Market Segment,Grocery stores specializing in ethnic foods
+445131,Convenience Retailers,44513101,Gas Station Convenience Stores,Format,Convenience stores attached to gas stations
+445131,Convenience Retailers,44513102,Standalone Convenience Stores,Format,Standalone convenience stores
+445132,Vending Machine Operators,44513201,Food and Beverage Vending,Product Type,Operators of food and drink vending machines
+445132,Vending Machine Operators,44513202,Specialty Vending Operations,Product Type,Operators of specialty vending machines
+445230,Fruit and Vegetable Retailers,44523001,Fresh Produce Markets,Product Focus,Retailers specializing in fresh fruits and vegetables
+445230,Fruit and Vegetable Retailers,44523002,Farmers Market Vendors,Business Model,Individual farmers market vendors
+445240,Meat Retailers,44524001,Butcher Shops,Product Focus,Retail butcher shops and meat markets
+445240,Meat Retailers,44524002,Specialty Meat Retailers,Product Focus,Retailers specializing in specialty meats
+445250,Fish and Seafood Retailers,44525001,Fresh Seafood Markets,Product Type,Retailers selling fresh fish and seafood
+445250,Fish and Seafood Retailers,44525002,Seafood and Sushi Markets,Product Type,Retailers with sushi-grade seafood
+445291,Baked Goods Retailers,44529101,Retail Bakeries,Product Focus,Retail bakeries selling baked goods
+445291,Baked Goods Retailers,44529102,Donut Shops,Product Focus,Retail donut and pastry shops
+445292,Confectionery and Nut Retailers,44529201,Candy Stores,Product Focus,Retailers specializing in candy and confections
+445292,Confectionery and Nut Retailers,44529202,Chocolate Shops,Product Focus,Retailers specializing in premium chocolates
+445298,All Other Specialty Food Retailers,44529801,Cheese Shops,Product Focus,Retailers specializing in cheese
+445298,All Other Specialty Food Retailers,44529802,Coffee and Tea Retailers,Product Focus,Retailers selling coffee and tea products
+445298,All Other Specialty Food Retailers,44529803,Gourmet Food Retailers,Product Focus,Retailers selling gourmet and specialty foods
+445320,Beer Wine and Liquor Retailers,44532001,Liquor Stores,Product Focus,Retailers primarily selling spirits
+445320,Beer Wine and Liquor Retailers,44532002,Wine Shops,Product Focus,Retailers specializing in wine
+445320,Beer Wine and Liquor Retailers,44532003,Beer and Wine Superstores,Format,Large format beer and wine retailers
+449110,Furniture Retailers,44911001,Furniture Chain Stores,Business Model,Chain furniture retailers
+449110,Furniture Retailers,44911002,Independent Furniture Stores,Business Model,Independent furniture retailers
+449110,Furniture Retailers,44911003,Contemporary Furniture Retailers,Style Focus,Retailers specializing in modern furniture
+449121,Floor Covering Retailers,44912101,Carpet Retailers,Product Focus,Retailers specializing in carpeting
+449121,Floor Covering Retailers,44912102,Hardwood Flooring Retailers,Product Focus,Retailers specializing in hardwood floors
+449122,Window Treatment Retailers,44912201,Blind and Shade Retailers,Product Focus,Retailers selling window blinds and shades
+449122,Window Treatment Retailers,44912202,Drapery Retailers,Product Focus,Retailers specializing in curtains and draperies
+449129,All Other Home Furnishings Retailers,44912901,Home Decor Stores,Product Focus,Retailers selling home decor and accessories
+449129,All Other Home Furnishings Retailers,44912902,Lighting Fixture Retailers,Product Focus,Retailers specializing in lighting
+449129,All Other Home Furnishings Retailers,44912903,Kitchen and Bath Retailers,Product Focus,Retailers selling kitchen and bath accessories
+449210,Electronics and Appliance Retailers,44921001,Consumer Electronics Chains,Business Model,Chain electronics retailers
+449210,Electronics and Appliance Retailers,44921002,Appliance Retailers,Product Focus,Retailers specializing in appliances
+449210,Electronics and Appliance Retailers,44921003,Computer and Software Retailers,Product Focus,Retailers selling computers and software
+449210,Electronics and Appliance Retailers,44921004,Camera and Photography Retailers,Product Focus,Retailers specializing in cameras
+455110,Department Stores,45511001,Full-Line Department Stores,Format,Traditional full-line department stores
+455110,Department Stores,45511002,Discount Department Stores,Format,Discount department store chains
+455211,Warehouse Clubs and Supercenters,45521101,Warehouse Club Retailers,Format,Membership warehouse clubs
+455211,Warehouse Clubs and Supercenters,45521102,Supercenters,Format,Discount supercenters with groceries
+455219,All Other General Merchandise Retailers,45521901,Dollar Stores,Format,Dollar and discount variety stores
+455219,All Other General Merchandise Retailers,45521902,General Merchandise Stores,Format,General variety and merchandise stores
+456110,Pharmacies and Drug Retailers,45611001,Chain Pharmacy Retailers,Business Model,Chain pharmacy and drugstores
+456110,Pharmacies and Drug Retailers,45611002,Independent Pharmacies,Business Model,Independent community pharmacies
+456110,Pharmacies and Drug Retailers,45611003,Specialty Pharmacies,Service Type,Pharmacies specializing in specialty medications
+456120,Cosmetics Beauty Supplies and Perfume Retailers,45612001,Cosmetics Chains,Business Model,Chain cosmetics and beauty retailers
+456120,Cosmetics Beauty Supplies and Perfume Retailers,45612002,Perfume and Fragrance Retailers,Product Focus,Retailers specializing in perfumes
+456120,Cosmetics Beauty Supplies and Perfume Retailers,45612003,Professional Beauty Supply Stores,Market Segment,Beauty supply stores for professionals
+456130,Optical Goods Retailers,45613001,Optical Chain Retailers,Business Model,Chain optical and eyewear retailers
+456130,Optical Goods Retailers,45613002,Independent Opticians,Business Model,Independent optical shops
+456191,Food (Health) Supplement Retailers,45619101,Vitamin and Supplement Stores,Product Focus,Retailers specializing in vitamins and supplements
+456191,Food (Health) Supplement Retailers,45619102,Sports Nutrition Retailers,Product Focus,Retailers selling sports nutrition products
+456199,All Other Health and Personal Care Retailers,45619901,Medical Supply Retailers,Product Focus,Retailers selling medical equipment and supplies
+456199,All Other Health and Personal Care Retailers,45619902,Hearing Aid Retailers,Product Focus,Retailers selling hearing aids
+457110,Gasoline Stations with Convenience Stores,45711001,Major Brand Gas Stations with C-Stores,Business Model,Branded gas stations with convenience stores
+457110,Gasoline Stations with Convenience Stores,45711002,Independent Gas Stations with C-Stores,Business Model,Independent gas stations with stores
+457120,Other Gasoline Stations,45712001,Gasoline Stations without Stores,Format,Gas stations without convenience stores
+457210,Fuel Dealers,45721001,Heating Oil Dealers,Product Type,Retailers selling heating oil
+457210,Fuel Dealers,45721002,Propane Dealers,Product Type,Retailers selling propane and LP gas
+457210,Fuel Dealers,45721003,Coal and Wood Dealers,Product Type,Retailers selling coal and firewood
+458110,Clothing and Clothing Accessories Retailers,45811001,Women's Clothing Stores,Market Segment,Retailers specializing in women's apparel
+458110,Clothing and Clothing Accessories Retailers,45811002,Men's Clothing Stores,Market Segment,Retailers specializing in men's apparel
+458110,Clothing and Clothing Accessories Retailers,45811003,Children's Clothing Stores,Market Segment,Retailers specializing in children's clothing
+458110,Clothing and Clothing Accessories Retailers,45811004,Family Clothing Stores,Market Segment,Retailers selling clothing for all ages
+458110,Clothing and Clothing Accessories Retailers,45811005,Fast Fashion Retailers,Format,Fast fashion apparel chains
+458110,Clothing and Clothing Accessories Retailers,45811006,Designer and Luxury Apparel Retailers,Market Segment,Retailers selling designer clothing
+458110,Clothing and Clothing Accessories Retailers,45811007,Activewear and Athletic Apparel Retailers,Product Focus,Retailers specializing in athletic wear
+458210,Shoe Retailers,45821001,Athletic Footwear Retailers,Product Focus,Retailers specializing in athletic shoes
+458210,Shoe Retailers,45821002,Family Shoe Stores,Market Segment,Retailers selling shoes for all ages
+458210,Shoe Retailers,45821003,Designer Shoe Retailers,Market Segment,Retailers selling designer footwear
+458310,Jewelry Retailers,45831001,Fine Jewelry Retailers,Product Focus,Retailers selling fine jewelry
+458310,Jewelry Retailers,45831002,Fashion Jewelry Retailers,Product Focus,Retailers selling costume jewelry
+458310,Jewelry Retailers,45831003,Watch Retailers,Product Focus,Retailers specializing in watches
+458320,Luggage and Leather Goods Retailers,45832001,Luggage Retailers,Product Focus,Retailers specializing in luggage
+458320,Luggage and Leather Goods Retailers,45832002,Leather Goods Retailers,Product Focus,Retailers selling leather accessories
+459110,Sporting Goods Retailers,45911001,Sporting Goods Chains,Business Model,Chain sporting goods retailers
+459110,Sporting Goods Retailers,45911002,Outdoor Recreation Retailers,Product Focus,Retailers specializing in camping and outdoor gear
+459110,Sporting Goods Retailers,45911003,Golf Pro Shops,Product Focus,Golf equipment and apparel retailers
+459110,Sporting Goods Retailers,45911004,Athletic Team Sports Retailers,Product Focus,Retailers selling team sports equipment
+459120,Hobby Toy and Game Retailers,45912001,Toy Store Chains,Business Model,Chain toy retailers
+459120,Hobby Toy and Game Retailers,45912002,Hobby and Craft Retailers,Product Focus,Retailers selling hobby and craft supplies
+459120,Hobby Toy and Game Retailers,45912003,Game Stores,Product Focus,Retailers specializing in games and puzzles
+459130,Sewing Needlework and Piece Goods Retailers,45913001,Fabric and Sewing Retailers,Product Focus,Retailers selling fabric and sewing supplies
+459130,Sewing Needlework and Piece Goods Retailers,45913002,Quilting and Needlework Stores,Product Focus,Retailers specializing in quilting supplies
+459140,Musical Instrument and Supplies Retailers,45914001,Musical Instrument Retailers,Product Focus,Retailers selling musical instruments
+459140,Musical Instrument and Supplies Retailers,45914002,Guitar Shops,Product Focus,Retailers specializing in guitars
+459210,Book Retailers and News Dealers,45921001,Bookstore Chains,Business Model,Chain bookstores
+459210,Book Retailers and News Dealers,45921002,Independent Bookstores,Business Model,Independent book retailers
+459210,Book Retailers and News Dealers,45921003,Comic Book Stores,Product Focus,Retailers specializing in comic books
+459310,Florists,45931001,Retail Florist Shops,Business Model,Retail florist shops
+459310,Florists,45931002,Online Florists,Channel,Online flower delivery services
+459410,Office Supplies and Stationery Retailers,45941001,Office Supply Chains,Business Model,Chain office supply retailers
+459410,Office Supplies and Stationery Retailers,45941002,Stationery Stores,Product Focus,Retailers specializing in stationery
+459420,Gift Novelty and Souvenir Retailers,45942001,Gift Shops,Product Focus,Retailers selling gifts and novelties
+459420,Gift Novelty and Souvenir Retailers,45942002,Souvenir Shops,Product Focus,Tourist souvenir retailers
+459510,Used Merchandise Retailers,45951001,Thrift Stores,Business Model,Charitable thrift stores
+459510,Used Merchandise Retailers,45951002,Consignment Shops,Business Model,Consignment merchandise retailers
+459510,Used Merchandise Retailers,45951003,Antique Dealers,Product Focus,Antique and vintage retailers
+459510,Used Merchandise Retailers,45951004,Used Book Stores,Product Focus,Used book retailers
+459910,Pet and Pet Supplies Retailers,45991001,Pet Supply Chains,Business Model,Chain pet supply retailers
+459910,Pet and Pet Supplies Retailers,45991002,Independent Pet Stores,Business Model,Independent pet supply stores
+459910,Pet and Pet Supplies Retailers,45991003,Aquarium and Fish Retailers,Product Focus,Retailers specializing in fish and aquarium supplies
+459920,Art Dealers,45992001,Fine Art Galleries,Product Focus,Fine art galleries and dealers
+459920,Art Dealers,45992002,Contemporary Art Galleries,Product Focus,Contemporary art galleries
+459930,Manufactured (Mobile) Home Dealers,45993001,Mobile Home Dealers,Product Type,Retailers selling manufactured homes
+459991,Tobacco Electronic Cigarette and Other Smoking Supplies Retailers,45999101,Tobacco Shops,Product Focus,Retailers specializing in tobacco products
+459991,Tobacco Electronic Cigarette and Other Smoking Supplies Retailers,45999102,Vape Shops,Product Focus,Retailers specializing in vaping products
+459999,All Other Miscellaneous Retailers,45999901,Pool and Spa Retailers,Product Focus,Retailers selling pool and spa equipment
+459999,All Other Miscellaneous Retailers,45999902,Fireplace and Stove Retailers,Product Focus,Retailers selling fireplaces and stoves
+459999,All Other Miscellaneous Retailers,45999903,Trophy and Awards Retailers,Product Focus,Retailers selling trophies and awards
