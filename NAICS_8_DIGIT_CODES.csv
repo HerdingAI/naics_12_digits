@@ -1723,3 +1723,880 @@ NAICS_6_Digit,NAICS_6_Title,NAICS_8_Digit,NAICS_8_Title,Differentiation_Criteria
 459999,All Other Miscellaneous Retailers,45999901,Pool and Spa Retailers,Product Focus,Retailers selling pool and spa equipment
 459999,All Other Miscellaneous Retailers,45999902,Fireplace and Stove Retailers,Product Focus,Retailers selling fireplaces and stoves
 459999,All Other Miscellaneous Retailers,45999903,Trophy and Awards Retailers,Product Focus,Retailers selling trophies and awards
+541110,Offices of Lawyers,54111001,Corporate Law Firms,Practice Area,Law firms primarily engaged in corporate and business law including M&A contracts and governance
+541110,Offices of Lawyers,54111002,Litigation and Trial Law Firms,Practice Area,Law firms primarily engaged in civil litigation and trial practice
+541110,Offices of Lawyers,54111003,Personal Injury Law Firms,Practice Area,Law firms primarily engaged in personal injury and accident litigation
+541110,Offices of Lawyers,54111004,Family Law Firms,Practice Area,Law firms primarily engaged in divorce custody and family law matters
+541110,Offices of Lawyers,54111005,Real Estate and Property Law Firms,Practice Area,Law firms primarily engaged in real estate transactions and property law
+541110,Offices of Lawyers,54111006,Intellectual Property Law Firms,Practice Area,Law firms specializing in patents trademarks copyrights and IP litigation
+541110,Offices of Lawyers,54111007,Employment and Labor Law Firms,Practice Area,Law firms primarily engaged in employment law and labor relations
+541110,Offices of Lawyers,54111008,Criminal Defense Law Firms,Practice Area,Law firms primarily engaged in criminal defense representation
+541110,Offices of Lawyers,54111009,Immigration Law Firms,Practice Area,Law firms primarily engaged in immigration and nationality law
+541110,Offices of Lawyers,54111010,Estate Planning and Probate Law Firms,Practice Area,Law firms specializing in wills trusts estates and probate matters
+541191,Title Abstract and Settlement Offices,54119101,Title Insurance Companies,Service Type,Companies providing title insurance and title search services
+541191,Title Abstract and Settlement Offices,54119102,Real Estate Settlement Services,Service Type,Companies primarily engaged in real estate closing and settlement services
+541191,Title Abstract and Settlement Offices,54119103,Title Search and Abstract Companies,Service Type,Companies providing title search and abstract services without insurance
+541191,Title Abstract and Settlement Offices,54119104,Escrow Services,Service Type,Companies providing real estate escrow and closing services
+541199,All Other Legal Services,54119901,Legal Document Preparation Services,Service Type,Services preparing legal documents without providing legal advice
+541199,All Other Legal Services,54119902,Process Serving Services,Service Type,Services delivering legal documents and court papers
+541199,All Other Legal Services,54119903,Legal Support Services,Service Type,Court reporting litigation support and legal research services
+541199,All Other Legal Services,54119904,Patent Agent Services,Service Type,Patent agents providing patent application services
+541211,Offices of Certified Public Accountants,54121101,Audit and Assurance Services,Service Type,CPA firms primarily engaged in audit and assurance services
+541211,Offices of Certified Public Accountants,54121102,Tax Preparation and Planning Services,Service Type,CPA firms primarily engaged in tax services for businesses and individuals
+541211,Offices of Certified Public Accountants,54121103,Management Advisory Services,Service Type,CPA firms providing business consulting and advisory services
+541211,Offices of Certified Public Accountants,54121104,Forensic Accounting Services,Service Type,CPA firms specializing in fraud investigation and forensic accounting
+541211,Offices of Certified Public Accountants,54121105,Full Service CPA Firms,Service Mix,CPA firms offering comprehensive accounting audit and tax services
+541213,Tax Preparation Services,54121301,Individual Tax Preparation Services,Client Segment,Tax preparation services primarily serving individual consumers
+541213,Tax Preparation Services,54121302,Small Business Tax Preparation,Client Segment,Tax preparation services primarily serving small businesses and self-employed
+541213,Tax Preparation Services,54121303,Franchise Tax Preparation Services,Business Model,National franchise tax preparation service locations
+541213,Tax Preparation Services,54121304,Online Tax Preparation Services,Service Channel,Digital and online tax preparation platforms and services
+541214,Payroll Services,54121401,Full Service Payroll Processing,Service Type,Comprehensive payroll processing including tax filing and reporting
+541214,Payroll Services,54121402,Payroll Software and Cloud Services,Service Type,Cloud-based payroll software platforms with self-service capabilities
+541214,Payroll Services,54121403,Professional Employer Organizations (PEO),Business Model,PEOs providing comprehensive HR payroll and benefits administration
+541214,Payroll Services,54121404,Payroll Tax Filing Services,Service Type,Services primarily engaged in payroll tax calculation and filing
+541219,Other Accounting Services,54121901,Bookkeeping Services,Service Type,Bookkeeping and general accounting record maintenance services
+541219,Other Accounting Services,54121902,Controller and CFO Services,Service Type,Outsourced controller and CFO services for businesses
+541219,Other Accounting Services,54121903,Accounts Receivable and Collections,Service Type,Services managing AR and business collections
+541219,Other Accounting Services,54121904,Financial Statement Preparation,Service Type,Services preparing financial statements and reports
+541310,Architectural Services,54131001,Commercial Architecture,Building Type,Architectural design for commercial and office buildings
+541310,Architectural Services,54131002,Residential Architecture,Building Type,Architectural design for residential homes and multi-family buildings
+541310,Architectural Services,54131003,Institutional Architecture,Building Type,Architecture for schools hospitals government and institutional buildings
+541310,Architectural Services,54131004,Industrial Architecture,Building Type,Architectural design for manufacturing warehouses and industrial facilities
+541310,Architectural Services,54131005,Interior Architecture and Design,Specialty,Interior architectural design and space planning services
+541310,Architectural Services,54131006,Landscape Architecture,Specialty,Landscape architectural design and planning services
+541310,Architectural Services,54131007,Historic Preservation Architecture,Specialty,Architecture specializing in historic building restoration and preservation
+541320,Landscape Architectural Services,54132001,Commercial Landscape Architecture,Client Type,Landscape architecture for commercial and institutional properties
+541320,Landscape Architectural Services,54132002,Residential Landscape Architecture,Client Type,Landscape architecture for residential properties and communities
+541320,Landscape Architectural Services,54132003,Parks and Recreation Design,Project Type,Landscape architecture for parks recreational facilities and public spaces
+541320,Landscape Architectural Services,54132004,Environmental Restoration Design,Specialty,Landscape architecture focused on environmental restoration and conservation
+541330,Engineering Services,54133001,Civil Engineering Services,Engineering Type,Civil engineering including infrastructure transportation and site development
+541330,Engineering Services,54133002,Structural Engineering Services,Engineering Type,Structural engineering for buildings bridges and other structures
+541330,Engineering Services,54133003,Mechanical Engineering Services,Engineering Type,Mechanical engineering design and consulting services
+541330,Engineering Services,54133004,Electrical Engineering Services,Engineering Type,Electrical engineering design and power systems engineering
+541330,Engineering Services,54133005,Environmental Engineering Services,Engineering Type,Environmental engineering including water wastewater and remediation
+541330,Engineering Services,54133006,Geotechnical Engineering Services,Engineering Type,Geotechnical and soil engineering services
+541330,Engineering Services,54133007,Chemical Engineering Services,Engineering Type,Chemical process engineering and industrial engineering services
+541330,Engineering Services,54133008,Industrial and Manufacturing Engineering,Engineering Type,Industrial engineering and manufacturing process optimization
+541330,Engineering Services,54133009,Petroleum and Energy Engineering,Engineering Type,Engineering services for oil gas and energy industries
+541330,Engineering Services,54133010,Aerospace Engineering Services,Engineering Type,Aerospace and aeronautical engineering consulting services
+541340,Drafting Services,54134001,Architectural Drafting Services,Specialty,CAD drafting and technical drawing for architectural projects
+541340,Drafting Services,54134002,Mechanical and Industrial Drafting,Specialty,CAD drafting for mechanical parts and industrial equipment
+541340,Drafting Services,54134003,Civil and Structural Drafting,Specialty,Technical drafting for civil engineering and structural projects
+541340,Drafting Services,54134004,Electrical and Electronics Drafting,Specialty,Schematic and technical drawing for electrical systems
+541350,Building Inspection Services,54135001,Home Inspection Services,Building Type,Pre-purchase home inspection services for residential properties
+541350,Building Inspection Services,54135002,Commercial Building Inspection,Building Type,Inspection services for commercial and industrial buildings
+541350,Building Inspection Services,54135003,Code Compliance Inspection,Service Type,Building code compliance and permit inspection services
+541350,Building Inspection Services,54135004,Specialized Building Inspection,Service Type,Specialized inspections including mold radon termite and environmental
+541360,Geophysical Surveying and Mapping Services,54136001,Land Surveying Services,Service Type,Boundary property and topographic land surveying
+541360,Geophysical Surveying and Mapping Services,54136002,Construction Surveying Services,Service Type,Site layout and construction staking surveying services
+541360,Geophysical Surveying and Mapping Services,54136003,Geophysical Surveying Services,Service Type,Subsurface geophysical and seismic surveying for oil gas and minerals
+541360,Geophysical Surveying and Mapping Services,54136004,Mapping and GIS Services,Service Type,Geographic information systems mapping and spatial analysis
+541370,Surveying and Mapping (except Geophysical) Services,54137001,Cadastral Surveying Services,Service Type,Property boundary and legal description surveying
+541370,Surveying and Mapping (except Geophysical) Services,54137002,Hydrographic Surveying Services,Service Type,Water depth and underwater feature surveying
+541370,Surveying and Mapping (except Geophysical) Services,54137003,Aerial Surveying and Photogrammetry,Service Type,Aerial photography surveying and drone-based mapping
+541370,Surveying and Mapping (except Geophysical) Services,54137004,Engineering Surveying Services,Service Type,Surveying for engineering and construction projects
+541380,Testing Laboratories,54138001,Materials Testing Laboratories,Testing Type,Testing of construction materials metals and composites
+541380,Testing Laboratories,54138002,Environmental Testing Laboratories,Testing Type,Environmental sample testing for air water and soil
+541380,Testing Laboratories,54138003,Food and Agricultural Testing,Testing Type,Testing laboratories for food safety and agricultural products
+541380,Testing Laboratories,54138004,Product Testing and Certification,Testing Type,Product safety testing and certification services
+541380,Testing Laboratories,54138005,Clinical and Medical Testing Labs,Testing Type,Clinical diagnostic and medical laboratory testing services
+541380,Testing Laboratories,54138006,Calibration and Metrology Services,Testing Type,Instrument calibration and measurement standards services
+541410,Interior Design Services,54141001,Residential Interior Design,Client Type,Interior design services for residential homes and apartments
+541410,Interior Design Services,54141002,Commercial Interior Design,Client Type,Interior design for offices retail and commercial spaces
+541410,Interior Design Services,54141003,Hospitality Interior Design,Client Type,Interior design for hotels restaurants and entertainment venues
+541410,Interior Design Services,54141004,Healthcare Interior Design,Client Type,Interior design for medical facilities hospitals and clinics
+541410,Interior Design Services,54141005,Kitchen and Bath Design,Specialty,Specialized design services for kitchens and bathrooms
+541420,Industrial Design Services,54142001,Product Industrial Design,Design Type,Industrial design for consumer and commercial products
+541420,Industrial Design Services,54142002,Packaging Design Services,Design Type,Industrial design focused on product packaging
+541420,Industrial Design Services,54142003,Ergonomic Design Services,Design Type,Industrial design focused on ergonomics and human factors
+541430,Graphic Design Services,54143001,Brand Identity and Logo Design,Service Type,Graphic design for corporate identity branding and logos
+541430,Graphic Design Services,54143002,Marketing and Advertising Design,Service Type,Graphic design for marketing materials and advertising campaigns
+541430,Graphic Design Services,54143003,Publication and Editorial Design,Service Type,Graphic design for books magazines and publications
+541430,Graphic Design Services,54143004,Digital and Web Design,Service Type,Graphic design for websites apps and digital interfaces
+541430,Graphic Design Services,54143005,Packaging and Label Design,Service Type,Graphic design for product packaging and labels
+541490,Other Specialized Design Services,54149001,Fashion and Textile Design,Design Type,Fashion clothing and textile design services
+541490,Other Specialized Design Services,54149002,Exhibit and Display Design,Design Type,Design services for trade shows exhibits and displays
+541490,Other Specialized Design Services,54149003,Signage and Environmental Graphics,Design Type,Design services for wayfinding signage and environmental graphics
+541490,Other Specialized Design Services,54149004,Lighting Design Services,Design Type,Architectural and theatrical lighting design services
+541511,Custom Computer Programming Services,54151101,Enterprise Software Development,Client Segment,Custom programming for enterprise business applications and systems
+541511,Custom Computer Programming Services,54151102,Web Application Development,Application Type,Custom development of web-based applications and platforms
+541511,Custom Computer Programming Services,54151103,Mobile App Development,Application Type,Custom development of iOS Android and mobile applications
+541511,Custom Computer Programming Services,54151104,Database Development and Programming,Specialty,Custom database design development and programming services
+541511,Custom Computer Programming Services,54151105,API Development and Integration,Specialty,Development of APIs and system integration programming
+541511,Custom Computer Programming Services,54151106,Cloud Application Development,Technology,Development of cloud-native and SaaS applications
+541511,Custom Computer Programming Services,54151107,Embedded Systems Programming,Specialty,Programming for embedded systems and IoT devices
+541511,Custom Computer Programming Services,54151108,Game Development Services,Application Type,Custom video game and interactive entertainment programming
+541512,Computer Systems Design Services,54151201,IT Infrastructure Design and Planning,Service Type,Design and planning of IT infrastructure and network architecture
+541512,Computer Systems Design Services,54151202,Enterprise Systems Integration,Service Type,Integration of enterprise systems and business applications
+541512,Computer Systems Design Services,54151203,Cloud Architecture and Migration,Service Type,Cloud infrastructure design and migration services
+541512,Computer Systems Design Services,54151204,Cybersecurity Systems Design,Service Type,Design and implementation of cybersecurity systems and controls
+541512,Computer Systems Design Services,54151205,Database Architecture and Design,Service Type,Database architecture design and optimization services
+541512,Computer Systems Design Services,54151206,Network Design and Implementation,Service Type,Network architecture design and deployment services
+541513,Computer Facilities Management Services,54151301,Data Center Management Services,Service Type,Outsourced data center operations and management
+541513,Computer Facilities Management Services,54151302,IT Infrastructure Management,Service Type,Managed services for IT infrastructure and systems
+541513,Computer Facilities Management Services,54151303,Cloud Infrastructure Management,Service Type,Management of cloud infrastructure and services
+541513,Computer Facilities Management Services,54151304,Network Operations and Management,Service Type,Outsourced network operations center (NOC) services
+541519,Other Computer Related Services,54151901,IT Consulting Services,Service Type,General IT strategy and technology consulting services
+541519,Other Computer Related Services,54151902,Computer Systems Training,Service Type,Training services for computer systems and software
+541519,Other Computer Related Services,54151903,IT Project Management Services,Service Type,Project management for IT implementations and initiatives
+541519,Other Computer Related Services,54151904,Computer Disaster Recovery Services,Service Type,Disaster recovery planning and business continuity services
+541611,Administrative Management and General Management Consulting Services,54161101,Strategy Consulting Services,Service Type,Corporate strategy and business strategy consulting
+541611,Administrative Management and General Management Consulting Services,54161102,Operations Management Consulting,Service Type,Operations improvement and efficiency consulting
+541611,Administrative Management and General Management Consulting Services,54161103,Change Management Consulting,Service Type,Organizational change management and transformation consulting
+541611,Administrative Management and General Management Consulting Services,54161104,Business Process Consulting,Service Type,Business process improvement and reengineering services
+541611,Administrative Management and General Management Consulting Services,54161105,Management Consulting for Small Business,Client Segment,Management consulting services focused on small businesses
+541611,Administrative Management and General Management Consulting Services,54161106,Interim Executive Services,Service Type,Temporary executive and management placement services
+541612,Human Resources Consulting Services,54161201,Compensation and Benefits Consulting,Service Type,Consulting on compensation strategy and benefits design
+541612,Human Resources Consulting Services,54161202,Talent Acquisition Consulting,Service Type,Recruiting strategy and talent acquisition consulting
+541612,Human Resources Consulting Services,54161203,Organizational Development Consulting,Service Type,Organization design and development consulting
+541612,Human Resources Consulting Services,54161204,HR Technology Consulting,Service Type,HRIS implementation and HR technology consulting
+541612,Human Resources Consulting Services,54161205,Employee Training and Development,Service Type,Corporate training and employee development programs
+541613,Marketing Consulting Services,54161301,Digital Marketing Consulting,Service Type,Digital marketing strategy and implementation consulting
+541613,Marketing Consulting Services,54161302,Brand Strategy Consulting,Service Type,Brand development and brand strategy consulting
+541613,Marketing Consulting Services,54161303,Market Research and Analysis,Service Type,Market research consumer insights and analysis services
+541613,Marketing Consulting Services,54161304,Marketing Analytics and Attribution,Service Type,Marketing analytics measurement and attribution consulting
+541613,Marketing Consulting Services,54161305,Content Marketing Strategy,Service Type,Content strategy and content marketing consulting
+541614,Process Physical Distribution and Logistics Consulting Services,54161401,Supply Chain Consulting,Service Type,Supply chain strategy and optimization consulting
+541614,Process Physical Distribution and Logistics Consulting Services,54161402,Logistics and Distribution Consulting,Service Type,Logistics network design and distribution consulting
+541614,Process Physical Distribution and Logistics Consulting Services,54161403,Warehouse Operations Consulting,Service Type,Warehouse design and operations improvement consulting
+541614,Process Physical Distribution and Logistics Consulting Services,54161404,Transportation Consulting,Service Type,Transportation network and freight optimization consulting
+541618,Other Management Consulting Services,54161801,Financial Advisory and Consulting,Service Type,Financial management and advisory consulting services
+541618,Other Management Consulting Services,54161802,Risk Management Consulting,Service Type,Enterprise risk management and compliance consulting
+541618,Other Management Consulting Services,54161803,Sustainability Consulting,Service Type,Environmental sustainability and ESG consulting
+541618,Other Management Consulting Services,54161804,Technology Consulting,Service Type,Technology strategy and digital transformation consulting
+541618,Other Management Consulting Services,54161805,Healthcare Management Consulting,Industry Focus,Management consulting for healthcare organizations
+541618,Other Management Consulting Services,54161806,Government and Public Sector Consulting,Industry Focus,Consulting services for government and public agencies
+541620,Environmental Consulting Services,54162001,Environmental Site Assessment,Service Type,Phase I and Phase II environmental site assessments
+541620,Environmental Consulting Services,54162002,Environmental Remediation Consulting,Service Type,Consulting for contaminated site cleanup and remediation
+541620,Environmental Consulting Services,54162003,Environmental Compliance Consulting,Service Type,Environmental regulatory compliance and permitting services
+541620,Environmental Consulting Services,54162004,Air Quality and Emissions Consulting,Service Type,Air quality monitoring modeling and emissions consulting
+541620,Environmental Consulting Services,54162005,Water Resources and Wetlands Consulting,Service Type,Water resources wetlands and aquatic ecology consulting
+541620,Environmental Consulting Services,54162006,Environmental Health and Safety (EHS) Consulting,Service Type,Occupational health safety and environmental consulting
+541690,Other Scientific and Technical Consulting Services,54169001,Agricultural Consulting Services,Industry Focus,Consulting services for agricultural operations and agribusiness
+541690,Other Scientific and Technical Consulting Services,54169002,Food Science and Safety Consulting,Specialty,Food science food safety and quality consulting
+541690,Other Scientific and Technical Consulting Services,54169003,Forestry Consulting Services,Industry Focus,Forest management and timber consulting services
+541690,Other Scientific and Technical Consulting Services,54169004,Energy Consulting Services,Industry Focus,Energy efficiency renewable energy and energy management consulting
+541690,Other Scientific and Technical Consulting Services,54169005,Mining and Geological Consulting,Industry Focus,Mining geology and mineral exploration consulting
+541690,Other Scientific and Technical Consulting Services,54169006,Safety and Regulatory Consulting,Service Type,Industrial safety and regulatory compliance consulting
+541713,Research and Development in Nanotechnology,54171301,Nanomaterials Research and Development,R&D Focus,R&D in nanomaterials and nanoparticles
+541713,Research and Development in Nanotechnology,54171302,Nanoelectronics Research,R&D Focus,Research and development in nanoelectronics and quantum computing
+541713,Research and Development in Nanotechnology,54171303,Nanomedicine and Drug Delivery R&D,R&D Focus,Nanotechnology applications in medicine and drug delivery
+541714,Research and Development in Biotechnology,54171401,Pharmaceutical Biotechnology R&D,R&D Focus,Research and development in biopharmaceuticals and therapeutics
+541714,Research and Development in Biotechnology,54171402,Agricultural Biotechnology R&D,R&D Focus,Biotechnology research for agriculture and crop science
+541714,Research and Development in Biotechnology,54171403,Industrial Biotechnology R&D,R&D Focus,Biotechnology for industrial processes and biofuels
+541714,Research and Development in Biotechnology,54171404,Genomics and Gene Therapy R&D,R&D Focus,Genomics gene editing and gene therapy research
+541714,Research and Development in Biotechnology,54171405,Diagnostic Biotechnology R&D,R&D Focus,Development of diagnostic tests and biomarkers
+541715,Research and Development in the Physical Engineering and Life Sciences,54171501,Pharmaceutical R&D Services,Industry Focus,Contract research services for pharmaceutical development
+541715,Research and Development in the Physical Engineering and Life Sciences,54171502,Chemical R&D Services,Industry Focus,Research and development in chemistry and materials science
+541715,Research and Development in the Physical Engineering and Life Sciences,54171503,Medical Device R&D,Industry Focus,Research and development for medical devices and diagnostics
+541715,Research and Development in the Physical Engineering and Life Sciences,54171504,Environmental Science R&D,Science Type,Research in environmental science ecology and conservation
+541715,Research and Development in the Physical Engineering and Life Sciences,54171505,Materials Science R&D,Science Type,Research and development in advanced materials and polymers
+541715,Research and Development in the Physical Engineering and Life Sciences,54171506,Energy and Clean Technology R&D,Industry Focus,Research in renewable energy clean tech and sustainability
+541715,Research and Development in the Physical Engineering and Life Sciences,54171507,Aerospace and Defense R&D,Industry Focus,Research and development for aerospace and defense applications
+541720,Research and Development in the Social Sciences and Humanities,54172001,Economic and Policy Research,Research Type,Economic analysis and public policy research
+541720,Research and Development in the Social Sciences and Humanities,54172002,Social Science Research Services,Research Type,Sociology anthropology and social research services
+541720,Research and Development in the Social Sciences and Humanities,54172003,Educational Research and Testing,Research Type,Educational research curriculum development and assessment
+541720,Research and Development in the Social Sciences and Humanities,54172004,Historical and Humanities Research,Research Type,Historical research and humanities scholarship
+541810,Advertising Agencies,54181001,Full Service Advertising Agencies,Service Model,Comprehensive advertising agencies offering creative media and strategy
+541810,Advertising Agencies,54181002,Creative Advertising Agencies,Service Model,Advertising agencies focused on creative development and production
+541810,Advertising Agencies,54181003,Digital Advertising Agencies,Service Model,Agencies specializing in digital and online advertising
+541810,Advertising Agencies,54181004,Social Media Advertising Agencies,Service Model,Agencies specializing in social media marketing and advertising
+541810,Advertising Agencies,54181005,Media Buying Agencies,Service Model,Agencies specializing in media planning and buying services
+541810,Advertising Agencies,54181006,Boutique and Specialty Agencies,Size and Focus,Smaller specialized advertising agencies serving niche markets
+541820,Public Relations Agencies,54182001,Corporate Communications and PR,Service Type,Public relations for corporate communications and reputation management
+541820,Public Relations Agencies,54182002,Crisis Communications and Management,Service Type,PR agencies specializing in crisis management and response
+541820,Public Relations Agencies,54182003,Media Relations Services,Service Type,Media relations and press outreach services
+541820,Public Relations Agencies,54182004,Digital and Social Media PR,Service Type,Public relations focused on digital and social media channels
+541820,Public Relations Agencies,54182005,Influencer Relations and Management,Service Type,PR services for influencer partnerships and management
+541830,Media Buying Agencies,54183001,Traditional Media Buying,Media Type,Media buying for TV radio and print advertising
+541830,Media Buying Agencies,54183002,Digital Media Buying,Media Type,Media buying for digital display video and search advertising
+541830,Media Buying Agencies,54183003,Programmatic Advertising Services,Technology,Programmatic and automated media buying platforms
+541830,Media Buying Agencies,54183004,Out-of-Home Media Buying,Media Type,Media buying for outdoor billboard and transit advertising
+541840,Media Representatives,54184001,Publisher Advertising Representatives,Client Type,Advertising sales representation for publishers and media companies
+541840,Media Representatives,54184002,Broadcast Advertising Representatives,Client Type,Advertising sales for TV and radio broadcasters
+541840,Media Representatives,54184003,Digital Media Representatives,Client Type,Advertising sales representation for digital media properties
+541850,Outdoor Advertising,54185001,Billboard Advertising,Media Type,Outdoor billboard advertising space and services
+541850,Outdoor Advertising,54185002,Transit Advertising,Media Type,Advertising on buses trains and transit systems
+541850,Outdoor Advertising,54185003,Street Furniture Advertising,Media Type,Advertising on benches shelters and street furniture
+541850,Outdoor Advertising,54185004,Digital Outdoor Advertising,Media Type,Digital billboards and dynamic outdoor advertising displays
+541860,Direct Mail Advertising,54186001,Direct Mail Campaign Services,Service Type,Complete direct mail campaign planning and execution
+541860,Direct Mail Advertising,54186002,Direct Mail Production and Printing,Service Type,Direct mail printing production and fulfillment services
+541860,Direct Mail Advertising,54186003,Targeted Mailing List Services,Service Type,Mailing list acquisition management and data services
+541870,Advertising Material Distribution Services,54187001,Door-to-Door Distribution,Distribution Type,Door-to-door distribution of advertising materials and samples
+541870,Advertising Material Distribution Services,54187002,Product Sampling Distribution,Distribution Type,Distribution and sampling of product samples and promotions
+541870,Advertising Material Distribution Services,54187003,In-Store Marketing Distribution,Distribution Type,Distribution of marketing materials in retail locations
+541890,Other Services Related to Advertising,54189001,Advertising Photography Services,Service Type,Commercial photography for advertising and marketing
+541890,Other Services Related to Advertising,54189002,Commercial Video Production,Service Type,Video production for commercials and advertising content
+541890,Other Services Related to Advertising,54189003,Copywriting Services,Service Type,Advertising and marketing copywriting services
+541890,Other Services Related to Advertising,54189004,Advertising Consulting Services,Service Type,Advertising strategy and consulting services
+541910,Marketing Research and Public Opinion Polling,54191001,Market Research Services,Service Type,Market research consumer insights and market analysis
+541910,Marketing Research and Public Opinion Polling,54191002,Public Opinion Polling,Service Type,Political and public opinion polling and survey research
+541910,Marketing Research and Public Opinion Polling,54191003,Customer Satisfaction Research,Service Type,Customer satisfaction and experience research
+541910,Marketing Research and Public Opinion Polling,54191004,Focus Group Facilities,Service Type,Focus group research and qualitative research facilities
+541910,Marketing Research and Public Opinion Polling,54191005,Online Survey and Research Panels,Service Type,Online survey platforms and research panel management
+541920,Photographic Services,54192001,Commercial Photography Services,Client Type,Photography for businesses advertising and corporate clients
+541920,Photographic Services,54192002,Portrait Photography Studios,Service Type,Portrait and family photography services
+541920,Photographic Services,54192003,Wedding Photography Services,Service Type,Wedding and event photography services
+541920,Photographic Services,54192004,Real Estate Photography,Industry Focus,Photography services for real estate listings and marketing
+541920,Photographic Services,54192005,Aerial and Drone Photography,Technology,Aerial drone and UAV photography services
+541920,Photographic Services,54192006,Product Photography Services,Service Type,Product photography for e-commerce and catalogs
+541930,Translation and Interpretation Services,54193001,Document Translation Services,Service Type,Written document and content translation services
+541930,Translation and Interpretation Services,54193002,Interpretation Services,Service Type,Oral interpretation including consecutive and simultaneous
+541930,Translation and Interpretation Services,54193003,Localization Services,Service Type,Software website and content localization services
+541930,Translation and Interpretation Services,54193004,Legal and Technical Translation,Specialty,Translation services for legal technical and specialized content
+541940,Veterinary Services,54194001,Companion Animal Veterinary Services,Animal Type,Veterinary services for dogs cats and companion animals
+541940,Veterinary Services,54194002,Equine Veterinary Services,Animal Type,Veterinary services specializing in horses
+541940,Veterinary Services,54194003,Food Animal Veterinary Services,Animal Type,Veterinary services for livestock and food-producing animals
+541940,Veterinary Services,54194004,Emergency and Specialty Veterinary,Service Type,Emergency and specialty veterinary hospitals and services
+541940,Veterinary Services,54194005,Mobile Veterinary Services,Service Model,Mobile and house-call veterinary services
+541940,Veterinary Services,54194006,Laboratory Animal Veterinary Services,Animal Type,Veterinary services for research and laboratory animals
+541990,All Other Professional Scientific and Technical Services,54199001,Expert Witness Services,Service Type,Expert testimony and consulting for legal proceedings
+541990,All Other Professional Scientific and Technical Services,54199002,Appraisal Services (except Real Estate),Service Type,Personal property business and equipment appraisal services
+541990,All Other Professional Scientific and Technical Services,54199003,Weather Forecasting Services,Service Type,Meteorological consulting and weather forecasting services
+541990,All Other Professional Scientific and Technical Services,54199004,Pipeline Inspection Services,Service Type,Pipeline inspection and integrity assessment services
+541990,All Other Professional Scientific and Technical Services,54199005,Marine Surveying Services,Service Type,Marine vessel and cargo surveying services
+541990,All Other Professional Scientific and Technical Services,54199006,Actuarial Services,Service Type,Actuarial consulting and analysis services
+522110,Commercial Banking,52211001,Large Commercial Banks,Asset Size,Commercial banks with assets over $10 billion
+522110,Commercial Banking,52211002,Regional Commercial Banks,Asset Size,Regional commercial banks with assets $1-10 billion
+522110,Commercial Banking,52211003,Community Banks,Asset Size,Community banks with assets under $1 billion
+522110,Commercial Banking,52211004,Business Banking Specialists,Client Focus,Banks primarily focused on business and commercial lending
+522110,Commercial Banking,52211005,Private Banking Services,Client Segment,Banks specializing in high-net-worth private banking
+522110,Commercial Banking,52211006,International Banking Services,Service Type,Banks specializing in international and trade finance
+522120,Savings Institutions,52212001,Savings Banks,Institution Type,Mutual or stock savings banks
+522120,Savings Institutions,52212002,Savings and Loan Associations,Institution Type,Savings and loan associations and thrifts
+522120,Savings Institutions,52212003,Online Savings Banks,Service Channel,Online-only savings institutions
+522130,Credit Unions,52213001,Community Credit Unions,Membership Type,Credit unions serving specific communities or geographic areas
+522130,Credit Unions,52213002,Employee Credit Unions,Membership Type,Credit unions serving employees of specific companies or organizations
+522130,Credit Unions,52213003,Federal Credit Unions,Charter Type,Federally chartered credit unions
+522130,Credit Unions,52213004,State Credit Unions,Charter Type,State chartered credit unions
+522180,Savings Institutions and Other Depository Credit Intermediation,52218001,Industrial Banks,Institution Type,Industrial loan companies and industrial banks
+522180,Savings Institutions and Other Depository Credit Intermediation,52218002,Private Banks,Institution Type,Private banking institutions
+522190,Other Depository Credit Intermediation,52219001,Trust Companies with Depository Functions,Service Type,Trust companies accepting deposits
+522190,Other Depository Credit Intermediation,52219002,Banker's Banks,Client Type,Banks serving other depository institutions
+522210,Credit Card Issuing,52221001,Bank Credit Card Issuers,Issuer Type,Banks issuing general purpose credit cards
+522210,Credit Card Issuing,52221002,Non-Bank Credit Card Issuers,Issuer Type,Non-bank institutions issuing credit cards
+522210,Credit Card Issuing,52221003,Store Credit Card Issuers,Card Type,Issuers of private label and store credit cards
+522210,Credit Card Issuing,52221004,Commercial Credit Card Issuers,Client Segment,Issuers specializing in business and corporate credit cards
+522220,Sales Financing,52222001,Automotive Sales Financing,Product Focus,Financing for automobile purchases and leases
+522220,Sales Financing,52222002,Consumer Electronics Financing,Product Focus,Financing for consumer electronics and appliances
+522220,Sales Financing,52222003,Furniture and Home Goods Financing,Product Focus,Financing for furniture and home furnishings
+522220,Sales Financing,52222004,Medical and Healthcare Financing,Product Focus,Patient financing for medical and dental procedures
+522220,Sales Financing,52222005,Point-of-Sale Financing,Service Type,Buy-now-pay-later and POS financing services
+522291,Consumer Lending,52229101,Personal Loan Companies,Loan Type,Unsecured personal loan providers
+522291,Consumer Lending,52229102,Payday Lending,Loan Type,Short-term payday and cash advance lending
+522291,Consumer Lending,52229103,Title Lending,Loan Type,Auto title and secured consumer lending
+522291,Consumer Lending,52229104,Online Consumer Lenders,Channel,Online and fintech consumer lending platforms
+522292,Real Estate Credit,52229201,Mortgage Bankers and Originators,Service Type,Mortgage loan origination and banking services
+522292,Real Estate Credit,52229202,Mortgage Brokers,Service Type,Mortgage brokerage and loan placement services
+522292,Real Estate Credit,52229203,Commercial Real Estate Lending,Property Type,Lending for commercial real estate properties
+522292,Real Estate Credit,52229204,Residential Mortgage Lenders,Property Type,Residential mortgage lending and origination
+522292,Real Estate Credit,52229205,Home Equity Lenders,Loan Type,Home equity loans and lines of credit
+522292,Real Estate Credit,52229206,Reverse Mortgage Lenders,Loan Type,Reverse mortgage and senior lending services
+522293,International Trade Financing,52229301,Export Financing,Service Type,Financing for export transactions and receivables
+522293,International Trade Financing,52229302,Import Financing,Service Type,Financing for import transactions and inventory
+522293,International Trade Financing,52229303,Trade Credit Insurance,Service Type,Credit insurance for international trade transactions
+522293,International Trade Financing,52229304,Letter of Credit Services,Service Type,Letter of credit issuance and confirmation
+522294,Secondary Market Financing,52229401,Mortgage-Backed Securities,Security Type,Securitization and trading of mortgage-backed securities
+522294,Secondary Market Financing,52229402,Asset-Backed Securities,Security Type,Securitization of consumer and commercial receivables
+522294,Secondary Market Financing,52229403,Loan Servicing Rights Trading,Service Type,Trading and investment in mortgage servicing rights
+522298,All Other Nondepository Credit Intermediation,52229801,Equipment Financing and Leasing,Product Focus,Financing and leasing of business equipment
+522298,All Other Nondepository Credit Intermediation,52229802,Agricultural Credit,Industry Focus,Lending to farmers and agricultural businesses
+522298,All Other Nondepository Credit Intermediation,52229803,Student Loan Providers,Loan Type,Private student loan origination and servicing
+522298,All Other Nondepository Credit Intermediation,52229804,Small Business Lending,Client Segment,Non-bank small business and commercial lending
+522298,All Other Nondepository Credit Intermediation,52229805,Factoring and Invoice Financing,Service Type,Factoring and accounts receivable financing
+522298,All Other Nondepository Credit Intermediation,52229806,Peer-to-Peer Lending Platforms,Business Model,P2P and marketplace lending platforms
+522298,All Other Nondepository Credit Intermediation,52229807,Microfinance and Community Development,Service Type,Microfinance and CDFI lending services
+522299,Other Nondepository Credit Intermediation,52229901,Pawnshops,Service Type,Pawnbroking and collateral-based lending
+522299,Other Nondepository Credit Intermediation,52229902,Check Cashing Services,Service Type,Check cashing and financial transaction services
+522300,Activities Related to Credit Intermediation,52230001,Loan Brokers,Service Type,Brokerage services for various loan types
+522300,Activities Related to Credit Intermediation,52230002,Loan Servicing,Service Type,Loan servicing and administration
+522300,Activities Related to Credit Intermediation,52230003,Loan Collections,Service Type,Collection services for delinquent loans
+522300,Activities Related to Credit Intermediation,52230004,Financial Transaction Processing,Service Type,Payment processing and transaction services
+522300,Activities Related to Credit Intermediation,52230005,Credit Bureaus and Reporting,Service Type,Consumer and business credit reporting services
+522300,Activities Related to Credit Intermediation,52230006,Debt Settlement Services,Service Type,Debt negotiation and settlement services
+523110,Investment Banking and Securities Dealing,52311001,Bulge Bracket Investment Banks,Firm Size,Large global investment banks
+523110,Investment Banking and Securities Dealing,52311002,Middle Market Investment Banks,Firm Size,Regional and middle-market investment banking
+523110,Investment Banking and Securities Dealing,52311003,Boutique Investment Banks,Firm Size,Specialized and boutique advisory firms
+523110,Investment Banking and Securities Dealing,52311004,M&A Advisory Services,Service Type,Mergers and acquisitions advisory services
+523110,Investment Banking and Securities Dealing,52311005,Underwriting Services,Service Type,Securities underwriting and issuance
+523110,Investment Banking and Securities Dealing,52311006,Institutional Securities Trading,Service Type,Institutional equity and fixed income trading
+523120,Securities Brokerage,52312001,Full Service Brokerage Firms,Service Model,Full service stock brokers and investment advisors
+523120,Securities Brokerage,52312002,Discount Brokerage Firms,Service Model,Discount and low-cost brokerage services
+523120,Securities Brokerage,52312003,Online Trading Platforms,Service Channel,Online and app-based trading platforms
+523120,Securities Brokerage,52312004,Institutional Brokerage Services,Client Segment,Brokerage services for institutional clients
+523120,Securities Brokerage,52312005,Registered Investment Advisors,Service Type,Fee-based investment advisory and wealth management
+523130,Commodity Contracts Dealing,52313001,Commodity Trading Firms,Asset Class,Commodity futures and derivatives trading
+523130,Commodity Contracts Dealing,52313002,Energy Trading,Commodity Type,Trading of energy commodities and derivatives
+523130,Commodity Contracts Dealing,52313003,Agricultural Commodity Trading,Commodity Type,Trading of agricultural commodity contracts
+523130,Commodity Contracts Dealing,52313004,Metals Trading,Commodity Type,Precious and base metals trading
+523140,Commodity Contracts Brokerage,52314001,Futures Brokerage Services,Product Type,Futures commission merchants and brokers
+523140,Commodity Contracts Brokerage,52314002,Options Brokerage,Product Type,Options on futures brokerage services
+523140,Commodity Contracts Brokerage,52314003,Online Commodity Trading Platforms,Service Channel,Online commodity and futures trading platforms
+523150,Investment Banking and Securities Intermediation,52315001,SPAC and Capital Markets Advisory,Service Type,Special purpose acquisition companies and capital raising
+523150,Investment Banking and Securities Intermediation,52315002,Private Placement Services,Service Type,Private placement and capital introduction services
+523150,Investment Banking and Securities Intermediation,52315003,Restructuring and Distressed Advisory,Service Type,Financial restructuring and bankruptcy advisory
+523210,Securities and Commodity Exchanges,52321001,Stock Exchanges,Exchange Type,Public stock and equity exchanges
+523210,Securities and Commodity Exchanges,52321002,Options and Derivatives Exchanges,Exchange Type,Options and derivatives trading exchanges
+523210,Securities and Commodity Exchanges,52321003,Commodity and Futures Exchanges,Exchange Type,Commodity and futures contract exchanges
+523210,Securities and Commodity Exchanges,52321004,Cryptocurrency Exchanges,Exchange Type,Digital asset and cryptocurrency exchanges
+523900,Other Financial Investment Activities,52390001,Portfolio Management Services,Service Type,Discretionary investment portfolio management
+523900,Other Financial Investment Activities,52390002,Financial Planning Services,Service Type,Comprehensive financial planning and advisory
+523900,Other Financial Investment Activities,52390003,Pension Fund Management,Client Type,Pension and retirement plan management services
+523900,Other Financial Investment Activities,52390004,Trust and Fiduciary Services,Service Type,Trust administration and fiduciary services
+523900,Other Financial Investment Activities,52390005,Family Office Services,Client Segment,Single and multi-family office investment management
+523900,Other Financial Investment Activities,52390006,Robo-Advisory Services,Technology,Automated digital investment advisory platforms
+523910,Miscellaneous Intermediation,52391001,Forex and Currency Trading,Asset Class,Foreign exchange trading and currency services
+523910,Miscellaneous Intermediation,52391002,Prime Brokerage Services,Service Type,Prime brokerage for hedge funds and institutions
+523910,Miscellaneous Intermediation,52391003,Securities Lending,Service Type,Securities lending and borrowing services
+523920,Portfolio Management,52392001,Equity Portfolio Management,Strategy Type,Equity-focused investment management
+523920,Portfolio Management,52392002,Fixed Income Portfolio Management,Strategy Type,Fixed income and bond portfolio management
+523920,Portfolio Management,52392003,Alternative Investment Management,Strategy Type,Hedge funds and alternative investment strategies
+523920,Portfolio Management,52392004,ESG and Sustainable Investing,Strategy Type,Environmental social and governance focused investing
+523930,Investment Advice,52393001,Retirement Planning Advisory,Service Focus,Retirement and pension planning advisory services
+523930,Investment Advice,52393002,Tax-Focused Investment Advisory,Service Focus,Tax-efficient investment strategy and planning
+523930,Investment Advice,52393003,Independent Financial Advisors,Business Model,Independent fee-only financial advisors
+524113,Direct Life Insurance Carriers,52411301,Term Life Insurance,Product Type,Term life insurance carriers
+524113,Direct Life Insurance Carriers,52411302,Whole Life Insurance,Product Type,Whole and permanent life insurance carriers
+524113,Direct Life Insurance Carriers,52411303,Universal Life Insurance,Product Type,Universal and variable life insurance carriers
+524113,Direct Life Insurance Carriers,52411304,Group Life Insurance,Distribution,Group life insurance for employers and organizations
+524114,Direct Health and Medical Insurance Carriers,52411401,Health Maintenance Organizations (HMOs),Plan Type,HMO health insurance plans
+524114,Direct Health and Medical Insurance Carriers,52411402,Preferred Provider Organizations (PPOs),Plan Type,PPO health insurance plans
+524114,Direct Health and Medical Insurance Carriers,52411403,High Deductible Health Plans,Plan Type,HDHP and catastrophic health insurance
+524114,Direct Health and Medical Insurance Carriers,52411404,Medicare Advantage Plans,Market Segment,Medicare managed care and advantage plans
+524114,Direct Health and Medical Insurance Carriers,52411405,Medicaid Managed Care,Market Segment,Medicaid managed care organizations
+524114,Direct Health and Medical Insurance Carriers,52411406,Dental Insurance Carriers,Coverage Type,Dental insurance and dental HMOs
+524114,Direct Health and Medical Insurance Carriers,52411407,Vision Insurance Carriers,Coverage Type,Vision care insurance plans
+524114,Direct Health and Medical Insurance Carriers,52411408,Supplemental Health Insurance,Coverage Type,Supplemental hospital and accident insurance
+524126,Direct Property and Casualty Insurance Carriers,52412601,Auto Insurance Carriers,Line of Business,Personal and commercial auto insurance
+524126,Direct Property and Casualty Insurance Carriers,52412602,Homeowners Insurance,Line of Business,Homeowners and residential property insurance
+524126,Direct Property and Casualty Insurance Carriers,52412603,Commercial Property Insurance,Line of Business,Commercial property and business insurance
+524126,Direct Property and Casualty Insurance Carriers,52412604,General Liability Insurance,Line of Business,General liability and commercial liability insurance
+524126,Direct Property and Casualty Insurance Carriers,52412605,Workers Compensation Insurance,Line of Business,Workers compensation insurance carriers
+524126,Direct Property and Casualty Insurance Carriers,52412606,Professional Liability Insurance,Line of Business,Errors and omissions and professional liability insurance
+524126,Direct Property and Casualty Insurance Carriers,52412607,Umbrella and Excess Liability,Line of Business,Umbrella and excess liability coverage
+524126,Direct Property and Casualty Insurance Carriers,52412608,Specialty Property and Casualty,Line of Business,Specialty lines including marine aviation and surety
+524127,Direct Title Insurance Carriers,52412701,Residential Title Insurance,Market Segment,Title insurance for residential real estate transactions
+524127,Direct Title Insurance Carriers,52412702,Commercial Title Insurance,Market Segment,Title insurance for commercial real estate
+524128,Other Direct Insurance Carriers,52412801,Disability Insurance Carriers,Product Type,Long-term and short-term disability insurance
+524128,Other Direct Insurance Carriers,52412802,Long-Term Care Insurance,Product Type,Long-term care and nursing home insurance
+524128,Other Direct Insurance Carriers,52412803,Annuity Providers,Product Type,Fixed and variable annuity products
+524128,Other Direct Insurance Carriers,52412804,Pet Insurance Carriers,Product Type,Pet health and wellness insurance
+524128,Other Direct Insurance Carriers,52412805,Travel Insurance,Product Type,Travel and trip cancellation insurance
+524130,Reinsurance Carriers,52413001,Life Reinsurance,Reinsurance Type,Reinsurance of life and health insurance
+524130,Reinsurance Carriers,52413002,Property and Casualty Reinsurance,Reinsurance Type,Reinsurance of property and casualty lines
+524130,Reinsurance Carriers,52413003,Catastrophe Reinsurance,Reinsurance Type,Catastrophic risk and natural disaster reinsurance
+524210,Insurance Agencies and Brokerages,52421001,Independent Insurance Agencies,Distribution Model,Independent insurance agencies representing multiple carriers
+524210,Insurance Agencies and Brokerages,52421002,Captive Insurance Agencies,Distribution Model,Captive agencies representing single insurance carriers
+524210,Insurance Agencies and Brokerages,52421003,Commercial Insurance Brokers,Client Focus,Brokers specializing in commercial and business insurance
+524210,Insurance Agencies and Brokerages,52421004,Personal Lines Insurance Agents,Client Focus,Agents focused on personal auto home and life insurance
+524210,Insurance Agencies and Brokerages,52421005,Employee Benefits Brokers,Service Focus,Brokers specializing in group health and employee benefits
+524210,Insurance Agencies and Brokerages,52421006,Online Insurance Agencies,Distribution Channel,Online insurance comparison and sales platforms
+524210,Insurance Agencies and Brokerages,52421007,Managing General Agents (MGAs),Distribution Model,Wholesale insurance underwriting and distribution
+524290,Other Insurance Related Activities,52429001,Third Party Administrators (TPAs),Service Type,Claims administration and TPA services
+524290,Other Insurance Related Activities,52429002,Insurance Claims Adjusters,Service Type,Independent insurance claims adjusting services
+524290,Other Insurance Related Activities,52429003,Insurance Actuarial Services,Service Type,Actuarial consulting for insurance companies
+524290,Other Insurance Related Activities,52429004,Insurance Underwriting Services,Service Type,Independent insurance underwriting and risk assessment
+524290,Other Insurance Related Activities,52429005,Insurance Loss Prevention,Service Type,Risk management and loss control consulting
+525100,Insurance and Employee Benefit Funds,52510001,Health and Welfare Benefit Funds,Fund Type,Employee health and welfare benefit funds
+525100,Insurance and Employee Benefit Funds,52510002,Pension Funds,Fund Type,Private pension and retirement benefit funds
+525100,Insurance and Employee Benefit Funds,52510003,Union Benefit Funds,Fund Type,Labor union administered benefit funds
+525910,Open-End Investment Funds,52591001,Equity Mutual Funds,Fund Type,Mutual funds investing primarily in stocks
+525910,Open-End Investment Funds,52591002,Bond and Fixed Income Funds,Fund Type,Mutual funds investing in bonds and fixed income
+525910,Open-End Investment Funds,52591003,Balanced and Asset Allocation Funds,Fund Type,Balanced funds with mixed asset allocation
+525910,Open-End Investment Funds,52591004,Money Market Funds,Fund Type,Money market mutual funds
+525910,Open-End Investment Funds,52591005,Index Funds,Strategy,Passive index tracking mutual funds
+525910,Open-End Investment Funds,52591006,International and Global Funds,Geographic Focus,International and global equity mutual funds
+525910,Open-End Investment Funds,52591007,Sector and Specialty Funds,Focus,Sector-specific and specialty mutual funds
+525920,Trusts Estates and Agency Accounts,52592001,Personal Trust Administration,Trust Type,Personal and family trust administration services
+525920,Trusts Estates and Agency Accounts,52592002,Charitable Trust Administration,Trust Type,Charitable and foundation trust services
+525920,Trusts Estates and Agency Accounts,52592003,Corporate Trust Services,Trust Type,Corporate trust and agency services
+525920,Trusts Estates and Agency Accounts,52592004,Estate Administration,Service Type,Estate settlement and probate administration
+525990,Other Financial Vehicles,52599001,Real Estate Investment Trusts (REITs),Vehicle Type,Public and private REITs
+525990,Other Financial Vehicles,52599002,Closed-End Funds,Vehicle Type,Closed-end investment companies and funds
+525990,Other Financial Vehicles,52599003,Exchange-Traded Funds (ETFs),Vehicle Type,Exchange-traded funds and ETF sponsors
+525990,Other Financial Vehicles,52599004,Private Equity Funds,Vehicle Type,Private equity and venture capital funds
+525990,Other Financial Vehicles,52599005,Hedge Funds,Vehicle Type,Hedge funds and alternative investment vehicles
+525990,Other Financial Vehicles,52599006,Business Development Companies (BDCs),Vehicle Type,Publicly traded business development companies
+525990,Other Financial Vehicles,52599007,Special Purpose Acquisition Companies (SPACs),Vehicle Type,SPACs and blank check companies
+621111,Offices of Physicians (except Mental Health Specialists),62111101,Family Medicine Physicians,Medical Specialty,Primary care family medicine and general practice physicians
+621111,Offices of Physicians (except Mental Health Specialists),62111102,Internal Medicine Physicians,Medical Specialty,Internal medicine and general internist offices
+621111,Offices of Physicians (except Mental Health Specialists),62111103,Pediatrician Offices,Medical Specialty,Pediatric physicians and child healthcare
+621111,Offices of Physicians (except Mental Health Specialists),62111104,Cardiologist Offices,Medical Specialty,Cardiology and cardiovascular disease specialists
+621111,Offices of Physicians (except Mental Health Specialists),62111105,Dermatologist Offices,Medical Specialty,Dermatology and skin disease specialists
+621111,Offices of Physicians (except Mental Health Specialists),62111106,Gastroenterologist Offices,Medical Specialty,Gastroenterology and digestive disease specialists
+621111,Offices of Physicians (except Mental Health Specialists),62111107,Oncologist Offices,Medical Specialty,Oncology and cancer treatment specialists
+621111,Offices of Physicians (except Mental Health Specialists),62111108,Orthopedic Surgeon Offices,Medical Specialty,Orthopedic surgery and musculoskeletal specialists
+621111,Offices of Physicians (except Mental Health Specialists),62111109,OB/GYN Physician Offices,Medical Specialty,Obstetrics gynecology and women's health physicians
+621111,Offices of Physicians (except Mental Health Specialists),62111110,Ophthalmologist Offices,Medical Specialty,Ophthalmology and eye disease specialists
+621111,Offices of Physicians (except Mental Health Specialists),62111111,ENT Specialist Offices,Medical Specialty,Otolaryngology and ear nose throat specialists
+621111,Offices of Physicians (except Mental Health Specialists),62111112,Urologist Offices,Medical Specialty,Urology and urinary system specialists
+621111,Offices of Physicians (except Mental Health Specialists),62111113,Neurologist Offices,Medical Specialty,Neurology and nervous system disease specialists
+621111,Offices of Physicians (except Mental Health Specialists),62111114,Pulmonologist Offices,Medical Specialty,Pulmonology and respiratory disease specialists
+621111,Offices of Physicians (except Mental Health Specialists),62111115,Endocrinologist Offices,Medical Specialty,Endocrinology diabetes and hormonal disorder specialists
+621112,Offices of Physicians Mental Health Specialists,62111201,Psychiatrist Offices,Medical Specialty,Psychiatry and mental health physician offices
+621112,Offices of Physicians Mental Health Specialists,62111202,Child and Adolescent Psychiatrists,Patient Population,Psychiatrists specializing in children and adolescents
+621112,Offices of Physicians Mental Health Specialists,62111203,Geriatric Psychiatrists,Patient Population,Psychiatrists specializing in elderly mental health
+621112,Offices of Physicians Mental Health Specialists,62111204,Addiction Psychiatrists,Specialty Focus,Psychiatrists specializing in addiction medicine
+621210,Offices of Dentists,62121001,General Dentistry Practices,Practice Type,General family dentistry practices
+621210,Offices of Dentists,62121002,Pediatric Dentistry,Patient Specialty,Dentists specializing in children's dental care
+621210,Offices of Dentists,62121003,Orthodontic Practices,Dental Specialty,Orthodontists and teeth alignment specialists
+621210,Offices of Dentists,62121004,Oral and Maxillofacial Surgeons,Dental Specialty,Oral surgery and facial surgery specialists
+621210,Offices of Dentists,62121005,Endodontic Practices,Dental Specialty,Endodontists and root canal specialists
+621210,Offices of Dentists,62121006,Periodontic Practices,Dental Specialty,Periodontists and gum disease specialists
+621210,Offices of Dentists,62121007,Prosthodontic Practices,Dental Specialty,Prosthodontists and dental restoration specialists
+621210,Offices of Dentists,62121008,Cosmetic Dentistry,Service Focus,Cosmetic and aesthetic dentistry practices
+621310,Offices of Chiropractors,62131001,General Chiropractic Practices,Practice Type,General chiropractic care and spinal adjustment
+621310,Offices of Chiropractors,62131002,Sports Chiropractic,Specialty Focus,Chiropractic care for athletes and sports injuries
+621310,Offices of Chiropractors,62131003,Wellness and Preventive Chiropractic,Service Focus,Wellness-focused and preventive chiropractic care
+621320,Offices of Optometrists,62132001,General Optometry Practices,Service Type,Comprehensive eye exams and vision care
+621320,Offices of Optometrists,62132002,Pediatric Optometry,Patient Specialty,Optometrists specializing in children's vision
+621320,Offices of Optometrists,62132003,Low Vision Specialty,Service Focus,Optometry for low vision and vision rehabilitation
+621330,Offices of Mental Health Practitioners (except Physicians),62133001,Clinical Psychologist Offices,Practitioner Type,Licensed clinical psychologists
+621330,Offices of Mental Health Practitioners (except Physicians),62133002,Licensed Therapist and Counselor Offices,Practitioner Type,LCSWs LMFTs and professional counselors
+621330,Offices of Mental Health Practitioners (except Physicians),62133003,Marriage and Family Therapists,Specialty Focus,Marriage couples and family therapy practices
+621330,Offices of Mental Health Practitioners (except Physicians),62133004,Child and Adolescent Therapists,Patient Population,Therapists specializing in children and teens
+621330,Offices of Mental Health Practitioners (except Physicians),62133005,Addiction Counseling Services,Specialty Focus,Substance abuse and addiction counseling
+621340,Offices of Physical Occupational and Speech Therapists and Audiologists,62134001,Physical Therapy Practices,Therapy Type,Physical therapy and rehabilitation services
+621340,Offices of Physical Occupational and Speech Therapists and Audiologists,62134002,Occupational Therapy Practices,Therapy Type,Occupational therapy services
+621340,Offices of Physical Occupational and Speech Therapists and Audiologists,62134003,Speech-Language Pathology,Therapy Type,Speech therapy and language pathology services
+621340,Offices of Physical Occupational and Speech Therapists and Audiologists,62134004,Audiology Practices,Therapy Type,Audiology and hearing healthcare services
+621340,Offices of Physical Occupational and Speech Therapists and Audiologists,62134005,Sports Medicine and Rehabilitation,Specialty Focus,Sports injury rehabilitation and performance therapy
+621391,Offices of Podiatrists,62139101,General Podiatry Practices,Practice Type,General foot and ankle care
+621391,Offices of Podiatrists,62139102,Surgical Podiatry,Service Focus,Podiatric surgery specialists
+621391,Offices of Podiatrists,62139103,Diabetic Foot Care,Specialty Focus,Podiatry specializing in diabetic foot care
+621391,Offices of Podiatrists,62139104,Sports Podiatry,Specialty Focus,Podiatry for athletes and sports-related foot injuries
+621399,Offices of All Other Miscellaneous Health Practitioners,62139901,Acupuncture Practices,Practitioner Type,Licensed acupuncturists and Traditional Chinese Medicine
+621399,Offices of All Other Miscellaneous Health Practitioners,62139902,Naturopathic Medicine,Practitioner Type,Naturopathic doctors and holistic medicine
+621399,Offices of All Other Miscellaneous Health Practitioners,62139903,Massage Therapy Practices,Practitioner Type,Licensed massage therapists and bodywork
+621399,Offices of All Other Miscellaneous Health Practitioners,62139904,Nutritionist and Dietitian Offices,Practitioner Type,Registered dietitians and nutrition counseling
+621399,Offices of All Other Miscellaneous Health Practitioners,62139905,Midwife Services,Practitioner Type,Certified nurse-midwives and midwifery practices
+621410,Family Planning Centers,62141001,Reproductive Health Clinics,Service Focus,Comprehensive reproductive health and family planning
+621410,Family Planning Centers,62141002,Birth Control and Contraception Clinics,Service Focus,Birth control and contraceptive services
+621410,Family Planning Centers,62141003,Women's Health Centers,Patient Focus,Women's reproductive and gynecological health centers
+621420,Outpatient Mental Health and Substance Abuse Centers,62142001,Mental Health Outpatient Clinics,Service Type,Outpatient mental health treatment and counseling
+621420,Outpatient Mental Health and Substance Abuse Centers,62142002,Substance Abuse Outpatient Treatment,Service Type,Outpatient addiction treatment and recovery programs
+621420,Outpatient Mental Health and Substance Abuse Centers,62142003,Dual Diagnosis Treatment Centers,Service Type,Treatment for co-occurring mental health and substance abuse
+621420,Outpatient Mental Health and Substance Abuse Centers,62142004,Intensive Outpatient Programs (IOP),Service Level,Intensive outpatient mental health and addiction programs
+621420,Outpatient Mental Health and Substance Abuse Centers,62142005,Medication-Assisted Treatment (MAT),Treatment Type,MAT for opioid and substance use disorders
+621491,HMO Medical Centers,62149101,Staff Model HMO Centers,Service Model,HMO-operated medical centers with employed physicians
+621491,HMO Medical Centers,62149102,Multi-Specialty HMO Clinics,Service Type,Multi-specialty medical centers operated by HMOs
+621492,Kidney Dialysis Centers,62149201,Hemodialysis Centers,Treatment Type,In-center hemodialysis treatment facilities
+621492,Kidney Dialysis Centers,62149202,Peritoneal Dialysis Centers,Treatment Type,Peritoneal dialysis treatment and training
+621492,Kidney Dialysis Centers,62149203,Home Dialysis Training Centers,Service Model,Home dialysis patient training and support
+621493,Freestanding Ambulatory Surgical and Emergency Centers,62149301,Ambulatory Surgery Centers,Service Type,Outpatient surgical centers for elective procedures
+621493,Freestanding Ambulatory Surgical and Emergency Centers,62149302,Ophthalmology Surgery Centers,Specialty,ASCs specializing in eye surgery and cataract procedures
+621493,Freestanding Ambulatory Surgical and Emergency Centers,62149303,Gastroenterology Procedure Centers,Specialty,Endoscopy and GI procedure centers
+621493,Freestanding Ambulatory Surgical and Emergency Centers,62149304,Orthopedic Surgery Centers,Specialty,ASCs for orthopedic and joint procedures
+621493,Freestanding Ambulatory Surgical and Emergency Centers,62149305,Freestanding Emergency Departments,Service Type,24-hour freestanding emergency rooms
+621498,All Other Outpatient Care Centers,62149801,Urgent Care Centers,Service Type,Walk-in urgent care and immediate care centers
+621498,All Other Outpatient Care Centers,62149802,Retail Health Clinics,Service Model,Retail-based clinics in pharmacies and stores
+621498,All Other Outpatient Care Centers,62149803,Diagnostic Imaging Centers,Service Type,Outpatient radiology and diagnostic imaging
+621498,All Other Outpatient Care Centers,62149804,Cancer Treatment Centers,Service Focus,Outpatient oncology and cancer treatment centers
+621498,All Other Outpatient Care Centers,62149805,Pain Management Clinics,Specialty,Chronic pain management and treatment centers
+621498,All Other Outpatient Care Centers,62149806,Wound Care Centers,Specialty,Wound care and hyperbaric medicine centers
+621498,All Other Outpatient Care Centers,62149807,Sleep Disorder Centers,Specialty,Sleep medicine and sleep study centers
+621498,All Other Outpatient Care Centers,62149808,Infusion Therapy Centers,Service Type,Outpatient IV infusion and injection therapy
+621511,Medical Laboratories,62151101,Clinical Diagnostic Laboratories,Lab Type,Full service clinical and diagnostic testing laboratories
+621511,Medical Laboratories,62151102,Hospital-Based Laboratories,Setting,Hospital and health system laboratory services
+621511,Medical Laboratories,62151103,Reference Laboratories,Lab Type,Large reference and specialty testing laboratories
+621511,Medical Laboratories,62151104,Point-of-Care Testing Services,Service Model,Rapid and point-of-care diagnostic testing
+621511,Medical Laboratories,62151105,Molecular Diagnostics Labs,Test Type,Molecular genetic and genomic testing laboratories
+621511,Medical Laboratories,62151106,Toxicology and Drug Testing Labs,Test Type,Toxicology drug screening and substance testing
+621512,Diagnostic Imaging Centers,62151201,General Radiology Centers,Service Type,General diagnostic radiology and X-ray services
+621512,Diagnostic Imaging Centers,62151202,MRI Imaging Centers,Imaging Modality,Magnetic resonance imaging centers
+621512,Diagnostic Imaging Centers,62151203,CT Scanning Centers,Imaging Modality,Computed tomography and CAT scan centers
+621512,Diagnostic Imaging Centers,62151204,PET Scan Centers,Imaging Modality,Positron emission tomography imaging
+621512,Diagnostic Imaging Centers,62151205,Ultrasound and Sonography Centers,Imaging Modality,Ultrasound and diagnostic sonography services
+621512,Diagnostic Imaging Centers,62151206,Mammography Centers,Imaging Specialty,Breast imaging and mammography centers
+621512,Diagnostic Imaging Centers,62151207,Mobile Imaging Services,Service Model,Mobile diagnostic imaging and screening services
+621610,Home Health Care Services,62161001,Skilled Nursing Home Health,Service Type,Home health nursing and medical care
+621610,Home Health Care Services,62161002,Physical Therapy Home Health,Service Type,In-home physical and rehabilitation therapy
+621610,Home Health Care Services,62161003,Occupational Therapy Home Health,Service Type,In-home occupational therapy services
+621610,Home Health Care Services,62161004,Home Infusion Therapy,Service Type,In-home IV therapy and medication administration
+621610,Home Health Care Services,62161005,Hospice Home Care,Service Type,Home-based hospice and end-of-life care
+621610,Home Health Care Services,62161006,Pediatric Home Health Care,Patient Population,Home healthcare for children and medically fragile youth
+621910,Ambulance Services,62191001,Emergency Ambulance Services,Service Type,Emergency 911 ambulance and paramedic services
+621910,Ambulance Services,62191002,Non-Emergency Medical Transport,Service Type,Non-emergency patient transportation services
+621910,Ambulance Services,62191003,Air Ambulance Services,Transport Mode,Helicopter and fixed-wing air ambulance
+621910,Ambulance Services,62191004,Wheelchair and Stretcher Transport,Service Type,Wheelchair van and stretcher transportation
+621991,Blood and Organ Banks,62199101,Blood Banks,Service Type,Blood collection storage and distribution
+621991,Blood and Organ Banks,62199102,Plasma Collection Centers,Service Type,Source plasma collection for pharmaceutical manufacturing
+621991,Blood and Organ Banks,62199103,Organ Procurement Organizations,Service Type,Organ donation procurement and transplant coordination
+621991,Blood and Organ Banks,62199104,Tissue and Eye Banks,Service Type,Tissue donation and cornea banking
+621999,All Other Miscellaneous Ambulatory Health Care Services,62199901,Hearing Aid Dispensing,Service Type,Hearing aid sales fitting and dispensing services
+621999,All Other Miscellaneous Ambulatory Health Care Services,62199902,Medical Equipment Rental,Service Type,Durable medical equipment rental and supplies
+621999,All Other Miscellaneous Ambulatory Health Care Services,62199903,Oxygen and Respiratory Services,Service Type,Home oxygen and respiratory equipment services
+621999,All Other Miscellaneous Ambulatory Health Care Services,62199904,Genetic Counseling Services,Service Type,Genetic counseling and hereditary disease consultation
+622110,General Medical and Surgical Hospitals,62211001,Large Academic Medical Centers,Hospital Type,Major teaching hospitals and academic medical centers
+622110,General Medical and Surgical Hospitals,62211002,Community Hospitals,Hospital Type,Community general acute care hospitals
+622110,General Medical and Surgical Hospitals,62211003,Rural and Critical Access Hospitals,Hospital Type,Rural hospitals and critical access facilities
+622110,General Medical and Surgical Hospitals,62211004,For-Profit Hospital Systems,Ownership,Investor-owned for-profit hospital chains
+622110,General Medical and Surgical Hospitals,62211005,Non-Profit Hospitals,Ownership,Non-profit and charitable hospitals
+622110,General Medical and Surgical Hospitals,62211006,Government Hospitals,Ownership,Public and government-owned hospitals
+622210,Psychiatric and Substance Abuse Hospitals,62221001,Psychiatric Hospitals,Service Focus,Inpatient psychiatric treatment hospitals
+622210,Psychiatric and Substance Abuse Hospitals,62221002,Substance Abuse Treatment Hospitals,Service Focus,Residential addiction treatment and detox hospitals
+622210,Psychiatric and Substance Abuse Hospitals,62221003,Dual Diagnosis Hospitals,Service Focus,Hospitals treating co-occurring mental health and addiction
+622210,Psychiatric and Substance Abuse Hospitals,62221004,Adolescent Behavioral Health Hospitals,Patient Population,Psychiatric hospitals for children and adolescents
+622310,Specialty (except Psychiatric and Substance Abuse) Hospitals,62231001,Children's Hospitals,Patient Population,Pediatric specialty hospitals
+622310,Specialty (except Psychiatric and Substance Abuse) Hospitals,62231002,Cancer Hospitals,Disease Focus,Oncology and cancer treatment hospitals
+622310,Specialty (except Psychiatric and Substance Abuse) Hospitals,62231003,Orthopedic Specialty Hospitals,Specialty Focus,Hospitals specializing in orthopedic surgery
+622310,Specialty (except Psychiatric and Substance Abuse) Hospitals,62231004,Cardiac and Heart Hospitals,Specialty Focus,Cardiovascular and heart disease specialty hospitals
+622310,Specialty (except Psychiatric and Substance Abuse) Hospitals,62231005,Rehabilitation Hospitals,Service Focus,Inpatient rehabilitation and physical medicine hospitals
+622310,Specialty (except Psychiatric and Substance Abuse) Hospitals,62231006,Long-Term Acute Care Hospitals (LTACH),Service Focus,Long-term acute care and complex medical hospitals
+623110,Nursing Care Facilities (Skilled Nursing Facilities),62311001,For-Profit Skilled Nursing Facilities,Ownership,Investor-owned skilled nursing facilities
+623110,Nursing Care Facilities (Skilled Nursing Facilities),62311002,Non-Profit Nursing Homes,Ownership,Non-profit and charitable nursing homes
+623110,Nursing Care Facilities (Skilled Nursing Facilities),62311003,Hospital-Based Skilled Nursing,Affiliation,SNFs operated by hospitals and health systems
+623110,Nursing Care Facilities (Skilled Nursing Facilities),62311004,Memory Care Nursing Facilities,Specialty,Skilled nursing facilities for Alzheimer's and dementia
+623110,Nursing Care Facilities (Skilled Nursing Facilities),62311005,Short-Term Rehabilitation SNFs,Service Focus,SNFs focused on post-acute rehabilitation
+623210,Residential Intellectual and Developmental Disability Facilities,62321001,Group Homes for Developmental Disabilities,Setting,Community group homes for individuals with disabilities
+623210,Residential Intellectual and Developmental Disability Facilities,62321002,Intermediate Care Facilities (ICF),Service Level,Intermediate care facilities for intellectual disabilities
+623210,Residential Intellectual and Developmental Disability Facilities,62321003,Residential Schools for Disabilities,Service Type,Residential educational facilities for students with disabilities
+623220,Residential Mental Health and Substance Abuse Facilities,62322001,Residential Mental Health Treatment,Service Focus,Long-term residential mental health treatment facilities
+623220,Residential Mental Health and Substance Abuse Facilities,62322002,Residential Addiction Treatment,Service Focus,Residential drug and alcohol treatment centers
+623220,Residential Mental Health and Substance Abuse Facilities,62322003,Sober Living Homes,Service Level,Transitional sober living and recovery housing
+623220,Residential Mental Health and Substance Abuse Facilities,62322004,Therapeutic Boarding Schools,Service Type,Residential treatment programs for troubled youth
+623311,Continuing Care Retirement Communities,62331101,Full Service CCRCs,Service Model,CCRCs offering independent living through skilled nursing
+623311,Continuing Care Retirement Communities,62331102,Life Plan Communities,Service Model,Life care and life plan retirement communities
+623312,Assisted Living Facilities for the Elderly,62331201,Assisted Living Communities,Service Type,Assisted living residential care for seniors
+623312,Assisted Living Facilities for the Elderly,62331202,Memory Care Assisted Living,Specialty,Assisted living for Alzheimer's and dementia care
+623312,Assisted Living Facilities for the Elderly,62331203,Independent Living Communities,Service Level,Senior independent living apartments and communities
+623312,Assisted Living Facilities for the Elderly,62331204,Board and Care Homes,Service Type,Small residential care and board-and-care homes
+623990,Other Residential Care Facilities,62399001,Residential Treatment for Eating Disorders,Specialty,Residential eating disorder treatment facilities
+623990,Other Residential Care Facilities,62399002,Foster Care Group Homes,Population,Group homes for foster youth and children
+623990,Other Residential Care Facilities,62399003,Halfway Houses and Reentry Programs,Service Type,Transitional housing and offender reentry programs
+623990,Other Residential Care Facilities,62399004,Homeless Shelters,Service Type,Emergency and transitional homeless shelters
+624110,Child and Youth Services,62411001,Foster Care Services,Service Type,Foster care placement and family support services
+624110,Child and Youth Services,62411002,Adoption Services,Service Type,Adoption agencies and placement services
+624110,Child and Youth Services,62411003,After-School Programs,Service Type,Youth development and after-school programs
+624110,Child and Youth Services,62411004,Child Advocacy Centers,Service Type,Child abuse intervention and advocacy services
+624120,Services for the Elderly and Persons with Disabilities,62412001,Adult Day Care Centers,Service Type,Adult day services for seniors and disabled adults
+624120,Services for the Elderly and Persons with Disabilities,62412002,Senior Centers and Programs,Service Type,Senior community centers and social programs
+624120,Services for the Elderly and Persons with Disabilities,62412003,Meals on Wheels and Nutrition Services,Service Type,Home-delivered meals and senior nutrition programs
+624120,Services for the Elderly and Persons with Disabilities,62412004,Transportation for Seniors and Disabled,Service Type,Transportation services for elderly and disabled individuals
+624190,Other Individual and Family Services,62419001,Family Counseling Services,Service Type,Family support and counseling services
+624190,Other Individual and Family Services,62419002,Crisis Intervention Services,Service Type,Crisis hotlines and intervention programs
+624190,Other Individual and Family Services,62419003,Domestic Violence Services,Service Type,Domestic violence shelters and victim services
+624190,Other Individual and Family Services,62419004,Homeless Services,Service Type,Homeless outreach case management and support services
+624190,Other Individual and Family Services,62419005,Refugee Resettlement Services,Service Type,Refugee and immigrant resettlement assistance
+624210,Community Food Services,62421001,Food Banks,Service Type,Food banks and food distribution warehouses
+624210,Community Food Services,62421002,Soup Kitchens and Meal Programs,Service Type,Free meal programs and soup kitchens
+624210,Community Food Services,62421003,Food Pantries,Service Type,Community food pantries and emergency food assistance
+624220,Community Housing Services,62422001,Low-Income Housing Assistance,Service Type,Affordable housing development and assistance programs
+624220,Community Housing Services,62422002,Homeless Housing Services,Service Type,Permanent supportive housing for homeless individuals
+624230,Emergency and Other Relief Services,62423001,Disaster Relief Services,Service Type,Emergency disaster response and relief organizations
+624230,Emergency and Other Relief Services,62423002,Emergency Financial Assistance,Service Type,Emergency financial aid and utility assistance
+624310,Vocational Rehabilitation Services,62431001,Employment Training for Disabled,Service Type,Vocational rehabilitation for people with disabilities
+624310,Vocational Rehabilitation Services,62431002,Supported Employment Services,Service Type,Supported employment and job coaching
+624310,Vocational Rehabilitation Services,62431003,Sheltered Workshops,Service Type,Sheltered workshops and work centers for disabled individuals
+624410,Child Day Care Services,62441001,Child Day Care Centers,Service Type,Licensed child care centers and preschools
+624410,Child Day Care Services,62441002,Family Child Care Homes,Service Type,Licensed home-based family child care
+624410,Child Day Care Services,62441003,Infant and Toddler Care,Age Specialty,Child care specializing in infants and toddlers
+624410,Child Day Care Services,62441004,Before and After School Care,Service Type,School-age child care and extended day programs
+624410,Child Day Care Services,62441005,Employer-Sponsored Child Care,Affiliation,On-site and employer-sponsored child care centers
+511110,Newspaper Publishers,51111001,Daily Newspaper Publishers,Publication Frequency,Publishers of daily newspapers
+511110,Newspaper Publishers,51111002,Weekly and Community Newspapers,Publication Frequency,Publishers of weekly and community newspapers
+511110,Newspaper Publishers,51111003,Digital Newspaper Publishers,Distribution Channel,Online and digital-only newspaper publishers
+511110,Newspaper Publishers,51111004,Free Newspapers and Shoppers,Business Model,Free newspaper and shopper guide publishers
+511120,Periodical Publishers,51112001,Consumer Magazine Publishers,Audience Type,Publishers of consumer magazines and periodicals
+511120,Periodical Publishers,51112002,Trade and Business Magazine Publishers,Audience Type,Publishers of trade and business-to-business magazines
+511120,Periodical Publishers,51112003,Digital Magazine Publishers,Distribution Channel,Online and digital magazine publishers
+511120,Periodical Publishers,51112004,Academic and Scholarly Journals,Content Type,Publishers of academic journals and scholarly publications
+511130,Book Publishers,51113001,Adult Trade Book Publishers,Market Segment,Publishers of adult fiction and non-fiction trade books
+511130,Book Publishers,51113002,Children's Book Publishers,Market Segment,Publishers of children's and young adult books
+511130,Book Publishers,51113003,Educational and Textbook Publishers,Market Segment,Publishers of K-12 and higher education textbooks
+511130,Book Publishers,51113004,Professional and Technical Book Publishers,Market Segment,Publishers of professional technical and reference books
+511130,Book Publishers,51113005,E-Book Publishers,Distribution Channel,Electronic book and digital publishing
+511130,Book Publishers,51113006,Self-Publishing Platforms,Business Model,Self-publishing and print-on-demand platforms
+511140,Directory and Mailing List Publishers,51114001,Business Directory Publishers,Directory Type,Publishers of business directories and databases
+511140,Directory and Mailing List Publishers,51114002,Telephone Directory Publishers,Directory Type,Publishers of telephone directories
+511140,Directory and Mailing List Publishers,51114003,Mailing List Publishers,Product Type,Mailing list compilation and publishing
+511140,Directory and Mailing List Publishers,51114004,Online Directory Publishers,Distribution Channel,Online business and consumer directory publishers
+511190,Other Publishers,51119001,Greeting Card Publishers,Product Type,Greeting card design and publishing
+511190,Other Publishers,51119002,Calendar and Poster Publishers,Product Type,Calendar poster and art print publishers
+511190,Other Publishers,51119003,Map and Atlas Publishers,Product Type,Map atlas and cartographic publishers
+511190,Other Publishers,51119004,Music Publishers,Product Type,Sheet music and music publishing
+511210,Software Publishers,51121001,Operating Systems Software Publishers,Software Type,Publishers of operating systems and system software
+511210,Software Publishers,51121002,Enterprise Software Publishers,Software Type,Publishers of enterprise and business application software
+511210,Software Publishers,51121003,Productivity Software Publishers,Software Type,Publishers of office and productivity software
+511210,Software Publishers,51121004,Creative and Design Software,Software Type,Publishers of creative design and multimedia software
+511210,Software Publishers,51121005,Security Software Publishers,Software Type,Publishers of cybersecurity and antivirus software
+511210,Software Publishers,51121006,Video Game Publishers,Software Type,Publishers of video games and entertainment software
+511210,Software Publishers,51121007,Mobile App Publishers,Platform,Publishers of mobile applications for smartphones and tablets
+511210,Software Publishers,51121008,SaaS and Cloud Software Publishers,Business Model,Software-as-a-service and cloud application publishers
+511210,Software Publishers,51121009,Educational Software Publishers,Software Type,Publishers of educational and e-learning software
+512110,Motion Picture and Video Production,51211001,Feature Film Production,Content Type,Production of theatrical feature films
+512110,Motion Picture and Video Production,51211002,Television Series Production,Content Type,Production of TV series and episodic content
+512110,Motion Picture and Video Production,51211003,Documentary Production,Content Type,Documentary film and video production
+512110,Motion Picture and Video Production,51211004,Commercial and Advertising Production,Content Type,Production of TV commercials and advertising content
+512110,Motion Picture and Video Production,51211005,Corporate Video Production,Client Type,Corporate training and promotional video production
+512110,Motion Picture and Video Production,51211006,Streaming Content Production,Distribution,Original content production for streaming platforms
+512110,Motion Picture and Video Production,51211007,Animation and VFX Production,Production Type,Animation visual effects and CGI production
+512120,Motion Picture and Video Distribution,51212001,Theatrical Film Distribution,Distribution Channel,Distribution of films to movie theaters
+512120,Motion Picture and Video Distribution,51212002,Home Video Distribution,Distribution Channel,Distribution of DVDs Blu-rays and physical media
+512120,Motion Picture and Video Distribution,51212003,Streaming Rights Distribution,Distribution Channel,Licensing and distribution to streaming platforms
+512120,Motion Picture and Video Distribution,51212004,Television Rights Distribution,Distribution Channel,Distribution and syndication to broadcast and cable TV
+512120,Motion Picture and Video Distribution,51212005,International Film Distribution,Geographic Focus,International film and video distribution
+512130,Motion Picture and Video Exhibition,51213001,Movie Theater Chains,Business Model,Multiplex and chain movie theater operators
+512130,Motion Picture and Video Exhibition,51213002,Independent Movie Theaters,Business Model,Independent and art-house cinema operators
+512130,Motion Picture and Video Exhibition,51213003,IMAX and Premium Format Theaters,Technology,Large format IMAX and premium experience theaters
+512130,Motion Picture and Video Exhibition,51213004,Drive-In Theaters,Venue Type,Drive-in movie theaters
+512190,Postproduction Services and Other Motion Picture and Video Industries,51219001,Film and Video Editing Services,Service Type,Post-production editing and finishing services
+512190,Postproduction Services and Other Motion Picture and Video Industries,51219002,Visual Effects and CGI Services,Service Type,Visual effects computer graphics and digital compositing
+512190,Postproduction Services and Other Motion Picture and Video Industries,51219003,Color Grading and Correction,Service Type,Color timing grading and correction services
+512190,Postproduction Services and Other Motion Picture and Video Industries,51219004,Sound Editing and Mixing,Service Type,Audio post-production sound design and mixing
+512190,Postproduction Services and Other Motion Picture and Video Industries,51219005,Film and Video Archives,Service Type,Motion picture and video archiving and preservation
+512190,Postproduction Services and Other Motion Picture and Video Industries,51219006,Stock Footage Libraries,Service Type,Stock video and footage licensing
+512210,Record Production,51221001,Music Recording Studios,Service Type,Professional music recording and production studios
+512210,Record Production,51221002,Record Labels and Music Production,Business Model,Record labels and music production companies
+512210,Record Production,51221003,Independent Music Production,Business Model,Independent and artist-owned record production
+512220,Integrated Record Production/Distribution,51222001,Major Record Labels,Company Size,Major integrated record labels with distribution
+512220,Integrated Record Production/Distribution,51222002,Independent Record Labels with Distribution,Company Size,Independent labels with integrated distribution
+512230,Music Publishers,51223001,Commercial Music Publishing,Client Type,Publishing of popular and commercial music
+512230,Music Publishers,51223002,Classical and Jazz Publishers,Genre Focus,Publishing of classical orchestral and jazz compositions
+512230,Music Publishers,51223003,Christian and Religious Music Publishing,Genre Focus,Publishing of Christian and religious music
+512240,Sound Recording Studios,51224001,Full Service Recording Studios,Service Type,Professional multi-track recording studios
+512240,Sound Recording Studios,51224002,Project and Demo Studios,Service Type,Smaller project studios for demos and independent artists
+512240,Sound Recording Studios,51224003,Podcast Recording Studios,Service Focus,Studios specializing in podcast and spoken word recording
+512240,Sound Recording Studios,51224004,Mastering Studios,Service Type,Audio mastering and final mix studios
+512250,Other Sound Recording Industries,51225001,Audio Post-Production Services,Service Type,Audio post-production for film TV and media
+512250,Other Sound Recording Industries,51225002,Audio Mixing and Engineering,Service Type,Professional audio mixing and engineering services
+512250,Other Sound Recording Industries,51225003,Music Licensing and Rights Management,Service Type,Music licensing clearance and rights administration
+515111,Radio Networks,51511101,National Radio Networks,Network Scope,National radio broadcast networks
+515111,Radio Networks,51511102,Regional Radio Networks,Network Scope,Regional and state radio networks
+515111,Radio Networks,51511103,Sports Radio Networks,Format,Sports broadcasting radio networks
+515112,Radio Stations,51511201,News and Talk Radio Stations,Format,News talk and information radio stations
+515112,Radio Stations,51511202,Music Format Radio Stations,Format,Music radio stations including Top 40 rock country etc
+515112,Radio Stations,51511203,Public Radio Stations,Ownership,NPR and public radio broadcasting stations
+515112,Radio Stations,51511204,Religious Radio Stations,Format,Christian and religious broadcasting stations
+515112,Radio Stations,51511205,Spanish Language Radio,Language,Spanish language radio broadcasting
+515112,Radio Stations,51511206,Internet Radio Stations,Distribution,Online streaming and internet-only radio stations
+515120,Television Broadcasting,51512001,Network-Affiliated TV Stations,Affiliation,Local TV stations affiliated with major networks
+515120,Television Broadcasting,51512002,Independent TV Stations,Affiliation,Independent television broadcasting stations
+515120,Television Broadcasting,51512003,Public Television Stations,Ownership,PBS and public TV broadcasting stations
+515120,Television Broadcasting,51512004,Spanish Language Television,Language,Spanish language TV broadcasting
+515120,Television Broadcasting,51512005,Religious Television Stations,Format,Christian and religious TV broadcasting
+515210,Cable and Other Subscription Programming,51521001,Cable News Networks,Format,24-hour cable news networks
+515210,Cable and Other Subscription Programming,51521002,Sports Cable Networks,Format,Sports programming cable networks
+515210,Cable and Other Subscription Programming,51521003,Entertainment Cable Networks,Format,General entertainment cable programming
+515210,Cable and Other Subscription Programming,51521004,Movie and Premium Cable Channels,Format,Premium movie and original programming networks
+515210,Cable and Other Subscription Programming,51521005,Children's Programming Networks,Format,Children's and family cable networks
+515210,Cable and Other Subscription Programming,51521006,Documentary and Educational Channels,Format,Documentary educational and learning networks
+515210,Cable and Other Subscription Programming,51521007,Lifestyle and Reality Networks,Format,Lifestyle reality and special interest networks
+517111,Wired Telecommunications Carriers,51711101,Incumbent Local Exchange Carriers,Carrier Type,Traditional ILEC telephone companies
+517111,Wired Telecommunications Carriers,51711102,Competitive Local Carriers (CLECs),Carrier Type,Competitive local exchange carriers
+517111,Wired Telecommunications Carriers,51711103,Fiber Optic Network Providers,Technology,Fiber-to-the-home and fiber network carriers
+517111,Wired Telecommunications Carriers,51711104,Cable Internet Providers,Technology,Cable modem and hybrid fiber-coax internet
+517111,Wired Telecommunications Carriers,51711105,DSL Internet Providers,Technology,DSL and copper-based internet service providers
+517111,Wired Telecommunications Carriers,51711106,Business Telecommunications Services,Client Segment,Enterprise and business telecommunications carriers
+517112,Wireless Telecommunications Carriers (except Satellite),51711201,National Wireless Carriers,Carrier Type,Major national mobile phone carriers
+517112,Wireless Telecommunications Carriers (except Satellite),51711202,Regional Wireless Carriers,Carrier Type,Regional mobile network operators
+517112,Wireless Telecommunications Carriers (except Satellite),51711203,Mobile Virtual Network Operators (MVNOs),Business Model,MVNOs reselling wireless services
+517112,Wireless Telecommunications Carriers (except Satellite),51711204,5G Network Operators,Technology,Carriers deploying 5G wireless networks
+517112,Wireless Telecommunications Carriers (except Satellite),51711205,Fixed Wireless Internet Providers,Service Type,Fixed wireless broadband internet services
+517121,Telecommunications Resellers,51712101,Long Distance Resellers,Service Type,Long distance telephone service resellers
+517121,Telecommunications Resellers,51712102,VoIP Service Providers,Technology,Voice over IP and cloud phone services
+517121,Telecommunications Resellers,51712103,Prepaid Wireless Resellers,Service Type,Prepaid and no-contract wireless resellers
+517311,Wired Telecommunications,51731101,Long Distance Carriers,Service Type,Long distance and interexchange carriers
+517311,Wired Telecommunications,51731102,International Telecommunications,Service Type,International calling and telecom services
+517410,Satellite Telecommunications,51741001,Satellite Internet Providers,Service Type,Consumer and business satellite internet
+517410,Satellite Telecommunications,51741002,Satellite TV Providers,Service Type,Direct broadcast satellite television
+517410,Satellite Telecommunications,51741003,Satellite Phone Services,Service Type,Mobile satellite phone and communication services
+517410,Satellite Telecommunications,51741004,Satellite Data Networks,Service Type,Enterprise satellite data and VSAT networks
+517810,All Other Telecommunications,51781001,Conference Call Services,Service Type,Audio and video conferencing services
+517810,All Other Telecommunications,51781002,Unified Communications Providers,Service Type,Unified communications and collaboration platforms
+517810,All Other Telecommunications,51781003,SMS and Messaging Services,Service Type,Business SMS and messaging platform providers
+517911,Telecommunications Resellers,51791101,Business Phone System Resellers,Client Segment,Business telecommunications and PBX resellers
+517919,All Other Telecommunications,51791901,Telecom Infrastructure Providers,Service Type,Telecommunications infrastructure and tower companies
+518210,Data Processing Hosting and Related Services,51821001,Cloud Infrastructure Providers,Service Type,IaaS and cloud infrastructure hosting
+518210,Data Processing Hosting and Related Services,51821002,Web Hosting Services,Service Type,Website hosting and shared hosting services
+518210,Data Processing Hosting and Related Services,51821003,Managed Services Providers (MSPs),Service Type,Managed IT infrastructure and services
+518210,Data Processing Hosting and Related Services,51821004,Colocation Data Centers,Service Type,Colocation and data center space providers
+518210,Data Processing Hosting and Related Services,51821005,Application Service Providers,Service Type,Hosted application and ASP services
+518210,Data Processing Hosting and Related Services,51821006,Data Processing Services,Service Type,Transaction processing and data processing services
+518210,Data Processing Hosting and Related Services,51821007,Backup and Disaster Recovery Services,Service Type,Cloud backup and business continuity services
+518210,Data Processing Hosting and Related Services,51821008,Content Delivery Networks (CDNs),Service Type,CDN and edge computing services
+519110,News Syndicates,51911001,Wire Services and News Agencies,Service Type,News wire services and syndicated content
+519110,News Syndicates,51911002,Photo and Video News Services,Service Type,Syndicated photo and video news content
+519110,News Syndicates,51911003,Specialty News Syndication,Service Type,Specialized news content and syndication services
+519120,Libraries and Archives,51912001,Public Libraries,Library Type,Public libraries and library systems
+519120,Libraries and Archives,51912002,Academic Libraries,Library Type,University and college libraries
+519120,Libraries and Archives,51912003,Special Libraries,Library Type,Corporate medical and specialty libraries
+519120,Libraries and Archives,51912004,Archives and Historical Collections,Service Type,Archival repositories and historical collections
+519130,Internet Publishing and Broadcasting and Web Search Portals,51913001,Online News Publishers,Content Type,Digital news and journalism websites
+519130,Internet Publishing and Broadcasting and Web Search Portals,51913002,Web Search Engines,Service Type,Search engines and web indexing services
+519130,Internet Publishing and Broadcasting and Web Search Portals,51913003,Social Media Platforms,Platform Type,Social networking and user-generated content platforms
+519130,Internet Publishing and Broadcasting and Web Search Portals,51913004,Video Streaming Platforms,Platform Type,Video sharing and streaming platforms
+519130,Internet Publishing and Broadcasting and Web Search Portals,51913005,Music Streaming Services,Platform Type,Music streaming and audio platforms
+519130,Internet Publishing and Broadcasting and Web Search Portals,51913006,Podcast Platforms,Platform Type,Podcast hosting and distribution platforms
+519130,Internet Publishing and Broadcasting and Web Search Portals,51913007,Online Forums and Community Sites,Platform Type,Discussion forums and online communities
+519130,Internet Publishing and Broadcasting and Web Search Portals,51913008,Content Creator Platforms,Platform Type,Creator monetization and content platforms
+519190,All Other Information Services,51919001,Telephone Answering Services,Service Type,Telephone answering and call center services
+519190,All Other Information Services,51919002,News Clipping Services,Service Type,Media monitoring and news clipping services
+519190,All Other Information Services,51919003,Information Brokers,Service Type,Information research and brokerage services
+481111,Scheduled Passenger Air Transportation,48111101,Major Passenger Airlines,Carrier Size,Major national and international passenger airlines
+481111,Scheduled Passenger Air Transportation,48111102,Regional Airlines,Carrier Size,Regional and commuter airlines
+481111,Scheduled Passenger Air Transportation,48111103,Low-Cost Carriers,Business Model,Budget and low-cost air carriers
+481111,Scheduled Passenger Air Transportation,48111104,International Passenger Airlines,Route Focus,Airlines primarily serving international routes
+481111,Scheduled Passenger Air Transportation,48111105,Domestic Passenger Airlines,Route Focus,Airlines primarily serving domestic routes
+481112,Scheduled Freight Air Transportation,48111201,Integrated Freight Carriers,Carrier Type,Integrated package delivery airlines
+481112,Scheduled Freight Air Transportation,48111202,Air Cargo Airlines,Carrier Type,Dedicated air freight and cargo airlines
+481112,Scheduled Freight Air Transportation,48111203,Express Air Freight,Service Type,Expedited and express air cargo services
+481211,Nonscheduled Chartered Passenger Air Transportation,48121101,Charter Airline Services,Service Type,On-demand charter flight services
+481211,Nonscheduled Chartered Passenger Air Transportation,48121102,Private Jet Charter,Aircraft Type,Private business jet charter services
+481211,Nonscheduled Chartered Passenger Air Transportation,48121103,Helicopter Charter Services,Aircraft Type,Helicopter charter and air taxi services
+481211,Nonscheduled Chartered Passenger Air Transportation,48121104,Air Tour Services,Service Type,Sightseeing and air tour operators
+481212,Nonscheduled Chartered Freight Air Transportation,48121201,On-Demand Air Cargo Charter,Service Type,Charter air freight and cargo services
+481212,Nonscheduled Chartered Freight Air Transportation,48121202,Heavy Lift Air Cargo,Specialty,Heavy and oversized cargo air transport
+481219,Other Nonscheduled Air Transportation,48121901,Air Ambulance Services,Service Type,Medical air transport and air ambulance
+481219,Other Nonscheduled Air Transportation,48121902,Firefighting Air Services,Service Type,Aerial firefighting and fire suppression services
+481219,Other Nonscheduled Air Transportation,48121903,Agricultural Aviation,Service Type,Crop dusting and agricultural aerial application
+482111,Line-Haul Railroads,48211101,Class I Railroads,Railroad Class,Class I freight railroads
+482111,Line-Haul Railroads,48211102,Class II Regional Railroads,Railroad Class,Regional Class II freight railroads
+482111,Line-Haul Railroads,48211103,Short Line Railroads,Railroad Class,Short line and Class III railroads
+482112,Short Line Railroads,48211201,Regional Short Line Operators,Scope,Regional short line railroad operators
+482112,Short Line Railroads,48211202,Terminal and Switching Railroads,Service Type,Terminal switching and industrial railroads
+483111,Deep Sea Freight Transportation,48311101,Container Shipping Lines,Cargo Type,Oceangoing container shipping services
+483111,Deep Sea Freight Transportation,48311102,Bulk Cargo Shipping,Cargo Type,Dry bulk and commodity shipping
+483111,Deep Sea Freight Transportation,48311103,Tanker Shipping,Cargo Type,Crude oil and petroleum tanker shipping
+483111,Deep Sea Freight Transportation,48311104,Roll-on/Roll-off Shipping,Cargo Type,Vehicle and RoRo cargo shipping
+483112,Deep Sea Passenger Transportation,48311201,Cruise Lines,Service Type,Oceangoing cruise ship operators
+483112,Deep Sea Passenger Transportation,48311202,Luxury and Premium Cruises,Market Segment,Luxury and premium cruise lines
+483112,Deep Sea Passenger Transportation,48311203,River and Coastal Cruises,Route Type,River and coastal cruise operators
+483113,Coastal and Great Lakes Freight Transportation,48311301,Coastal Container Shipping,Cargo Type,Coastal container and freight shipping
+483113,Coastal and Great Lakes Freight Transportation,48311302,Barge Transportation,Transport Mode,Coastal and Great Lakes barge operations
+483114,Coastal and Great Lakes Passenger Transportation,48311401,Ferry Services,Service Type,Passenger and vehicle ferry operations
+483114,Coastal and Great Lakes Passenger Transportation,48311402,Water Taxi Services,Service Type,Water taxi and passenger boat services
+483211,Inland Water Freight Transportation,48321101,River Barge Transportation,Transport Mode,Inland waterway barge freight services
+483211,Inland Water Freight Transportation,48321102,Towing and Tugboat Services,Service Type,Inland tugboat and towing services
+483212,Inland Water Passenger Transportation,48321201,Excursion and Sightseeing Boats,Service Type,Recreational sightseeing boat tours
+483212,Inland Water Passenger Transportation,48321202,Dinner Cruise Operations,Service Type,Dinner cruise and event boat services
+483212,Inland Water Passenger Transportation,48321203,Water Transportation Commuter Services,Service Type,Commuter ferry and water transit services
+484110,General Freight Trucking Local,48411001,Local LTL Trucking,Service Type,Local less-than-truckload freight hauling
+484110,General Freight Trucking Local,48411002,Local Full Truckload Carriers,Service Type,Local full truckload trucking services
+484110,General Freight Trucking Local,48411003,Dedicated Contract Carriage Local,Business Model,Dedicated local trucking for specific clients
+484110,General Freight Trucking Local,48411004,Local Intermodal Drayage,Service Type,Local container drayage and intermodal services
+484121,General Freight Trucking Long-Distance Truckload,48412101,Long-Haul Truckload Carriers,Service Type,Long-distance full truckload carriers
+484121,General Freight Trucking Long-Distance Truckload,48412102,Refrigerated Truckload Carriers,Equipment Type,Temperature-controlled reefer trucking
+484121,General Freight Trucking Long-Distance Truckload,48412103,Flatbed Trucking,Equipment Type,Flatbed and open-deck trucking services
+484121,General Freight Trucking Long-Distance Truckload,48412104,Dry Van Truckload,Equipment Type,Dry van long-distance trucking
+484121,General Freight Trucking Long-Distance Truckload,48412105,Owner-Operator Truckload,Business Model,Independent owner-operator trucking
+484122,General Freight Trucking Long-Distance Less Than Truckload,48412201,National LTL Carriers,Carrier Size,National less-than-truckload networks
+484122,General Freight Trucking Long-Distance Less Than Truckload,48412202,Regional LTL Carriers,Carrier Size,Regional LTL freight carriers
+484122,General Freight Trucking Long-Distance Less Than Truckload,48412203,Interregional LTL,Carrier Size,Interregional LTL trucking services
+484210,Used Household and Office Goods Moving,48421001,Long-Distance Moving Companies,Service Type,Interstate household moving services
+484210,Used Household and Office Goods Moving,48421002,Local Moving Companies,Service Type,Local residential and commercial moving
+484210,Used Household and Office Goods Moving,48421003,Corporate Relocation Services,Client Type,Corporate employee relocation services
+484210,Used Household and Office Goods Moving,48421004,International Moving Services,Geographic Scope,International household goods moving
+484220,Specialized Freight (except Used Goods) Trucking Local,48422001,Local Dump Truck Services,Equipment Type,Local dump truck and bulk materials hauling
+484220,Specialized Freight (except Used Goods) Trucking Local,48422002,Local Heavy Haul,Specialty,Local heavy equipment and oversized load transport
+484220,Specialized Freight (except Used Goods) Trucking Local,48422003,Local Tank Truck Services,Equipment Type,Local liquid bulk and tank truck services
+484220,Specialized Freight (except Used Goods) Trucking Local,48422004,Local Auto Transport,Cargo Type,Local vehicle hauling and auto transport
+484230,Specialized Freight (except Used Goods) Trucking Long-Distance,48423001,Long-Distance Auto Transport,Cargo Type,Interstate vehicle hauling and car shipping
+484230,Specialized Freight (except Used Goods) Trucking Long-Distance,48423002,Heavy Haul and Oversized Transport,Specialty,Heavy haul oversized and specialized transport
+484230,Specialized Freight (except Used Goods) Trucking Long-Distance,48423003,Bulk Tanker Trucking,Equipment Type,Long-distance liquid and dry bulk tankers
+484230,Specialized Freight (except Used Goods) Trucking Long-Distance,48423004,Livestock Hauling,Cargo Type,Livestock and animal transportation
+484230,Specialized Freight (except Used Goods) Trucking Long-Distance,48423005,Hazardous Materials Trucking,Cargo Type,Hazmat and dangerous goods transportation
+484230,Specialized Freight (except Used Goods) Trucking Long-Distance,48423006,Refrigerated Specialty Freight,Cargo Type,Temperature-controlled specialty freight
+485111,Mixed Mode Transit Systems,48511101,Heavy Rail Transit Systems,Mode,Subway and metro rail transit systems
+485111,Mixed Mode Transit Systems,48511102,Light Rail and Streetcar Systems,Mode,Light rail trolley and modern streetcar systems
+485111,Mixed Mode Transit Systems,48511103,Multi-Modal Transit Agencies,Service Mix,Agencies operating bus rail and multiple modes
+485112,Commuter Rail Systems,48511201,Regional Commuter Rail,Service Type,Suburban commuter rail services
+485113,Bus and Other Motor Vehicle Transit Systems,48511301,Public Bus Transit,Service Type,Municipal and public bus systems
+485113,Bus and Other Motor Vehicle Transit Systems,48511302,Bus Rapid Transit (BRT),Service Type,Bus rapid transit systems
+485113,Bus and Other Motor Vehicle Transit Systems,48511303,Trolleybus Systems,Technology,Electric trolleybus transit systems
+485119,Other Urban Transit Systems,48511901,Cable Car and Funicular Systems,Mode,Cable car funicular and inclined plane transit
+485119,Other Urban Transit Systems,48511902,Monorail Systems,Mode,Monorail and automated guideway transit
+485210,Interurban and Rural Bus Transportation,48521001,Intercity Bus Services,Service Type,Intercity and long-distance bus transportation
+485210,Interurban and Rural Bus Transportation,48521002,Rural and Regional Bus,Service Type,Rural transit and regional bus services
+485310,Taxi Service,48531001,Traditional Taxi Services,Business Model,Metered taxi and cab services
+485310,Taxi Service,48531002,Ride-Hailing Services (TNC),Business Model,App-based rideshare and transportation network companies
+485310,Taxi Service,48531003,Wheelchair Accessible Taxi,Specialty,ADA and wheelchair accessible taxi services
+485320,Limousine Service,48532001,Executive Limousine Services,Service Type,Corporate and executive car services
+485320,Limousine Service,48532002,Special Event Limousines,Service Type,Wedding event and special occasion limousines
+485320,Limousine Service,48532003,Airport Limousine and Shuttle,Service Type,Airport transportation and shuttle services
+485410,School and Employee Bus Transportation,48541001,School Bus Services,Client Type,K-12 school bus transportation
+485410,School and Employee Bus Transportation,48541002,Special Needs School Transport,Specialty,Special education and special needs student transport
+485410,School and Employee Bus Transportation,48541003,Employee Shuttle Services,Client Type,Corporate and employee shuttle transportation
+485510,Charter Bus Industry,48551001,Tour and Sightseeing Buses,Service Type,Tour and sightseeing motorcoach services
+485510,Charter Bus Industry,48551002,Private Charter Buses,Service Type,Private event and charter bus services
+485510,Charter Bus Industry,48551003,Casino and Gaming Buses,Client Type,Casino shuttle and gaming bus operations
+485991,Special Needs Transportation,48599101,Medical Transportation (Non-Emergency),Service Type,Non-emergency medical transport services
+485991,Special Needs Transportation,48599102,Senior Transportation Services,Client Type,Transportation for elderly and seniors
+485991,Special Needs Transportation,48599103,Paratransit Services,Service Type,ADA paratransit and dial-a-ride services
+485999,All Other Transit and Ground Passenger Transportation,48599901,Vanpool Services,Service Type,Commuter vanpool and carpool programs
+485999,All Other Transit and Ground Passenger Transportation,48599902,Shuttle Services,Service Type,Hotel airport and event shuttle services
+485999,All Other Transit and Ground Passenger Transportation,48599903,Pedicab and Bicycle Taxi,Mode,Pedicab rickshaw and bicycle taxi services
+486110,Pipeline Transportation of Crude Oil,48611001,Crude Oil Trunk Pipelines,Pipeline Type,Major crude oil trunk and transmission pipelines
+486110,Pipeline Transportation of Crude Oil,48611002,Crude Oil Gathering Lines,Pipeline Type,Oil field gathering and local pipeline systems
+486210,Pipeline Transportation of Natural Gas,48621001,Natural Gas Transmission Pipelines,Pipeline Type,Interstate natural gas transmission pipelines
+486210,Pipeline Transportation of Natural Gas,48621002,Natural Gas Distribution Pipelines,Pipeline Type,Local natural gas distribution systems
+486910,Pipeline Transportation of Refined Petroleum Products,48691001,Refined Product Pipelines,Product Type,Pipelines for gasoline diesel and refined products
+486990,All Other Pipeline Transportation,48699001,Chemical and Slurry Pipelines,Product Type,Pipelines for chemicals and slurry materials
+486990,All Other Pipeline Transportation,48699002,Water and Wastewater Pipelines,Product Type,Water transmission and wastewater pipelines
+487110,Scenic and Sightseeing Transportation Land,48711001,Train Excursions and Scenic Rail,Mode,Tourist trains and scenic railway excursions
+487110,Scenic and Sightseeing Transportation Land,48711002,Trolley and Streetcar Tours,Mode,Historic trolley and streetcar sightseeing
+487110,Scenic and Sightseeing Transportation Land,48711003,Bus Sightseeing Tours,Mode,Motorcoach and hop-on-hop-off bus tours
+487210,Scenic and Sightseeing Transportation Water,48721001,Boat Tours and Cruises,Service Type,Sightseeing boat tours and harbor cruises
+487210,Scenic and Sightseeing Transportation Water,48721002,Whale Watching and Wildlife Cruises,Specialty,Wildlife whale watching and nature cruises
+487210,Scenic and Sightseeing Transportation Water,48721003,Kayak and Canoe Tours,Activity Type,Guided kayak canoe and paddling tours
+487990,Scenic and Sightseeing Transportation Other,48799001,Hot Air Balloon Rides,Mode,Hot air balloon sightseeing and rides
+487990,Scenic and Sightseeing Transportation Other,48799002,Helicopter Tours,Mode,Helicopter sightseeing and aerial tours
+487990,Scenic and Sightseeing Transportation Other,48799003,Aerial Tramway and Cable Car,Mode,Aerial tramway gondola and scenic cable car rides
+488111,Air Traffic Control,48811101,FAA Air Traffic Control,Service Type,Federal air traffic control services
+488119,Other Airport Operations,48811901,Airport Management and Operations,Service Type,Airport operations and management
+488119,Other Airport Operations,48811902,Airport Terminal Services,Service Type,Terminal operations and passenger services
+488119,Other Airport Operations,48811903,Fixed Base Operators (FBO),Service Type,General aviation FBO services
+488190,Other Support Activities for Air Transportation,48819001,Aircraft Fueling Services,Service Type,Aviation fuel and refueling services
+488190,Other Support Activities for Air Transportation,48819002,Aircraft Maintenance and Repair,Service Type,Aircraft maintenance repair and overhaul (MRO)
+488190,Other Support Activities for Air Transportation,48819003,Aircraft Hangar and Storage,Service Type,Aircraft hangar rental and storage
+488190,Other Support Activities for Air Transportation,48819004,Ground Handling Services,Service Type,Aircraft ground support and handling
+488190,Other Support Activities for Air Transportation,48819005,Aviation Catering,Service Type,In-flight catering and meal services
+488210,Support Activities for Rail Transportation,48821001,Railroad Switching Services,Service Type,Rail yard switching and classification services
+488210,Support Activities for Rail Transportation,48821002,Railroad Maintenance Services,Service Type,Track and infrastructure maintenance
+488210,Support Activities for Rail Transportation,48821003,Passenger Train Station Operations,Service Type,Rail station and terminal operations
+488300,Support Activities for Water Transportation,48830001,Port and Harbor Operations,Service Type,Seaport and harbor management
+488300,Support Activities for Water Transportation,48830002,Marine Cargo Handling,Service Type,Stevedoring and cargo loading/unloading
+488300,Support Activities for Water Transportation,48830003,Ship Pilotage Services,Service Type,Maritime pilot and vessel navigation services
+488300,Support Activities for Water Transportation,48830004,Marine Towing Services,Service Type,Ocean and harbor tugboat services
+488300,Support Activities for Water Transportation,48830005,Ship Chandlering and Supplies,Service Type,Ship provisioning and chandler services
+488410,Motor Vehicle Towing,48841001,Light Duty Towing,Vehicle Type,Passenger vehicle towing and roadside assistance
+488410,Motor Vehicle Towing,48841002,Heavy Duty Towing,Vehicle Type,Commercial truck and heavy vehicle towing
+488410,Motor Vehicle Towing,48841003,Impound and Repo Towing,Service Type,Impound repossession and police towing
+488490,Other Support Activities for Road Transportation,48849001,Truck Stop Operations,Service Type,Highway truck stops and travel centers
+488490,Other Support Activities for Road Transportation,48849002,Truck Weighing Stations,Service Type,Truck scales and weight inspection
+488490,Other Support Activities for Road Transportation,48849003,Toll Road Operations,Service Type,Highway toll collection and operations
+488490,Other Support Activities for Road Transportation,48849004,Parking Lot and Garage Operations,Service Type,Parking facility operations and management
+488510,Freight Transportation Arrangement,48851001,Freight Brokerages,Service Type,Truck brokerage and load matching services
+488510,Freight Transportation Arrangement,48851002,Third-Party Logistics (3PL),Service Type,Comprehensive 3PL and logistics services
+488510,Freight Transportation Arrangement,48851003,Freight Forwarding,Service Type,International and domestic freight forwarding
+488510,Freight Transportation Arrangement,48851004,Customs Brokerage,Service Type,Customs clearance and brokerage services
+488510,Freight Transportation Arrangement,48851005,Supply Chain Management Services,Service Type,End-to-end supply chain consulting and management
+488991,Packing and Crating,48899101,Industrial Packing Services,Client Type,Industrial equipment packing and crating
+488991,Packing and Crating,48899102,Art and Antique Packing,Specialty,Fine art antique and fragile item packing
+488999,All Other Support Activities for Transportation,48899901,Marine Surveying,Service Type,Marine cargo and vessel surveying
+488999,All Other Support Activities for Transportation,48899902,Logistics Consulting,Service Type,Transportation and logistics consulting
+491110,Postal Service,49111001,United States Postal Service,Service Provider,USPS mail and package delivery
+492110,Couriers and Express Delivery Services,49211001,Integrated Package Delivery,Service Type,Nationwide integrated courier services
+492110,Couriers and Express Delivery Services,49211002,Regional Courier Services,Service Type,Regional and local courier delivery
+492110,Couriers and Express Delivery Services,49211003,Same-Day Delivery Services,Service Type,On-demand and same-day courier services
+492110,Couriers and Express Delivery Services,49211004,Medical Courier Services,Specialty,Medical specimen and pharmaceutical delivery
+492110,Couriers and Express Delivery Services,49211005,Legal Courier Services,Specialty,Legal document and court filing delivery
+492210,Local Messengers and Local Delivery,49221001,Bicycle Messengers,Delivery Mode,Urban bicycle messenger and courier services
+492210,Local Messengers and Local Delivery,49221002,Food Delivery Services,Service Type,Restaurant and food delivery services
+492210,Local Messengers and Local Delivery,49221003,Grocery Delivery,Service Type,Grocery and retail delivery services
+492210,Local Messengers and Local Delivery,49221004,Pharmacy Delivery,Service Type,Prescription and pharmacy delivery
+493110,General Warehousing and Storage,49311001,Public Warehousing,Service Model,Public and contract warehousing facilities
+493110,General Warehousing and Storage,49311002,Distribution Centers,Facility Type,Distribution and fulfillment center operations
+493110,General Warehousing and Storage,49311003,E-Commerce Fulfillment Centers,Client Type,Third-party e-commerce fulfillment
+493110,General Warehousing and Storage,49311004,Cross-Dock Facilities,Operation Type,Cross-docking and transload facilities
+493110,General Warehousing and Storage,49311005,Bonded Warehouses,Facility Type,Customs bonded warehousing and foreign trade zones
+493120,Refrigerated Warehousing and Storage,49312001,Temperature-Controlled Warehousing,Service Type,Cold storage and refrigerated warehousing
+493120,Refrigerated Warehousing and Storage,49312002,Frozen Food Storage,Temperature Range,Frozen food warehousing and storage
+493120,Refrigerated Warehousing and Storage,49312003,Pharmaceutical Cold Chain,Industry Focus,Temperature-controlled pharmaceutical storage
+493130,Farm Product Warehousing and Storage,49313001,Grain Elevators and Storage,Product Type,Grain elevator and commodity storage
+493130,Farm Product Warehousing and Storage,49313002,Cotton Warehousing,Product Type,Cotton ginning and warehouse storage
+493190,Other Warehousing and Storage,49319001,Document Storage and Management,Service Type,Records management and document storage
+493190,Other Warehousing and Storage,49319002,Self-Storage Facilities,Service Type,Consumer and business self-storage
+493190,Other Warehousing and Storage,49319003,Furniture Storage,Specialty,Household goods and furniture storage
+493190,Other Warehousing and Storage,49319004,Vehicle Storage,Specialty,Automobile boat and RV storage
+493190,Other Warehousing and Storage,49319005,Hazardous Materials Storage,Specialty,Hazmat and dangerous goods warehousing
