@@ -684,3 +684,601 @@ NAICS_6_Digit,NAICS_6_Title,NAICS_8_Digit,NAICS_8_Title,Differentiation_Criteria
 311824,Dry Pasta Dough and Flour Mixes Manufacturing from Purchased Flour,31182402,Baking Mix Manufacturing,Product Type,Manufacturing of cake muffin and baking mixes
 311830,Tortilla Manufacturing,31183001,Corn Tortilla Manufacturing,Product Type,Manufacturing of corn tortillas and chips
 311830,Tortilla Manufacturing,31183002,Flour Tortilla Manufacturing,Product Type,Manufacturing of flour tortillas and wraps
+311911,Roasted Nuts and Peanut Butter Manufacturing,31191101,Peanut Butter Manufacturing,Product Type,Manufacturing of peanut butter products
+311911,Roasted Nuts and Peanut Butter Manufacturing,31191102,Roasted Nut Manufacturing,Product Type,Roasting and packaging of tree nuts and peanuts
+311911,Roasted Nuts and Peanut Butter Manufacturing,31191103,Nut Butter Manufacturing,Product Type,Manufacturing of almond cashew and other nut butters
+311919,Other Snack Food Manufacturing,31191901,Potato Chip Manufacturing,Product Type,Manufacturing of potato chips and crisps
+311919,Other Snack Food Manufacturing,31191902,Corn Snack Manufacturing,Product Type,Manufacturing of corn chips and puffed snacks
+311919,Other Snack Food Manufacturing,31191903,Popcorn Manufacturing,Product Type,Manufacturing of microwave and ready-to-eat popcorn
+311919,Other Snack Food Manufacturing,31191904,Meat Snack Manufacturing,Product Type,Manufacturing of jerky and meat snacks
+311919,Other Snack Food Manufacturing,31191905,Pretzels and Snack Mix Manufacturing,Product Type,Manufacturing of pretzels and snack mixes
+311920,Coffee and Tea Manufacturing,31192001,Roasted Coffee Manufacturing,Product Type,Roasting and packaging of coffee beans
+311920,Coffee and Tea Manufacturing,31192002,Instant Coffee Manufacturing,Product Type,Manufacturing of instant and soluble coffee
+311920,Coffee and Tea Manufacturing,31192003,Tea Blending and Packaging,Product Type,Processing and packaging of tea products
+311930,Flavoring Syrup and Concentrate Manufacturing,31193001,Soft Drink Syrup Manufacturing,Product Type,Manufacturing of soft drink syrups and concentrates
+311930,Flavoring Syrup and Concentrate Manufacturing,31193002,Flavor Extract Manufacturing,Product Type,Manufacturing of vanilla and flavor extracts
+311930,Flavoring Syrup and Concentrate Manufacturing,31193003,Cocktail Mix Manufacturing,Product Type,Manufacturing of cocktail mixers and syrups
+311941,Mayonnaise Dressing and Other Prepared Sauce Manufacturing,31194101,Mayonnaise Manufacturing,Product Type,Manufacturing of mayonnaise products
+311941,Mayonnaise Dressing and Other Prepared Sauce Manufacturing,31194102,Salad Dressing Manufacturing,Product Type,Manufacturing of salad dressings and vinaigrettes
+311941,Mayonnaise Dressing and Other Prepared Sauce Manufacturing,31194103,Ketchup and BBQ Sauce Manufacturing,Product Type,Manufacturing of ketchup and barbecue sauces
+311941,Mayonnaise Dressing and Other Prepared Sauce Manufacturing,31194104,Hot Sauce and Salsa Manufacturing,Product Type,Manufacturing of hot sauces and salsas
+311942,Spice and Extract Manufacturing,31194201,Spice Grinding and Blending,Product Type,Grinding and blending of spices and seasonings
+311942,Spice and Extract Manufacturing,31194202,Flavor Extract Manufacturing,Product Type,Manufacturing of vanilla and other extracts
+311991,Perishable Prepared Food Manufacturing,31199101,Fresh Pasta Manufacturing,Product Type,Manufacturing of fresh refrigerated pasta
+311991,Perishable Prepared Food Manufacturing,31199102,Fresh Salad and Sandwich Manufacturing,Product Type,Manufacturing of fresh prepared salads and sandwiches
+311991,Perishable Prepared Food Manufacturing,31199103,Fresh Dip and Hummus Manufacturing,Product Type,Manufacturing of fresh dips spreads and hummus
+311999,All Other Miscellaneous Food Manufacturing,31199901,Protein Bar and Nutrition Bar Manufacturing,Product Type,Manufacturing of protein and energy bars
+311999,All Other Miscellaneous Food Manufacturing,31199902,Tofu and Tempeh Manufacturing,Product Type,Manufacturing of tofu tempeh and plant-based proteins
+311999,All Other Miscellaneous Food Manufacturing,31199903,Egg Substitute Manufacturing,Product Type,Manufacturing of liquid and powdered egg substitutes
+312111,Soft Drink Manufacturing,31211101,Carbonated Soft Drink Manufacturing,Product Type,Manufacturing of carbonated sodas and colas
+312111,Soft Drink Manufacturing,31211102,Energy Drink Manufacturing,Product Type,Manufacturing of energy drinks
+312111,Soft Drink Manufacturing,31211103,Sports Drink Manufacturing,Product Type,Manufacturing of sports and electrolyte drinks
+312111,Soft Drink Manufacturing,31211104,Ready-to-Drink Tea and Coffee,Product Type,Manufacturing of bottled tea and coffee beverages
+312112,Bottled Water Manufacturing,31211201,Purified Bottled Water,Product Type,Manufacturing of purified and filtered bottled water
+312112,Bottled Water Manufacturing,31211202,Spring and Mineral Water,Product Type,Bottling of spring and mineral water
+312112,Bottled Water Manufacturing,31211203,Sparkling Water Manufacturing,Product Type,Manufacturing of carbonated and sparkling water
+312113,Ice Manufacturing,31211301,Packaged Ice Manufacturing,Product Type,Manufacturing of bagged ice for retail
+312113,Ice Manufacturing,31211302,Block Ice Manufacturing,Product Type,Manufacturing of block ice for commercial use
+312120,Breweries,31212001,Craft Brewery Operations,Scale,Small-scale craft beer brewing operations
+312120,Breweries,31212002,Regional Brewery Operations,Scale,Regional beer brewing and distribution
+312120,Breweries,31212003,Large-Scale Brewery Operations,Scale,Large national/international brewing operations
+312120,Breweries,31212004,Brewpub Operations,Business Model,On-premise brewing and restaurant operations
+312130,Wineries,31213001,Premium Wine Production,Market Segment,Production of premium and ultra-premium wines
+312130,Wineries,31213002,Value Wine Production,Market Segment,Production of value and popular-priced wines
+312130,Wineries,31213003,Sparkling Wine Production,Product Type,Production of champagne and sparkling wines
+312130,Wineries,31213004,Dessert and Fortified Wine Production,Product Type,Production of dessert and fortified wines
+312140,Distilleries,31214001,Whiskey and Bourbon Distilling,Product Type,Distilling of whiskey bourbon and rye
+312140,Distilleries,31214002,Vodka Distilling,Product Type,Distilling of vodka products
+312140,Distilleries,31214003,Rum Distilling,Product Type,Distilling of rum and rum-based spirits
+312140,Distilleries,31214004,Gin Distilling,Product Type,Distilling of gin products
+312140,Distilleries,31214005,Tequila and Agave Spirit Distilling,Product Type,Distilling of tequila mezcal and agave spirits
+312140,Distilleries,31214006,Craft Distillery Operations,Scale,Small-batch craft spirit production
+312230,Tobacco Manufacturing,31223001,Cigarette Manufacturing,Product Type,Manufacturing of cigarettes
+312230,Tobacco Manufacturing,31223002,Cigar Manufacturing,Product Type,Manufacturing of cigars
+312230,Tobacco Manufacturing,31223003,Smokeless Tobacco Manufacturing,Product Type,Manufacturing of chewing tobacco and snuff
+312230,Tobacco Manufacturing,31223004,E-Cigarette and Vaping Product Manufacturing,Product Type,Manufacturing of electronic cigarettes and vaping products
+313110,Fiber Yarn and Thread Mills,31311001,Cotton Yarn Spinning,Product Type,Spinning of cotton yarn
+313110,Fiber Yarn and Thread Mills,31311002,Synthetic Yarn Manufacturing,Product Type,Manufacturing of polyester and synthetic yarns
+313110,Fiber Yarn and Thread Mills,31311003,Sewing Thread Mills,Product Type,Manufacturing of sewing and industrial thread
+313210,Broadwoven Fabric Mills,31321001,Cotton Broadwoven Fabric Mills,Material Type,Weaving of cotton broadwoven fabrics
+313210,Broadwoven Fabric Mills,31321002,Synthetic Broadwoven Fabric Mills,Material Type,Weaving of synthetic fiber broadwoven fabrics
+313220,Narrow Fabric Mills and Schiffli Machine Embroidery,31322001,Elastic Fabric Mills,Product Type,Manufacturing of elastic narrow fabrics
+313220,Narrow Fabric Mills and Schiffli Machine Embroidery,31322002,Ribbon Manufacturing,Product Type,Manufacturing of ribbon and decorative trims
+313230,Nonwoven Fabric Mills,31323001,Disposable Nonwoven Manufacturing,End Use,Manufacturing of disposable nonwoven materials
+313230,Nonwoven Fabric Mills,31323002,Durable Nonwoven Manufacturing,End Use,Manufacturing of durable nonwoven fabrics
+313240,Knit Fabric Mills,31324001,Weft Knit Fabric Mills,Process Type,Manufacturing of weft knit fabrics
+313240,Knit Fabric Mills,31324002,Warp Knit Fabric Mills,Process Type,Manufacturing of warp knit fabrics
+313310,Textile and Fabric Finishing Mills,31331001,Fabric Dyeing and Finishing,Process Type,Dyeing and finishing of textile fabrics
+313310,Textile and Fabric Finishing Mills,31331002,Fabric Coating Mills,Process Type,Coating and laminating of fabrics
+313320,Fabric Coating Mills,31332001,Rubber-Coated Fabric Manufacturing,Product Type,Manufacturing of rubber-coated fabrics
+313320,Fabric Coating Mills,31332002,Plastic-Coated Fabric Manufacturing,Product Type,Manufacturing of vinyl and plastic-coated fabrics
+314110,Carpet and Rug Mills,31411001,Tufted Carpet Manufacturing,Process Type,Manufacturing of tufted carpets
+314110,Carpet and Rug Mills,31411002,Woven Carpet Manufacturing,Process Type,Manufacturing of woven carpets and rugs
+314120,Curtain and Linen Mills,31412001,Curtain and Drapery Manufacturing,Product Type,Manufacturing of curtains and draperies
+314120,Curtain and Linen Mills,31412002,Bed and Bath Linen Manufacturing,Product Type,Manufacturing of sheets towels and linens
+314910,Textile Bag and Canvas Mills,31491001,Canvas and Tarpaulin Manufacturing,Product Type,Manufacturing of canvas and tarpaulins
+314910,Textile Bag and Canvas Mills,31491002,Textile Bag Manufacturing,Product Type,Manufacturing of textile bags and sacks
+314994,Rope Cordage Twine Tire Cord and Tire Fabric Mills,31499401,Rope and Cordage Manufacturing,Product Type,Manufacturing of rope and cordage
+314994,Rope Cordage Twine Tire Cord and Tire Fabric Mills,31499402,Tire Cord and Fabric Manufacturing,Product Type,Manufacturing of tire cord and industrial fabrics
+314999,All Other Miscellaneous Textile Product Mills,31499901,Textile Filter Manufacturing,Product Type,Manufacturing of industrial textile filters
+314999,All Other Miscellaneous Textile Product Mills,31499902,Textile Belting Manufacturing,Product Type,Manufacturing of textile conveyor belts
+315120,Apparel Knitting Mills,31512001,Hosiery and Sock Knitting Mills,Product Type,Knitting of hosiery and socks
+315120,Apparel Knitting Mills,31512002,Outerwear Knitting Mills,Product Type,Knitting of sweaters and knit outerwear
+315210,Cut and Sew Apparel Contractors,31521001,Contract Sewing Services,Service Type,Contract cut and sew services for apparel
+315210,Cut and Sew Apparel Contractors,31521002,Sample Making Services,Service Type,Apparel sample and prototype production
+315250,Cut and Sew Apparel Manufacturing (except Contractors),31525001,Men's Suit and Coat Manufacturing,Product Type,Manufacturing of men's suits and tailored coats
+315250,Cut and Sew Apparel Manufacturing (except Contractors),31525002,Men's Shirt Manufacturing,Product Type,Manufacturing of men's dress and casual shirts
+315250,Cut and Sew Apparel Manufacturing (except Contractors),31525003,Women's Dress and Blouse Manufacturing,Product Type,Manufacturing of women's dresses and blouses
+315250,Cut and Sew Apparel Manufacturing (except Contractors),31525004,Jeans and Denim Apparel Manufacturing,Product Type,Manufacturing of jeans and denim clothing
+315250,Cut and Sew Apparel Manufacturing (except Contractors),31525005,Activewear and Athletic Apparel Manufacturing,Product Type,Manufacturing of athletic and activewear
+315250,Cut and Sew Apparel Manufacturing (except Contractors),31525006,Children's Apparel Manufacturing,Product Type,Manufacturing of children's clothing
+315250,Cut and Sew Apparel Manufacturing (except Contractors),31525007,Underwear and Intimate Apparel Manufacturing,Product Type,Manufacturing of underwear lingerie and intimate apparel
+315990,Apparel Accessories and Other Apparel Manufacturing,31599001,Hat and Cap Manufacturing,Product Type,Manufacturing of hats and caps
+315990,Apparel Accessories and Other Apparel Manufacturing,31599002,Glove Manufacturing,Product Type,Manufacturing of gloves (except sports)
+316110,Leather and Hide Tanning and Finishing,31611001,Cattle Hide Tanning,Material Type,Tanning of cattle hides and leather
+316110,Leather and Hide Tanning and Finishing,31611002,Specialty Leather Tanning,Material Type,Tanning of exotic and specialty leathers
+316210,Footwear Manufacturing,31621001,Athletic Footwear Manufacturing,Product Type,Manufacturing of athletic and sports shoes
+316210,Footwear Manufacturing,31621002,Dress and Casual Footwear Manufacturing,Product Type,Manufacturing of dress and casual shoes
+316210,Footwear Manufacturing,31621003,Boot Manufacturing,Product Type,Manufacturing of boots (work fashion)
+316210,Footwear Manufacturing,31621004,Children's Footwear Manufacturing,Product Type,Manufacturing of children's shoes
+316990,Other Leather and Allied Product Manufacturing,31699001,Leather Handbag and Purse Manufacturing,Product Type,Manufacturing of leather handbags and purses
+316990,Other Leather and Allied Product Manufacturing,31699002,Luggage Manufacturing,Product Type,Manufacturing of leather and textile luggage
+316990,Other Leather and Allied Product Manufacturing,31699003,Leather Goods Manufacturing,Product Type,Manufacturing of belts wallets and small leather goods
+321113,Sawmills,32111301,Hardwood Sawmills,Wood Type,Sawmills processing hardwood lumber
+321113,Sawmills,32111302,Softwood Sawmills,Wood Type,Sawmills processing softwood lumber
+321114,Wood Preservation,32111401,Pressure-Treated Lumber Manufacturing,Process Type,Pressure treatment of lumber and timbers
+321114,Wood Preservation,32111402,Marine and Utility Pole Treatment,Product Type,Treatment of marine pilings and utility poles
+321211,Hardwood Veneer and Plywood Manufacturing,32121101,Hardwood Veneer Manufacturing,Product Type,Manufacturing of hardwood veneer sheets
+321211,Hardwood Veneer and Plywood Manufacturing,32121102,Hardwood Plywood Manufacturing,Product Type,Manufacturing of hardwood plywood panels
+321212,Softwood Veneer and Plywood Manufacturing,32121201,Softwood Veneer Manufacturing,Product Type,Manufacturing of softwood veneer
+321212,Softwood Veneer and Plywood Manufacturing,32121202,Softwood Plywood Manufacturing,Product Type,Manufacturing of softwood plywood panels
+321215,Engineered Wood Member Manufacturing,32121501,Laminated Beam Manufacturing,Product Type,Manufacturing of glulam and laminated beams
+321215,Engineered Wood Member Manufacturing,32121502,I-Joist Manufacturing,Product Type,Manufacturing of engineered I-joists
+321215,Engineered Wood Member Manufacturing,32121503,Wood Truss Manufacturing,Product Type,Manufacturing of prefabricated wood trusses
+321219,Reconstituted Wood Product Manufacturing,32121901,Particleboard Manufacturing,Product Type,Manufacturing of particleboard panels
+321219,Reconstituted Wood Product Manufacturing,32121902,Medium Density Fiberboard Manufacturing,Product Type,Manufacturing of MDF panels
+321219,Reconstituted Wood Product Manufacturing,32121903,Oriented Strand Board Manufacturing,Product Type,Manufacturing of OSB panels
+321911,Wood Window and Door Manufacturing,32191101,Wood Window Manufacturing,Product Type,Manufacturing of wood windows
+321911,Wood Window and Door Manufacturing,32191102,Wood Door Manufacturing,Product Type,Manufacturing of wood doors and frames
+321912,Cut Stock Resawing Lumber and Planing,32191201,Lumber Planing Mills,Service Type,Planing and surfacing of lumber
+321912,Cut Stock Resawing Lumber and Planing,32191202,Wood Moulding Manufacturing,Product Type,Manufacturing of wood mouldings and trim
+321918,Other Millwork (including Flooring),32191801,Hardwood Flooring Manufacturing,Product Type,Manufacturing of hardwood flooring
+321918,Other Millwork (including Flooring),32191802,Wood Staircase and Railing Manufacturing,Product Type,Manufacturing of wood stairs and railings
+321920,Wood Container and Pallet Manufacturing,32192001,Wood Pallet Manufacturing,Product Type,Manufacturing of wood pallets and skids
+321920,Wood Container and Pallet Manufacturing,32192002,Wood Box and Crate Manufacturing,Product Type,Manufacturing of wood boxes and crates
+321991,Manufactured Home (Mobile Home) Manufacturing,32199101,Single-Wide Manufactured Home Production,Product Type,Manufacturing of single-wide mobile homes
+321991,Manufactured Home (Mobile Home) Manufacturing,32199102,Double-Wide Manufactured Home Production,Product Type,Manufacturing of double-wide mobile homes
+321992,Prefabricated Wood Building Manufacturing,32199201,Prefabricated Building Panel Manufacturing,Product Type,Manufacturing of prefabricated building panels
+321992,Prefabricated Wood Building Manufacturing,32199202,Modular Building Manufacturing,Product Type,Manufacturing of modular buildings and sections
+321999,All Other Miscellaneous Wood Product Manufacturing,32199901,Wood Turning and Shaping,Product Type,Turned and shaped wood products
+321999,All Other Miscellaneous Wood Product Manufacturing,32199902,Wood Fuel Pellet Manufacturing,Product Type,Manufacturing of wood pellets for fuel
+322110,Pulp Mills,32211001,Chemical Pulp Mills,Process Type,Chemical pulping of wood for paper production
+322110,Pulp Mills,32211002,Mechanical Pulp Mills,Process Type,Mechanical pulping operations
+322120,Paper Mills,32212001,Fine Paper Mills,Product Type,Manufacturing of fine printing and writing papers
+322120,Paper Mills,32212002,Newsprint Mills,Product Type,Manufacturing of newsprint
+322120,Paper Mills,32212003,Coated Paper Mills,Product Type,Manufacturing of coated papers
+322120,Paper Mills,32212004,Tissue Paper Mills,Product Type,Manufacturing of tissue paper stock
+322130,Paperboard Mills,32213001,Containerboard Mills,Product Type,Manufacturing of containerboard and linerboard
+322130,Paperboard Mills,32213002,Specialty Paperboard Mills,Product Type,Manufacturing of specialty paperboard
+322211,Corrugated and Solid Fiber Box Manufacturing,32221101,Corrugated Box Manufacturing,Product Type,Manufacturing of corrugated shipping containers
+322211,Corrugated and Solid Fiber Box Manufacturing,32221102,Sheet Plant Operations,Business Model,Converting corrugated sheets into boxes
+322212,Folding Paperboard Box Manufacturing,32221201,Folding Carton Manufacturing,Product Type,Manufacturing of folding paperboard cartons
+322212,Folding Paperboard Box Manufacturing,32221202,Food and Beverage Carton Manufacturing,End Use,Manufacturing of food packaging cartons
+322219,Other Paperboard Container Manufacturing,32221901,Fiber Can and Tube Manufacturing,Product Type,Manufacturing of fiber cans drums and tubes
+322219,Other Paperboard Container Manufacturing,32221902,Sanitary Food Container Manufacturing,Product Type,Manufacturing of paper plates cups and food containers
+322220,Paper Bag and Coated and Treated Paper Manufacturing,32222001,Grocery Bag Manufacturing,Product Type,Manufacturing of paper grocery and shopping bags
+322220,Paper Bag and Coated and Treated Paper Manufacturing,32222002,Industrial Bag Manufacturing,Product Type,Manufacturing of industrial paper bags and sacks
+322220,Paper Bag and Coated and Treated Paper Manufacturing,32222003,Coated Paper Manufacturing,Product Type,Manufacturing of coated and laminated paper
+322230,Stationery Product Manufacturing,32223001,Envelope Manufacturing,Product Type,Manufacturing of envelopes
+322230,Stationery Product Manufacturing,32223002,Writing Pad and Tablet Manufacturing,Product Type,Manufacturing of notebooks and writing pads
+322291,Sanitary Paper Product Manufacturing,32229101,Toilet Paper Manufacturing,Product Type,Manufacturing of toilet tissue
+322291,Sanitary Paper Product Manufacturing,32229102,Paper Towel Manufacturing,Product Type,Manufacturing of paper towels
+322291,Sanitary Paper Product Manufacturing,32229103,Facial Tissue Manufacturing,Product Type,Manufacturing of facial tissues
+322291,Sanitary Paper Product Manufacturing,32229104,Diaper and Feminine Hygiene Product Manufacturing,Product Type,Manufacturing of disposable diapers and hygiene products
+322299,All Other Converted Paper Product Manufacturing,32229901,Die-Cut Paper Product Manufacturing,Product Type,Manufacturing of die-cut paper products
+322299,All Other Converted Paper Product Manufacturing,32229902,Paper Label Manufacturing,Product Type,Manufacturing of paper labels and tags
+323111,Commercial Printing (except Screen and Books),32311101,Offset Lithographic Printing,Process Type,Commercial offset printing services
+323111,Commercial Printing (except Screen and Books),32311102,Digital Printing Services,Process Type,Digital and variable data printing
+323111,Commercial Printing (except Screen and Books),32311103,Flexographic Printing,Process Type,Flexographic printing for packaging
+323111,Commercial Printing (except Screen and Books),32311104,Gravure Printing,Process Type,Rotogravure printing services
+323113,Commercial Screen Printing,32311301,Textile Screen Printing,Application,Screen printing on textiles and apparel
+323113,Commercial Screen Printing,32311302,Graphics Screen Printing,Application,Screen printing for signs and graphics
+323117,Books Printing,32311701,Hardcover Book Printing,Product Type,Printing of hardcover books
+323117,Books Printing,32311702,Softcover Book Printing,Product Type,Printing of paperback books
+323117,Books Printing,32311703,Short-Run Book Printing,Business Model,Print-on-demand and short-run book printing
+323120,Support Activities for Printing,32312001,Prepress Services,Service Type,Prepress and digital file preparation services
+323120,Support Activities for Printing,32312002,Bindery and Finishing Services,Service Type,Book binding and print finishing services
+324110,Petroleum Refineries,32411001,Integrated Petroleum Refineries,Scale,Large integrated refining operations
+324110,Petroleum Refineries,32411002,Specialty Petroleum Refineries,Focus,Specialty and niche refining operations
+324121,Asphalt Paving Mixture and Block Manufacturing,32412101,Hot Mix Asphalt Manufacturing,Product Type,Manufacturing of hot mix asphalt
+324121,Asphalt Paving Mixture and Block Manufacturing,32412102,Asphalt Paving Block Manufacturing,Product Type,Manufacturing of asphalt paving blocks
+324122,Asphalt Shingle and Coating Materials Manufacturing,32412201,Asphalt Roofing Shingle Manufacturing,Product Type,Manufacturing of asphalt roofing shingles
+324122,Asphalt Shingle and Coating Materials Manufacturing,32412202,Asphalt Coating and Waterproofing Manufacturing,Product Type,Manufacturing of asphalt coatings and sealants
+324191,Petroleum Lubricating Oil and Grease Manufacturing,32419101,Motor Oil Manufacturing,Product Type,Manufacturing of automotive motor oils
+324191,Petroleum Lubricating Oil and Grease Manufacturing,32419102,Industrial Lubricant Manufacturing,Product Type,Manufacturing of industrial lubricants
+324191,Petroleum Lubricating Oil and Grease Manufacturing,32419103,Grease Manufacturing,Product Type,Manufacturing of lubricating greases
+324199,All Other Petroleum and Coal Products Manufacturing,32419901,Petroleum Wax Manufacturing,Product Type,Manufacturing of petroleum waxes
+324199,All Other Petroleum and Coal Products Manufacturing,32419902,Petroleum Coke Manufacturing,Product Type,Manufacturing of petroleum coke
+325110,Petrochemical Manufacturing,32511001,Ethylene Manufacturing,Product Type,Manufacturing of ethylene and propylene
+325110,Petrochemical Manufacturing,32511002,Aromatic Petrochemical Manufacturing,Product Type,Manufacturing of benzene toluene and xylene
+325120,Industrial Gas Manufacturing,32512001,Oxygen and Nitrogen Manufacturing,Product Type,Manufacturing of oxygen and nitrogen gases
+325120,Industrial Gas Manufacturing,32512002,Carbon Dioxide Manufacturing,Product Type,Manufacturing of carbon dioxide gas
+325120,Industrial Gas Manufacturing,32512003,Specialty Gas Manufacturing,Product Type,Manufacturing of specialty and rare gases
+325130,Synthetic Dye and Pigment Manufacturing,32513001,Organic Dye Manufacturing,Product Type,Manufacturing of synthetic organic dyes
+325130,Synthetic Dye and Pigment Manufacturing,32513002,Inorganic Pigment Manufacturing,Product Type,Manufacturing of inorganic color pigments
+325180,Other Basic Inorganic Chemical Manufacturing,32518001,Alkalies and Chlorine Manufacturing,Product Type,Manufacturing of chlorine and caustic soda
+325180,Other Basic Inorganic Chemical Manufacturing,32518002,Industrial Acid Manufacturing,Product Type,Manufacturing of sulfuric nitric and other acids
+325193,Ethyl Alcohol Manufacturing,32519301,Fuel Ethanol Production,End Use,Manufacturing of fuel-grade ethanol
+325193,Ethyl Alcohol Manufacturing,32519302,Beverage Alcohol Production,End Use,Manufacturing of beverage-grade ethanol
+325194,Cyclic Crude Intermediate and Gum and Wood Chemical Manufacturing,32519401,Coal Tar Distillation,Product Type,Distillation of coal tar products
+325194,Cyclic Crude Intermediate and Gum and Wood Chemical Manufacturing,32519402,Naval Stores Manufacturing,Product Type,Manufacturing of turpentine and rosin
+325199,All Other Basic Organic Chemical Manufacturing,32519901,Organic Chemical Synthesis,Product Type,Manufacturing of synthetic organic chemicals
+325199,All Other Basic Organic Chemical Manufacturing,32519902,Biochemical Manufacturing,Product Type,Manufacturing of biochemicals and enzymes
+325211,Plastics Material and Resin Manufacturing,32521101,Polyethylene Resin Manufacturing,Product Type,Manufacturing of polyethylene resins
+325211,Plastics Material and Resin Manufacturing,32521102,Polypropylene Resin Manufacturing,Product Type,Manufacturing of polypropylene resins
+325211,Plastics Material and Resin Manufacturing,32521103,PVC Resin Manufacturing,Product Type,Manufacturing of polyvinyl chloride resins
+325211,Plastics Material and Resin Manufacturing,32521104,Specialty Resin Manufacturing,Product Type,Manufacturing of engineering and specialty resins
+325212,Synthetic Rubber Manufacturing,32521201,SBR Rubber Manufacturing,Product Type,Manufacturing of styrene-butadiene rubber
+325212,Synthetic Rubber Manufacturing,32521202,Specialty Elastomer Manufacturing,Product Type,Manufacturing of specialty synthetic rubbers
+325220,Artificial and Synthetic Fibers and Filaments Manufacturing,32522001,Polyester Fiber Manufacturing,Product Type,Manufacturing of polyester fibers
+325220,Artificial and Synthetic Fibers and Filaments Manufacturing,32522002,Nylon Fiber Manufacturing,Product Type,Manufacturing of nylon fibers
+325220,Artificial and Synthetic Fibers and Filaments Manufacturing,32522003,Acrylic Fiber Manufacturing,Product Type,Manufacturing of acrylic fibers
+325311,Nitrogenous Fertilizer Manufacturing,32531101,Ammonia Manufacturing,Product Type,Manufacturing of anhydrous ammonia
+325311,Nitrogenous Fertilizer Manufacturing,32531102,Urea Manufacturing,Product Type,Manufacturing of urea fertilizers
+325311,Nitrogenous Fertilizer Manufacturing,32531103,Ammonium Nitrate Manufacturing,Product Type,Manufacturing of ammonium nitrate fertilizers
+325312,Phosphatic Fertilizer Manufacturing,32531201,Phosphoric Acid Manufacturing,Product Type,Manufacturing of phosphoric acid for fertilizers
+325312,Phosphatic Fertilizer Manufacturing,32531202,Phosphate Fertilizer Manufacturing,Product Type,Manufacturing of phosphate fertilizer products
+325314,Fertilizer (Mixing Only) Manufacturing,32531401,Blended Fertilizer Manufacturing,Process Type,Blending and mixing of fertilizer formulations
+325314,Fertilizer (Mixing Only) Manufacturing,32531402,Custom Fertilizer Blending,Business Model,Custom blending services for agricultural customers
+325315,Compost Manufacturing,32531501,Commercial Compost Production,Product Type,Manufacturing of commercial compost products
+325315,Compost Manufacturing,32531502,Mushroom Compost Production,Product Type,Manufacturing of specialized mushroom compost
+325320,Pesticide and Other Agricultural Chemical Manufacturing,32532001,Herbicide Manufacturing,Product Type,Manufacturing of herbicides and weed killers
+325320,Pesticide and Other Agricultural Chemical Manufacturing,32532002,Insecticide Manufacturing,Product Type,Manufacturing of insecticides
+325320,Pesticide and Other Agricultural Chemical Manufacturing,32532003,Fungicide Manufacturing,Product Type,Manufacturing of fungicides
+325411,Medicinal and Botanical Manufacturing,32541101,Pharmaceutical Active Ingredient Manufacturing,Product Type,Manufacturing of active pharmaceutical ingredients
+325411,Medicinal and Botanical Manufacturing,32541102,Botanical Extract Manufacturing,Product Type,Manufacturing of botanical and herbal extracts
+325412,Pharmaceutical Preparation Manufacturing,32541201,Prescription Drug Manufacturing,Product Type,Manufacturing of prescription pharmaceuticals
+325412,Pharmaceutical Preparation Manufacturing,32541202,Over-the-Counter Drug Manufacturing,Product Type,Manufacturing of OTC medications
+325412,Pharmaceutical Preparation Manufacturing,32541203,Biologic Drug Manufacturing,Product Type,Manufacturing of biologic pharmaceuticals
+325412,Pharmaceutical Preparation Manufacturing,32541204,Generic Drug Manufacturing,Product Type,Manufacturing of generic pharmaceutical products
+325413,In-Vitro Diagnostic Substance Manufacturing,32541301,Clinical Diagnostic Test Manufacturing,Product Type,Manufacturing of clinical diagnostic test kits
+325413,In-Vitro Diagnostic Substance Manufacturing,32541302,Molecular Diagnostic Manufacturing,Product Type,Manufacturing of molecular and genetic tests
+325414,Biological Product (except Diagnostic) Manufacturing,32541401,Vaccine Manufacturing,Product Type,Manufacturing of vaccines
+325414,Biological Product (except Diagnostic) Manufacturing,32541402,Blood Product Manufacturing,Product Type,Manufacturing of blood plasma and derivatives
+325414,Biological Product (except Diagnostic) Manufacturing,32541403,Monoclonal Antibody Manufacturing,Product Type,Manufacturing of therapeutic antibodies
+325510,Paint and Coating Manufacturing,32551001,Architectural Paint Manufacturing,End Use,Manufacturing of interior and exterior paints
+325510,Paint and Coating Manufacturing,32551002,Industrial Coating Manufacturing,End Use,Manufacturing of industrial and automotive coatings
+325510,Paint and Coating Manufacturing,32551003,Specialty Coating Manufacturing,Product Type,Manufacturing of specialty and protective coatings
+325520,Adhesive Manufacturing,32552001,Construction Adhesive Manufacturing,End Use,Manufacturing of construction adhesives and sealants
+325520,Adhesive Manufacturing,32552002,Industrial Adhesive Manufacturing,End Use,Manufacturing of industrial bonding adhesives
+325520,Adhesive Manufacturing,32552003,Consumer Adhesive Manufacturing,End Use,Manufacturing of consumer glues and adhesives
+325611,Soap and Other Detergent Manufacturing,32561101,Laundry Detergent Manufacturing,Product Type,Manufacturing of laundry detergents
+325611,Soap and Other Detergent Manufacturing,32561102,Dish Soap Manufacturing,Product Type,Manufacturing of dishwashing detergents
+325611,Soap and Other Detergent Manufacturing,32561103,Bar Soap Manufacturing,Product Type,Manufacturing of bar and liquid hand soaps
+325612,Polish and Other Sanitation Good Manufacturing,32561201,Household Cleaner Manufacturing,Product Type,Manufacturing of household cleaning products
+325612,Polish and Other Sanitation Good Manufacturing,32561202,Disinfectant Manufacturing,Product Type,Manufacturing of disinfectants and sanitizers
+325613,Surface Active Agent Manufacturing,32561301,Industrial Surfactant Manufacturing,Product Type,Manufacturing of industrial surfactants
+325613,Surface Active Agent Manufacturing,32561302,Specialty Surfactant Manufacturing,Product Type,Manufacturing of specialty surface active agents
+325620,Toilet Preparation Manufacturing,32562001,Shampoo and Conditioner Manufacturing,Product Type,Manufacturing of hair care products
+325620,Toilet Preparation Manufacturing,32562002,Skin Care Product Manufacturing,Product Type,Manufacturing of lotions creams and skin care
+325620,Toilet Preparation Manufacturing,32562003,Cosmetics Manufacturing,Product Type,Manufacturing of makeup and cosmetics
+325620,Toilet Preparation Manufacturing,32562004,Fragrance Manufacturing,Product Type,Manufacturing of perfumes and fragrances
+325620,Toilet Preparation Manufacturing,32562005,Oral Care Product Manufacturing,Product Type,Manufacturing of toothpaste and mouthwash
+325910,Printing Ink Manufacturing,32591001,Offset Ink Manufacturing,Product Type,Manufacturing of offset printing inks
+325910,Printing Ink Manufacturing,32591002,Flexographic Ink Manufacturing,Product Type,Manufacturing of flexographic printing inks
+325920,Explosives Manufacturing,32592001,Commercial Explosives Manufacturing,End Use,Manufacturing of commercial blasting explosives
+325920,Explosives Manufacturing,32592002,Ammunition Propellant Manufacturing,End Use,Manufacturing of propellants for ammunition
+325991,Custom Compounding of Purchased Resins,32599101,Custom Plastics Compounding,Service Type,Custom compounding of plastic resins
+325991,Custom Compounding of Purchased Resins,32599102,Color Concentrate Manufacturing,Product Type,Manufacturing of plastic color concentrates
+325992,Photographic Film Paper Plate Chemical and Copy Toner Manufacturing,32599201,Photographic Film Manufacturing,Product Type,Manufacturing of photographic film
+325992,Photographic Film Paper Plate Chemical and Copy Toner Manufacturing,32599202,Toner Cartridge Manufacturing,Product Type,Manufacturing of printer toner and cartridges
+325998,All Other Miscellaneous Chemical Product and Preparation Manufacturing,32599801,Water Treatment Chemical Manufacturing,Product Type,Manufacturing of water treatment chemicals
+325998,All Other Miscellaneous Chemical Product and Preparation Manufacturing,32599802,Specialty Chemical Manufacturing,Product Type,Manufacturing of specialty chemical formulations
+326111,Plastics Bag and Pouch Manufacturing,32611101,Plastic Shopping Bag Manufacturing,Product Type,Manufacturing of plastic retail bags
+326111,Plastics Bag and Pouch Manufacturing,32611102,Plastic Trash Bag Manufacturing,Product Type,Manufacturing of plastic garbage and trash bags
+326111,Plastics Bag and Pouch Manufacturing,32611103,Industrial Plastic Bag Manufacturing,Product Type,Manufacturing of industrial and shipping bags
+326112,Plastics Packaging Film and Sheet (including Laminated) Manufacturing,32611201,Stretch Film Manufacturing,Product Type,Manufacturing of stretch wrap film
+326112,Plastics Packaging Film and Sheet (including Laminated) Manufacturing,32611202,Shrink Film Manufacturing,Product Type,Manufacturing of shrink wrap film
+326113,Unlaminated Plastics Film and Sheet (except Packaging) Manufacturing,32611301,Agricultural Plastic Film Manufacturing,End Use,Manufacturing of greenhouse and agricultural films
+326113,Unlaminated Plastics Film and Sheet (except Packaging) Manufacturing,32611302,Construction Plastic Sheeting Manufacturing,End Use,Manufacturing of construction vapor barriers
+326121,Unlaminated Plastics Profile Shape Manufacturing,32612101,PVC Profile Extrusion,Product Type,Extrusion of PVC profiles and shapes
+326121,Unlaminated Plastics Profile Shape Manufacturing,32612102,Plastic Rod and Tube Extrusion,Product Type,Extrusion of plastic rods tubes and profiles
+326122,Plastics Pipe and Pipe Fitting Manufacturing,32612201,PVC Pipe Manufacturing,Product Type,Manufacturing of PVC pipe and conduit
+326122,Plastics Pipe and Pipe Fitting Manufacturing,32612202,HDPE Pipe Manufacturing,Product Type,Manufacturing of high-density polyethylene pipe
+326122,Plastics Pipe and Pipe Fitting Manufacturing,32612203,Plastic Pipe Fitting Manufacturing,Product Type,Manufacturing of plastic pipe fittings
+326130,Laminated Plastics Plate Sheet (except Packaging) and Shape Manufacturing,32613001,Laminated Plastic Sheet Manufacturing,Product Type,Manufacturing of laminated plastic sheets
+326130,Laminated Plastics Plate Sheet (except Packaging) and Shape Manufacturing,32613002,Fiberglass Reinforced Plastic Manufacturing,Product Type,Manufacturing of FRP composites
+326140,Polystyrene Foam Product Manufacturing,32614001,Foam Packaging Manufacturing,Product Type,Manufacturing of expanded polystyrene packaging
+326140,Polystyrene Foam Product Manufacturing,32614002,Foam Insulation Board Manufacturing,Product Type,Manufacturing of polystyrene insulation boards
+326150,Urethane and Other Foam Product (except Polystyrene) Manufacturing,32615001,Polyurethane Foam Manufacturing,Product Type,Manufacturing of flexible and rigid PU foam
+326150,Urethane and Other Foam Product (except Polystyrene) Manufacturing,32615002,Spray Foam Insulation Manufacturing,Product Type,Manufacturing of spray foam insulation products
+326160,Plastics Bottle Manufacturing,32616001,Beverage Bottle Manufacturing,End Use,Manufacturing of plastic beverage bottles
+326160,Plastics Bottle Manufacturing,32616002,Personal Care Bottle Manufacturing,End Use,Manufacturing of bottles for personal care products
+326191,Plastics Plumbing Fixture Manufacturing,32619101,Plastic Bathtub and Shower Manufacturing,Product Type,Manufacturing of plastic bathtubs and shower units
+326191,Plastics Plumbing Fixture Manufacturing,32619102,Plastic Toilet and Sink Manufacturing,Product Type,Manufacturing of plastic plumbing fixtures
+326199,All Other Plastics Product Manufacturing,32619901,Plastic Auto Parts Manufacturing,End Use,Manufacturing of plastic automotive components
+326199,All Other Plastics Product Manufacturing,32619902,Plastic Consumer Product Manufacturing,End Use,Manufacturing of plastic household products
+326199,All Other Plastics Product Manufacturing,32619903,Plastic Medical Device Manufacturing,End Use,Manufacturing of plastic medical components
+326211,Tire Manufacturing (except Retreading),32621101,Passenger Tire Manufacturing,Product Type,Manufacturing of passenger car tires
+326211,Tire Manufacturing (except Retreading),32621102,Truck and Bus Tire Manufacturing,Product Type,Manufacturing of commercial vehicle tires
+326211,Tire Manufacturing (except Retreading),32621103,Specialty Tire Manufacturing,Product Type,Manufacturing of agricultural and OTR tires
+326212,Tire Retreading,32621201,Commercial Tire Retreading,Market Segment,Retreading of commercial truck tires
+326212,Tire Retreading,32621202,Passenger Tire Retreading,Market Segment,Retreading of passenger vehicle tires
+326220,Rubber and Plastics Hoses and Belting Manufacturing,32622001,Industrial Hose Manufacturing,Product Type,Manufacturing of industrial rubber hoses
+326220,Rubber and Plastics Hoses and Belting Manufacturing,32622002,Conveyor Belt Manufacturing,Product Type,Manufacturing of rubber conveyor belts
+326291,Rubber Product Manufacturing for Mechanical Use,32629101,Rubber Seal and Gasket Manufacturing,Product Type,Manufacturing of rubber seals and gaskets
+326291,Rubber Product Manufacturing for Mechanical Use,32629102,Rubber Vibration Isolator Manufacturing,Product Type,Manufacturing of rubber mounts and isolators
+326299,All Other Rubber Product Manufacturing,32629901,Rubber Matting and Flooring Manufacturing,Product Type,Manufacturing of rubber mats and flooring
+326299,All Other Rubber Product Manufacturing,32629902,Rubber Recreational Product Manufacturing,Product Type,Manufacturing of rubber sports and recreational products
+327110,Pottery Ceramics and Plumbing Fixture Manufacturing,32711001,Vitreous China Plumbing Fixture Manufacturing,Product Type,Manufacturing of porcelain bathroom fixtures
+327110,Pottery Ceramics and Plumbing Fixture Manufacturing,32711002,Pottery and Ceramic Tableware Manufacturing,Product Type,Manufacturing of ceramic dishes and tableware
+327120,Clay Building Material and Refractories Manufacturing,32712001,Brick and Structural Clay Tile Manufacturing,Product Type,Manufacturing of clay bricks and tiles
+327120,Clay Building Material and Refractories Manufacturing,32712002,Refractory Brick Manufacturing,Product Type,Manufacturing of refractory bricks for furnaces
+327211,Flat Glass Manufacturing,32721101,Float Glass Manufacturing,Process Type,Manufacturing of flat glass by float process
+327211,Flat Glass Manufacturing,32721102,Rolled Glass Manufacturing,Process Type,Manufacturing of rolled and patterned glass
+327212,Other Pressed and Blown Glass and Glassware Manufacturing,32721201,Glass Container Manufacturing,Product Type,Manufacturing of glass bottles and jars
+327212,Other Pressed and Blown Glass and Glassware Manufacturing,32721202,Pressed and Blown Glassware Manufacturing,Product Type,Manufacturing of pressed and blown glass products
+327213,Glass Container Manufacturing,32721301,Glass Bottle Manufacturing,Product Type,Manufacturing of glass bottles for beverages
+327213,Glass Container Manufacturing,32721302,Glass Food Jar Manufacturing,Product Type,Manufacturing of glass jars for food packaging
+327215,Glass Product Manufacturing Made of Purchased Glass,32721501,Insulated Glass Manufacturing,Product Type,Manufacturing of insulated glass units
+327215,Glass Product Manufacturing Made of Purchased Glass,32721502,Tempered and Laminated Glass Manufacturing,Product Type,Manufacturing of safety glass products
+327310,Cement Manufacturing,32731001,Portland Cement Manufacturing,Product Type,Manufacturing of portland cement
+327310,Cement Manufacturing,32731002,Specialty Cement Manufacturing,Product Type,Manufacturing of specialty cement products
+327320,Ready-Mix Concrete Manufacturing,32732001,Standard Ready-Mix Concrete,Product Type,Manufacturing of standard concrete mixes
+327320,Ready-Mix Concrete Manufacturing,32732002,Specialty Concrete Mix Manufacturing,Product Type,Manufacturing of specialty and decorative concrete
+327331,Concrete Block and Brick Manufacturing,32733101,Concrete Block Manufacturing,Product Type,Manufacturing of concrete masonry blocks
+327331,Concrete Block and Brick Manufacturing,32733102,Concrete Brick and Paver Manufacturing,Product Type,Manufacturing of concrete bricks and pavers
+327332,Concrete Pipe Manufacturing,32733201,Precast Concrete Pipe Manufacturing,Product Type,Manufacturing of precast concrete pipe
+327332,Concrete Pipe Manufacturing,32733202,Prestressed Concrete Pipe Manufacturing,Product Type,Manufacturing of prestressed concrete pipe
+327390,Other Concrete Product Manufacturing,32739001,Precast Concrete Panel Manufacturing,Product Type,Manufacturing of precast architectural panels
+327390,Other Concrete Product Manufacturing,32739002,Concrete Septic Tank Manufacturing,Product Type,Manufacturing of precast septic tanks
+327390,Other Concrete Product Manufacturing,32739003,Decorative Concrete Product Manufacturing,Product Type,Manufacturing of decorative concrete products
+327410,Lime Manufacturing,32741001,Quicklime Manufacturing,Product Type,Manufacturing of quicklime (calcium oxide)
+327410,Lime Manufacturing,32741002,Hydrated Lime Manufacturing,Product Type,Manufacturing of hydrated lime products
+327420,Gypsum Product Manufacturing,32742001,Gypsum Wallboard Manufacturing,Product Type,Manufacturing of drywall and gypsum board
+327420,Gypsum Product Manufacturing,32742002,Gypsum Plaster Manufacturing,Product Type,Manufacturing of gypsum plaster products
+327910,Abrasive Product Manufacturing,32791001,Bonded Abrasive Manufacturing,Product Type,Manufacturing of grinding wheels and bonded abrasives
+327910,Abrasive Product Manufacturing,32791002,Coated Abrasive Manufacturing,Product Type,Manufacturing of sandpaper and coated abrasives
+327991,Cut Stone and Stone Product Manufacturing,32799101,Dimension Stone Cutting,Product Type,Cutting and finishing of dimension stone
+327991,Cut Stone and Stone Product Manufacturing,32799102,Monument and Memorial Manufacturing,Product Type,Manufacturing of stone monuments and memorials
+327992,Ground or Treated Mineral and Earth Manufacturing,32799201,Ground Calcium Carbonate Manufacturing,Product Type,Manufacturing of ground limestone products
+327992,Ground or Treated Mineral and Earth Manufacturing,32799202,Ground Silica Manufacturing,Product Type,Manufacturing of ground silica products
+327993,Mineral Wool Manufacturing,32799301,Fiberglass Insulation Manufacturing,Product Type,Manufacturing of fiberglass insulation batts
+327993,Mineral Wool Manufacturing,32799302,Mineral Wool Insulation Manufacturing,Product Type,Manufacturing of rock and slag wool insulation
+327999,All Other Miscellaneous Nonmetallic Mineral Product Manufacturing,32799901,Graphite Product Manufacturing,Product Type,Manufacturing of graphite and carbon products
+327999,All Other Miscellaneous Nonmetallic Mineral Product Manufacturing,32799902,Ceramic Fiber Manufacturing,Product Type,Manufacturing of ceramic fiber products
+331110,Iron and Steel Mills and Ferroalloy Manufacturing,33111001,Integrated Steel Mills,Process Type,Integrated iron and steel production facilities
+331110,Iron and Steel Mills and Ferroalloy Manufacturing,33111002,Mini-Mill Steel Production,Process Type,Electric arc furnace steel mini-mills
+331110,Iron and Steel Mills and Ferroalloy Manufacturing,33111003,Ferroalloy Manufacturing,Product Type,Manufacturing of ferroalloys
+331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,33121001,Welded Steel Pipe Manufacturing,Product Type,Manufacturing of welded steel pipe
+331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,33121002,Seamless Steel Pipe Manufacturing,Product Type,Manufacturing of seamless steel pipe and tubing
+331221,Rolled Steel Shape Manufacturing,33122101,Structural Steel Shape Rolling,Product Type,Rolling of structural steel shapes
+331221,Rolled Steel Shape Manufacturing,33122102,Steel Bar and Rod Rolling,Product Type,Rolling of steel bars and rods
+331222,Steel Wire Drawing,33122201,Steel Wire Drawing,Product Type,Drawing of steel wire products
+331222,Steel Wire Drawing,33122202,Steel Cable and Strand Manufacturing,Product Type,Manufacturing of steel cable and wire rope
+331313,Alumina Refining and Primary Aluminum Production,33131301,Alumina Refining,Process Type,Refining of bauxite into alumina
+331313,Alumina Refining and Primary Aluminum Production,33131302,Primary Aluminum Smelting,Process Type,Smelting of aluminum from alumina
+331314,Secondary Smelting and Alloying of Aluminum,33131401,Aluminum Recycling and Secondary Smelting,Process Type,Recycling and remelting of aluminum scrap
+331314,Secondary Smelting and Alloying of Aluminum,33131402,Aluminum Alloy Manufacturing,Product Type,Manufacturing of aluminum alloys
+331315,Aluminum Sheet Plate and Foil Manufacturing,33131501,Aluminum Sheet and Plate Rolling,Product Type,Rolling of aluminum sheet and plate
+331315,Aluminum Sheet Plate and Foil Manufacturing,33131502,Aluminum Foil Manufacturing,Product Type,Manufacturing of aluminum foil
+331318,Other Aluminum Rolling Drawing and Extruding,33131801,Aluminum Extrusion,Process Type,Extrusion of aluminum profiles and shapes
+331318,Other Aluminum Rolling Drawing and Extruding,33131802,Aluminum Wire Drawing,Process Type,Drawing of aluminum wire
+331410,Nonferrous Metal (except Aluminum) Smelting and Refining,33141001,Copper Smelting and Refining,Metal Type,Smelting and refining of copper
+331410,Nonferrous Metal (except Aluminum) Smelting and Refining,33141002,Zinc Smelting and Refining,Metal Type,Smelting and refining of zinc
+331410,Nonferrous Metal (except Aluminum) Smelting and Refining,33141003,Lead Smelting and Refining,Metal Type,Smelting and refining of lead
+331420,Copper Rolling Drawing Extruding and Alloying,33142001,Copper Wire and Cable Manufacturing,Product Type,Manufacturing of copper wire and cable
+331420,Copper Rolling Drawing Extruding and Alloying,33142002,Copper Sheet and Plate Rolling,Product Type,Rolling of copper sheet and plate
+331491,Nonferrous Metal (except Copper and Aluminum) Rolling Drawing and Extruding,33149101,Brass and Bronze Rolling,Material Type,Rolling of brass and bronze products
+331491,Nonferrous Metal (except Copper and Aluminum) Rolling Drawing and Extruding,33149102,Titanium Rolling and Extrusion,Material Type,Rolling and extrusion of titanium
+331492,Secondary Smelting Refining and Alloying of Nonferrous Metal (except Copper and Aluminum),33149201,Precious Metal Refining,Product Type,Refining of gold silver and precious metals
+331492,Secondary Smelting Refining and Alloying of Nonferrous Metal (except Copper and Aluminum),33149202,Nonferrous Scrap Recycling,Process Type,Recycling and reprocessing of nonferrous metals
+331511,Iron Foundries,33151101,Gray Iron Casting,Product Type,Casting of gray iron products
+331511,Iron Foundries,33151102,Ductile Iron Casting,Product Type,Casting of ductile iron products
+331512,Steel Investment Foundries,33151201,Investment Steel Casting,Process Type,Investment casting of steel components
+331513,Steel Foundries (except Investment),33151301,Carbon Steel Casting,Product Type,Casting of carbon steel products
+331513,Steel Foundries (except Investment),33151302,Alloy Steel Casting,Product Type,Casting of alloy steel products
+331523,Nonferrous Metal Die-Casting Foundries,33152301,Aluminum Die Casting,Material Type,Die casting of aluminum components
+331523,Nonferrous Metal Die-Casting Foundries,33152302,Zinc Die Casting,Material Type,Die casting of zinc components
+331524,Aluminum Foundries (except Die-Casting),33152401,Aluminum Sand Casting,Process Type,Sand casting of aluminum products
+331524,Aluminum Foundries (except Die-Casting),33152402,Aluminum Permanent Mold Casting,Process Type,Permanent mold casting of aluminum
+331529,Other Nonferrous Metal Foundries (except Die-Casting),33152901,Copper Alloy Casting,Material Type,Casting of copper and brass products
+331529,Other Nonferrous Metal Foundries (except Die-Casting),33152902,Specialty Alloy Casting,Material Type,Casting of specialty nonferrous alloys
+332111,Iron and Steel Forging,33211101,Hot Forging of Steel,Process Type,Hot forging of steel products
+332111,Iron and Steel Forging,33211102,Cold Forging of Steel,Process Type,Cold forging and cold heading operations
+332112,Nonferrous Forging,33211201,Aluminum Forging,Material Type,Forging of aluminum products
+332112,Nonferrous Forging,33211202,Copper Alloy Forging,Material Type,Forging of copper and brass
+332114,Custom Roll Forming,33211401,Metal Roll Forming Services,Service Type,Custom roll forming of metal shapes
+332117,Powder Metallurgy Part Manufacturing,33211701,Sintered Metal Part Manufacturing,Process Type,Manufacturing of powder metal components
+332119,Metal Crown Closure and Other Metal Stamping (except Automotive),33211901,Can and Closure Manufacturing,Product Type,Manufacturing of metal closures and crowns
+332119,Metal Crown Closure and Other Metal Stamping (except Automotive),33211902,Metal Stamping Job Shops,Business Model,Custom metal stamping services
+332215,Metal Kitchen Cookware Utensil Cutlery and Flatware (except Precious) Manufacturing,33221501,Stainless Steel Cookware Manufacturing,Product Type,Manufacturing of stainless steel cookware
+332215,Metal Kitchen Cookware Utensil Cutlery and Flatware (except Precious) Manufacturing,33221502,Aluminum Cookware Manufacturing,Product Type,Manufacturing of aluminum cookware
+332215,Metal Kitchen Cookware Utensil Cutlery and Flatware (except Precious) Manufacturing,33221503,Cutlery and Flatware Manufacturing,Product Type,Manufacturing of knives and tableware
+332216,Saw Blade and Handtool Manufacturing,33221601,Power Tool Bit and Blade Manufacturing,Product Type,Manufacturing of saw blades and cutting tools
+332216,Saw Blade and Handtool Manufacturing,33221602,Hand Tool Manufacturing,Product Type,Manufacturing of wrenches hammers and hand tools
+332311,Prefabricated Metal Building and Component Manufacturing,33231101,Metal Building Manufacturing,Product Type,Manufacturing of pre-engineered metal buildings
+332311,Prefabricated Metal Building and Component Manufacturing,33231102,Metal Building Component Manufacturing,Product Type,Manufacturing of metal building components
+332312,Fabricated Structural Metal Manufacturing,33231201,Structural Steel Fabrication,Product Type,Fabrication of structural steel for construction
+332312,Fabricated Structural Metal Manufacturing,33231202,Metal Joist and Truss Fabrication,Product Type,Fabrication of metal joists and trusses
+332313,Plate Work Manufacturing,33231301,Boiler and Tank Fabrication,Product Type,Fabrication of industrial tanks and vessels
+332313,Plate Work Manufacturing,33231302,Heavy Plate Fabrication,Product Type,Heavy gauge steel plate fabrication
+332321,Metal Window and Door Manufacturing,33232101,Aluminum Window Manufacturing,Material Type,Manufacturing of aluminum windows
+332321,Metal Window and Door Manufacturing,33232102,Steel Door Manufacturing,Material Type,Manufacturing of steel doors
+332322,Sheet Metal Work Manufacturing,33232201,HVAC Sheet Metal Fabrication,End Use,Fabrication of HVAC ductwork and components
+332322,Sheet Metal Work Manufacturing,33232202,Custom Sheet Metal Fabrication,Business Model,Custom sheet metal fabrication services
+332323,Ornamental and Architectural Metal Work Manufacturing,33232301,Metal Railing and Stair Fabrication,Product Type,Fabrication of metal railings and stairs
+332323,Ornamental and Architectural Metal Work Manufacturing,33232302,Architectural Metal Panel Fabrication,Product Type,Fabrication of architectural metal panels
+332410,Power Boiler and Heat Exchanger Manufacturing,33241001,Industrial Boiler Manufacturing,Product Type,Manufacturing of industrial steam boilers
+332410,Power Boiler and Heat Exchanger Manufacturing,33241002,Heat Exchanger Manufacturing,Product Type,Manufacturing of industrial heat exchangers
+332420,Metal Tank (Heavy Gauge) Manufacturing,33242001,Storage Tank Manufacturing,Product Type,Manufacturing of large storage tanks
+332420,Metal Tank (Heavy Gauge) Manufacturing,33242002,Pressure Vessel Manufacturing,Product Type,Manufacturing of pressure vessels
+332431,Metal Can Manufacturing,33243101,Aluminum Beverage Can Manufacturing,Product Type,Manufacturing of aluminum beverage cans
+332431,Metal Can Manufacturing,33243102,Steel Food Can Manufacturing,Product Type,Manufacturing of steel food cans
+332439,Other Metal Container Manufacturing,33243901,Steel Drum Manufacturing,Product Type,Manufacturing of steel drums and barrels
+332439,Other Metal Container Manufacturing,33243902,Metal Shipping Container Manufacturing,Product Type,Manufacturing of reusable metal containers
+332510,Hardware Manufacturing,33251001,Door and Window Hardware Manufacturing,Product Type,Manufacturing of door and window hardware
+332510,Hardware Manufacturing,33251002,Cabinet Hardware Manufacturing,Product Type,Manufacturing of cabinet hinges and pulls
+332613,Spring Manufacturing,33261301,Heavy Spring Manufacturing,Product Type,Manufacturing of heavy industrial springs
+332613,Spring Manufacturing,33261302,Precision Spring Manufacturing,Product Type,Manufacturing of precision and micro springs
+332618,Other Fabricated Wire Product Manufacturing,33261801,Wire Fence Manufacturing,Product Type,Manufacturing of chain link and wire fencing
+332618,Other Fabricated Wire Product Manufacturing,33261802,Shopping Cart Manufacturing,Product Type,Manufacturing of wire shopping carts
+332710,Machine Shops,33271001,CNC Machining Services,Process Type,CNC precision machining services
+332710,Machine Shops,33271002,Manual Machining Services,Process Type,Manual machining and job shop services
+332721,Precision Turned Product Manufacturing,33272101,Screw Machine Products,Process Type,Manufacturing of screw machine products
+332722,Bolt Nut Screw Rivet and Washer Manufacturing,33272201,Fastener Manufacturing,Product Type,Manufacturing of bolts nuts and screws
+332722,Bolt Nut Screw Rivet and Washer Manufacturing,33272202,Industrial Rivet Manufacturing,Product Type,Manufacturing of industrial rivets
+332811,Metal Heat Treating,33281101,Steel Heat Treating,Process Type,Heat treating of steel components
+332811,Metal Heat Treating,33281102,Aluminum Heat Treating,Process Type,Heat treating of aluminum parts
+332812,Metal Coating Engraving (except Jewelry and Silverware) and Allied Services to Manufacturers,33281201,Powder Coating Services,Process Type,Powder coating of metal parts
+332812,Metal Coating Engraving (except Jewelry and Silverware) and Allied Services to Manufacturers,33281202,E-Coating Services,Process Type,Electrocoating and dip coating services
+332813,Electroplating Plating Polishing Anodizing and Coloring,33281301,Chrome Plating Services,Process Type,Chrome plating and decorative plating
+332813,Electroplating Plating Polishing Anodizing and Coloring,33281302,Anodizing Services,Process Type,Aluminum anodizing services
+332911,Industrial Valve Manufacturing,33291101,Ball and Butterfly Valve Manufacturing,Product Type,Manufacturing of ball and butterfly valves
+332911,Industrial Valve Manufacturing,33291102,Gate and Globe Valve Manufacturing,Product Type,Manufacturing of gate and globe valves
+332912,Fluid Power Valve and Hose Fitting Manufacturing,33291201,Hydraulic Valve Manufacturing,Product Type,Manufacturing of hydraulic valves
+332912,Fluid Power Valve and Hose Fitting Manufacturing,33291202,Pneumatic Valve Manufacturing,Product Type,Manufacturing of pneumatic valves
+332913,Plumbing Fixture Fitting and Trim Manufacturing,33291301,Faucet Manufacturing,Product Type,Manufacturing of faucets and taps
+332913,Plumbing Fixture Fitting and Trim Manufacturing,33291302,Shower and Bath Fitting Manufacturing,Product Type,Manufacturing of shower and bath fittings
+332919,Other Metal Valve and Pipe Fitting Manufacturing,33291901,Pipe Fitting Manufacturing,Product Type,Manufacturing of pipe fittings and couplings
+332919,Other Metal Valve and Pipe Fitting Manufacturing,33291902,Specialty Valve Manufacturing,Product Type,Manufacturing of specialty industrial valves
+332991,Ball and Roller Bearing Manufacturing,33299101,Ball Bearing Manufacturing,Product Type,Manufacturing of ball bearings
+332991,Ball and Roller Bearing Manufacturing,33299102,Roller Bearing Manufacturing,Product Type,Manufacturing of roller and tapered bearings
+332992,Small Arms Ammunition Manufacturing,33299201,Rifle and Pistol Ammunition Manufacturing,Product Type,Manufacturing of small arms ammunition
+332993,Ammunition (except Small Arms) Manufacturing,33299301,Artillery Ammunition Manufacturing,Product Type,Manufacturing of artillery and large caliber ammunition
+332994,Small Arms Ordnance and Ordnance Accessories Manufacturing,33299401,Firearm Manufacturing,Product Type,Manufacturing of rifles pistols and shotguns
+332994,Small Arms Ordnance and Ordnance Accessories Manufacturing,33299402,Firearm Parts Manufacturing,Product Type,Manufacturing of firearm components
+332996,Fabricated Pipe and Pipe Fitting Manufacturing,33299601,Welded Pipe Fabrication,Process Type,Custom fabrication of welded piping systems
+332999,All Other Miscellaneous Fabricated Metal Product Manufacturing,33299901,Metal Stamped Component Manufacturing,Product Type,Manufacturing of stamped metal components
+332999,All Other Miscellaneous Fabricated Metal Product Manufacturing,33299902,Metal Fastening Device Manufacturing,Product Type,Manufacturing of specialized fastening devices
+333111,Farm Machinery and Equipment Manufacturing,33311101,Tractor Manufacturing,Product Type,Manufacturing of agricultural tractors
+333111,Farm Machinery and Equipment Manufacturing,33311102,Harvesting Equipment Manufacturing,Product Type,Manufacturing of combines and harvesting machinery
+333111,Farm Machinery and Equipment Manufacturing,33311103,Planting and Seeding Equipment Manufacturing,Product Type,Manufacturing of planters and seeders
+333112,Lawn and Garden Tractor and Home Lawn and Garden Equipment Manufacturing,33311201,Riding Mower Manufacturing,Product Type,Manufacturing of riding lawn mowers
+333112,Lawn and Garden Tractor and Home Lawn and Garden Equipment Manufacturing,33311202,Walk-Behind Mower Manufacturing,Product Type,Manufacturing of walk-behind lawn mowers
+333112,Lawn and Garden Tractor and Home Lawn and Garden Equipment Manufacturing,33311203,Outdoor Power Equipment Manufacturing,Product Type,Manufacturing of trimmers blowers and outdoor tools
+333120,Construction Machinery Manufacturing,33312001,Excavator Manufacturing,Product Type,Manufacturing of excavators and backhoes
+333120,Construction Machinery Manufacturing,33312002,Bulldozer Manufacturing,Product Type,Manufacturing of bulldozers and track-type tractors
+333120,Construction Machinery Manufacturing,33312003,Loader Manufacturing,Product Type,Manufacturing of wheel loaders and skid steers
+333120,Construction Machinery Manufacturing,33312004,Crane Manufacturing,Product Type,Manufacturing of mobile and crawler cranes
+333131,Mining Machinery and Equipment Manufacturing,33313101,Mining Drill Manufacturing,Product Type,Manufacturing of surface and underground mining drills
+333131,Mining Machinery and Equipment Manufacturing,33313102,Mineral Processing Equipment Manufacturing,Product Type,Manufacturing of crushers and mineral processing machinery
+333132,Oil and Gas Field Machinery and Equipment Manufacturing,33313201,Drilling Equipment Manufacturing,Product Type,Manufacturing of oil and gas drilling rigs and equipment
+333132,Oil and Gas Field Machinery and Equipment Manufacturing,33313202,Well Service Equipment Manufacturing,Product Type,Manufacturing of pumping units and well service equipment
+333241,Food Product Machinery Manufacturing,33324101,Food Processing Equipment Manufacturing,Product Type,Manufacturing of food processing machinery
+333241,Food Product Machinery Manufacturing,33324102,Commercial Food Service Equipment Manufacturing,Product Type,Manufacturing of commercial kitchen equipment
+333242,Semiconductor Machinery Manufacturing,33324201,Wafer Processing Equipment Manufacturing,Product Type,Manufacturing of semiconductor fabrication equipment
+333242,Semiconductor Machinery Manufacturing,33324202,Semiconductor Testing Equipment Manufacturing,Product Type,Manufacturing of chip testing and inspection equipment
+333243,Sawmill Woodworking and Paper Machinery Manufacturing,33324301,Sawmill Equipment Manufacturing,Product Type,Manufacturing of sawmill machinery
+333243,Sawmill Woodworking and Paper Machinery Manufacturing,33324302,Woodworking Machinery Manufacturing,Product Type,Manufacturing of woodworking machinery and tools
+333248,All Other Industrial Machinery Manufacturing,33324801,Printing Press Manufacturing,Product Type,Manufacturing of printing presses and equipment
+333248,All Other Industrial Machinery Manufacturing,33324802,Textile Machinery Manufacturing,Product Type,Manufacturing of textile production machinery
+333310,Commercial and Service Industry Machinery Manufacturing,33331001,Commercial Laundry Equipment Manufacturing,Product Type,Manufacturing of commercial washers and dryers
+333310,Commercial and Service Industry Machinery Manufacturing,33331002,Vending Machine Manufacturing,Product Type,Manufacturing of vending machines
+333310,Commercial and Service Industry Machinery Manufacturing,33331003,Car Wash Equipment Manufacturing,Product Type,Manufacturing of automated car wash systems
+333413,Industrial and Commercial Fan and Blower and Air Purification Equipment Manufacturing,33341301,Industrial Fan and Blower Manufacturing,Product Type,Manufacturing of industrial fans and blowers
+333413,Industrial and Commercial Fan and Blower and Air Purification Equipment Manufacturing,33341302,Air Purification Equipment Manufacturing,Product Type,Manufacturing of air filtration and purification systems
+333414,Heating Equipment (except Warm Air Furnaces) Manufacturing,33341401,Boiler Manufacturing,Product Type,Manufacturing of heating boilers
+333414,Heating Equipment (except Warm Air Furnaces) Manufacturing,33341402,Radiant Heating Equipment Manufacturing,Product Type,Manufacturing of radiant heaters
+333415,Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing,33341501,Central Air Conditioning Manufacturing,Product Type,Manufacturing of central AC units
+333415,Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing,33341502,Commercial Refrigeration Equipment Manufacturing,Product Type,Manufacturing of commercial refrigeration systems
+333415,Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing,33341503,Furnace Manufacturing,Product Type,Manufacturing of residential and commercial furnaces
+333511,Industrial Mold Manufacturing,33351101,Plastic Injection Mold Manufacturing,Product Type,Manufacturing of plastic injection molds
+333511,Industrial Mold Manufacturing,33351102,Die Casting Mold Manufacturing,Product Type,Manufacturing of die casting molds and dies
+333514,Special Die and Tool Die Set Jig and Fixture Manufacturing,33351401,Stamping Die Manufacturing,Product Type,Manufacturing of metal stamping dies
+333514,Special Die and Tool Die Set Jig and Fixture Manufacturing,33351402,Machining Fixture Manufacturing,Product Type,Manufacturing of machining jigs and fixtures
+333515,Cutting Tool and Machine Tool Accessory Manufacturing,33351501,Metal Cutting Tool Manufacturing,Product Type,Manufacturing of cutting tools and inserts
+333515,Cutting Tool and Machine Tool Accessory Manufacturing,33351502,Machine Tool Accessory Manufacturing,Product Type,Manufacturing of tooling and accessories
+333517,Machine Tool Manufacturing,33351701,CNC Machine Tool Manufacturing,Product Type,Manufacturing of CNC machining centers
+333517,Machine Tool Manufacturing,33351702,Manual Machine Tool Manufacturing,Product Type,Manufacturing of manual lathes and mills
+333519,Rolling Mill and Other Metalworking Machinery Manufacturing,33351901,Rolling Mill Equipment Manufacturing,Product Type,Manufacturing of rolling mills and metal forming equipment
+333611,Turbine and Turbine Generator Set Units Manufacturing,33361101,Steam Turbine Manufacturing,Product Type,Manufacturing of steam turbines
+333611,Turbine and Turbine Generator Set Units Manufacturing,33361102,Gas Turbine Manufacturing,Product Type,Manufacturing of gas turbines
+333611,Turbine and Turbine Generator Set Units Manufacturing,33361103,Wind Turbine Manufacturing,Product Type,Manufacturing of wind turbines
+333612,Speed Changer Industrial High-Speed Drive and Gear Manufacturing,33361201,Gearbox Manufacturing,Product Type,Manufacturing of industrial gearboxes
+333612,Speed Changer Industrial High-Speed Drive and Gear Manufacturing,33361202,Speed Reducer Manufacturing,Product Type,Manufacturing of speed reducers and gear drives
+333613,Mechanical Power Transmission Equipment Manufacturing,33361301,Coupling and Universal Joint Manufacturing,Product Type,Manufacturing of power transmission couplings
+333613,Mechanical Power Transmission Equipment Manufacturing,33361302,Chain and Sprocket Manufacturing,Product Type,Manufacturing of roller chain and sprockets
+333618,Other Engine Equipment Manufacturing,33361801,Internal Combustion Engine Manufacturing,Product Type,Manufacturing of industrial engines
+333618,Other Engine Equipment Manufacturing,33361802,Engine Parts Manufacturing,Product Type,Manufacturing of engine components
+333912,Air and Gas Compressor Manufacturing,33391201,Industrial Air Compressor Manufacturing,Product Type,Manufacturing of industrial air compressors
+333912,Air and Gas Compressor Manufacturing,33391202,Gas Compressor Manufacturing,Product Type,Manufacturing of natural gas compressors
+333914,Measuring Dispensing and Other Pumping Equipment Manufacturing,33391401,Industrial Pump Manufacturing,Product Type,Manufacturing of centrifugal and positive displacement pumps
+333914,Measuring Dispensing and Other Pumping Equipment Manufacturing,33391402,Fuel Dispenser Manufacturing,Product Type,Manufacturing of fuel pumps and dispensers
+333921,Elevator and Moving Stairway Manufacturing,33392101,Elevator Manufacturing,Product Type,Manufacturing of elevators and lift systems
+333921,Elevator and Moving Stairway Manufacturing,33392102,Escalator Manufacturing,Product Type,Manufacturing of escalators and moving walkways
+333922,Conveyor and Conveying Equipment Manufacturing,33392201,Belt Conveyor Manufacturing,Product Type,Manufacturing of belt conveyors
+333922,Conveyor and Conveying Equipment Manufacturing,33392202,Roller Conveyor Manufacturing,Product Type,Manufacturing of roller and powered conveyors
+333923,Overhead Traveling Crane Hoist and Monorail System Manufacturing,33392301,Overhead Crane Manufacturing,Product Type,Manufacturing of overhead cranes
+333923,Overhead Traveling Crane Hoist and Monorail System Manufacturing,33392302,Hoist Manufacturing,Product Type,Manufacturing of hoists and lifting equipment
+333924,Industrial Truck Tractor Trailer and Stacker Machinery Manufacturing,33392401,Forklift Manufacturing,Product Type,Manufacturing of forklifts and lift trucks
+333924,Industrial Truck Tractor Trailer and Stacker Machinery Manufacturing,33392402,Pallet Jack Manufacturing,Product Type,Manufacturing of manual and powered pallet jacks
+333991,Power-Driven Handtool Manufacturing,33399101,Electric Power Tool Manufacturing,Product Type,Manufacturing of electric drills saws and tools
+333991,Power-Driven Handtool Manufacturing,33399102,Pneumatic Tool Manufacturing,Product Type,Manufacturing of air-powered tools
+333992,Welding and Soldering Equipment Manufacturing,33399201,Arc Welding Equipment Manufacturing,Product Type,Manufacturing of arc welding machines
+333992,Welding and Soldering Equipment Manufacturing,33399202,Resistance Welding Equipment Manufacturing,Product Type,Manufacturing of spot and resistance welders
+333993,Packaging Machinery Manufacturing,33399301,Filling and Capping Machine Manufacturing,Product Type,Manufacturing of bottle filling and capping equipment
+333993,Packaging Machinery Manufacturing,33399302,Wrapping and Labeling Machine Manufacturing,Product Type,Manufacturing of wrapping and labeling machinery
+333994,Industrial Process Furnace and Oven Manufacturing,33399401,Heat Treating Furnace Manufacturing,Product Type,Manufacturing of industrial heat treating furnaces
+333994,Industrial Process Furnace and Oven Manufacturing,33399402,Industrial Oven Manufacturing,Product Type,Manufacturing of industrial drying and curing ovens
+333995,Fluid Power Cylinder and Actuator Manufacturing,33399501,Hydraulic Cylinder Manufacturing,Product Type,Manufacturing of hydraulic cylinders
+333995,Fluid Power Cylinder and Actuator Manufacturing,33399502,Pneumatic Cylinder Manufacturing,Product Type,Manufacturing of pneumatic cylinders and actuators
+333996,Fluid Power Pump and Motor Manufacturing,33399601,Hydraulic Pump Manufacturing,Product Type,Manufacturing of hydraulic pumps
+333996,Fluid Power Pump and Motor Manufacturing,33399602,Hydraulic Motor Manufacturing,Product Type,Manufacturing of hydraulic motors
+333998,All Other Miscellaneous General Purpose Machinery Manufacturing,33399801,Filter and Strainer Manufacturing,Product Type,Manufacturing of industrial filters and strainers
+333998,All Other Miscellaneous General Purpose Machinery Manufacturing,33399802,Industrial Mixer Manufacturing,Product Type,Manufacturing of industrial mixing equipment
+334111,Electronic Computer Manufacturing,33411101,Desktop Computer Manufacturing,Product Type,Manufacturing of desktop computers
+334111,Electronic Computer Manufacturing,33411102,Laptop Computer Manufacturing,Product Type,Manufacturing of laptop and notebook computers
+334111,Electronic Computer Manufacturing,33411103,Server Manufacturing,Product Type,Manufacturing of computer servers
+334111,Electronic Computer Manufacturing,33411104,Tablet Computer Manufacturing,Product Type,Manufacturing of tablet computers
+334112,Computer Storage Device Manufacturing,33411201,Hard Disk Drive Manufacturing,Product Type,Manufacturing of hard disk drives
+334112,Computer Storage Device Manufacturing,33411202,Solid State Drive Manufacturing,Product Type,Manufacturing of solid state storage devices
+334118,Computer Terminal and Other Computer Peripheral Equipment Manufacturing,33411801,Computer Monitor Manufacturing,Product Type,Manufacturing of computer displays and monitors
+334118,Computer Terminal and Other Computer Peripheral Equipment Manufacturing,33411802,Keyboard and Mouse Manufacturing,Product Type,Manufacturing of computer input devices
+334118,Computer Terminal and Other Computer Peripheral Equipment Manufacturing,33411803,Printer Manufacturing,Product Type,Manufacturing of computer printers
+334210,Telephone Apparatus Manufacturing,33421001,Smartphone Manufacturing,Product Type,Manufacturing of smartphones and mobile devices
+334210,Telephone Apparatus Manufacturing,33421002,Business Telephone System Manufacturing,Product Type,Manufacturing of PBX and business phone systems
+334220,Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing,33422001,Cellular Base Station Equipment Manufacturing,Product Type,Manufacturing of cellular network infrastructure
+334220,Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing,33422002,Broadcast Transmission Equipment Manufacturing,Product Type,Manufacturing of radio and TV transmitters
+334220,Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing,33422003,Wi-Fi and Wireless Router Manufacturing,Product Type,Manufacturing of wireless networking equipment
+334290,Other Communications Equipment Manufacturing,33429001,Fiber Optic Equipment Manufacturing,Product Type,Manufacturing of fiber optic transmission equipment
+334290,Other Communications Equipment Manufacturing,33429002,Satellite Communications Equipment Manufacturing,Product Type,Manufacturing of satellite ground stations and equipment
+334310,Audio and Video Equipment Manufacturing,33431001,Television Manufacturing,Product Type,Manufacturing of televisions and displays
+334310,Audio and Video Equipment Manufacturing,33431002,Home Audio Equipment Manufacturing,Product Type,Manufacturing of speakers and audio systems
+334310,Audio and Video Equipment Manufacturing,33431003,Professional Audio Equipment Manufacturing,Product Type,Manufacturing of professional recording and PA equipment
+334412,Bare Printed Circuit Board Manufacturing,33441201,Single-Layer PCB Manufacturing,Product Type,Manufacturing of single-sided circuit boards
+334412,Bare Printed Circuit Board Manufacturing,33441202,Multi-Layer PCB Manufacturing,Product Type,Manufacturing of multi-layer circuit boards
+334412,Bare Printed Circuit Board Manufacturing,33441203,Flexible PCB Manufacturing,Product Type,Manufacturing of flexible printed circuits
+334413,Semiconductor and Related Device Manufacturing,33441301,Microprocessor Manufacturing,Product Type,Manufacturing of CPUs and microprocessors
+334413,Semiconductor and Related Device Manufacturing,33441302,Memory Chip Manufacturing,Product Type,Manufacturing of RAM DRAM and memory chips
+334413,Semiconductor and Related Device Manufacturing,33441303,Application-Specific IC Manufacturing,Product Type,Manufacturing of ASICs and custom semiconductors
+334413,Semiconductor and Related Device Manufacturing,33441304,Power Semiconductor Manufacturing,Product Type,Manufacturing of power transistors and rectifiers
+334416,Capacitor Resistor Coil Transformer and Other Inductor Manufacturing,33441601,Capacitor Manufacturing,Product Type,Manufacturing of electronic capacitors
+334416,Capacitor Resistor Coil Transformer and Other Inductor Manufacturing,33441602,Resistor Manufacturing,Product Type,Manufacturing of electronic resistors
+334416,Capacitor Resistor Coil Transformer and Other Inductor Manufacturing,33441603,Transformer Manufacturing,Product Type,Manufacturing of electronic transformers
+334417,Electronic Connector Manufacturing,33441701,Circular Connector Manufacturing,Product Type,Manufacturing of circular connectors
+334417,Electronic Connector Manufacturing,33441702,Rectangular Connector Manufacturing,Product Type,Manufacturing of rectangular and card edge connectors
+334418,Printed Circuit Assembly (Electronic Assembly) Manufacturing,33441801,Contract Electronics Assembly,Business Model,Contract PCB assembly services (EMS)
+334418,Printed Circuit Assembly (Electronic Assembly) Manufacturing,33441802,Turnkey Electronics Manufacturing,Business Model,Full turnkey electronics manufacturing services
+334419,Other Electronic Component Manufacturing,33441901,LED and Display Manufacturing,Product Type,Manufacturing of LED components and displays
+334419,Other Electronic Component Manufacturing,33441902,Crystal and Oscillator Manufacturing,Product Type,Manufacturing of quartz crystals and oscillators
+334510,Electromedical and Electrotherapeutic Apparatus Manufacturing,33451001,MRI and CT Scanner Manufacturing,Product Type,Manufacturing of medical imaging equipment
+334510,Electromedical and Electrotherapeutic Apparatus Manufacturing,33451002,Ultrasound Equipment Manufacturing,Product Type,Manufacturing of ultrasound diagnostic equipment
+334510,Electromedical and Electrotherapeutic Apparatus Manufacturing,33451003,Patient Monitoring Equipment Manufacturing,Product Type,Manufacturing of patient monitoring systems
+334511,Search Detection Navigation Guidance Aeronautical and Nautical System and Instrument Manufacturing,33451101,GPS Equipment Manufacturing,Product Type,Manufacturing of GPS and navigation devices
+334511,Search Detection Navigation Guidance Aeronautical and Nautical System and Instrument Manufacturing,33451102,Radar Equipment Manufacturing,Product Type,Manufacturing of radar systems
+334511,Search Detection Navigation Guidance Aeronautical and Nautical System and Instrument Manufacturing,33451103,Aviation Instrumentation Manufacturing,Product Type,Manufacturing of aircraft instruments
+334512,Automatic Environmental Control Manufacturing for Residential Commercial and Appliance Use,33451201,Thermostat Manufacturing,Product Type,Manufacturing of thermostats and HVAC controls
+334512,Automatic Environmental Control Manufacturing for Residential Commercial and Appliance Use,33451202,Building Automation System Manufacturing,Product Type,Manufacturing of building automation controllers
+334513,Instruments and Related Products Manufacturing for Measuring Displaying and Controlling Industrial Process Variables,33451301,Process Control Instrument Manufacturing,Product Type,Manufacturing of industrial process instruments
+334513,Instruments and Related Products Manufacturing for Measuring Displaying and Controlling Industrial Process Variables,33451302,PLC and Industrial Control Manufacturing,Product Type,Manufacturing of PLCs and control systems
+334514,Totalizing Fluid Meter and Counting Device Manufacturing,33451401,Water Meter Manufacturing,Product Type,Manufacturing of water meters
+334514,Totalizing Fluid Meter and Counting Device Manufacturing,33451402,Gas Meter Manufacturing,Product Type,Manufacturing of gas meters
+334514,Totalizing Fluid Meter and Counting Device Manufacturing,33451403,Flow Meter Manufacturing,Product Type,Manufacturing of industrial flow meters
+334515,Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals,33451501,Multimeter and Test Equipment Manufacturing,Product Type,Manufacturing of electrical test instruments
+334515,Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals,33451502,Oscilloscope Manufacturing,Product Type,Manufacturing of oscilloscopes and signal analyzers
+334516,Analytical Laboratory Instrument Manufacturing,33451601,Mass Spectrometer Manufacturing,Product Type,Manufacturing of mass spectrometers
+334516,Analytical Laboratory Instrument Manufacturing,33451602,Chromatography Equipment Manufacturing,Product Type,Manufacturing of chromatography systems
+334517,Irradiation Apparatus Manufacturing,33451701,X-Ray Equipment Manufacturing,Product Type,Manufacturing of x-ray machines and equipment
+334517,Irradiation Apparatus Manufacturing,33451702,Radiation Therapy Equipment Manufacturing,Product Type,Manufacturing of radiation treatment equipment
+334519,Other Measuring and Controlling Device Manufacturing,33451901,Laboratory Balance Manufacturing,Product Type,Manufacturing of analytical balances and scales
+334519,Other Measuring and Controlling Device Manufacturing,33451902,Environmental Monitoring Equipment Manufacturing,Product Type,Manufacturing of air and water quality monitors
+334610,Manufacturing and Reproducing Magnetic and Optical Media,33461001,Optical Disc Replication,Product Type,Replication of CDs DVDs and Blu-ray discs
+334610,Manufacturing and Reproducing Magnetic and Optical Media,33461002,Magnetic Media Manufacturing,Product Type,Manufacturing of magnetic tape and storage media
+335131,Residential Electric Lighting Fixture Manufacturing,33513101,Residential Indoor Lighting Manufacturing,Product Type,Manufacturing of residential interior light fixtures
+335131,Residential Electric Lighting Fixture Manufacturing,33513102,Residential Outdoor Lighting Manufacturing,Product Type,Manufacturing of residential exterior lighting
+335132,Commercial Industrial and Institutional Electric Lighting Fixture Manufacturing,33513201,Commercial Lighting Fixture Manufacturing,Product Type,Manufacturing of commercial and office lighting
+335132,Commercial Industrial and Institutional Electric Lighting Fixture Manufacturing,33513202,Industrial High-Bay Lighting Manufacturing,Product Type,Manufacturing of industrial high-bay fixtures
+335139,Electric Lamp Bulb and Other Lighting Equipment Manufacturing,33513901,LED Bulb Manufacturing,Product Type,Manufacturing of LED light bulbs
+335139,Electric Lamp Bulb and Other Lighting Equipment Manufacturing,33513902,Fluorescent Bulb Manufacturing,Product Type,Manufacturing of fluorescent lamps
+335139,Electric Lamp Bulb and Other Lighting Equipment Manufacturing,33513903,Incandescent Bulb Manufacturing,Product Type,Manufacturing of incandescent light bulbs
+335210,Small Electrical Appliance Manufacturing,33521001,Coffee Maker Manufacturing,Product Type,Manufacturing of coffee makers and brewers
+335210,Small Electrical Appliance Manufacturing,33521002,Toaster and Toaster Oven Manufacturing,Product Type,Manufacturing of toasters
+335210,Small Electrical Appliance Manufacturing,33521003,Blender and Food Processor Manufacturing,Product Type,Manufacturing of blenders and food processors
+335220,Major Household Appliance Manufacturing,33522001,Refrigerator Manufacturing,Product Type,Manufacturing of household refrigerators
+335220,Major Household Appliance Manufacturing,33522002,Clothes Washer and Dryer Manufacturing,Product Type,Manufacturing of laundry appliances
+335220,Major Household Appliance Manufacturing,33522003,Dishwasher Manufacturing,Product Type,Manufacturing of dishwashers
+335220,Major Household Appliance Manufacturing,33522004,Cooking Range and Oven Manufacturing,Product Type,Manufacturing of ranges ovens and cooktops
+335311,Power Distribution and Specialty Transformer Manufacturing,33531101,Power Transformer Manufacturing,Product Type,Manufacturing of utility power transformers
+335311,Power Distribution and Specialty Transformer Manufacturing,33531102,Distribution Transformer Manufacturing,Product Type,Manufacturing of distribution transformers
+335312,Motor and Generator Manufacturing,33531201,Electric Motor Manufacturing,Product Type,Manufacturing of electric motors
+335312,Motor and Generator Manufacturing,33531202,Generator and Alternator Manufacturing,Product Type,Manufacturing of generators and alternators
+335313,Switchgear and Switchboard Apparatus Manufacturing,33531301,Switchgear Manufacturing,Product Type,Manufacturing of switchgear and panelboards
+335313,Switchgear and Switchboard Apparatus Manufacturing,33531302,Circuit Breaker Manufacturing,Product Type,Manufacturing of circuit breakers
+335314,Relay and Industrial Control Manufacturing,33531401,Relay Manufacturing,Product Type,Manufacturing of electrical relays
+335314,Relay and Industrial Control Manufacturing,33531402,Motor Starter and Contactor Manufacturing,Product Type,Manufacturing of motor controls
+335910,Battery Manufacturing,33591001,Automotive Battery Manufacturing,Product Type,Manufacturing of lead-acid automotive batteries
+335910,Battery Manufacturing,33591002,Lithium-Ion Battery Manufacturing,Product Type,Manufacturing of lithium-ion batteries
+335910,Battery Manufacturing,33591003,Industrial Battery Manufacturing,Product Type,Manufacturing of industrial and stationary batteries
+335921,Fiber Optic Cable Manufacturing,33592101,Telecommunications Fiber Cable Manufacturing,End Use,Manufacturing of fiber optic telecom cable
+335921,Fiber Optic Cable Manufacturing,33592102,Specialty Fiber Optic Cable Manufacturing,End Use,Manufacturing of specialty fiber cables
+335929,Other Communication and Energy Wire Manufacturing,33592901,Electrical Wire and Cable Manufacturing,Product Type,Manufacturing of building wire and cable
+335929,Other Communication and Energy Wire Manufacturing,33592902,Communication Cable Manufacturing,Product Type,Manufacturing of data and communication cables
+335931,Current-Carrying Wiring Device Manufacturing,33593101,Electrical Outlet Manufacturing,Product Type,Manufacturing of electrical receptacles
+335931,Current-Carrying Wiring Device Manufacturing,33593102,Light Switch Manufacturing,Product Type,Manufacturing of electrical switches
+335932,Noncurrent-Carrying Wiring Device Manufacturing,33593201,Electrical Box and Fitting Manufacturing,Product Type,Manufacturing of junction boxes and fittings
+335932,Noncurrent-Carrying Wiring Device Manufacturing,33593202,Cable Management Manufacturing,Product Type,Manufacturing of conduit and cable trays
+335991,Carbon and Graphite Product Manufacturing,33599101,Carbon Brush Manufacturing,Product Type,Manufacturing of carbon brushes
+335991,Carbon and Graphite Product Manufacturing,33599102,Graphite Electrode Manufacturing,Product Type,Manufacturing of graphite electrodes
+335999,All Other Miscellaneous Electrical Equipment and Component Manufacturing,33599901,Power Supply Manufacturing,Product Type,Manufacturing of AC/DC power supplies
+335999,All Other Miscellaneous Electrical Equipment and Component Manufacturing,33599902,Electrical Equipment Component Manufacturing,Product Type,Manufacturing of miscellaneous electrical components
