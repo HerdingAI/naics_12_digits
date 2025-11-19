@@ -4846,3 +4846,406 @@ NAICS_6_Digit,NAICS_6_Title,NAICS_8_Digit,NAICS_8_Title,Differentiation_Criteria
 448150,Clothing Accessories Stores,44815004,Hat and Cap Stores,Product Focus,Retailers of hats caps and headwear
 448190,Other Clothing Stores,44819004,Costume and Theatrical Clothing Stores,Product Focus,Retailers of costumes and theatrical apparel
 459930,Manufactured (Mobile) Home Dealers,45993005,Prefabricated Home Dealers,Product Type,Dealers of prefabricated and modular homes
+221111,Hydroelectric Power Generation,22111104,Small Hydroelectric Generation,Scale,Small-scale and micro-hydro generation facilities
+221113,Nuclear Electric Power Generation,22111303,Advanced Reactor Plants,Technology,Advanced and next-generation nuclear reactors
+221113,Nuclear Electric Power Generation,22111304,Nuclear Fuel Cycle Facilities,Process Type,Nuclear fuel processing and handling facilities
+221114,Solar Electric Power Generation,22111404,Solar Thermal Electric,Technology,Solar thermal electric generation systems
+221115,Wind Electric Power Generation,22111504,Hybrid Wind Power Systems,Technology,Wind generation with energy storage integration
+221116,Geothermal Electric Power Generation,22111604,Enhanced Geothermal Systems,Technology,EGS and advanced geothermal technologies
+221117,Biomass Electric Power Generation,22111703,Agricultural Biomass Generation,Fuel Type,Power from agricultural residues and energy crops
+221118,Other Electric Power Generation,22111801,Tidal and Wave Power Generation,Technology,Marine and hydrokinetic power generation
+221118,Other Electric Power Generation,22111802,Fuel Cell Power Generation,Technology,Fuel cell electric power generation
+221118,Other Electric Power Generation,22111803,Waste-to-Energy Generation,Fuel Type,Electric generation from municipal solid waste
+221121,Electric Bulk Power Transmission and Control,22112104,Smart Grid Operations,Technology,Advanced grid control and smart grid systems
+221210,Natural Gas Distribution,22121004,LNG Distribution Systems,Technology,Liquefied natural gas distribution infrastructure
+221310,Water Supply and Irrigation Systems,22131004,Desalination and Water Treatment,Process Type,Desalination and advanced water treatment facilities
+221320,Sewage Treatment Facilities,22132004,Advanced Wastewater Treatment,Technology,Advanced and tertiary wastewater treatment plants
+221330,Steam and Air-Conditioning Supply,22133004,District Energy Systems,Service Type,Combined heating cooling and power district systems
+481112,Scheduled Freight Air Transportation,48111204,Express Air Cargo Services,Service Type,Time-sensitive express air freight services
+481212,Nonscheduled Chartered Freight Air Transportation,48121203,Charter Cargo Aircraft Services,Service Type,On-demand chartered freight aircraft operations
+481212,Nonscheduled Chartered Freight Air Transportation,48121204,Air Ambulance Services,Service Type,Medical emergency air transport services
+481219,Other Nonscheduled Air Transportation,48121904,Aerial Survey and Mapping Services,Service Type,Aerial photography and surveying operations
+482111,Line-Haul Railroads,48211104,Intermodal Rail Freight,Service Type,Containerized intermodal rail transportation
+482112,Short Line Railroads,48211203,Regional Short Line Railroads,Scale,Regional short line railroad operations
+482112,Short Line Railroads,48211204,Switching and Terminal Railroads,Service Type,Railroad switching and terminal services
+483112,Deep Sea Passenger Transportation,48311204,Cruise Ship Operations,Service Type,Ocean cruise line operations
+483113,Coastal and Great Lakes Freight Transportation,48311303,Coastal Container Shipping,Service Type,Coastwise container ship operations
+483113,Coastal and Great Lakes Freight Transportation,48311304,Great Lakes Bulk Cargo Shipping,Service Type,Great Lakes bulk cargo transport
+483114,Coastal and Great Lakes Passenger Transportation,48311403,Coastal Ferry Services,Service Type,Passenger ferry operations on coastal routes
+483114,Coastal and Great Lakes Passenger Transportation,48311404,Great Lakes Passenger Cruises,Service Type,Passenger cruise services on Great Lakes
+483211,Inland Water Freight Transportation,48321103,River Barge Operations,Service Type,Inland river barge freight transport
+483211,Inland Water Freight Transportation,48321104,Canal Freight Transportation,Service Type,Freight transport on canals and waterways
+483212,Inland Water Passenger Transportation,48321204,River Cruise Operations,Service Type,Passenger cruises on inland waterways
+484122,General Freight Trucking Long-Distance Less Than Truckload,48412204,LTL Cross-Country Trucking,Service Type,Long-distance less-than-truckload network operations
+485111,Mixed Mode Transit Systems,48511104,Light Rail and Bus Systems,Mode,Combined light rail and bus transit operations
+485112,Commuter Rail Systems,48511202,Regional Commuter Rail,Service Type,Regional commuter rail services
+485112,Commuter Rail Systems,48511203,Suburban Commuter Rail,Service Type,Suburban commuter rail operations
+485112,Commuter Rail Systems,48511204,Express Commuter Rail,Service Type,Express commuter rail services
+485113,Bus and Other Motor Vehicle Transit Systems,48511304,Bus Rapid Transit Systems,Technology,BRT and dedicated busway systems
+485119,Other Urban Transit Systems,48511903,Trolleybus Systems,Mode,Electric trolleybus transit operations
+485119,Other Urban Transit Systems,48511904,Automated Guideway Transit,Technology,Automated people mover systems
+485210,Interurban and Rural Bus Transportation,48521003,Intercity Bus Services,Route Type,Long-distance intercity bus operations
+485210,Interurban and Rural Bus Transportation,48521004,Rural Transit Services,Service Area,Rural and small town bus services
+485310,Taxi Service,48531004,Rideshare and TNC Services,Business Model,Transportation network company operations
+485320,Limousine Service,48532004,Corporate Limousine Services,Customer Segment,Executive and corporate transportation services
+485410,School and Employee Bus Transportation,48541004,Corporate Shuttle Services,Customer Segment,Employee shuttle and commuter bus services
+485510,Charter Bus Industry,48551004,Tour Bus Operations,Service Type,Sightseeing and tour bus charter services
+485991,Special Needs Transportation,48599104,Medical Transportation Services,Service Type,Non-emergency medical transport services
+485999,All Other Transit and Ground Passenger Transportation,48599904,Vanpool and Carpool Services,Service Type,Shared ride and vanpool operations
+486110,Pipeline Transportation of Crude Oil,48611003,Crude Oil Trunk Pipelines,Infrastructure,Major crude oil trunk line systems
+486110,Pipeline Transportation of Crude Oil,48611004,Crude Oil Gathering Pipelines,Infrastructure,Crude oil gathering and feeder lines
+486210,Pipeline Transportation of Natural Gas,48621003,Natural Gas Transmission Pipelines,Infrastructure,Interstate natural gas transmission systems
+486210,Pipeline Transportation of Natural Gas,48621004,Natural Gas Gathering Pipelines,Infrastructure,Natural gas gathering and field pipelines
+486910,Pipeline Transportation of Refined Petroleum Products,48691002,Gasoline Pipeline Transportation,Product Type,Pipeline transport of gasoline and motor fuels
+486910,Pipeline Transportation of Refined Petroleum Products,48691003,Jet Fuel Pipeline Transportation,Product Type,Pipeline transport of aviation fuel
+486910,Pipeline Transportation of Refined Petroleum Products,48691004,Diesel Pipeline Transportation,Product Type,Pipeline transport of diesel fuel
+486990,All Other Pipeline Transportation,48699003,Slurry Pipeline Transportation,Product Type,Coal and mineral slurry pipeline transport
+486990,All Other Pipeline Transportation,48699004,Chemical Pipeline Transportation,Product Type,Pipeline transport of liquid chemicals
+487110,Scenic and Sightseeing Transportation Land,48711004,Helicopter Sightseeing Tours,Mode,Helicopter tour operations
+487210,Scenic and Sightseeing Transportation Water,48721004,Whale Watching Tours,Service Type,Marine wildlife viewing tours
+487990,Scenic and Sightseeing Transportation Other,48799004,Hot Air Balloon Tours,Mode,Balloon ride sightseeing operations
+488111,Air Traffic Control,48811102,Contract Air Traffic Control,Service Type,Contract tower and ATC services
+488111,Air Traffic Control,48811103,Flight Service Stations,Service Type,Flight planning and weather briefing services
+488111,Air Traffic Control,48811104,Aviation Communication Services,Service Type,Aviation radio and navigation services
+488119,Other Airport Operations,48811904,Fixed Base Operations,Service Type,FBO aircraft servicing and fueling
+488210,Support Activities for Rail Transportation,48821004,Railroad Maintenance Services,Service Type,Track and infrastructure maintenance
+488410,Motor Vehicle Towing,48841004,Heavy-Duty Towing Services,Vehicle Type,Commercial truck and bus towing
+488991,Packing and Crating,48899103,Industrial Equipment Crating,Service Type,Heavy machinery packaging and crating
+488991,Packing and Crating,48899104,International Shipping Packing,Service Type,Export packing and containerization
+488999,All Other Support Activities for Transportation,48899903,Freight Inspection Services,Service Type,Cargo inspection and weighing services
+488999,All Other Support Activities for Transportation,48899904,Transportation Logistics Support,Service Type,Freight coordination and logistics services
+491110,Postal Service,49111002,Express Mail Services,Service Type,Expedited postal delivery services
+491110,Postal Service,49111003,Rural Postal Delivery,Service Area,Rural route mail delivery operations
+491110,Postal Service,49111004,Postal Retail Services,Service Type,Post office retail and customer services
+493120,Refrigerated Warehousing and Storage,49312004,Cold Storage Logistics,Service Type,Temperature-controlled distribution and logistics
+493130,Farm Product Warehousing and Storage,49313003,Grain Elevator Storage,Product Type,Grain storage and handling facilities
+493130,Farm Product Warehousing and Storage,49313004,Cotton Warehouse Storage,Product Type,Cotton storage and compress facilities
+811112,Automotive Exhaust System Repair,81111202,Muffler and Exhaust Shops,Service Type,Muffler and exhaust system replacement
+811112,Automotive Exhaust System Repair,81111203,Catalytic Converter Repair,Service Type,Catalytic converter service and replacement
+811112,Automotive Exhaust System Repair,81111204,Performance Exhaust Installation,Service Type,Custom and performance exhaust systems
+811113,Automotive Transmission Repair,81111303,Automatic Transmission Repair,Transmission Type,Automatic transmission rebuild and repair
+811113,Automotive Transmission Repair,81111304,Manual Transmission Repair,Transmission Type,Manual transmission and clutch services
+811122,Automotive Glass Replacement Shops,81112203,Windshield Replacement Services,Service Type,Auto windshield repair and replacement
+811122,Automotive Glass Replacement Shops,81112204,Mobile Auto Glass Service,Service Model,Mobile on-site glass replacement
+811191,Automotive Oil Change and Lubrication Shops,81119103,Quick Lube Services,Service Model,Fast oil change and basic maintenance
+811191,Automotive Oil Change and Lubrication Shops,81119104,Full-Service Oil Change Centers,Service Model,Comprehensive lubrication and fluid services
+811212,Computer and Office Machine Repair and Maintenance,81121204,IT Equipment Repair Services,Equipment Type,Computer and server repair services
+811213,Communication Equipment Repair and Maintenance,81121303,Cell Phone Repair Services,Equipment Type,Mobile device repair and screen replacement
+811213,Communication Equipment Repair and Maintenance,81121304,Telecommunications Equipment Repair,Equipment Type,Business telecom equipment service
+811219,Other Electronic and Precision Equipment Repair and Maintenance,81121904,Medical Equipment Repair,Equipment Type,Medical device and equipment servicing
+811411,Home and Garden Equipment Repair and Maintenance,81141104,Lawn Mower Repair Services,Equipment Type,Lawn and garden equipment repair
+811420,Reupholstery and Furniture Repair,81142003,Furniture Reupholstery Services,Service Type,Residential furniture reupholstering
+811420,Reupholstery and Furniture Repair,81142004,Antique Furniture Restoration,Service Type,Antique and fine furniture restoration
+811430,Footwear and Leather Goods Repair,81143003,Shoe Repair Services,Service Type,Shoe and boot repair and resoling
+811430,Footwear and Leather Goods Repair,81143004,Leather Goods Restoration,Service Type,Leather bag and accessory repair
+812111,Barber Shops,81211103,Traditional Barber Shops,Service Type,Traditional men's barbering services
+812111,Barber Shops,81211104,Modern Barber Lounges,Format,Contemporary barber shop and grooming
+812113,Nail Salons,81211303,Full-Service Nail Salons,Service Type,Manicure pedicure and nail art services
+812113,Nail Salons,81211304,Express Nail Services,Service Model,Quick manicure and express nail services
+812191,Diet and Weight Reducing Centers,81219103,Medical Weight Loss Centers,Service Model,Physician-supervised weight loss programs
+812191,Diet and Weight Reducing Centers,81219104,Fitness-Based Weight Loss Programs,Service Model,Exercise and nutrition weight management
+812210,Funeral Homes and Funeral Services,81221004,Cremation Services,Service Type,Direct cremation service providers
+812220,Cemeteries and Crematories,81222004,Memorial Parks,Facility Type,Cemetery and memorial garden operations
+812310,Coin-Operated Laundries and Drycleaners,81231003,Self-Service Laundromats,Service Model,Coin and card operated laundry facilities
+812310,Coin-Operated Laundries and Drycleaners,81231004,Attended Laundromat Services,Service Model,Staffed self-service laundry centers
+812331,Linen Supply,81233103,Healthcare Linen Services,Customer Segment,Hospital and medical linen supply
+812331,Linen Supply,81233104,Hospitality Linen Services,Customer Segment,Hotel and restaurant linen supply
+812332,Industrial Launderers,81233202,Uniform Rental and Laundering,Service Type,Industrial uniform rental and cleaning
+812332,Industrial Launderers,81233203,Commercial Laundry Services,Customer Segment,Commercial and institutional laundering
+812332,Industrial Launderers,81233204,Mat and Towel Services,Product Type,Floor mat and towel rental services
+812921,Photofinishing Laboratories (except One-Hour),81292103,Digital Photo Processing,Technology,Digital photo printing and finishing
+812921,Photofinishing Laboratories (except One-Hour),81292104,Commercial Photo Labs,Customer Segment,Professional photography lab services
+812922,One-Hour Photofinishing,81292202,Retail Photo Kiosks,Format,Self-service photo printing kiosks
+812922,One-Hour Photofinishing,81292203,On-Site Photo Processing,Service Type,In-store rapid photo development
+812922,One-Hour Photofinishing,81292204,Express Photo Services,Service Model,Same-day photo printing services
+813211,Grantmaking Foundations,81321104,Private Family Foundations,Foundation Type,Private and family charitable foundations
+813212,Voluntary Health Organizations,81321203,Disease-Specific Health Organizations,Focus Area,Organizations focused on specific diseases
+813212,Voluntary Health Organizations,81321204,Health Research Foundations,Focus Area,Medical research funding organizations
+813219,Other Grantmaking and Giving Services,81321903,Community Foundations,Organization Type,Local and regional community foundations
+813219,Other Grantmaking and Giving Services,81321904,Educational Grant Organizations,Focus Area,Scholarship and educational funding
+813311,Human Rights Organizations,81331103,Civil Rights Advocacy Groups,Focus Area,Civil rights and civil liberties organizations
+813311,Human Rights Organizations,81331104,International Human Rights Groups,Scope,Global human rights advocacy
+813312,Environment Conservation and Wildlife Organizations,81331203,Wildlife Conservation Groups,Focus Area,Wildlife protection and habitat conservation
+813312,Environment Conservation and Wildlife Organizations,81331204,Environmental Advocacy Organizations,Focus Area,Environmental policy and climate advocacy
+813319,Other Social Advocacy Organizations,81331904,Community Organizing Groups,Focus Area,Community development and organizing
+813910,Business Associations,81391004,Industry Trade Associations,Association Type,Industry-specific trade organizations
+813920,Professional Organizations,81392004,Professional Licensing Boards,Organization Type,Professional credentialing organizations
+813940,Political Organizations,81394003,Political Party Organizations,Organization Type,Political party committees and operations
+813940,Political Organizations,81394004,Political Action Committees,Organization Type,PACs and political fundraising groups
+813990,Other Similar Organizations (except Business Professional Labor and Political Organizations),81399004,Fraternal Organizations,Organization Type,Fraternal lodges and social clubs
+814110,Private Households,81411002,Household Domestic Services,Service Type,In-home domestic and household services
+814110,Private Households,81411003,Private Estate Management,Service Type,Estate and household management services
+814110,Private Households,81411004,Personal Assistant Services,Service Type,In-home personal assistance
+561312,Executive Search Services,56131204,C-Level Executive Recruitment,Service Focus,CEO CFO and executive-level search
+561330,Professional Employer Organizations,56133004,Co-Employment PEO Services,Service Model,Full co-employment HR outsourcing
+561410,Document Preparation Services,56141004,Legal Document Preparation,Service Type,Legal form and document preparation
+561421,Telephone Answering Services,56142104,Virtual Receptionist Services,Service Type,Remote receptionist and call handling
+561431,Private Mail Centers,56143103,Mailbox Rental Services,Service Type,Private mailbox and package receiving
+561431,Private Mail Centers,56143104,Shipping and Mail Centers,Service Type,Full-service shipping and mailing
+561439,Other Business Service Centers,56143903,Coworking Space Operators,Service Type,Shared workspace and coworking facilities
+561439,Other Business Service Centers,56143904,Virtual Office Services,Service Type,Virtual address and office services
+561440,Collection Agencies,56144004,Commercial Debt Collection,Customer Segment,Business-to-business debt recovery
+561450,Credit Bureaus,56145004,Commercial Credit Reporting,Service Type,Business credit reporting services
+561491,Repossession Services,56149103,Vehicle Repossession Services,Asset Type,Auto and vehicle recovery services
+561491,Repossession Services,56149104,Equipment Repossession,Asset Type,Commercial equipment recovery
+561492,Court Reporting and Stenotype Services,56149203,Legal Deposition Services,Service Type,Court deposition and transcript services
+561492,Court Reporting and Stenotype Services,56149204,Real-Time Court Reporting,Technology,Real-time stenography and captioning
+561591,Convention and Visitors Bureaus,56159103,Destination Marketing Organizations,Service Type,Tourism promotion and destination marketing
+561591,Convention and Visitors Bureaus,56159104,Convention Sales Services,Service Type,Convention and meeting attraction services
+561599,All Other Travel Arrangement and Reservation Services,56159904,Corporate Travel Management,Customer Segment,Business travel booking and management
+561611,Investigation Services,56161104,Corporate Investigation Services,Service Type,Business and corporate investigations
+561613,Armored Car Services,56161303,Cash-in-Transit Services,Service Type,Secure money transport and handling
+561613,Armored Car Services,56161304,ATM Services and Cash Management,Service Type,ATM servicing and cash logistics
+561622,Locksmiths,56162204,Automotive Locksmith Services,Service Type,Vehicle lock and key services
+561740,Carpet and Upholstery Cleaning Services,56174004,Commercial Carpet Cleaning,Customer Segment,Office and commercial carpet cleaning
+561910,Packaging and Labeling Services,56191004,Contract Packaging Services,Service Type,Third-party product packaging and assembly
+561920,Convention and Trade Show Organizers,56192004,Virtual Event Management,Service Type,Virtual and hybrid event production
+562112,Hazardous Waste Collection,56211204,Medical Waste Collection,Waste Type,Infectious and medical waste collection
+562119,Other Waste Collection,56211904,Electronic Waste Collection,Waste Type,E-waste and electronics recycling collection
+562211,Hazardous Waste Treatment and Disposal,56221104,Hazardous Waste Incineration,Process Type,Hazardous waste thermal treatment
+562212,Solid Waste Landfills,56221203,Sanitary Landfill Operations,Landfill Type,Municipal solid waste landfills
+562212,Solid Waste Landfills,56221204,Construction Debris Landfills,Waste Type,C&D waste disposal facilities
+562213,Solid Waste Combustors and Incinerators,56221303,Waste-to-Energy Facilities,Technology,Energy recovery waste incineration
+562213,Solid Waste Combustors and Incinerators,56221304,Medical Waste Incinerators,Waste Type,Medical and infectious waste treatment
+562219,Other Nonhazardous Waste Treatment and Disposal,56221903,Composting Facilities,Process Type,Organic waste composting operations
+562219,Other Nonhazardous Waste Treatment and Disposal,56221904,Transfer Station Operations,Facility Type,Waste transfer and sorting facilities
+562991,Septic Tank and Related Services,56299103,Septic System Installation,Service Type,Septic tank and system installation
+562991,Septic Tank and Related Services,56299104,Portable Toilet Services,Service Type,Portable restroom rental and servicing
+562998,All Other Miscellaneous Waste Management Services,56299804,Industrial Cleaning Services,Service Type,Industrial facility and equipment cleaning
+721120,Casino Hotels,72112004,Casino Resort Hotels,Facility Type,Integrated casino resort and hotel complexes
+721191,Bed-and-Breakfast Inns,72119103,Historic Bed and Breakfast,Property Type,Historic property B&B accommodations
+721191,Bed-and-Breakfast Inns,72119104,Boutique Bed and Breakfast,Property Type,Upscale boutique B&B establishments
+721199,All Other Traveler Accommodation,72119904,Vacation Rental Properties,Accommodation Type,Short-term vacation rental homes
+721211,RV (Recreational Vehicle) Parks and Campgrounds,72121104,RV Resort Parks,Facility Type,Full-service RV resort facilities
+721310,Rooming and Boarding Houses,72131003,Student Housing and Dormitories,Resident Type,Student boarding and rooming houses
+721310,Rooming and Boarding Houses,72131004,Worker Dormitories,Resident Type,Temporary worker housing facilities
+722330,Mobile Food Services,72233004,Catering Trucks and Mobile Caterers,Service Type,Mobile catering and food service vehicles
+722514,Cafeterias Grill Buffets and Buffets,72251403,All-You-Can-Eat Buffet Restaurants,Service Style,Buffet-style dining restaurants
+722514,Cafeterias Grill Buffets and Buffets,72251404,Institutional Cafeterias,Customer Segment,Corporate and institutional cafeterias
+237210,Land Subdivision,23721004,Residential Land Development,Development Type,Residential subdivision and lot development
+238110,Poured Concrete Foundation and Structure Contractors,23811004,Residential Foundation Contractors,Customer Segment,Residential concrete foundation work
+238120,Structural Steel and Precast Concrete Contractors,23812003,Structural Steel Erection,Service Type,Steel frame erection and installation
+238120,Structural Steel and Precast Concrete Contractors,23812004,Precast Concrete Installation,Service Type,Precast concrete component installation
+238130,Framing Contractors,23813003,Residential Framing Contractors,Building Type,Residential wood frame construction
+238130,Framing Contractors,23813004,Commercial Framing Contractors,Building Type,Commercial building framing
+238140,Masonry Contractors,23814004,Brick and Block Masonry,Material Type,Brick and concrete block masonry work
+238150,Glass and Glazing Contractors,23815004,Curtain Wall Installation,Service Type,Commercial curtain wall and glazing systems
+238170,Siding Contractors,23817004,Vinyl Siding Installation,Material Type,Vinyl siding contractors
+238190,Other Foundation Structure and Building Exterior Contractors,23819004,Waterproofing Contractors,Service Type,Building waterproofing and dampproofing
+238290,Other Building Equipment Contractors,23829004,Fire Protection System Contractors,System Type,Fire sprinkler and suppression system installation
+238310,Drywall and Insulation Contractors,23831004,Acoustical Ceiling Contractors,Service Type,Suspended ceiling and acoustical installation
+238320,Painting and Wall Covering Contractors,23832004,Industrial Painting Contractors,Customer Segment,Industrial and commercial painting services
+238340,Tile and Terrazzo Contractors,23834004,Ceramic Tile Installation,Material Type,Ceramic and porcelain tile contractors
+238350,Finish Carpentry Contractors,23835004,Cabinet Installation Contractors,Service Type,Custom cabinet installation and trim work
+238390,Other Building Finishing Contractors,23839004,Epoxy and Resinous Flooring,Service Type,Industrial floor coating contractors
+238390,Other Building Finishing Contractors,23839005,Countertop Installation Contractors,Service Type,Kitchen and bath countertop installation
+212210,Iron Ore Mining,21221004,Taconite Mining,Ore Type,Low-grade iron ore taconite mining
+212312,Crushed and Broken Limestone Mining and Quarrying,21231204,Agricultural Limestone Quarrying,End Use,Limestone for agricultural lime production
+212313,Crushed and Broken Granite Mining and Quarrying,21231303,Dimension Granite Quarrying,Product Type,Quarrying of dimension granite blocks
+212313,Crushed and Broken Granite Mining and Quarrying,21231304,Crushed Granite for Construction,Product Type,Crushed granite aggregate production
+212319,Other Crushed and Broken Stone Mining and Quarrying,21231904,Basalt and Traprock Quarrying,Stone Type,Basalt and traprock aggregate quarrying
+212321,Construction Sand and Gravel Mining,21232104,Concrete Sand and Gravel Mining,End Use,Sand and gravel for concrete production
+212322,Industrial Sand Mining,21232204,Hydraulic Fracturing Sand Mining,End Use,Frac sand for oil and gas operations
+213113,Support Activities for Coal Mining,21311303,Coal Mine Dewatering Services,Service Type,Mine water pumping and management
+213113,Support Activities for Coal Mining,21311304,Coal Mine Reclamation Services,Service Type,Mine site reclamation and restoration
+213114,Support Activities for Metal Mining,21311403,Mine Exploration Drilling,Service Type,Mineral exploration and core drilling
+213114,Support Activities for Metal Mining,21311404,Mine Equipment Maintenance,Service Type,Mining equipment service and repair
+213115,Support Activities for Nonmetallic Minerals (except Fuels) Mining,21311503,Quarry Drilling Services,Service Type,Quarry drilling and blasting services
+213115,Support Activities for Nonmetallic Minerals (except Fuels) Mining,21311504,Aggregate Processing Services,Service Type,Crushing and screening services
+711120,Dance Companies,71112004,Contemporary Dance Companies,Dance Style,Contemporary and modern dance troupes
+711212,Racetracks,71121204,Motorsports Racetracks,Track Type,Auto racing and motorsports facilities
+711310,Promoters of Performing Arts Sports and Similar Events with Facilities,71131004,Concert Venue Promoters,Event Type,Music venue and concert promotion
+711320,Promoters of Performing Arts Sports and Similar Events without Facilities,71132004,Sports Event Promoters,Event Type,Sports competition and tournament promotion
+712120,Historical Sites,71212004,Living History Museums,Museum Type,Interactive historical interpretation sites
+712190,Nature Parks and Other Similar Institutions,71219004,Wildlife Sanctuaries,Institution Type,Wildlife refuge and sanctuary operations
+713120,Amusement Arcades,71312003,Video Game Arcades,Format,Video game and entertainment arcades
+713120,Amusement Arcades,71312004,Family Entertainment Centers,Format,Multi-attraction family entertainment venues
+713920,Skiing Facilities,71392003,Ski Resort Operations,Facility Type,Downhill ski resort and mountain operations
+713920,Skiing Facilities,71392004,Cross-Country Ski Centers,Facility Type,Nordic and cross-country ski facilities
+713930,Marinas,71393003,Recreational Marinas,Service Type,Recreational boat docking and marina services
+713930,Marinas,71393004,Full-Service Marinas,Service Type,Full-service marina with repair and storage
+713950,Bowling Centers,71395003,Traditional Bowling Alleys,Format,Standard bowling center operations
+713950,Bowling Centers,71395004,Boutique Bowling Lounges,Format,Upscale bowling and entertainment venues
+512210,Record Production,51221004,Independent Record Production,Business Model,Independent music recording studios
+512220,Integrated Record Production/Distribution,51222003,Major Record Label Operations,Business Model,Integrated major label production and distribution
+512220,Integrated Record Production/Distribution,51222004,Independent Label Distribution,Business Model,Indie label with distribution network
+512230,Music Publishers,51223004,Digital Music Publishing,Distribution Channel,Digital rights and online music publishing
+512250,Other Sound Recording Industries,51225004,Audio Post-Production Services,Service Type,Audio mixing and mastering services
+515111,Radio Networks,51511104,National Radio Networks,Network Scope,National radio network programming
+517121,Telecommunications Resellers,51712104,Mobile Virtual Network Operators,Service Type,MVNO wireless service resellers
+517311,Wired Telecommunications,51731103,Fiber Optic Network Carriers,Technology,Fiber-to-premises broadband providers
+517311,Wired Telecommunications,51731104,Cable Broadband Providers,Technology,Cable modem internet service providers
+517810,All Other Telecommunications,51781004,Satellite Communications Services,Technology,Satellite-based telecommunications
+517911,Telecommunications Resellers,51791102,Business Telecommunications Resellers,Customer Segment,Enterprise telecom reseller services
+517911,Telecommunications Resellers,51791103,Residential Telecom Resellers,Customer Segment,Consumer telecommunications resellers
+517911,Telecommunications Resellers,51791104,VoIP Service Resellers,Technology,Voice over IP resale services
+517919,All Other Telecommunications,51791902,Private Network Operators,Service Type,Private telecommunications network services
+517919,All Other Telecommunications,51791903,Teleconferencing Services,Service Type,Audio and video conferencing providers
+517919,All Other Telecommunications,51791904,Emergency Communications Services,Service Type,Emergency alert and notification systems
+519110,News Syndicates,51911004,Digital News Wire Services,Distribution Channel,Online news syndication and wire services
+519190,All Other Information Services,51919004,Internet Archive Services,Service Type,Digital archiving and preservation services
+522120,Savings Institutions,52212004,Federal Savings Banks,Institution Type,Federally chartered savings banks
+522180,Savings Institutions and Other Depository Credit Intermediation,52218003,Industrial Banks,Institution Type,Industrial loan and thrift companies
+522180,Savings Institutions and Other Depository Credit Intermediation,52218004,Morris Plan Banks,Institution Type,Consumer lending institutions
+522190,Other Depository Credit Intermediation,52219003,Private Banking Services,Service Type,High-net-worth private banking
+522190,Other Depository Credit Intermediation,52219004,Wholesale Banking Operations,Customer Segment,Institutional wholesale banking
+522294,Secondary Market Financing,52229404,Mortgage-Backed Securities Issuers,Product Type,MBS and securitization operations
+522299,Other Nondepository Credit Intermediation,52229903,Factoring Services,Service Type,Invoice factoring and receivables financing
+522299,Other Nondepository Credit Intermediation,52229904,Equipment Lease Financing,Product Type,Equipment leasing and finance companies
+523140,Commodity Contracts Brokerage,52314004,Futures Commission Merchants,Service Type,Commodities futures brokerage
+523150,Investment Banking and Securities Intermediation,52315004,Mergers and Acquisitions Advisory,Service Type,M&A advisory and corporate finance
+523910,Miscellaneous Intermediation,52391004,Cryptocurrency Exchanges,Service Type,Digital asset trading platforms
+523930,Investment Advice,52393004,Robo-Advisor Platforms,Service Model,Automated investment advisory services
+524127,Direct Title Insurance Carriers,52412703,Residential Title Insurance,Market Segment,Home title insurance underwriters
+524127,Direct Title Insurance Carriers,52412704,Commercial Title Insurance,Market Segment,Commercial property title insurance
+524130,Reinsurance Carriers,52413004,Property and Casualty Reinsurance,Coverage Type,P&C reinsurance underwriters
+525100,Insurance and Employee Benefit Funds,52510004,Self-Insured Health Plans,Fund Type,Self-insured employee health benefit funds
+621310,Offices of Chiropractors,62131004,Sports Chiropractic Practices,Specialty,Sports injury and performance chiropractic
+621320,Offices of Optometrists,62132004,Pediatric Optometry Practices,Specialty,Children's vision care practices
+621410,Family Planning Centers,62141004,Reproductive Health Clinics,Service Focus,Comprehensive reproductive healthcare
+621491,HMO Medical Centers,62149103,Multi-Specialty HMO Centers,Service Model,Integrated multi-specialty HMO facilities
+621491,HMO Medical Centers,62149104,Primary Care HMO Centers,Service Model,Primary care focused HMO clinics
+621492,Kidney Dialysis Centers,62149204,Home Dialysis Services,Service Model,Home-based dialysis treatment programs
+623210,Residential Intellectual and Developmental Disability Facilities,62321004,Community Living Facilities,Facility Type,Community-based residential care homes
+623311,Continuing Care Retirement Communities,62331103,Luxury CCRC Facilities,Market Segment,High-end continuing care retirement communities
+623311,Continuing Care Retirement Communities,62331104,Faith-Based CCRCs,Organization Type,Religious affiliated retirement communities
+624210,Community Food Services,62421004,Mobile Food Pantry Programs,Service Model,Mobile food distribution services
+624220,Community Housing Services,62422003,Transitional Housing Programs,Service Type,Temporary transitional housing assistance
+624220,Community Housing Services,62422004,Homeless Shelter Services,Service Type,Emergency homeless shelter operations
+624230,Emergency and Other Relief Services,62423003,Disaster Relief Services,Service Type,Emergency disaster response and relief
+624230,Emergency and Other Relief Services,62423004,Crisis Intervention Centers,Service Type,Crisis hotline and intervention services
+624310,Vocational Rehabilitation Services,62431004,Supported Employment Services,Service Model,Job coaching and supported work programs
+921120,Legislative Bodies,92112004,City and Town Councils,Government Level,Municipal legislative bodies
+921140,Executive and Legislative Offices Combined,92114003,County Government Administration,Government Level,County executive and legislative offices
+921140,Executive and Legislative Offices Combined,92114004,Township Government Administration,Government Level,Township governing bodies
+921150,American Indian and Alaska Native Tribal Governments,92115003,Tribal Council Government,Government Type,Tribal legislative and executive governance
+921150,American Indian and Alaska Native Tribal Governments,92115004,Tribal Gaming Regulation,Function,Tribal gaming oversight and regulation
+922150,Parole Offices and Probation Offices,92215003,Adult Probation Services,Service Type,Adult offender probation supervision
+922150,Parole Offices and Probation Offices,92215004,Juvenile Probation Services,Service Type,Juvenile offender supervision
+923140,Administration of Veterans Affairs,92314003,Veterans Benefits Administration,Function,VA benefits processing and administration
+923140,Administration of Veterans Affairs,92314004,Veterans Healthcare Administration,Function,VA healthcare system administration
+925110,Administration of Housing Programs,92511004,Public Housing Authorities,Program Type,Public housing management agencies
+925120,Administration of Urban Planning and Community and Rural Development,92512004,Economic Development Agencies,Function,Economic development program administration
+926130,Regulation and Administration of Communications Electric Gas and Other Utilities,92613004,Public Utility Commissions,Function,State utility regulatory agencies
+926140,Regulation of Agricultural Marketing and Commodities,92614004,Agricultural Inspection Services,Function,Crop and livestock inspection programs
+927110,Space Research and Technology,92711003,Planetary Science Programs,Program Type,Planetary exploration and research
+927110,Space Research and Technology,92711004,Earth Science Satellites,Program Type,Earth observation and climate monitoring
+111191,Oilseed and Grain Combination Farming,11119104,Diversified Grain and Oilseed Operations,Farm Type,Multi-crop grain and oilseed farms
+111336,Fruit and Tree Nut Combination Farming,11133603,Mixed Orchard Operations,Farm Type,Diversified fruit and nut orchards
+111336,Fruit and Tree Nut Combination Farming,11133604,Specialty Fruit Combinations,Crop Mix,Mixed specialty fruit production
+111930,Sugarcane Farming,11193004,Organic Sugarcane Farming,Production Method,Organic sugarcane cultivation
+111991,Sugar Beet Farming,11199103,Commercial Sugar Beet Production,Scale,Large-scale sugar beet farming
+111991,Sugar Beet Farming,11199104,Seed Sugar Beet Production,Product Type,Sugar beet seed production
+112112,Cattle Feedlots,11211204,Cattle Finishing Operations,Operation Type,Final finishing feedlot operations
+112130,Dual-Purpose Cattle Ranching and Farming,11213002,Combined Beef and Dairy Operations,Production Type,Dual-purpose beef and milk cattle
+112130,Dual-Purpose Cattle Ranching and Farming,11213003,Heritage Breed Dual-Purpose,Breed Type,Traditional dual-purpose cattle breeds
+112130,Dual-Purpose Cattle Ranching and Farming,11213004,Pasture-Based Dual-Purpose,Production Method,Grass-fed dual-purpose operations
+112519,Other Aquaculture,11251904,Ornamental Fish Farming,Product Type,Aquarium and ornamental fish production
+114119,Other Marine Fishing,11411903,Shellfish Harvesting,Product Type,Commercial shellfish fishing
+114119,Other Marine Fishing,11411904,Pelagic Fish Harvesting,Product Type,Open ocean pelagic fishing
+114210,Hunting and Trapping,11421004,Wildlife Management Services,Service Type,Game management and population control
+115111,Cotton Ginning,11511103,Organic Cotton Ginning,Product Type,Processing of organic cotton
+115111,Cotton Ginning,11511104,Contract Cotton Ginning Services,Service Model,Third-party cotton ginning operations
+115112,Soil Preparation Planting and Cultivating,11511204,Precision Agriculture Services,Technology,GPS and technology-based farming services
+115113,Crop Harvesting Primarily by Machine,11511304,Custom Combine Harvesting,Service Type,Contract grain harvesting services
+115114,Postharvest Crop Activities (except Cotton Ginning),11511404,Crop Drying and Storage Services,Service Type,Post-harvest grain handling
+115115,Farm Labor Contractors and Crew Leaders,11511503,Seasonal Agricultural Labor,Labor Type,Seasonal farm worker contracting
+115115,Farm Labor Contractors and Crew Leaders,11511504,Specialty Crop Labor Contractors,Crop Focus,Labor for high-value specialty crops
+115116,Farm Management Services,11511604,Agricultural Consulting Services,Service Type,Farm business management consulting
+532112,Passenger Car Leasing,53211204,Luxury Car Leasing,Vehicle Segment,Premium and luxury vehicle leasing
+532281,Formal Wear and Costume Rental,53228104,Wedding and Formal Event Rentals,Event Type,Formal wear for weddings and events
+532282,Video Tape and Disc Rental,53228203,DVD Rental Kiosks,Distribution Channel,Automated DVD rental machines
+532282,Video Tape and Disc Rental,53228204,Video Game Rental Services,Product Type,Video game disc rental
+532283,Home Health Equipment Rental,53228303,Medical Equipment Rental,Equipment Type,Home medical device rental services
+532283,Home Health Equipment Rental,53228304,Mobility Aid Rental,Equipment Type,Wheelchair and walker rental
+532289,All Other Consumer Goods Rental,53228904,Party and Event Equipment Rental,Equipment Type,Tables chairs and party supply rental
+532310,General Rental Centers,53231003,Tool and Equipment Rental Centers,Equipment Type,Consumer tool rental operations
+532310,General Rental Centers,53231004,Homeowner Equipment Rental,Customer Segment,DIY and homeowner equipment rental
+532420,Office Machinery and Equipment Rental and Leasing,53242004,Copier and Printer Leasing,Equipment Type,Office copy and print equipment leasing
+423110,Automobile and Other Motor Vehicle Merchant Wholesalers,42311006,Electric Vehicle Wholesalers,Vehicle Type,Wholesalers of battery electric vehicles
+423110,Automobile and Other Motor Vehicle Merchant Wholesalers,42311007,Used Car Wholesalers,Vehicle Condition,Wholesalers of pre-owned vehicles
+423120,Motor Vehicle Supplies and New Parts Merchant Wholesalers,42312005,Automotive Electronics Wholesalers,Product Type,Wholesalers of vehicle electronics and accessories
+423120,Motor Vehicle Supplies and New Parts Merchant Wholesalers,42312006,Performance Parts Wholesalers,Product Type,Wholesalers of aftermarket performance parts
+423210,Furniture Merchant Wholesalers,42321005,Office Furniture Wholesalers,Product Type,Wholesalers of commercial office furniture
+423210,Furniture Merchant Wholesalers,42321006,Outdoor Furniture Wholesalers,Product Type,Wholesalers of patio and outdoor furniture
+423220,Home Furnishing Merchant Wholesalers,42322005,Window Treatment Wholesalers,Product Type,Wholesalers of blinds curtains and shades
+423220,Home Furnishing Merchant Wholesalers,42322006,Home Decor Wholesalers,Product Type,Wholesalers of decorative home accessories
+423310,Lumber Plywood Millwork and Wood Panel Merchant Wholesalers,42331005,Engineered Wood Wholesalers,Product Type,Wholesalers of engineered lumber products
+423310,Lumber Plywood Millwork and Wood Panel Merchant Wholesalers,42331006,Hardwood Lumber Wholesalers,Product Type,Wholesalers of hardwood and specialty lumber
+423410,Photographic Equipment and Supplies Merchant Wholesalers,42341005,Professional Camera Equipment Wholesalers,Customer Segment,Wholesalers serving professional photographers
+423410,Photographic Equipment and Supplies Merchant Wholesalers,42341006,Digital Imaging Equipment Wholesalers,Technology,Wholesalers of digital photography equipment
+423430,Computer and Computer Peripheral Equipment and Software Merchant Wholesalers,42343006,Cloud Services Wholesalers,Product Type,Wholesale distributors of cloud software
+423430,Computer and Computer Peripheral Equipment and Software Merchant Wholesalers,42343007,Gaming Hardware Wholesalers,Product Type,Wholesalers of gaming computers and peripherals
+423610,Electrical Apparatus and Equipment Wiring Supplies and Related Equipment Merchant Wholesalers,42361005,Solar Equipment Wholesalers,Product Type,Wholesalers of solar panels and components
+423610,Electrical Apparatus and Equipment Wiring Supplies and Related Equipment Merchant Wholesalers,42361006,LED Lighting Wholesalers,Product Type,Wholesalers of LED lighting products
+423710,Hardware Merchant Wholesalers,42371005,Power Tool Wholesalers,Product Type,Wholesalers of electric and pneumatic tools
+423710,Hardware Merchant Wholesalers,42371006,Fastener Wholesalers,Product Type,Wholesalers of screws bolts and fasteners
+423720,Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers,42372005,Tankless Water Heater Wholesalers,Product Type,Wholesalers of on-demand water heating systems
+423720,Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers,42372006,Plumbing Fixture Wholesalers,Product Type,Wholesalers of faucets and plumbing fixtures
+423810,Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers,42381005,Excavation Equipment Wholesalers,Equipment Type,Wholesalers of excavators and earthmoving equipment
+423810,Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers,42381006,Compact Construction Equipment Wholesalers,Equipment Type,Wholesalers of skid steers and compact machinery
+423820,Farm and Garden Machinery and Equipment Merchant Wholesalers,42382005,Precision Agriculture Equipment Wholesalers,Technology,Wholesalers of GPS and precision farming technology
+423820,Farm and Garden Machinery and Equipment Merchant Wholesalers,42382006,Lawn Care Equipment Wholesalers,Product Type,Wholesalers of commercial lawn and landscape equipment
+423850,Service Establishment Equipment and Supplies Merchant Wholesalers,42385005,Restaurant Equipment Wholesalers,Customer Segment,Wholesalers of commercial kitchen equipment
+423850,Service Establishment Equipment and Supplies Merchant Wholesalers,42385006,Janitorial Supply Wholesalers,Product Type,Wholesalers of cleaning equipment and supplies
+424210,Drugs and Druggists' Sundries Merchant Wholesalers,42421005,Specialty Pharmaceutical Wholesalers,Product Type,Wholesalers of specialty and biologic drugs
+424210,Drugs and Druggists' Sundries Merchant Wholesalers,42421006,OTC Medicine Wholesalers,Product Type,Wholesalers of over-the-counter medications
+424310,Piece Goods Notions and Other Dry Goods Merchant Wholesalers,42431005,Technical Textile Wholesalers,Product Type,Wholesalers of industrial and technical fabrics
+424310,Piece Goods Notions and Other Dry Goods Merchant Wholesalers,42431006,Fashion Fabric Wholesalers,Product Type,Wholesalers of apparel and fashion textiles
+424410,General Line Grocery Merchant Wholesalers,42441005,Natural and Organic Food Wholesalers,Product Focus,Wholesalers of natural and organic groceries
+424410,General Line Grocery Merchant Wholesalers,42441006,Ethnic Food Wholesalers,Product Focus,Wholesalers of international and ethnic foods
+424430,Dairy Product (except Dried or Canned) Merchant Wholesalers,42443005,Specialty Cheese Wholesalers,Product Type,Wholesalers of artisan and specialty cheeses
+424430,Dairy Product (except Dried or Canned) Merchant Wholesalers,42443006,Yogurt and Cultured Product Wholesalers,Product Type,Wholesalers of yogurt and fermented dairy
+424450,Confectionery Merchant Wholesalers,42445005,Chocolate Wholesalers,Product Type,Wholesalers of chocolate and cocoa products
+424450,Confectionery Merchant Wholesalers,42445006,Candy and Gum Wholesalers,Product Type,Wholesalers of candy gum and confections
+424460,Fish and Seafood Merchant Wholesalers,42446005,Fresh Fish Wholesalers,Product Type,Wholesalers of fresh seafood and fish
+424460,Fish and Seafood Merchant Wholesalers,42446006,Frozen Seafood Wholesalers,Product Type,Wholesalers of frozen fish and seafood products
+424480,Fresh Fruit and Vegetable Merchant Wholesalers,42448005,Organic Produce Wholesalers,Product Focus,Wholesalers of organic fruits and vegetables
+424480,Fresh Fruit and Vegetable Merchant Wholesalers,42448006,Tropical Fruit Wholesalers,Product Type,Wholesalers of tropical and exotic produce
+424490,Other Grocery and Related Products Merchant Wholesalers,42449005,Snack Food Wholesalers,Product Type,Wholesalers of chips crackers and snacks
+424490,Other Grocery and Related Products Merchant Wholesalers,42449006,Beverage Wholesalers,Product Type,Wholesalers of soft drinks and beverages
+424510,Grain and Field Bean Merchant Wholesalers,42451005,Feed Grain Wholesalers,Product Type,Wholesalers of corn and feed grains
+424510,Grain and Field Bean Merchant Wholesalers,42451006,Specialty Grain Wholesalers,Product Type,Wholesalers of quinoa ancient grains and specialty crops
+424520,Livestock Merchant Wholesalers,42452005,Cattle Wholesalers,Animal Type,Wholesalers of beef and dairy cattle
+424520,Livestock Merchant Wholesalers,42452006,Swine Wholesalers,Animal Type,Wholesalers of hogs and pigs
+424610,Plastics Materials and Basic Forms and Shapes Merchant Wholesalers,42461005,Recycled Plastic Wholesalers,Product Type,Wholesalers of recycled and reclaimed plastics
+424610,Plastics Materials and Basic Forms and Shapes Merchant Wholesalers,42461006,Engineering Plastics Wholesalers,Product Type,Wholesalers of high-performance plastic resins
+424690,Other Chemical and Allied Products Merchant Wholesalers,42469005,Industrial Coatings Wholesalers,Product Type,Wholesalers of industrial paints and coatings
+424690,Other Chemical and Allied Products Merchant Wholesalers,42469006,Agricultural Chemical Wholesalers,Product Type,Wholesalers of fertilizers and ag chemicals
+424710,Petroleum Bulk Stations and Terminals,42471005,Biofuel Wholesalers,Product Type,Wholesalers of biodiesel and renewable fuels
+424710,Petroleum Bulk Stations and Terminals,42471006,Aviation Fuel Wholesalers,Product Type,Wholesalers of jet fuel and aviation fuels
+424720,Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals),42472005,Lubricant Wholesalers,Product Type,Wholesalers of motor oil and lubricants
+424720,Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals),42472006,Fuel Oil Wholesalers,Product Type,Wholesalers of heating oil and fuel oil
+424810,Beer and Ale Merchant Wholesalers,42481005,Craft Beer Wholesalers,Product Focus,Wholesalers of craft and microbrewery beers
+424810,Beer and Ale Merchant Wholesalers,42481006,Imported Beer Wholesalers,Product Focus,Wholesalers of imported and international beers
+424820,Wine and Distilled Alcoholic Beverage Merchant Wholesalers,42482005,Fine Wine Wholesalers,Product Focus,Wholesalers of premium and fine wines
+424820,Wine and Distilled Alcoholic Beverage Merchant Wholesalers,42482006,Spirits Wholesalers,Product Type,Wholesalers of distilled spirits and liquor
+424910,Farm Supplies Merchant Wholesalers,42491005,Livestock Feed Wholesalers,Product Type,Wholesalers of animal feed and supplements
+424910,Farm Supplies Merchant Wholesalers,42491006,Farm Equipment Parts Wholesalers,Product Type,Wholesalers of tractor and equipment parts
+424920,Book Periodical and Newspaper Merchant Wholesalers,42492005,Academic Book Wholesalers,Product Focus,Wholesalers of textbooks and educational materials
+424920,Book Periodical and Newspaper Merchant Wholesalers,42492006,Magazine Distribution Wholesalers,Product Type,Wholesalers of periodicals and magazines
+424930,Flower Nursery Stock and Florists' Supplies Merchant Wholesalers,42493005,Cut Flower Wholesalers,Product Type,Wholesalers of fresh cut flowers
+424930,Flower Nursery Stock and Florists' Supplies Merchant Wholesalers,42493006,Nursery Plant Wholesalers,Product Type,Wholesalers of potted plants and nursery stock
+424950,Paint Varnish and Supplies Merchant Wholesalers,42495005,Automotive Paint Wholesalers,Product Focus,Wholesalers of automotive refinish paints
+424950,Paint Varnish and Supplies Merchant Wholesalers,42495006,Industrial Coating Wholesalers,Product Focus,Wholesalers of industrial paint and coatings
+424990,Other Miscellaneous Nondurable Goods Merchant Wholesalers,42499005,Packaging Materials Wholesalers,Product Type,Wholesalers of boxes and packaging supplies
+424990,Other Miscellaneous Nondurable Goods Merchant Wholesalers,42499006,Textile Products Wholesalers,Product Type,Wholesalers of linens and textile goods
+541110,Offices of Lawyers,54111006,Corporate Law Firms,Practice Area,Business and corporate legal services
+541110,Offices of Lawyers,54111007,Personal Injury Law Firms,Practice Area,Plaintiff personal injury practices
+541110,Offices of Lawyers,54111008,Estate Planning Attorneys,Practice Area,Wills trusts and estate law practices
+541191,Title Abstract and Settlement Offices,54119104,Title Search Companies,Service Type,Property title research and examination
+541191,Title Abstract and Settlement Offices,54119105,Real Estate Closing Services,Service Type,Real estate transaction settlement services
+541211,Offices of Certified Public Accountants,54121106,Forensic Accounting Firms,Service Type,Fraud investigation and litigation support
+541211,Offices of Certified Public Accountants,54121107,Tax Preparation Services,Service Type,Individual and business tax preparation
+541219,Other Accounting Services,54121905,Bookkeeping Services,Service Type,Small business bookkeeping and accounting
+541219,Other Accounting Services,54121906,Payroll Processing Services,Service Type,Payroll administration and tax filing
+541310,Architectural Services,54131006,Sustainable Architecture Firms,Specialty,Green building and LEED design
+541310,Architectural Services,54131007,Historic Preservation Architecture,Specialty,Restoration and adaptive reuse design
+541330,Engineering Services,54133006,Environmental Engineering Firms,Discipline,Environmental and remediation engineering
+541330,Engineering Services,54133007,Geotechnical Engineering,Discipline,Soil and foundation engineering services
+541380,Testing Laboratories,54138006,Materials Testing Labs,Testing Type,Construction materials testing and analysis
+541380,Testing Laboratories,54138007,Environmental Testing Labs,Testing Type,Water air and soil testing services
+541511,Custom Computer Programming Services,54151106,Mobile App Development,Service Type,iOS and Android application development
+541511,Custom Computer Programming Services,54151107,Web Application Development,Service Type,Custom web software development
+541512,Computer Systems Design Services,54151206,Cloud Infrastructure Design,Service Type,Cloud architecture and migration services
+541512,Computer Systems Design Services,54151207,Cybersecurity System Design,Service Type,Security architecture and implementation
