@@ -905,37 +905,32 @@ class NAICS10DigitGenerator:
             'site preparation', 'land subdivision', 'grading', 'excavation'
         ])
 
-        if is_residential and not is_specialty:
+        # Check industrial/commercial/heavy first, then residential to avoid 'warehouse' containing 'house'
+        if is_industrial:
             return [
                 {
                     'NAICS_10_Digit': naics_8 + '01',
-                    'NAICS_10_Title': f"{title_8} - Small Builder (1-10 homes/year)",
-                    'Differentiation_Criteria_10': 'Production Volume',
-                    'Description_10': f"{desc_8} Small custom home builders producing 1-10 homes annually."
+                    'NAICS_10_Title': f"{title_8} - Small Projects (<$10M)",
+                    'Differentiation_Criteria_10': 'Project Size',
+                    'Description_10': f"{desc_8} Small industrial construction projects under $10 million."
                 },
                 {
                     'NAICS_10_Digit': naics_8 + '02',
-                    'NAICS_10_Title': f"{title_8} - Medium Builder (10-100 homes/year)",
-                    'Differentiation_Criteria_10': 'Production Volume',
-                    'Description_10': f"{desc_8} Medium builders producing 10-100 homes annually."
+                    'NAICS_10_Title': f"{title_8} - Medium Projects ($10M-$100M)",
+                    'Differentiation_Criteria_10': 'Project Size',
+                    'Description_10': f"{desc_8} Medium industrial projects $10-100 million."
                 },
                 {
                     'NAICS_10_Digit': naics_8 + '03',
-                    'NAICS_10_Title': f"{title_8} - Large Production Builder (100+ homes/year)",
-                    'Differentiation_Criteria_10': 'Production Volume',
-                    'Description_10': f"{desc_8} Large production builders with over 100 homes annually."
+                    'NAICS_10_Title': f"{title_8} - Large Projects ($100M+)",
+                    'Differentiation_Criteria_10': 'Project Size',
+                    'Description_10': f"{desc_8} Major industrial construction over $100 million."
                 },
                 {
                     'NAICS_10_Digit': naics_8 + '04',
-                    'NAICS_10_Title': f"{title_8} - Custom/Luxury Builder",
-                    'Differentiation_Criteria_10': 'Market Segment',
-                    'Description_10': f"{desc_8} Custom and luxury home builders serving premium market."
-                },
-                {
-                    'NAICS_10_Digit': naics_8 + '05',
-                    'NAICS_10_Title': f"{title_8} - Green/Sustainable Building",
+                    'NAICS_10_Title': f"{title_8} - Process/Specialty Construction",
                     'Differentiation_Criteria_10': 'Specialization',
-                    'Description_10': f"{desc_8} Builders specializing in green, sustainable, or net-zero homes."
+                    'Description_10': f"{desc_8} Specialized process and technical industrial construction."
                 }
             ]
         elif is_commercial:
@@ -1004,31 +999,37 @@ class NAICS10DigitGenerator:
                     'Description_10': f"{desc_8} Contractors focused on commercial and industrial projects."
                 }
             ]
-        elif is_industrial:
+        elif is_residential and not is_specialty:
             return [
                 {
                     'NAICS_10_Digit': naics_8 + '01',
-                    'NAICS_10_Title': f"{title_8} - Small Projects (<$10M)",
-                    'Differentiation_Criteria_10': 'Project Size',
-                    'Description_10': f"{desc_8} Small industrial construction projects under $10 million."
+                    'NAICS_10_Title': f"{title_8} - Small Builder (1-10 homes/year)",
+                    'Differentiation_Criteria_10': 'Production Volume',
+                    'Description_10': f"{desc_8} Small custom home builders producing 1-10 homes annually."
                 },
                 {
                     'NAICS_10_Digit': naics_8 + '02',
-                    'NAICS_10_Title': f"{title_8} - Medium Projects ($10M-$100M)",
-                    'Differentiation_Criteria_10': 'Project Size',
-                    'Description_10': f"{desc_8} Medium industrial projects $10-100 million."
+                    'NAICS_10_Title': f"{title_8} - Medium Builder (10-100 homes/year)",
+                    'Differentiation_Criteria_10': 'Production Volume',
+                    'Description_10': f"{desc_8} Medium builders producing 10-100 homes annually."
                 },
                 {
                     'NAICS_10_Digit': naics_8 + '03',
-                    'NAICS_10_Title': f"{title_8} - Large Projects ($100M+)",
-                    'Differentiation_Criteria_10': 'Project Size',
-                    'Description_10': f"{desc_8} Major industrial construction over $100 million."
+                    'NAICS_10_Title': f"{title_8} - Large Production Builder (100+ homes/year)",
+                    'Differentiation_Criteria_10': 'Production Volume',
+                    'Description_10': f"{desc_8} Large production builders with over 100 homes annually."
                 },
                 {
                     'NAICS_10_Digit': naics_8 + '04',
-                    'NAICS_10_Title': f"{title_8} - Process/Specialty Construction",
+                    'NAICS_10_Title': f"{title_8} - Custom/Luxury Builder",
+                    'Differentiation_Criteria_10': 'Market Segment',
+                    'Description_10': f"{desc_8} Custom and luxury home builders serving premium market."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '05',
+                    'NAICS_10_Title': f"{title_8} - Green/Sustainable Building",
                     'Differentiation_Criteria_10': 'Specialization',
-                    'Description_10': f"{desc_8} Specialized process and technical industrial construction."
+                    'Description_10': f"{desc_8} Builders specializing in green, sustainable, or net-zero homes."
                 }
             ]
         elif is_heavy:
@@ -1678,34 +1679,8 @@ class NAICS10DigitGenerator:
             'library', 'archive', 'stock footage', 'rights management'
         ])
 
-        if is_publishing:
-            return [
-                {
-                    'NAICS_10_Digit': naics_8 + '01',
-                    'NAICS_10_Title': f"{title_8} - Small Independent Publisher",
-                    'Differentiation_Criteria_10': 'Company Size',
-                    'Description_10': f"{desc_8} Small independent publishing operations."
-                },
-                {
-                    'NAICS_10_Digit': naics_8 + '02',
-                    'NAICS_10_Title': f"{title_8} - Regional Publisher",
-                    'Differentiation_Criteria_10': 'Company Size',
-                    'Description_10': f"{desc_8} Regional publishers with multi-market presence."
-                },
-                {
-                    'NAICS_10_Digit': naics_8 + '03',
-                    'NAICS_10_Title': f"{title_8} - National/Major Publisher",
-                    'Differentiation_Criteria_10': 'Company Size',
-                    'Description_10': f"{desc_8} National and major publishing houses."
-                },
-                {
-                    'NAICS_10_Digit': naics_8 + '04',
-                    'NAICS_10_Title': f"{title_8} - Digital-First Publisher",
-                    'Differentiation_Criteria_10': 'Business Model',
-                    'Description_10': f"{desc_8} Digital-first and online publishing platforms."
-                }
-            ]
-        elif is_software:
+        # Check software FIRST before publishing to avoid "Software Publishers" being caught by 'publisher' keyword
+        if is_software:
             return [
                 {
                     'NAICS_10_Digit': naics_8 + '01',
@@ -1730,6 +1705,33 @@ class NAICS10DigitGenerator:
                     'NAICS_10_Title': f"{title_8} - Open Source/Community",
                     'Differentiation_Criteria_10': 'Business Model',
                     'Description_10': f"{desc_8} Open source software with community or support-based revenue."
+                }
+            ]
+        elif is_publishing:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Small Independent Publisher",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} Small independent publishing operations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Regional Publisher",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} Regional publishers with multi-market presence."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - National/Major Publisher",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} National and major publishing houses."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Digital-First Publisher",
+                    'Differentiation_Criteria_10': 'Business Model',
+                    'Description_10': f"{desc_8} Digital-first and online publishing platforms."
                 }
             ]
         elif is_motion_picture:
@@ -2998,7 +3000,8 @@ class NAICS10DigitGenerator:
         # Personal care services
         is_personal_care = any(word in title_lower for word in [
             'barber', 'beauty salon', 'hair salon', 'nail salon', 'spa',
-            'esthetician', 'cosmetology', 'manicure', 'pedicure'
+            'esthetician', 'cosmetology', 'manicure', 'pedicure', 'grooming',
+            'hair cutting', 'styling'
         ])
 
         # Funeral services
