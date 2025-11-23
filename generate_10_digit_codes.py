@@ -866,10 +866,44 @@ class NAICS10DigitGenerator:
         """Construction sector with company size and project type differentiation"""
         title_lower = title_8.lower()
 
-        is_residential = any(word in title_lower for word in ['residential', 'home', 'house', 'single-family', 'multi-family'])
-        is_commercial = any(word in title_lower for word in ['commercial', 'office', 'retail', 'industrial'])
-        is_specialty = any(word in title_lower for word in ['electrical', 'plumbing', 'hvac', 'roofing', 'concrete', 'framing', 'masonry', 'painting'])
-        is_heavy = any(word in title_lower for word in ['highway', 'bridge', 'utility', 'infrastructure', 'heavy'])
+        # Residential building construction
+        is_residential = any(word in title_lower for word in [
+            'residential', 'home', 'house', 'housing', 'single-family', 'multi-family',
+            'apartment', 'townhome', 'condominium', 'spec home', 'custom home', 'modular home',
+            'remodeling', 'remodel', 'renovation', 'restoration', 'addition', 'basement finishing'
+        ])
+
+        # Commercial and institutional construction
+        is_commercial = any(word in title_lower for word in [
+            'commercial', 'office building', 'retail center', 'hotel', 'hospitality',
+            'healthcare facility', 'hospital', 'medical', 'educational facility', 'school',
+            'religious building', 'restaurant construction', 'institutional'
+        ])
+
+        # Industrial construction
+        is_industrial = any(word in title_lower for word in [
+            'manufacturing plant', 'warehouse', 'distribution center', 'food processing plant',
+            'data center', 'cold storage', 'industrial building', 'plant construction', 'factory'
+        ])
+
+        # Specialty trade contractors
+        is_specialty = any(word in title_lower for word in [
+            'electrical', 'plumbing', 'hvac', 'heating', 'air-conditioning', 'roofing',
+            'concrete', 'framing', 'masonry', 'painting', 'drywall', 'insulation', 'siding',
+            'flooring', 'tile', 'terrazzo', 'glass', 'glazing', 'finish carpentry'
+        ])
+
+        # Heavy and civil engineering construction
+        is_heavy = any(word in title_lower for word in [
+            'highway', 'street', 'bridge', 'road', 'pipeline', 'utility', 'infrastructure',
+            'heavy', 'water main', 'sewer', 'wastewater', 'water treatment',
+            'transmission line', 'substation', 'power line', 'communication line'
+        ])
+
+        # Land subdivision and site prep
+        is_site_prep = any(word in title_lower for word in [
+            'site preparation', 'land subdivision', 'grading', 'excavation'
+        ])
 
         if is_residential and not is_specialty:
             return [
@@ -970,6 +1004,33 @@ class NAICS10DigitGenerator:
                     'Description_10': f"{desc_8} Contractors focused on commercial and industrial projects."
                 }
             ]
+        elif is_industrial:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Small Projects (<$10M)",
+                    'Differentiation_Criteria_10': 'Project Size',
+                    'Description_10': f"{desc_8} Small industrial construction projects under $10 million."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Medium Projects ($10M-$100M)",
+                    'Differentiation_Criteria_10': 'Project Size',
+                    'Description_10': f"{desc_8} Medium industrial projects $10-100 million."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Large Projects ($100M+)",
+                    'Differentiation_Criteria_10': 'Project Size',
+                    'Description_10': f"{desc_8} Major industrial construction over $100 million."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Process/Specialty Construction",
+                    'Differentiation_Criteria_10': 'Specialization',
+                    'Description_10': f"{desc_8} Specialized process and technical industrial construction."
+                }
+            ]
         elif is_heavy:
             return [
                 {
@@ -995,6 +1056,33 @@ class NAICS10DigitGenerator:
                     'NAICS_10_Title': f"{title_8} - Private Sector Projects",
                     'Differentiation_Criteria_10': 'Client Type',
                     'Description_10': f"{desc_8} Focus on private sector heavy construction."
+                }
+            ]
+        elif is_site_prep:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Small Contractor (1-5 equipment)",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} Small contractors with 1-5 pieces of equipment."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Medium Contractor (6-20 equipment)",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} Medium contractors with 6-20 pieces of equipment."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Large Contractor (21+ equipment)",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} Large contractors with over 20 pieces of equipment."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Residential Development Focus",
+                    'Differentiation_Criteria_10': 'Market Focus',
+                    'Description_10': f"{desc_8} Contractors focused on residential development projects."
                 }
             ]
         else:
@@ -1290,12 +1378,89 @@ class NAICS10DigitGenerator:
         """Transportation with fleet size and service type differentiation"""
         title_lower = title_8.lower()
 
-        is_trucking = any(word in title_lower for word in ['truck', 'freight', 'cargo'])
-        is_passenger = any(word in title_lower for word in ['passenger', 'transit', 'bus', 'taxi', 'ride'])
-        is_air = 'air' in title_lower or 'aviation' in title_lower
-        is_water = any(word in title_lower for word in ['water', 'marine', 'ship', 'vessel'])
+        # Sector 49 - Warehousing and Courier/Delivery services
+        is_courier = any(word in title_lower for word in ['courier', 'delivery', 'messenger', 'postal', 'package', 'parcel', 'express'])
+        is_warehousing = any(word in title_lower for word in ['warehouse', 'warehousing', 'storage', 'distribution center', 'fulfillment'])
 
-        if is_trucking:
+        # Sector 48 - Transportation modes
+        is_trucking = any(word in title_lower for word in ['truck', 'freight', 'cargo', 'moving', 'van line', 'hauling'])
+        is_passenger = any(word in title_lower for word in ['passenger', 'transit', 'bus', 'taxi', 'ride', 'limousine', 'shuttle', 'charter'])
+        is_air = any(word in title_lower for word in ['air', 'aviation', 'airline', 'aircraft'])
+        is_water = any(word in title_lower for word in ['water', 'marine', 'ship', 'vessel', 'ferry', 'cruise', 'barge'])
+        is_rail = any(word in title_lower for word in ['rail', 'train', 'railroad', 'locomotive'])
+        is_pipeline = 'pipeline' in title_lower
+        is_ambulance = 'ambulance' in title_lower
+
+        # Courier and express delivery (Sector 49)
+        if is_courier:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Local/Same-Day Service",
+                    'Differentiation_Criteria_10': 'Service Scope',
+                    'Description_10': f"{desc_8} Local and same-day delivery within metropolitan areas."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Regional Network",
+                    'Differentiation_Criteria_10': 'Service Scope',
+                    'Description_10': f"{desc_8} Regional delivery network covering multiple cities or states."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - National Integrated Service",
+                    'Differentiation_Criteria_10': 'Service Scope',
+                    'Description_10': f"{desc_8} National courier and delivery network with integrated logistics."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - International/Global Express",
+                    'Differentiation_Criteria_10': 'Service Scope',
+                    'Description_10': f"{desc_8} International and global express delivery services."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '05',
+                    'NAICS_10_Title': f"{title_8} - On-Demand/Gig Platform",
+                    'Differentiation_Criteria_10': 'Business Model',
+                    'Description_10': f"{desc_8} Technology-enabled on-demand delivery platforms using gig workers."
+                }
+            ]
+        # Warehousing and storage (Sector 49)
+        elif is_warehousing:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Small Facility (<50K sq ft)",
+                    'Differentiation_Criteria_10': 'Facility Size',
+                    'Description_10': f"{desc_8} Small warehouses and storage facilities under 50,000 square feet."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Medium Facility (50K-200K sq ft)",
+                    'Differentiation_Criteria_10': 'Facility Size',
+                    'Description_10': f"{desc_8} Medium distribution centers 50,000-200,000 square feet."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Large Facility (200K+ sq ft)",
+                    'Differentiation_Criteria_10': 'Facility Size',
+                    'Description_10': f"{desc_8} Large regional distribution centers over 200,000 square feet."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Automated/Robotic Systems",
+                    'Differentiation_Criteria_10': 'Technology Level',
+                    'Description_10': f"{desc_8} Automated warehouses with robotics, AS/RS, and advanced WMS."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '05',
+                    'NAICS_10_Title': f"{title_8} - 3PL/Fulfillment Centers",
+                    'Differentiation_Criteria_10': 'Service Model',
+                    'Description_10': f"{desc_8} Third-party logistics and e-commerce fulfillment centers."
+                }
+            ]
+        # Trucking and freight (Sector 48)
+        elif is_trucking:
             return [
                 {
                     'NAICS_10_Digit': naics_8 + '01',
@@ -1320,8 +1485,15 @@ class NAICS10DigitGenerator:
                     'NAICS_10_Title': f"{title_8} - Large Carrier (500+ trucks)",
                     'Differentiation_Criteria_10': 'Fleet Size',
                     'Description_10': f"{desc_8} Large national carriers with over 500 trucks."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '05',
+                    'NAICS_10_Title': f"{title_8} - Dedicated Contract Carriage",
+                    'Differentiation_Criteria_10': 'Business Model',
+                    'Description_10': f"{desc_8} Dedicated contract carriage for specific shippers."
                 }
             ]
+        # Passenger transportation (Sector 48)
         elif is_passenger:
             return [
                 {
@@ -1346,7 +1518,97 @@ class NAICS10DigitGenerator:
                     'NAICS_10_Digit': naics_8 + '04',
                     'NAICS_10_Title': f"{title_8} - On-Demand/App-Based",
                     'Differentiation_Criteria_10': 'Service Model',
-                    'Description_10': f"{desc_8} Technology-enabled on-demand passenger services."
+                    'Description_10': f"{desc_8} Technology-enabled on-demand ride services."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '05',
+                    'NAICS_10_Title': f"{title_8} - Premium/Luxury Service",
+                    'Differentiation_Criteria_10': 'Service Level',
+                    'Description_10': f"{desc_8} Premium and luxury passenger transportation."
+                }
+            ]
+        # Air transportation (Sector 48)
+        elif is_air:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Small/Regional Operator",
+                    'Differentiation_Criteria_10': 'Operation Scale',
+                    'Description_10': f"{desc_8} Small and regional air service operators."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - National Carrier",
+                    'Differentiation_Criteria_10': 'Operation Scale',
+                    'Description_10': f"{desc_8} National air transportation carriers."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - International/Global Network",
+                    'Differentiation_Criteria_10': 'Operation Scale',
+                    'Description_10': f"{desc_8} International airlines with global route networks."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Charter/On-Demand",
+                    'Differentiation_Criteria_10': 'Service Model',
+                    'Description_10': f"{desc_8} Charter and on-demand air transportation services."
+                }
+            ]
+        # Water transportation (Sector 48)
+        elif is_water:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Small Vessel Operation",
+                    'Differentiation_Criteria_10': 'Fleet Size',
+                    'Description_10': f"{desc_8} Small vessel operations with limited fleet."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Regional Service",
+                    'Differentiation_Criteria_10': 'Service Scope',
+                    'Description_10': f"{desc_8} Regional water transportation services."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Oceangoing Fleet",
+                    'Differentiation_Criteria_10': 'Service Scope',
+                    'Description_10': f"{desc_8} Oceangoing vessels for international shipping."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Specialized Cargo",
+                    'Differentiation_Criteria_10': 'Service Type',
+                    'Description_10': f"{desc_8} Specialized cargo vessels (tankers, container, bulk)."
+                }
+            ]
+        # Ambulance services (healthcare transportation)
+        elif is_ambulance:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Basic Life Support (BLS)",
+                    'Differentiation_Criteria_10': 'Service Level',
+                    'Description_10': f"{desc_8} Basic life support ambulance services."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Advanced Life Support (ALS)",
+                    'Differentiation_Criteria_10': 'Service Level',
+                    'Description_10': f"{desc_8} Advanced life support paramedic ambulance services."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Critical Care Transport",
+                    'Differentiation_Criteria_10': 'Service Level',
+                    'Description_10': f"{desc_8} Critical care inter-facility transport services."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Non-Emergency Medical Transport",
+                    'Differentiation_Criteria_10': 'Service Type',
+                    'Description_10': f"{desc_8} Non-emergency medical transportation services."
                 }
             ]
         else:
@@ -1359,11 +1621,91 @@ class NAICS10DigitGenerator:
         """Information sector with platform and content type differentiation"""
         title_lower = title_8.lower()
 
-        is_software = any(word in title_lower for word in ['software', 'saas', 'application', 'platform'])
-        is_media = any(word in title_lower for word in ['media', 'publishing', 'broadcast', 'content'])
-        is_telecom = any(word in title_lower for word in ['telecom', 'wireless', 'cable', 'internet'])
+        # Publishing
+        is_publishing = any(word in title_lower for word in [
+            'newspaper', 'magazine', 'periodical', 'book', 'publisher', 'publishing',
+            'directory', 'mailing list', 'greeting card', 'calendar', 'map', 'atlas'
+        ])
 
-        if is_software:
+        # Software
+        is_software = any(word in title_lower for word in ['software', 'saas', 'application', 'app', 'platform'])
+
+        # Motion picture and video
+        is_motion_picture = any(word in title_lower for word in [
+            'film', 'movie', 'video', 'cinema', 'theater', 'theatre', 'production',
+            'documentary', 'animation', 'vfx', 'visual effects', 'streaming content',
+            'distribution', 'editing', 'post-production', 'color grading', 'cgi'
+        ])
+
+        # Sound recording
+        is_sound_recording = any(word in title_lower for word in [
+            'recording studio', 'record label', 'music production', 'music publishing',
+            'mastering', 'audio post', 'audio mixing', 'music licensing', 'podcast studio'
+        ])
+
+        # Broadcasting and content networks
+        is_broadcasting = any(word in title_lower for word in [
+            'broadcast', 'radio', 'television', 'tv station', 'cable network',
+            'tv network', 'programming network'
+        ])
+
+        # Telecommunications
+        is_telecom = any(word in title_lower for word in [
+            'telecom', 'wireless', 'carrier', 'mvno', 'fiber optic', 'dsl',
+            'voip', 'satellite phone', 'long distance', '5g network'
+        ])
+
+        # Internet service and cable providers
+        is_internet_cable = any(word in title_lower for word in [
+            'cable internet', 'internet provider', 'isp', 'satellite internet',
+            'satellite tv', 'fixed wireless internet'
+        ])
+
+        # Data processing, hosting, and cloud
+        is_data_processing = any(word in title_lower for word in [
+            'cloud', 'hosting', 'data center', 'colocation', 'managed service',
+            'data processing', 'backup', 'disaster recovery', 'cdn', 'content delivery'
+        ])
+
+        # Web portals, search engines, social media
+        is_web_platform = any(word in title_lower for word in [
+            'web portal', 'search engine', 'social media', 'social network',
+            'news aggregator', 'web search', 'internet portal'
+        ])
+
+        # Libraries and archives
+        is_library = any(word in title_lower for word in [
+            'library', 'archive', 'stock footage', 'rights management'
+        ])
+
+        if is_publishing:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Small Independent Publisher",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} Small independent publishing operations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Regional Publisher",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} Regional publishers with multi-market presence."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - National/Major Publisher",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} National and major publishing houses."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Digital-First Publisher",
+                    'Differentiation_Criteria_10': 'Business Model',
+                    'Description_10': f"{desc_8} Digital-first and online publishing platforms."
+                }
+            ]
+        elif is_software:
             return [
                 {
                     'NAICS_10_Digit': naics_8 + '01',
@@ -1390,6 +1732,87 @@ class NAICS10DigitGenerator:
                     'Description_10': f"{desc_8} Open source software with community or support-based revenue."
                 }
             ]
+        elif is_motion_picture:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Independent/Boutique",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} Independent and boutique production companies."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Mid-Size Studio",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} Mid-size production studios and companies."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Major Studio/Network",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} Major studios and production networks."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Streaming Platform",
+                    'Differentiation_Criteria_10': 'Distribution Model',
+                    'Description_10': f"{desc_8} Streaming platform original content production."
+                }
+            ]
+        elif is_sound_recording:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Independent/Project Studio",
+                    'Differentiation_Criteria_10': 'Facility Size',
+                    'Description_10': f"{desc_8} Independent and project-based studios."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Professional/Commercial Studio",
+                    'Differentiation_Criteria_10': 'Facility Size',
+                    'Description_10': f"{desc_8} Professional commercial recording facilities."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Major Label/Studio Complex",
+                    'Differentiation_Criteria_10': 'Facility Size',
+                    'Description_10': f"{desc_8} Major label studios and large facility complexes."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Digital/Virtual Studio",
+                    'Differentiation_Criteria_10': 'Technology Level',
+                    'Description_10': f"{desc_8} Digital-first and virtual recording operations."
+                }
+            ]
+        elif is_broadcasting:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Local Station",
+                    'Differentiation_Criteria_10': 'Coverage Area',
+                    'Description_10': f"{desc_8} Local broadcast stations and markets."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Regional Network",
+                    'Differentiation_Criteria_10': 'Coverage Area',
+                    'Description_10': f"{desc_8} Regional broadcasting networks."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - National Network",
+                    'Differentiation_Criteria_10': 'Coverage Area',
+                    'Description_10': f"{desc_8} National broadcasting networks."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Digital/Streaming Broadcaster",
+                    'Differentiation_Criteria_10': 'Distribution Model',
+                    'Description_10': f"{desc_8} Digital streaming and internet broadcasting."
+                }
+            ]
         elif is_telecom:
             return [
                 {
@@ -1412,9 +1835,117 @@ class NAICS10DigitGenerator:
                 },
                 {
                     'NAICS_10_Digit': naics_8 + '04',
-                    'NAICS_10_Title': f"{title_8} - Fiber/Next-Gen Infrastructure",
-                    'Differentiation_Criteria_10': 'Technology',
-                    'Description_10': f"{desc_8} Next-generation fiber and advanced infrastructure providers."
+                    'NAICS_10_Title': f"{title_8} - Next-Gen/5G Provider",
+                    'Differentiation_Criteria_10': 'Technology Level',
+                    'Description_10': f"{desc_8} Next-generation and advanced network providers."
+                }
+            ]
+        elif is_internet_cable:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Local/Regional Provider",
+                    'Differentiation_Criteria_10': 'Service Area',
+                    'Description_10': f"{desc_8} Local and regional internet/cable providers."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - National Provider",
+                    'Differentiation_Criteria_10': 'Service Area',
+                    'Description_10': f"{desc_8} National internet and cable service providers."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Reseller/MVNO",
+                    'Differentiation_Criteria_10': 'Business Model',
+                    'Description_10': f"{desc_8} Resellers and virtual operators."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Fixed Wireless/Satellite",
+                    'Differentiation_Criteria_10': 'Technology Type',
+                    'Description_10': f"{desc_8} Fixed wireless and satellite service providers."
+                }
+            ]
+        elif is_data_processing:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Small/Boutique Provider",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} Small and boutique service providers."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Regional Provider",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} Regional data center and hosting providers."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - National Provider",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} National-scale providers and data center operators."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Hyperscale/Cloud Giant",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} Hyperscale cloud providers and global operators."
+                }
+            ]
+        elif is_web_platform:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Startup/Emerging Platform",
+                    'Differentiation_Criteria_10': 'Platform Maturity',
+                    'Description_10': f"{desc_8} Startup and emerging web platforms."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Growth Stage Platform",
+                    'Differentiation_Criteria_10': 'Platform Maturity',
+                    'Description_10': f"{desc_8} Growth-stage platforms scaling user base."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Established Platform",
+                    'Differentiation_Criteria_10': 'Platform Maturity',
+                    'Description_10': f"{desc_8} Established platforms with significant market share."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Dominant/Mega Platform",
+                    'Differentiation_Criteria_10': 'Platform Maturity',
+                    'Description_10': f"{desc_8} Dominant platforms and mega-scale operations."
+                }
+            ]
+        elif is_library:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Small Collection",
+                    'Differentiation_Criteria_10': 'Collection Size',
+                    'Description_10': f"{desc_8} Small specialized collections and archives."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Medium Collection",
+                    'Differentiation_Criteria_10': 'Collection Size',
+                    'Description_10': f"{desc_8} Medium-sized collections and libraries."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Large Collection",
+                    'Differentiation_Criteria_10': 'Collection Size',
+                    'Description_10': f"{desc_8} Large comprehensive collections."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Digital/Online Archive",
+                    'Differentiation_Criteria_10': 'Access Model',
+                    'Description_10': f"{desc_8} Digital and online archive platforms."
                 }
             ]
         else:
@@ -1794,9 +2325,67 @@ class NAICS10DigitGenerator:
         """Healthcare with facility size and care model differentiation"""
         title_lower = title_8.lower()
 
+        # Hospitals and inpatient facilities
         is_hospital = 'hospital' in title_lower
-        is_physician = any(word in title_lower for word in ['physician', 'doctor', 'medical practice'])
-        is_outpatient = any(word in title_lower for word in ['outpatient', 'clinic', 'ambulatory'])
+
+        # Physician and medical offices
+        is_physician = any(word in title_lower for word in [
+            'physician', 'doctor', 'medical practice', 'cardiologist', 'dermatologist',
+            'gastroenterologist', 'oncologist', 'orthopedic', 'ob/gyn', 'obgyn',
+            'ophthalmologist', 'ent specialist', 'urologist', 'neurologist',
+            'pulmonologist', 'endocrinologist', 'family medicine', 'internal medicine',
+            'pediatrician', 'surgeon'
+        ])
+
+        # Dental practices
+        is_dental = any(word in title_lower for word in [
+            'dent', 'orthodont', 'periodon', 'endodont', 'oral surgery', 'prosthodon'
+        ])
+
+        # Mental health services
+        is_mental_health = any(word in title_lower for word in [
+            'psychiatrist', 'psychologist', 'therapist', 'counselor', 'counseling',
+            'mental health', 'behavioral health', 'substance abuse', 'addiction'
+        ])
+
+        # Diagnostic and testing services
+        is_diagnostic = any(word in title_lower for word in [
+            'lab', 'laboratory', 'diagnostic', 'imaging', 'radiology', 'ct scan',
+            'mri', 'ultrasound', 'x-ray', 'blood bank', 'pathology'
+        ])
+
+        # Outpatient care centers
+        is_outpatient = any(word in title_lower for word in [
+            'outpatient', 'ambulatory', 'surgery center', 'urgent care', 'walk-in clinic',
+            'treatment center', 'dialysis'
+        ])
+
+        # Nursing and home health
+        is_nursing = any(word in title_lower for word in [
+            'nursing', 'home health', 'hospice', 'visiting nurse', 'home care'
+        ])
+
+        # Long-term care and assisted living
+        is_long_term_care = any(word in title_lower for word in [
+            'assisted living', 'nursing home', 'skilled nursing', 'long-term care',
+            'nursing facility', 'residential care', 'board and care', 'memory care'
+        ])
+
+        # Allied health practitioners
+        is_allied_health = any(word in title_lower for word in [
+            'chiropract', 'optometr', 'podiatr', 'physical therap', 'occupational therap',
+            'speech therap', 'audiolog', 'acupuncture'
+        ])
+
+        # Day care and child care
+        is_daycare = any(word in title_lower for word in [
+            'day care', 'daycare', 'child care', 'childcare', 'preschool', 'after-school'
+        ])
+
+        # Social services
+        is_social_services = any(word in title_lower for word in [
+            'adoption', 'foster', 'intervention', 'relief', 'advocacy', 'crisis'
+        ])
 
         if is_hospital:
             return [
@@ -1858,6 +2447,228 @@ class NAICS10DigitGenerator:
                     'Description_10': f"{desc_8} Hospital-employed physician practices."
                 }
             ]
+        elif is_dental:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Solo Practitioner",
+                    'Differentiation_Criteria_10': 'Practice Size',
+                    'Description_10': f"{desc_8} Single dentist solo practices."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Small Group (2-5 dentists)",
+                    'Differentiation_Criteria_10': 'Practice Size',
+                    'Description_10': f"{desc_8} Small dental groups with 2-5 dentists."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Large Group/DSO (6+ dentists)",
+                    'Differentiation_Criteria_10': 'Practice Size',
+                    'Description_10': f"{desc_8} Large groups and dental service organizations with 6+ dentists."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Corporate Chain",
+                    'Differentiation_Criteria_10': 'Business Model',
+                    'Description_10': f"{desc_8} Corporate dental chains with multiple locations."
+                }
+            ]
+        elif is_mental_health:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Solo Private Practice",
+                    'Differentiation_Criteria_10': 'Practice Size',
+                    'Description_10': f"{desc_8} Independent solo practitioners."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Small Group Practice",
+                    'Differentiation_Criteria_10': 'Practice Size',
+                    'Description_10': f"{desc_8} Small group practices with multiple providers."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Outpatient Clinic/Center",
+                    'Differentiation_Criteria_10': 'Facility Type',
+                    'Description_10': f"{desc_8} Outpatient mental health clinics and counseling centers."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Inpatient Treatment Facility",
+                    'Differentiation_Criteria_10': 'Facility Type',
+                    'Description_10': f"{desc_8} Inpatient psychiatric or substance abuse treatment facilities."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '05',
+                    'NAICS_10_Title': f"{title_8} - Community Mental Health Center",
+                    'Differentiation_Criteria_10': 'Service Model',
+                    'Description_10': f"{desc_8} Community-based comprehensive mental health centers."
+                }
+            ]
+        elif is_diagnostic:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Independent Facility",
+                    'Differentiation_Criteria_10': 'Ownership Model',
+                    'Description_10': f"{desc_8} Independent diagnostic and testing facilities."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Hospital-Based Service",
+                    'Differentiation_Criteria_10': 'Ownership Model',
+                    'Description_10': f"{desc_8} Hospital-based or hospital-affiliated services."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Regional Chain",
+                    'Differentiation_Criteria_10': 'Organization Size',
+                    'Description_10': f"{desc_8} Regional chains with multiple locations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - National Laboratory Network",
+                    'Differentiation_Criteria_10': 'Organization Size',
+                    'Description_10': f"{desc_8} National laboratory networks and reference labs."
+                }
+            ]
+        elif is_outpatient:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Single-Specialty Center",
+                    'Differentiation_Criteria_10': 'Service Scope',
+                    'Description_10': f"{desc_8} Single-specialty outpatient centers."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Multi-Specialty Center",
+                    'Differentiation_Criteria_10': 'Service Scope',
+                    'Description_10': f"{desc_8} Multi-specialty outpatient care centers."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Hospital-Affiliated",
+                    'Differentiation_Criteria_10': 'Ownership Model',
+                    'Description_10': f"{desc_8} Hospital-owned or affiliated outpatient centers."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Physician-Owned",
+                    'Differentiation_Criteria_10': 'Ownership Model',
+                    'Description_10': f"{desc_8} Physician-owned outpatient facilities."
+                }
+            ]
+        elif is_nursing:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Small Agency (<20 staff)",
+                    'Differentiation_Criteria_10': 'Agency Size',
+                    'Description_10': f"{desc_8} Small home health agencies under 20 staff."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Medium Agency (20-100 staff)",
+                    'Differentiation_Criteria_10': 'Agency Size',
+                    'Description_10': f"{desc_8} Medium agencies with 20-100 staff members."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Large Agency (100+ staff)",
+                    'Differentiation_Criteria_10': 'Agency Size',
+                    'Description_10': f"{desc_8} Large home health organizations over 100 staff."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - National Chain/Network",
+                    'Differentiation_Criteria_10': 'Organization Type',
+                    'Description_10': f"{desc_8} National chains and integrated networks."
+                }
+            ]
+        elif is_long_term_care:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Small Facility (<50 beds)",
+                    'Differentiation_Criteria_10': 'Facility Size',
+                    'Description_10': f"{desc_8} Small facilities under 50 beds or units."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Medium Facility (50-150 beds)",
+                    'Differentiation_Criteria_10': 'Facility Size',
+                    'Description_10': f"{desc_8} Medium facilities with 50-150 beds or units."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Large Facility (150+ beds)",
+                    'Differentiation_Criteria_10': 'Facility Size',
+                    'Description_10': f"{desc_8} Large facilities over 150 beds or units."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Multi-Facility Organization",
+                    'Differentiation_Criteria_10': 'Organization Type',
+                    'Description_10': f"{desc_8} Organizations operating multiple facilities."
+                }
+            ]
+        elif is_allied_health:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Solo Practitioner",
+                    'Differentiation_Criteria_10': 'Practice Size',
+                    'Description_10': f"{desc_8} Solo practitioners and single-location practices."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Small Group Practice",
+                    'Differentiation_Criteria_10': 'Practice Size',
+                    'Description_10': f"{desc_8} Small group practices with multiple providers."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Multi-Location Practice",
+                    'Differentiation_Criteria_10': 'Practice Size',
+                    'Description_10': f"{desc_8} Practices with multiple locations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Corporate Chain/Franchise",
+                    'Differentiation_Criteria_10': 'Business Model',
+                    'Description_10': f"{desc_8} Corporate chains and franchise operations."
+                }
+            ]
+        elif is_daycare or is_social_services:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Single Location",
+                    'Differentiation_Criteria_10': 'Operation Size',
+                    'Description_10': f"{desc_8} Single location operations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Small Multi-Site (2-5 locations)",
+                    'Differentiation_Criteria_10': 'Operation Size',
+                    'Description_10': f"{desc_8} Small organizations with 2-5 locations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Regional Organization",
+                    'Differentiation_Criteria_10': 'Operation Size',
+                    'Description_10': f"{desc_8} Regional organizations serving multiple communities."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - National/Chain Operation",
+                    'Differentiation_Criteria_10': 'Operation Size',
+                    'Description_10': f"{desc_8} National chains or large-scale operations."
+                }
+            ]
         else:
             return self.generate_generic(naics_8, title_8, criteria_8, desc_8)
 
@@ -1900,8 +2711,29 @@ class NAICS10DigitGenerator:
         """Accommodation and food services with establishment type differentiation"""
         title_lower = title_8.lower()
 
-        is_lodging = any(word in title_lower for word in ['hotel', 'motel', 'lodging', 'accommodation'])
-        is_restaurant = any(word in title_lower for word in ['restaurant', 'dining', 'food service', 'cafe'])
+        is_lodging = any(word in title_lower for word in [
+            'hotel', 'motel', 'lodging', 'accommodation', 'casino hotel', 'resort',
+            'inn', 'bed-and-breakfast', 'b&b'
+        ])
+
+        is_alt_lodging = any(word in title_lower for word in [
+            'rv park', 'campground', 'camping', 'rooming house', 'boarding house'
+        ])
+
+        is_restaurant = any(word in title_lower for word in [
+            'restaurant', 'dining', 'full-service', 'limited-service', 'fast food',
+            'quick service', 'fine dining', 'casual dining'
+        ])
+
+        is_cafeteria = any(word in title_lower for word in ['cafeteria', 'buffet', 'grill buffet'])
+
+        is_caterer = any(word in title_lower for word in ['caterer', 'catering', 'food contractor'])
+
+        is_mobile_food = any(word in title_lower for word in ['mobile food', 'food truck', 'street vendor'])
+
+        is_bar = any(word in title_lower for word in ['drinking place', 'bar', 'tavern', 'pub', 'nightclub'])
+
+        is_snack = any(word in title_lower for word in ['snack bar', 'juice bar', 'coffee shop', 'cafe'])
 
         if is_lodging:
             return [
@@ -1963,6 +2795,168 @@ class NAICS10DigitGenerator:
                     'Description_10': f"{desc_8} Franchise-operated restaurant locations."
                 }
             ]
+        elif is_alt_lodging:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Small Operation (1-20 sites/rooms)",
+                    'Differentiation_Criteria_10': 'Operation Size',
+                    'Description_10': f"{desc_8} Small operations with 1-20 sites or rooms."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Medium Operation (21-100 sites/rooms)",
+                    'Differentiation_Criteria_10': 'Operation Size',
+                    'Description_10': f"{desc_8} Medium operations with 21-100 sites or rooms."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Large Operation (100+ sites/rooms)",
+                    'Differentiation_Criteria_10': 'Operation Size',
+                    'Description_10': f"{desc_8} Large operations with over 100 sites or rooms."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Budget/Economy",
+                    'Differentiation_Criteria_10': 'Market Segment',
+                    'Description_10': f"{desc_8} Budget and economy lodging options."
+                }
+            ]
+        elif is_cafeteria:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Corporate/Office",
+                    'Differentiation_Criteria_10': 'Service Setting',
+                    'Description_10': f"{desc_8} Corporate and office building cafeterias."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Healthcare Facility",
+                    'Differentiation_Criteria_10': 'Service Setting',
+                    'Description_10': f"{desc_8} Hospital and healthcare facility cafeterias."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Educational Institution",
+                    'Differentiation_Criteria_10': 'Service Setting',
+                    'Description_10': f"{desc_8} School, college, and university cafeterias."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Stand-Alone Buffet",
+                    'Differentiation_Criteria_10': 'Service Model',
+                    'Description_10': f"{desc_8} Stand-alone buffet restaurants."
+                }
+            ]
+        elif is_caterer:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Small Caterer (<50 events/year)",
+                    'Differentiation_Criteria_10': 'Business Size',
+                    'Description_10': f"{desc_8} Small catering operations under 50 events annually."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Medium Caterer (50-200 events/year)",
+                    'Differentiation_Criteria_10': 'Business Size',
+                    'Description_10': f"{desc_8} Medium catering companies 50-200 events annually."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Large Caterer (200+ events/year)",
+                    'Differentiation_Criteria_10': 'Business Size',
+                    'Description_10': f"{desc_8} Large catering operations over 200 events annually."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Corporate Food Services",
+                    'Differentiation_Criteria_10': 'Service Type',
+                    'Description_10': f"{desc_8} Corporate and institutional food service contractors."
+                }
+            ]
+        elif is_mobile_food:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Single Unit Owner-Operator",
+                    'Differentiation_Criteria_10': 'Operation Size',
+                    'Description_10': f"{desc_8} Single vehicle owner-operator."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Small Fleet (2-5 units)",
+                    'Differentiation_Criteria_10': 'Operation Size',
+                    'Description_10': f"{desc_8} Small fleet with 2-5 mobile units."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Large Fleet (6+ units)",
+                    'Differentiation_Criteria_10': 'Operation Size',
+                    'Description_10': f"{desc_8} Large fleet with 6 or more mobile units."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Gourmet/Specialty Food Truck",
+                    'Differentiation_Criteria_10': 'Market Positioning',
+                    'Description_10': f"{desc_8} Gourmet and specialty food truck operations."
+                }
+            ]
+        elif is_bar:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Neighborhood Bar/Pub",
+                    'Differentiation_Criteria_10': 'Establishment Type',
+                    'Description_10': f"{desc_8} Neighborhood bars and local pubs."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Sports Bar",
+                    'Differentiation_Criteria_10': 'Establishment Type',
+                    'Description_10': f"{desc_8} Sports bars and sports-themed establishments."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Nightclub/Dance Club",
+                    'Differentiation_Criteria_10': 'Establishment Type',
+                    'Description_10': f"{desc_8} Nightclubs and dance clubs."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Upscale Cocktail Bar",
+                    'Differentiation_Criteria_10': 'Market Segment',
+                    'Description_10': f"{desc_8} Upscale cocktail bars and lounges."
+                }
+            ]
+        elif is_snack:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Independent Single Location",
+                    'Differentiation_Criteria_10': 'Business Model',
+                    'Description_10': f"{desc_8} Independent single-location operations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Small Chain (2-10 units)",
+                    'Differentiation_Criteria_10': 'Business Model',
+                    'Description_10': f"{desc_8} Small chains with 2-10 locations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Regional/National Chain",
+                    'Differentiation_Criteria_10': 'Business Model',
+                    'Description_10': f"{desc_8} Regional and national chain operations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Specialty/Gourmet",
+                    'Differentiation_Criteria_10': 'Market Positioning',
+                    'Description_10': f"{desc_8} Specialty and gourmet snack bars."
+                }
+            ]
         else:
             return self.generate_generic(naics_8, title_8, criteria_8, desc_8)
 
@@ -1970,33 +2964,403 @@ class NAICS10DigitGenerator:
 
     def generate_other_services(self, naics_6: str, naics_8: str, title_8: str,
                                criteria_8: str, desc_8: str) -> List[Dict]:
-        """Other services with business size differentiation"""
-        return [
-            {
-                'NAICS_10_Digit': naics_8 + '01',
-                'NAICS_10_Title': f"{title_8} - Independent/Owner-Operated",
-                'Differentiation_Criteria_10': 'Business Size',
-                'Description_10': f"{desc_8} Independent and owner-operated service providers."
-            },
-            {
-                'NAICS_10_Digit': naics_8 + '02',
-                'NAICS_10_Title': f"{title_8} - Small Business (2-10 employees)",
-                'Differentiation_Criteria_10': 'Business Size',
-                'Description_10': f"{desc_8} Small service businesses with 2-10 employees."
-            },
-            {
-                'NAICS_10_Digit': naics_8 + '03',
-                'NAICS_10_Title': f"{title_8} - Medium Business (11-50 employees)",
-                'Differentiation_Criteria_10': 'Business Size',
-                'Description_10': f"{desc_8} Medium-sized service operations with 11-50 employees."
-            },
-            {
-                'NAICS_10_Digit': naics_8 + '04',
-                'NAICS_10_Title': f"{title_8} - Multi-Location/Chain",
-                'Differentiation_Criteria_10': 'Business Model',
-                'Description_10': f"{desc_8} Multi-location service providers and chains."
-            }
-        ]
+        """Other services with industry-specific differentiation"""
+        title_lower = title_8.lower()
+
+        # Automotive repair services
+        is_auto_repair = any(word in title_lower for word in [
+            'auto repair', 'automotive repair', 'car repair', 'vehicle repair',
+            'oil change', 'transmission', 'muffler', 'exhaust', 'brake', 'tire',
+            'body shop', 'collision', 'paint', 'auto glass', 'auto electric'
+        ])
+
+        # Car wash services
+        is_car_wash = any(word in title_lower for word in ['car wash', 'auto detailing', 'detailing'])
+
+        # Electronic repair
+        is_electronic_repair = any(word in title_lower for word in [
+            'computer repair', 'laptop repair', 'smartphone', 'tablet repair',
+            'electronics repair', 'phone repair', 'tv repair', 'game console'
+        ])
+
+        # Commercial/industrial machinery repair
+        is_machinery_repair = any(word in title_lower for word in [
+            'hvac', 'refrigeration', 'commercial equipment', 'industrial equipment',
+            'restaurant equipment', 'forklift', 'material handling', 'pump', 'compressor'
+        ])
+
+        # Appliance and household repair
+        is_appliance_repair = any(word in title_lower for word in [
+            'appliance repair', 'refrigerator repair', 'washer', 'dryer',
+            'furniture repair', 'upholstery', 'footwear repair', 'shoe repair'
+        ])
+
+        # Personal care services
+        is_personal_care = any(word in title_lower for word in [
+            'barber', 'beauty salon', 'hair salon', 'nail salon', 'spa',
+            'esthetician', 'cosmetology', 'manicure', 'pedicure'
+        ])
+
+        # Funeral services
+        is_funeral = any(word in title_lower for word in ['funeral', 'crematory', 'cemetery', 'mortuary'])
+
+        # Laundry and drycleaning
+        is_laundry = any(word in title_lower for word in [
+            'laundry', 'drycleaning', 'dry cleaning', 'linen supply', 'laundromat', 'coin-operated'
+        ])
+
+        # Pet care services
+        is_pet_care = any(word in title_lower for word in [
+            'pet care', 'pet grooming', 'pet boarding', 'kennel', 'pet day care', 'dog grooming'
+        ])
+
+        # Parking services
+        is_parking = any(word in title_lower for word in ['parking', 'garage', 'valet'])
+
+        # Organizations (religious, civic, professional, etc.)
+        is_organization = any(word in title_lower for word in [
+            'religious organization', 'church', 'civic organization', 'professional organization',
+            'business association', 'labor union', 'foundation', 'grantmaking',
+            'social advocacy', 'nonprofit', 'charitable organization', 'volunteer'
+        ])
+
+        if is_auto_repair:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Independent Shop (1-2 bays)",
+                    'Differentiation_Criteria_10': 'Shop Size',
+                    'Description_10': f"{desc_8} Small independent shops with 1-2 service bays."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Mid-Size Shop (3-8 bays)",
+                    'Differentiation_Criteria_10': 'Shop Size',
+                    'Description_10': f"{desc_8} Mid-size repair facilities with 3-8 bays."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Large Shop (9+ bays)",
+                    'Differentiation_Criteria_10': 'Shop Size',
+                    'Description_10': f"{desc_8} Large repair centers with 9 or more service bays."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - National Chain/Franchise",
+                    'Differentiation_Criteria_10': 'Business Model',
+                    'Description_10': f"{desc_8} National chain and franchise operations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '05',
+                    'NAICS_10_Title': f"{title_8} - Mobile Service",
+                    'Differentiation_Criteria_10': 'Service Model',
+                    'Description_10': f"{desc_8} Mobile repair services operating on-location."
+                }
+            ]
+        elif is_car_wash:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Single Location",
+                    'Differentiation_Criteria_10': 'Operation Size',
+                    'Description_10': f"{desc_8} Single-location car wash operations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Regional Chain (2-10 locations)",
+                    'Differentiation_Criteria_10': 'Operation Size',
+                    'Description_10': f"{desc_8} Regional chains with 2-10 locations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Large Chain (11+ locations)",
+                    'Differentiation_Criteria_10': 'Operation Size',
+                    'Description_10': f"{desc_8} Large multi-location chains."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Express/Automated",
+                    'Differentiation_Criteria_10': 'Service Model',
+                    'Description_10': f"{desc_8} High-volume automated express operations."
+                }
+            ]
+        elif is_electronic_repair:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Independent Repair Shop",
+                    'Differentiation_Criteria_10': 'Business Model',
+                    'Description_10': f"{desc_8} Independent local repair shops."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Chain/Franchise Operation",
+                    'Differentiation_Criteria_10': 'Business Model',
+                    'Description_10': f"{desc_8} National chain and franchise repair centers."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Manufacturer Authorized Service",
+                    'Differentiation_Criteria_10': 'Authorization Level',
+                    'Description_10': f"{desc_8} Manufacturer authorized and certified repair centers."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Mail-In/Online Service",
+                    'Differentiation_Criteria_10': 'Service Model',
+                    'Description_10': f"{desc_8} Mail-in and online repair services."
+                }
+            ]
+        elif is_machinery_repair:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Small Service Company (1-5 techs)",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} Small service companies with 1-5 technicians."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Regional Service Provider (6-20 techs)",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} Regional providers with 6-20 technicians."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Large Service Company (21+ techs)",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} Large service companies with 21+ technicians."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Manufacturer Service Division",
+                    'Differentiation_Criteria_10': 'Business Model',
+                    'Description_10': f"{desc_8} Factory-owned service and support divisions."
+                }
+            ]
+        elif is_appliance_repair:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Independent Technician",
+                    'Differentiation_Criteria_10': 'Business Size',
+                    'Description_10': f"{desc_8} Independent owner-operator technicians."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Small Service Company",
+                    'Differentiation_Criteria_10': 'Business Size',
+                    'Description_10': f"{desc_8} Small service companies with multiple technicians."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Regional Service Network",
+                    'Differentiation_Criteria_10': 'Business Size',
+                    'Description_10': f"{desc_8} Regional multi-location service networks."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Factory Authorized Service",
+                    'Differentiation_Criteria_10': 'Authorization Level',
+                    'Description_10': f"{desc_8} Factory authorized and warranty service providers."
+                }
+            ]
+        elif is_personal_care:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Solo Practitioner/Booth Renter",
+                    'Differentiation_Criteria_10': 'Business Size',
+                    'Description_10': f"{desc_8} Solo practitioners and booth rental arrangements."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Small Salon (2-5 stations)",
+                    'Differentiation_Criteria_10': 'Business Size',
+                    'Description_10': f"{desc_8} Small salons with 2-5 service stations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Large Salon (6+ stations)",
+                    'Differentiation_Criteria_10': 'Business Size',
+                    'Description_10': f"{desc_8} Large salons with 6 or more stations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Chain/Franchise Operation",
+                    'Differentiation_Criteria_10': 'Business Model',
+                    'Description_10': f"{desc_8} National chain and franchise salon operations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '05',
+                    'NAICS_10_Title': f"{title_8} - Luxury/High-End Establishment",
+                    'Differentiation_Criteria_10': 'Market Segment',
+                    'Description_10': f"{desc_8} Luxury and high-end service establishments."
+                }
+            ]
+        elif is_funeral:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Independent Family-Owned",
+                    'Differentiation_Criteria_10': 'Ownership Model',
+                    'Description_10': f"{desc_8} Independent family-owned operations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Small Chain (2-5 locations)",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} Small regional chains with 2-5 locations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Large Chain (6+ locations)",
+                    'Differentiation_Criteria_10': 'Company Size',
+                    'Description_10': f"{desc_8} Large multi-location funeral home chains."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Corporate-Owned/Consolidator",
+                    'Differentiation_Criteria_10': 'Ownership Model',
+                    'Description_10': f"{desc_8} Corporate consolidators and large operators."
+                }
+            ]
+        elif is_laundry:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Single Location",
+                    'Differentiation_Criteria_10': 'Operation Size',
+                    'Description_10': f"{desc_8} Single-location operations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Multi-Location (2-5 stores)",
+                    'Differentiation_Criteria_10': 'Operation Size',
+                    'Description_10': f"{desc_8} Small chains with 2-5 locations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Large Chain (6+ stores)",
+                    'Differentiation_Criteria_10': 'Operation Size',
+                    'Description_10': f"{desc_8} Large chains with 6 or more stores."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Industrial/Commercial Facility",
+                    'Differentiation_Criteria_10': 'Service Type',
+                    'Description_10': f"{desc_8} Large industrial and commercial laundry facilities."
+                }
+            ]
+        elif is_pet_care:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Independent/Owner-Operated",
+                    'Differentiation_Criteria_10': 'Business Size',
+                    'Description_10': f"{desc_8} Independent owner-operated pet care services."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Small Facility (2-10 employees)",
+                    'Differentiation_Criteria_10': 'Business Size',
+                    'Description_10': f"{desc_8} Small facilities with 2-10 employees."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Large Facility (11+ employees)",
+                    'Differentiation_Criteria_10': 'Business Size',
+                    'Description_10': f"{desc_8} Large facilities with 11 or more employees."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Chain/Franchise",
+                    'Differentiation_Criteria_10': 'Business Model',
+                    'Description_10': f"{desc_8} National chain and franchise operations."
+                }
+            ]
+        elif is_parking:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Single Facility",
+                    'Differentiation_Criteria_10': 'Operation Size',
+                    'Description_10': f"{desc_8} Single parking facility operations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Multi-Facility Operator",
+                    'Differentiation_Criteria_10': 'Operation Size',
+                    'Description_10': f"{desc_8} Operators managing multiple parking facilities."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - National Parking Company",
+                    'Differentiation_Criteria_10': 'Operation Size',
+                    'Description_10': f"{desc_8} National parking management companies."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Technology Platform/App-Based",
+                    'Differentiation_Criteria_10': 'Business Model',
+                    'Description_10': f"{desc_8} Technology platforms and app-based parking services."
+                }
+            ]
+        elif is_organization:
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Local Chapter",
+                    'Differentiation_Criteria_10': 'Organization Scope',
+                    'Description_10': f"{desc_8} Local chapters and community organizations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - State/Regional Organization",
+                    'Differentiation_Criteria_10': 'Organization Scope',
+                    'Description_10': f"{desc_8} State and regional level organizations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - National Organization",
+                    'Differentiation_Criteria_10': 'Organization Scope',
+                    'Description_10': f"{desc_8} National-level organizations and associations."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - International Organization",
+                    'Differentiation_Criteria_10': 'Organization Scope',
+                    'Description_10': f"{desc_8} International and global organizations."
+                }
+            ]
+        else:
+            # Generic fallback for other service types
+            return [
+                {
+                    'NAICS_10_Digit': naics_8 + '01',
+                    'NAICS_10_Title': f"{title_8} - Independent/Owner-Operated",
+                    'Differentiation_Criteria_10': 'Business Size',
+                    'Description_10': f"{desc_8} Independent and owner-operated service providers."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '02',
+                    'NAICS_10_Title': f"{title_8} - Small Business (2-10 employees)",
+                    'Differentiation_Criteria_10': 'Business Size',
+                    'Description_10': f"{desc_8} Small service businesses with 2-10 employees."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '03',
+                    'NAICS_10_Title': f"{title_8} - Medium Business (11-50 employees)",
+                    'Differentiation_Criteria_10': 'Business Size',
+                    'Description_10': f"{desc_8} Medium-sized service operations with 11-50 employees."
+                },
+                {
+                    'NAICS_10_Digit': naics_8 + '04',
+                    'NAICS_10_Title': f"{title_8} - Multi-Location/Chain",
+                    'Differentiation_Criteria_10': 'Business Model',
+                    'Description_10': f"{desc_8} Multi-location service providers and chains."
+                }
+            ]
 
     # ========== SECTOR 92: PUBLIC ADMINISTRATION ==========
 
