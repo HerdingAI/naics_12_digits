@@ -2723,7 +2723,7 @@ class NAICS10DigitGenerator:
         ])
 
         is_restaurant = any(word in title_lower for word in [
-            'restaurant', 'dining', 'full-service', 'limited-service', 'fast food',
+            'restaurant', 'dining', 'limited-service restaurant', 'fast food',
             'quick service', 'fine dining', 'casual dining'
         ])
 
@@ -2737,6 +2737,7 @@ class NAICS10DigitGenerator:
 
         is_snack = any(word in title_lower for word in ['snack bar', 'juice bar', 'coffee shop', 'cafe'])
 
+        # Check specific categories before restaurant to avoid broad pattern matches
         if is_lodging:
             return [
                 {
